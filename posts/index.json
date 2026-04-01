@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "slug": "claude-4-5-sonnet-developers-2026",
+    "title": "Claude 4.5 Sonnet: What Developers Need to Know in 2026",
+    "excerpt": "A practical look at Claude 4.5 Sonnet capabilities, performance benchmarks, and how it compares to GPT-5 for real-world coding tasks.",
+    "date": "2026-04-01",
+    "level": "Intermediate",
+    "tags": [
+      "claude",
+      "anthropic",
+      "ai-tools",
+      "code-generation"
+    ]
+  }
+]
