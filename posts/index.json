@@ -1,5 +1,47 @@
 [
   {
+    "slug": "voxtral-tts-mistral-ai-voice-agents",
+    "title": "Voxtral TTS: Mistral AI's Open-Weights Text-to-Speech for Voice Agents",
+    "excerpt": "Mistral AI released Voxtral TTS, a lightweight open-weights text-to-speech model with 70ms latency, multilingual support, and instant voice adaptation for production voice agents.",
+    "date": "2026-04-01",
+    "level": "Intermediate",
+    "tags": [
+      "voxtral-tts",
+      "mistral-ai",
+      "text-to-speech",
+      "voice-agents",
+      "open-weights"
+    ]
+  },
+  {
+    "slug": "sam-3-1-meta-real-time-video-tracking",
+    "title": "SAM 3.1: Meta's Real-Time Video Detection and Tracking Revolution",
+    "excerpt": "Meta's SAM 3.1 brings real-time video detection and tracking to production systems using multiplexing and global reasoning. A major leap for computer vision accessibility.",
+    "date": "2026-04-01",
+    "level": "Intermediate",
+    "tags": [
+      "sam-3-1",
+      "computer-vision",
+      "meta-ai",
+      "video-tracking",
+      "real-time-detection"
+    ]
+  },
+  {
+    "slug": "gemini-3-1-flash-live-audio-ai",
+    "title": "Gemini 3.1 Flash Live: Google DeepMind's Audio AI Breakthrough",
+    "excerpt": "Google DeepMind's Gemini 3.1 Flash Live brings enhanced audio AI with natural voice interactions and improved reliability for production applications.",
+    "date": "2026-04-01",
+    "level": "Intermediate",
+    "tags": [
+      "gemini-3-1",
+      "audio-ai",
+      "google-deepmind",
+      "voice-ai",
+      "multimodal-ai"
+    ]
+  },
+  {
     "slug": "claude-4-5-sonnet-developers-2026",
     "title": "Claude 4.5 Sonnet: What Developers Need to Know in 2026",
     "excerpt": "A practical look at Claude 4.5 Sonnet capabilities, performance benchmarks, and how it compares to GPT-5 for real-world coding tasks.",
