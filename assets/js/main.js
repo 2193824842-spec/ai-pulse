@@ -53,7 +53,7 @@ async function loadPosts() {
     });
 
     // Category sidebar click
-    document.querySelector('.sidebar').addEventListener('click', e => {
+    document.querySelector('.cat-list').addEventListener('click', e => {
       const btn = e.target.closest('.cat-btn');
       if (!btn) return;
       activeCategory = btn.dataset.cat;
