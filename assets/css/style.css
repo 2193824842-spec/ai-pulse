@@ -79,6 +79,16 @@ nav a:hover { color: var(--accent); }
   padding: 56px 0 36px;
 }
 
+.hero-row {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.hero-left {
+  flex: 1;
+}
+
 .hero h1 {
   font-size: 2.2rem;
   font-weight: 800;
@@ -121,6 +131,53 @@ nav a:hover { color: var(--accent); }
 
 #search-input::placeholder {
   color: var(--text-muted);
+}
+
+/* ── Sidebar ── */
+.sidebar {
+  width: 200px;
+  flex-shrink: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sidebar-title {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+
+.cat-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 7px 12px;
+  border-radius: 8px;
+  border: none;
+  background: none;
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.cat-btn:hover {
+  background: var(--accent-bg);
+  color: var(--accent);
+}
+
+.cat-btn.active {
+  background: var(--accent);
+  color: #fff;
 }
 
 /* ── Filters ── */
@@ -394,6 +451,10 @@ footer a:hover { color: var(--accent); }
 
 /* ── Responsive ── */
 @media (max-width: 640px) {
+  .hero-row { flex-direction: column; gap: 20px; }
+  .sidebar { width: 100%; flex-direction: row; flex-wrap: wrap; padding: 14px; gap: 4px; }
+  .sidebar-title { width: 100%; margin-bottom: 4px; }
+  .cat-btn { width: auto; padding: 5px 12px; font-size: 0.82rem; }
   .hero h1 { font-size: 1.6rem; }
   .hero p { font-size: 0.95rem; }
   .article-header h1 { font-size: 1.6rem; }

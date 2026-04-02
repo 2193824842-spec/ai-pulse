@@ -20,15 +20,29 @@
 
   <main class="container">
     <div class="hero">
-      <h1>AI News & Insights</h1>
-      <p>Daily articles on AI tools, models, and industry updates — auto-generated and curated.</p>
-      <div class="search-box">
-        <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" />
+      <div class="hero-row">
+        <div class="hero-left">
+          <h1>AI News & Insights</h1>
+          <p>Daily articles on AI tools, models, and industry updates — auto-generated and curated.</p>
+          <div class="search-box">
+            <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" />
+          </div>
+        </div>
+        <aside class="sidebar">
+          <div class="sidebar-title">Categories</div>
+          <button class="cat-btn active" data-cat="all">All</button>
+          <button class="cat-btn" data-cat="Model Comparison">Model Comparison</button>
+          <button class="cat-btn" data-cat="Product Analysis">Product Analysis</button>
+          <button class="cat-btn" data-cat="Industry Analysis">Industry Analysis</button>
+          <button class="cat-btn" data-cat="Research & Innovation">Research & Innovation</button>
+          <button class="cat-btn" data-cat="Tool Guide">Tool Guide</button>
+          <button class="cat-btn" data-cat="Opinion">Opinion</button>
+        </aside>
       </div>
     </div>
 
     <div class="filters">
-      <button class="filter-btn active" data-tag="all">All</button>
+      <button class="filter-btn tag-btn active" data-tag="all">All</button>
     </div>
 
     <div id="post-list" class="post-list">

@@ -21,23 +21,6 @@ async function loadPosts() {
 
     const filtersEl = document.querySelector('.filters');
 
-    // Build category filter buttons
-    const categories = [...new Set(allPosts.map(p => p.category).filter(Boolean))];
-    if (categories.length > 1) {
-      const allBtn = document.createElement('button');
-      allBtn.className = 'filter-btn cat-btn active';
-      allBtn.dataset.cat = 'all';
-      allBtn.textContent = 'All';
-      filtersEl.appendChild(allBtn);
-      categories.forEach(cat => {
-        const btn = document.createElement('button');
-        btn.className = 'filter-btn cat-btn';
-        btn.dataset.cat = cat;
-        btn.textContent = cat;
-        filtersEl.appendChild(btn);
-      });
-    }
-
     // Build tag filter buttons — only show tags with 2+ articles
     const tagCount = {};
     allPosts.forEach(p => (p.tags || []).forEach(t => { tagCount[t] = (tagCount[t] || 0) + 1; }));
@@ -54,19 +37,28 @@ async function loadPosts() {
       filtersEl.appendChild(btn);
     });
 
-    // Filter click
+    // Tag filter click
     filtersEl.addEventListener('click', e => {
-      const btn = e.target.closest('.filter-btn');
+      const btn = e.target.closest('.tag-btn');
       if (!btn) return;
-      if (btn.dataset.cat !== undefined) {
-        activeCategory = btn.dataset.cat;
-        document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+      activeTag = activeTag === btn.dataset.tag ? 'all' : btn.dataset.tag;
+      document.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
+      if (activeTag === 'all') {
+        filtersEl.querySelector('[data-tag="all"]').classList.add('active');
+      } else {
+        filtersEl.querySelector('[data-tag="all"]').classList.remove('active');
         btn.classList.add('active');
-      } else if (btn.dataset.tag !== undefined) {
-        activeTag = activeTag === btn.dataset.tag ? 'all' : btn.dataset.tag;
-        document.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
-        if (activeTag !== 'all') btn.classList.add('active');
       }
+      renderPosts();
+    });
+
+    // Category sidebar click
+    document.querySelector('.sidebar').addEventListener('click', e => {
+      const btn = e.target.closest('.cat-btn');
+      if (!btn) return;
+      activeCategory = btn.dataset.cat;
+      document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
       renderPosts();
     });
 
