@@ -1,5 +1,47 @@
 [
   {
+    "slug": "openai-122b-agentic-workflows-gpt54",
+    "title": "OpenAI's $122B Funding: Agentic Workflows & Enterprise AI 2026",
+    "excerpt": "OpenAI's $122 billion funding round powers agentic workflows with GPT-5.4. Explore enterprise AI adoption, IPO strategy, and the end of traditional software.",
+    "date": "2026-03-31",
+    "level": "Advanced",
+    "tags": [
+      "openai-funding",
+      "agentic-workflows",
+      "gpt-5-4",
+      "enterprise-ai",
+      "ai-strategy"
+    ]
+  },
+  {
+    "slug": "sora-2-physics-accurate-ai-video-generation",
+    "title": "Sora 2: Physics-Accurate AI Video Generation for Creators",
+    "excerpt": "Sora 2 delivers physics-accurate video simulation, synchronized audio-video generation, and 60-second 1080p output that finally makes AI video generation practical for professional creators.",
+    "date": "2026-04-02",
+    "level": "Intermediate",
+    "tags": [
+      "sora-2",
+      "ai-video-generation",
+      "physics-simulation",
+      "content-creation",
+      "openai"
+    ]
+  },
+  {
+    "slug": "gemini-3-1-pro-vs-gpt-5-4-comparison",
+    "title": "Gemini 3.1 Pro vs GPT-5.4: Which AI Model Should You Choose?",
+    "excerpt": "Compare Gemini 3.1 Pro vs GPT-5.4 across code generation, reasoning, and agentic workflows. Gemini 3.1 Pro achieves 77.1% on ARC-AGI-2 benchmark. Find the right model for your needs.",
+    "date": "2026-01-15",
+    "level": "Intermediate",
+    "tags": [
+      "gemini-3-1-pro",
+      "gpt-5-4",
+      "ai-model-comparison",
+      "advanced-reasoning",
+      "code-generation"
+    ]
+  },
+  {
     "slug": "voxtral-tts-mistral-ai-voice-agents",
     "title": "Voxtral TTS: Mistral AI's Open-Weights Text-to-Speech for Voice Agents",
     "excerpt": "Mistral AI released Voxtral TTS, a lightweight open-weights text-to-speech model with 70ms latency, multilingual support, and instant voice adaptation for production voice agents.",
