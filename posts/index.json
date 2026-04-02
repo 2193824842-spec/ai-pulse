@@ -1,5 +1,14 @@
 [
   {
+    "slug": "generative-ai-chip-design-ml-semiconductor",
+    "title": "Generative AI for Chip Design: How Machine Learning Cuts Costs 75%",
+    "excerpt": "Discover how generative AI for chip design cuts development costs by 75% and timelines in half, transforming semiconductor development with AI-powered EDA tools.",
+    "date": "2026-04-03",
+    "category": "Industry Analysis",
+    "level": "Intermediate",
+    "tags": ["generative-ai", "ai-hardware", "enterprise-ai", "ai-tools", "ai-research"]
+  },
+  {
     "slug": "slackbot-ai-features-enterprise-automation-2026",
     "title": "Slackbot AI Features 2026: Reusable Skills & Enterprise Automation Guide",
     "excerpt": "Discover how Slackbot's 30 new AI features transform enterprise workflows with reusable skills, meeting transcription, and cross-platform automation that saves thousands of hours.",
