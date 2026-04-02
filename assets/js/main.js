@@ -1,6 +1,7 @@
 // Load and render post list from posts/index.json
 let allPosts = [];
 let activeTag = 'all';
+let activeCategory = 'all';
 let searchQuery = '';
 
 async function loadPosts() {
@@ -18,6 +19,25 @@ async function loadPosts() {
       return;
     }
 
+    const filtersEl = document.querySelector('.filters');
+
+    // Build category filter buttons
+    const categories = [...new Set(allPosts.map(p => p.category).filter(Boolean))];
+    if (categories.length > 1) {
+      const allBtn = document.createElement('button');
+      allBtn.className = 'filter-btn cat-btn active';
+      allBtn.dataset.cat = 'all';
+      allBtn.textContent = 'All';
+      filtersEl.appendChild(allBtn);
+      categories.forEach(cat => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn cat-btn';
+        btn.dataset.cat = cat;
+        btn.textContent = cat;
+        filtersEl.appendChild(btn);
+      });
+    }
+
     // Build tag filter buttons — only show tags with 2+ articles
     const tagCount = {};
     allPosts.forEach(p => (p.tags || []).forEach(t => { tagCount[t] = (tagCount[t] || 0) + 1; }));
@@ -26,10 +46,9 @@ async function loadPosts() {
       .sort((a, b) => b[1] - a[1])
       .slice(0, 12)
       .map(([tag]) => tag);
-    const filtersEl = document.querySelector('.filters');
     tags.forEach(tag => {
       const btn = document.createElement('button');
-      btn.className = 'filter-btn';
+      btn.className = 'filter-btn tag-btn';
       btn.dataset.tag = tag;
       btn.textContent = '#' + tag;
       filtersEl.appendChild(btn);
@@ -39,9 +58,15 @@ async function loadPosts() {
     filtersEl.addEventListener('click', e => {
       const btn = e.target.closest('.filter-btn');
       if (!btn) return;
-      activeTag = btn.dataset.tag;
-      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
+      if (btn.dataset.cat !== undefined) {
+        activeCategory = btn.dataset.cat;
+        document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      } else if (btn.dataset.tag !== undefined) {
+        activeTag = activeTag === btn.dataset.tag ? 'all' : btn.dataset.tag;
+        document.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
+        if (activeTag !== 'all') btn.classList.add('active');
+      }
       renderPosts();
     });
 
@@ -63,6 +88,11 @@ async function loadPosts() {
 function renderPosts() {
   const listEl = document.getElementById('post-list');
   let filtered = allPosts;
+
+  // Category filter
+  if (activeCategory !== 'all') {
+    filtered = filtered.filter(p => p.category === activeCategory);
+  }
 
   // Tag filter
   if (activeTag !== 'all') {
@@ -89,6 +119,7 @@ function renderPosts() {
     <a class="post-card" href="posts/${post.slug}.html">
       <div class="post-meta">
         <span class="post-date">${formatDate(post.date)}</span>
+        ${post.category ? `<span class="post-category">${escHtml(post.category)}</span>` : ''}
         ${post.level ? `<span class="post-level">${post.level}</span>` : ''}
       </div>
       <div class="post-title">${highlightMatch(escHtml(post.title))}</div>
