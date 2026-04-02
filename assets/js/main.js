@@ -11,14 +11,21 @@ async function loadPosts() {
     const res = await fetch('posts/index.json');
     if (!res.ok) throw new Error('No posts yet');
     allPosts = await res.json();
+    allPosts.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 
     if (!allPosts.length) {
       listEl.innerHTML = '<div class="empty">No articles yet. Check back soon.</div>';
       return;
     }
 
-    // Build tag filter buttons
-    const tags = [...new Set(allPosts.flatMap(p => p.tags || []))].sort();
+    // Build tag filter buttons — only show tags with 2+ articles
+    const tagCount = {};
+    allPosts.forEach(p => (p.tags || []).forEach(t => { tagCount[t] = (tagCount[t] || 0) + 1; }));
+    const tags = Object.entries(tagCount)
+      .filter(([, count]) => count >= 2)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 12)
+      .map(([tag]) => tag);
     const filtersEl = document.querySelector('.filters');
     tags.forEach(tag => {
       const btn = document.createElement('button');
