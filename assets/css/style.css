@@ -212,12 +212,29 @@ nav a:hover { color: var(--accent); }
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 28px;
+  padding: 0;
   text-decoration: none;
   color: inherit;
   display: block;
   box-shadow: var(--shadow-sm);
   transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  overflow: hidden;
+}
+
+.post-card-gradient {
+  height: 6px;
+  background: var(--gradient);
+}
+
+.post-card[data-cat="Model Comparison"] .post-card-gradient { background: linear-gradient(135deg, #6366f1, #3b82f6); }
+.post-card[data-cat="Product Analysis"] .post-card-gradient { background: linear-gradient(135deg, #3b82f6, #06b6d4); }
+.post-card[data-cat="Industry Analysis"] .post-card-gradient { background: linear-gradient(135deg, #10b981, #14b8a6); }
+.post-card[data-cat="Research & Innovation"] .post-card-gradient { background: linear-gradient(135deg, #f59e0b, #ec4899); }
+.post-card[data-cat="Tool Guide"] .post-card-gradient { background: linear-gradient(135deg, #4f46e5, #7c3aed); }
+.post-card[data-cat="Opinion"] .post-card-gradient { background: linear-gradient(135deg, #e11d48, #f97316); }
+
+.post-card-body {
+  padding: 24px 28px;
 }
 
 .post-card:hover {
@@ -443,7 +460,7 @@ footer a:hover { color: var(--accent); }
   .hero h1 { font-size: 1.6rem; }
   .hero p { font-size: 0.95rem; }
   .article-header h1 { font-size: 1.6rem; }
-  .post-card { padding: 20px; }
+  .post-card-body { padding: 16px 20px; }
   .container { padding: 0 16px; }
   .article-body { font-size: 1rem; }
 }

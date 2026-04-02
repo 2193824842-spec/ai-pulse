@@ -108,16 +108,19 @@ function renderPosts() {
   }
 
   listEl.innerHTML = filtered.map(post => `
-    <a class="post-card" href="posts/${post.slug}.html">
-      <div class="post-meta">
-        <span class="post-date">${formatDate(post.date)}</span>
-        ${post.category ? `<span class="post-category">${escHtml(post.category)}</span>` : ''}
-        ${post.level ? `<span class="post-level">${post.level}</span>` : ''}
-      </div>
-      <div class="post-title">${highlightMatch(escHtml(post.title))}</div>
-      <div class="post-excerpt">${highlightMatch(escHtml(post.excerpt || ''))}</div>
-      <div class="post-tags">
-        ${(post.tags || []).map(t => `<span class="tag">${escHtml(t)}</span>`).join('')}
+    <a class="post-card" href="posts/${post.slug}.html" data-cat="${escHtml(post.category || '')}">
+      <div class="post-card-gradient"></div>
+      <div class="post-card-body">
+        <div class="post-meta">
+          <span class="post-date">${formatDate(post.date)}</span>
+          ${post.category ? `<span class="post-category">${escHtml(post.category)}</span>` : ''}
+          ${post.level ? `<span class="post-level">${post.level}</span>` : ''}
+        </div>
+        <div class="post-title">${highlightMatch(escHtml(post.title))}</div>
+        <div class="post-excerpt">${highlightMatch(escHtml(post.excerpt || ''))}</div>
+        <div class="post-tags">
+          ${(post.tags || []).map(t => `<span class="tag">${escHtml(t)}</span>`).join('')}
+        </div>
       </div>
     </a>
   `).join('');
