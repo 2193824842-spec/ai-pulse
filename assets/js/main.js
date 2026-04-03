@@ -71,6 +71,23 @@ async function loadPosts() {
       });
     }
 
+    // Read ?tag= or ?category= from URL and activate filter
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlTag = urlParams.get('tag');
+    const urlCat = urlParams.get('category');
+    if (urlTag && tags.includes(urlTag)) {
+      activeTag = urlTag;
+      filtersEl.querySelector('[data-tag="all"]').classList.remove('active');
+      const matchBtn = filtersEl.querySelector(`[data-tag="${urlTag}"]`);
+      if (matchBtn) matchBtn.classList.add('active');
+    }
+    if (urlCat) {
+      activeCategory = urlCat;
+      document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+      const matchCat = document.querySelector(`.cat-btn[data-cat="${urlCat}"]`);
+      if (matchCat) matchCat.classList.add('active');
+    }
+
     renderPosts();
   } catch (e) {
     listEl.innerHTML = '<div class="empty">No articles yet. Check back soon.</div>';
