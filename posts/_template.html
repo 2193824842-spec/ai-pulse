@@ -9,11 +9,18 @@
 
   <!-- Open Graph -->
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="{{TITLE}}" />
-  <meta property="og:description" content="{{DESCRIPTION}}" />
+  <meta property="og:title" content="{{OG_TITLE}}" />
+  <meta property="og:description" content="{{OG_DESCRIPTION}}" />
   <meta property="og:url" content="{{CANONICAL_URL}}" />
   <meta property="og:site_name" content="AI Insights Blog" />
+  <meta property="og:image" content="{{OG_IMAGE}}" />
   <meta property="article:published_time" content="{{DATE_ISO}}" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{OG_TITLE}}" />
+  <meta name="twitter:description" content="{{OG_DESCRIPTION}}" />
+  <meta name="twitter:image" content="{{OG_IMAGE}}" />
 
   <!-- Schema JSON-LD -->
   {{SCHEMA_JSON_LD}}
@@ -34,20 +41,26 @@
   <main class="container">
     <a href="/my-seo-site/" class="back-link">← Back to articles</a>
 
-    <div class="article-header">
-      <div class="post-meta">
-        <span class="post-date">{{DATE}}</span>
-        {{LEVEL_BADGE}}
-      </div>
-      <h1>{{TITLE}}</h1>
-      <div class="post-tags">
-        {{TAGS}}
-      </div>
-    </div>
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      {{BREADCRUMB_NAV}}
+    </nav>
 
-    <div class="article-body">
-      {{CONTENT}}
-    </div>
+    <article>
+      <header class="article-header">
+        <div class="post-meta">
+          <time datetime="{{DATE_ISO}}">{{DATE}}</time>
+          {{LEVEL_BADGE}}
+        </div>
+        <h1>{{TITLE}}</h1>
+        <div class="post-tags">
+          {{TAGS}}
+        </div>
+      </header>
+
+      <div class="article-body">
+        {{CONTENT}}
+      </div>
+    </article>
   </main>
 
   <footer>
