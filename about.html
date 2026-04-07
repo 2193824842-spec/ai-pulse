@@ -3,8 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-8TZNRYLZ15"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -12,31 +10,11 @@
     gtag('js', new Date());
     gtag('config', 'G-8TZNRYLZ15');
   </script>
-
-  <title>{{TITLE}} — ai.blog</title>
-  <meta name="description" content="{{DESCRIPTION}}" />
-  <link rel="canonical" href="{{CANONICAL_URL}}" />
-
-  <!-- Open Graph -->
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="{{OG_TITLE}}" />
-  <meta property="og:description" content="{{OG_DESCRIPTION}}" />
-  <meta property="og:url" content="{{CANONICAL_URL}}" />
-  <meta property="og:site_name" content="AI Insights Blog" />
-  <meta property="og:image" content="{{OG_IMAGE}}" />
-  <meta property="article:published_time" content="{{DATE_ISO}}" />
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="{{OG_TITLE}}" />
-  <meta name="twitter:description" content="{{OG_DESCRIPTION}}" />
-  <meta name="twitter:image" content="{{OG_IMAGE}}" />
-
-  <!-- Schema JSON-LD -->
-  {{SCHEMA_JSON_LD}}
-
+  <title>About — ai.blog</title>
+  <meta name="description" content="About AI Insights Blog: who we are, what we cover, and why we write about artificial intelligence." />
+  <link rel="canonical" href="https://2193824842-spec.github.io/my-seo-site/about.html" />
   <link rel="icon" href="/my-seo-site/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="../assets/css/style.css?v=3" />
+  <link rel="stylesheet" href="assets/css/style.css?v=3" />
 </head>
 <body>
   <header>
@@ -45,40 +23,33 @@
       <nav>
         <a href="/my-seo-site/">Home</a>
         <a href="/my-seo-site/blog.html">Blog</a>
-        <a href="/my-seo-site/about.html">About</a>
+        <a href="/my-seo-site/about.html" class="active">About</a>
       </nav>
     </div>
   </header>
 
   <main class="container">
-    <a href="/my-seo-site/blog.html" class="back-link">← Back to articles</a>
-
-    <nav class="breadcrumb" aria-label="Breadcrumb">
-      {{BREADCRUMB_NAV}}
-    </nav>
-
-    <article>
-      <div class="article-cover">
-        <img src="{{COVER_IMAGE}}" alt="{{TITLE}}" />
-      </div>
-      <header class="article-header">
-        <div class="post-meta">
-          <time datetime="{{DATE_ISO}}">{{DATE}}</time>
-          {{LEVEL_BADGE}}
-        </div>
-        <h1>{{TITLE}}</h1>
-        <div class="post-tags">
-          {{TAGS}}
-        </div>
-      </header>
+    <div class="about-page">
+      <h1>About AI Insights Blog</h1>
 
       <div class="article-body">
-        {{CONTENT}}
-      </div>
+        <p>AI Insights Blog covers the latest developments in artificial intelligence, from large language models and generative AI to real-world applications across industries. We publish in-depth analysis, model comparisons, and practical guides for developers, researchers, and tech professionals.</p>
 
-      <!-- RELATED_START -->
-      <!-- RELATED_END -->
-    </article>
+        <h2>What We Cover</h2>
+        <ul>
+          <li>Model comparisons and benchmarks (GPT, Claude, Gemini, open-source models)</li>
+          <li>Industry analysis on AI adoption, funding, and strategy</li>
+          <li>Product deep-dives on new AI tools and platforms</li>
+          <li>Practical guides and tutorials for developers</li>
+        </ul>
+
+        <h2>Our Approach</h2>
+        <p>Every article is researched against primary sources, official documentation, and published benchmarks. We focus on accuracy over hype, providing the context you need to make informed decisions about AI tools and technologies.</p>
+
+        <h2>Contact</h2>
+        <p>Have a question, correction, or topic suggestion? Open an issue on our <a href="https://github.com/2193824842-spec/my-seo-site" target="_blank">GitHub repository</a>.</p>
+      </div>
+    </div>
   </main>
 
   <footer>
@@ -102,6 +73,7 @@
           <ul>
             <li><a href="/my-seo-site/">Home</a></li>
             <li><a href="/my-seo-site/blog.html">All Articles</a></li>
+            <li><a href="/my-seo-site/about.html">About</a></li>
             <li><a href="https://github.com/2193824842-spec/my-seo-site" target="_blank">GitHub</a></li>
           </ul>
         </div>
