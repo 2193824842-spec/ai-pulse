@@ -214,8 +214,8 @@ nav a:hover { color: var(--accent); }
   border-radius: var(--radius-lg);
   text-decoration: none;
   color: inherit;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: auto 1fr;
   box-shadow: var(--shadow-sm);
   transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
   overflow: hidden;
