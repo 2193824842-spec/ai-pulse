@@ -482,4 +482,166 @@ footer a:hover { color: var(--accent); }
   .post-card-body { padding: 16px 20px; }
   .container { padding: 0 16px; }
   .article-body { font-size: 1rem; }
+  .card-grid { grid-template-columns: 1fr; }
+  .stats-row { gap: 12px; flex-wrap: wrap; }
+  .blog-header { flex-direction: column; gap: 12px; }
+}
+
+/* ── Nav active ── */
+nav a.active { color: var(--accent); }
+
+/* ── Stats row (homepage) ── */
+.stats-row {
+  display: flex;
+  gap: 32px;
+  margin-top: 24px;
+  align-items: center;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.stat-number {
+  font-weight: 700;
+  color: var(--text);
+}
+
+/* ── Sort toggle ── */
+.sort-toggle {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.sort-btn {
+  padding: 6px 18px;
+  font-size: 0.84rem;
+  font-weight: 500;
+  border: none;
+  background: var(--surface);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.sort-btn:hover {
+  color: var(--accent);
+  background: var(--accent-bg);
+}
+
+.sort-btn.active {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* ── Card grid (homepage 2-col) ── */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+/* ── View all link ── */
+.view-all {
+  display: block;
+  text-align: center;
+  margin-top: 28px;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.view-all:hover { color: var(--accent-light); }
+
+/* ── Compact hero (blog page) ── */
+.hero-compact { padding: 32px 0 20px; }
+.hero-compact h1 { font-size: 1.6rem; margin-bottom: 6px; }
+
+/* ── Blog header (title + sort) ── */
+.blog-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* ── Filters row (blog page) ── */
+.filters-row {
+  margin-bottom: 24px;
+}
+
+.cat-list-horizontal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+/* ── Section header (homepage) ── */
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 32px 0 16px;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+/* ── Table styles (article body) ── */
+.article-body .table-wrap {
+  overflow-x: auto;
+  margin: 20px 0;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.article-body table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  min-width: 480px;
+}
+
+.article-body thead {
+  background: var(--bg);
+}
+
+.article-body th {
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+  color: var(--text);
+  border-bottom: 2px solid var(--border);
+  white-space: nowrap;
+}
+
+.article-body td {
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  color: #334155;
+}
+
+.article-body tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.article-body tbody tr:nth-child(even) {
+  background: rgba(248, 250, 252, 0.5);
+}
+
+.article-body tbody tr:hover {
+  background: var(--accent-bg);
 }

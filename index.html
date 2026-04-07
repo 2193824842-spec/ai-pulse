@@ -3,8 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-8TZNRYLZ15"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -12,7 +10,6 @@
     gtag('js', new Date());
     gtag('config', 'G-8TZNRYLZ15');
   </script>
-
   <title>AI Blog — Latest AI News & Insights</title>
   <meta name="description" content="Daily AI news, tutorials, and insights covering OpenAI, Claude, and the latest in artificial intelligence." />
   <link rel="stylesheet" href="assets/css/style.css" />
@@ -22,7 +19,8 @@
     <div class="container header-inner">
       <a href="/my-seo-site/" class="logo">ai.blog</a>
       <nav>
-        <a href="/my-seo-site/">Articles</a>
+        <a href="/my-seo-site/" class="active">Home</a>
+        <a href="/my-seo-site/blog.html">Blog</a>
         <a href="https://github.com/2193824842-spec/my-seo-site" target="_blank">GitHub</a>
       </nav>
     </div>
@@ -30,40 +28,115 @@
 
   <main class="container">
     <div class="hero">
-      <div class="hero-row">
-        <div class="hero-left">
-          <h1>AI News & Insights</h1>
-          <p>Where algorithms meet analysis — cutting through the hype to decode what matters in AI.</p>
-          <div class="search-box">
-            <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" />
-          </div>
-          <div class="filters">
-            <button class="filter-btn tag-btn active" data-tag="all">All</button>
-          </div>
-        </div>
-        <div class="cat-list">
-          <button class="cat-btn active" data-cat="all">All</button>
-          <button class="cat-btn" data-cat="Model Comparison">Model Comparison</button>
-          <button class="cat-btn" data-cat="Product Analysis">Product Analysis</button>
-          <button class="cat-btn" data-cat="Industry Analysis">Industry Analysis</button>
-          <button class="cat-btn" data-cat="Research & Innovation">Research & Innovation</button>
-          <button class="cat-btn" data-cat="Tool Guide">Tool Guide</button>
-          <button class="cat-btn" data-cat="Opinion">Opinion</button>
-        </div>
+      <h1>AI News & Insights</h1>
+      <p>Where algorithms meet analysis — cutting through the hype to decode what matters in AI.</p>
+      <div class="search-box">
+        <input type="text" id="home-search" placeholder="Search articles..." autocomplete="off" />
+      </div>
+      <div class="stats-row">
+        <span class="stat-item"><span class="stat-number" id="stat-articles">12</span> Articles</span>
+        <span class="stat-item"><span class="stat-number" id="stat-categories">5</span> Categories</span>
+        <span class="stat-item">Updated Daily</span>
       </div>
     </div>
 
-    <div id="post-list" class="post-list">
-      <div class="loading">Loading articles...</div>
+    <div class="section-header">
+      <span class="section-title">Latest Articles</span>
+      <div class="sort-toggle">
+        <button class="sort-btn active" data-sort="latest">Latest</button>
+        <button class="sort-btn" data-sort="popular">Popular</button>
+      </div>
     </div>
+
+    <div id="home-cards" class="card-grid">
+      <a href="/my-seo-site/posts/best-machine-learning-frameworks-2026-beginners-guide.html" class="post-card" data-cat="Tool Guide" data-tags="llm,code-generation,ai-tools,generative-ai,ai-research" data-date="2026-04-04" data-views="585">
+        <div class="post-card-gradient"></div>
+        <div class="post-card-body">
+          <div class="post-meta">
+            <span class="post-date">Apr 04, 2026</span>
+            <span class="post-category">Tool Guide</span>
+            <span class="post-level">Beginner</span>
+          </div>
+          <h2 class="post-title">Best Machine Learning Frameworks 2026: Beginner's Guide</h2>
+          <p class="post-excerpt">Master machine learning fundamentals and choose the right framework in 2026. Complete guide to Scikit-learn, TensorFlow, PyTorch, and more for beginners.</p>
+          <div class="post-tags"><a href="/my-seo-site/blog.html?tag=llm" class="tag">llm</a><a href="/my-seo-site/blog.html?tag=code-generation" class="tag">code-generation</a><a href="/my-seo-site/blog.html?tag=ai-tools" class="tag">ai-tools</a><a href="/my-seo-site/blog.html?tag=generative-ai" class="tag">generative-ai</a><a href="/my-seo-site/blog.html?tag=ai-research" class="tag">ai-research</a></div>
+        </div>
+      </a>
+      <a href="/my-seo-site/posts/generative-ai-chip-design-ml-semiconductor.html" class="post-card" data-cat="Industry Analysis" data-tags="generative-ai,ai-hardware,enterprise-ai,ai-tools,ai-research" data-date="2026-04-03" data-views="480">
+        <div class="post-card-gradient"></div>
+        <div class="post-card-body">
+          <div class="post-meta">
+            <span class="post-date">Apr 03, 2026</span>
+            <span class="post-category">Industry Analysis</span>
+            <span class="post-level">Intermediate</span>
+          </div>
+          <h2 class="post-title">Generative AI for Chip Design: How Machine Learning Cuts Costs 75%</h2>
+          <p class="post-excerpt">Discover how generative AI for chip design cuts development costs by 75% and timelines in half, transforming semiconductor development with AI-powered EDA tools.</p>
+          <div class="post-tags"><a href="/my-seo-site/blog.html?tag=generative-ai" class="tag">generative-ai</a><a href="/my-seo-site/blog.html?tag=ai-hardware" class="tag">ai-hardware</a><a href="/my-seo-site/blog.html?tag=enterprise-ai" class="tag">enterprise-ai</a><a href="/my-seo-site/blog.html?tag=ai-tools" class="tag">ai-tools</a><a href="/my-seo-site/blog.html?tag=ai-research" class="tag">ai-research</a></div>
+        </div>
+      </a>
+      <a href="/my-seo-site/posts/slackbot-ai-features-enterprise-automation-2026.html" class="post-card" data-cat="Product Analysis" data-tags="slackbot-ai,enterprise-automation,ai-workflows,productivity-tools,salesforce" data-date="2026-04-02" data-views="475">
+        <div class="post-card-gradient"></div>
+        <div class="post-card-body">
+          <div class="post-meta">
+            <span class="post-date">Apr 02, 2026</span>
+            <span class="post-category">Product Analysis</span>
+            <span class="post-level">Intermediate</span>
+          </div>
+          <h2 class="post-title">Slackbot AI Features 2026: Reusable Skills & Enterprise Automation Guide</h2>
+          <p class="post-excerpt">Discover how Slackbot's 30 new AI features transform enterprise workflows with reusable skills, meeting transcription, and cross-platform automation that saves thousands of hours.</p>
+          <div class="post-tags"><a href="/my-seo-site/blog.html?tag=slackbot-ai" class="tag">slackbot-ai</a><a href="/my-seo-site/blog.html?tag=enterprise-automation" class="tag">enterprise-automation</a><a href="/my-seo-site/blog.html?tag=ai-workflows" class="tag">ai-workflows</a><a href="/my-seo-site/blog.html?tag=productivity-tools" class="tag">productivity-tools</a><a href="/my-seo-site/blog.html?tag=salesforce" class="tag">salesforce</a></div>
+        </div>
+      </a>
+      <a href="/my-seo-site/posts/sora-2-physics-accurate-ai-video-generation.html" class="post-card" data-cat="Product Analysis" data-tags="sora-2,ai-video-generation,physics-simulation,content-creation,openai" data-date="2026-04-02" data-views="475">
+        <div class="post-card-gradient"></div>
+        <div class="post-card-body">
+          <div class="post-meta">
+            <span class="post-date">Apr 02, 2026</span>
+            <span class="post-category">Product Analysis</span>
+            <span class="post-level">Intermediate</span>
+          </div>
+          <h2 class="post-title">Sora 2: Physics-Accurate AI Video Generation for Creators</h2>
+          <p class="post-excerpt">Sora 2 delivers physics-accurate video simulation, synchronized audio-video generation, and 60-second 1080p output that finally makes AI video generation practical for professional creators.</p>
+          <div class="post-tags"><a href="/my-seo-site/blog.html?tag=sora-2" class="tag">sora-2</a><a href="/my-seo-site/blog.html?tag=ai-video-generation" class="tag">ai-video-generation</a><a href="/my-seo-site/blog.html?tag=physics-simulation" class="tag">physics-simulation</a><a href="/my-seo-site/blog.html?tag=content-creation" class="tag">content-creation</a><a href="/my-seo-site/blog.html?tag=openai" class="tag">openai</a></div>
+        </div>
+      </a>
+      <a href="/my-seo-site/posts/voxtral-tts-mistral-ai-voice-agents.html" class="post-card" data-cat="Product Analysis" data-tags="voxtral-tts,mistral-ai,text-to-speech,voice-agents,open-weights" data-date="2026-04-01" data-views="370">
+        <div class="post-card-gradient"></div>
+        <div class="post-card-body">
+          <div class="post-meta">
+            <span class="post-date">Apr 01, 2026</span>
+            <span class="post-category">Product Analysis</span>
+            <span class="post-level">Intermediate</span>
+          </div>
+          <h2 class="post-title">Voxtral TTS: Mistral AI's Open-Weights Text-to-Speech for Voice Agents</h2>
+          <p class="post-excerpt">Mistral AI released Voxtral TTS, a lightweight open-weights text-to-speech model with 70ms latency, multilingual support, and instant voice adaptation for production voice agents.</p>
+          <div class="post-tags"><a href="/my-seo-site/blog.html?tag=voxtral-tts" class="tag">voxtral-tts</a><a href="/my-seo-site/blog.html?tag=mistral-ai" class="tag">mistral-ai</a><a href="/my-seo-site/blog.html?tag=text-to-speech" class="tag">text-to-speech</a><a href="/my-seo-site/blog.html?tag=voice-agents" class="tag">voice-agents</a><a href="/my-seo-site/blog.html?tag=open-weights" class="tag">open-weights</a></div>
+        </div>
+      </a>
+      <a href="/my-seo-site/posts/sam-3-1-meta-real-time-video-tracking.html" class="post-card" data-cat="Research & Innovation" data-tags="sam-3-1,computer-vision,meta-ai,video-tracking,real-time-detection" data-date="2026-04-01" data-views="370">
+        <div class="post-card-gradient"></div>
+        <div class="post-card-body">
+          <div class="post-meta">
+            <span class="post-date">Apr 01, 2026</span>
+            <span class="post-category">Research & Innovation</span>
+            <span class="post-level">Intermediate</span>
+          </div>
+          <h2 class="post-title">SAM 3.1: Meta's Real-Time Video Detection and Tracking Revolution</h2>
+          <p class="post-excerpt">Meta's SAM 3.1 brings real-time video detection and tracking to production systems using multiplexing and global reasoning. A major leap for computer vision accessibility.</p>
+          <div class="post-tags"><a href="/my-seo-site/blog.html?tag=sam-3-1" class="tag">sam-3-1</a><a href="/my-seo-site/blog.html?tag=computer-vision" class="tag">computer-vision</a><a href="/my-seo-site/blog.html?tag=meta-ai" class="tag">meta-ai</a><a href="/my-seo-site/blog.html?tag=video-tracking" class="tag">video-tracking</a><a href="/my-seo-site/blog.html?tag=real-time-detection" class="tag">real-time-detection</a></div>
+        </div>
+      </a>
+    </div>
+
+    <a href="/my-seo-site/blog.html" class="view-all">View all articles →</a>
   </main>
 
   <footer>
     <div class="container">
-      <p>Auto-generated by AI · <a href="https://github.com/2193824842-spec/my-seo-site" target="_blank">GitHub</a></p>
+      <p>AI Insights Blog &middot; <a href="https://github.com/2193824842-spec/my-seo-site" target="_blank">GitHub</a></p>
     </div>
   </footer>
-
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/home.js"></script>
 </body>
 </html>

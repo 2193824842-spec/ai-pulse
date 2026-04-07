@@ -6,7 +6,9 @@
     "date": "2026-04-04",
     "category": "Tool Guide",
     "level": "Beginner",
-    "tags": ["llm", "code-generation", "ai-tools", "generative-ai", "ai-research"]
+    "tags": ["llm", "code-generation", "ai-tools", "generative-ai", "ai-research"],
+    "view_count": 585,
+    "featured": true
   },
   {
     "slug": "generative-ai-chip-design-ml-semiconductor",
@@ -15,7 +17,9 @@
     "date": "2026-04-03",
     "category": "Industry Analysis",
     "level": "Intermediate",
-    "tags": ["generative-ai", "ai-hardware", "enterprise-ai", "ai-tools", "ai-research"]
+    "tags": ["generative-ai", "ai-hardware", "enterprise-ai", "ai-tools", "ai-research"],
+    "view_count": 480,
+    "featured": true
   },
   {
     "slug": "slackbot-ai-features-enterprise-automation-2026",
@@ -24,7 +28,9 @@
     "date": "2026-04-02",
     "category": "Product Analysis",
     "level": "Intermediate",
-    "tags": ["slackbot-ai", "enterprise-automation", "ai-workflows", "productivity-tools", "salesforce"]
+    "tags": ["slackbot-ai", "enterprise-automation", "ai-workflows", "productivity-tools", "salesforce"],
+    "view_count": 475,
+    "featured": false
   },
   {
     "slug": "best-reasoning-models-ai-2026",
@@ -33,7 +39,9 @@
     "date": "2025-01-08",
     "category": "Model Comparison",
     "level": "Intermediate",
-    "tags": ["llm", "ai-benchmarks", "ai-research", "generative-ai", "ai-tools"]
+    "tags": ["llm", "ai-benchmarks", "ai-research", "generative-ai", "ai-tools"],
+    "view_count": 150,
+    "featured": false
   },
   {
     "slug": "generative-video-ai-guide-2025",
@@ -42,103 +50,85 @@
     "date": "2025-01-08",
     "category": "Tool Guide",
     "level": "Intermediate",
-    "tags": ["generative-ai", "video-ai", "ai-tools", "content-creation", "ai-research"]
+    "tags": ["generative-ai", "video-ai", "ai-tools", "content-creation", "ai-research"],
+    "view_count": 150,
+    "featured": false
   },
   {
     "slug": "openai-122b-agentic-workflows-gpt54",
     "title": "OpenAI's $122B Funding: Agentic Workflows & Enterprise AI 2026",
     "excerpt": "OpenAI's $122 billion funding round powers agentic workflows with GPT-5.4. Explore enterprise AI adoption, IPO strategy, and the end of traditional software.",
     "date": "2026-03-31",
+    "category": "Industry Analysis",
     "level": "Advanced",
-    "tags": [
-      "openai-funding",
-      "agentic-workflows",
-      "gpt-5-4",
-      "enterprise-ai",
-      "ai-strategy"
-    ]
+    "tags": ["openai-funding", "agentic-workflows", "gpt-5-4", "enterprise-ai", "ai-strategy"],
+    "view_count": 465,
+    "featured": true
   },
   {
     "slug": "sora-2-physics-accurate-ai-video-generation",
     "title": "Sora 2: Physics-Accurate AI Video Generation for Creators",
     "excerpt": "Sora 2 delivers physics-accurate video simulation, synchronized audio-video generation, and 60-second 1080p output that finally makes AI video generation practical for professional creators.",
     "date": "2026-04-02",
+    "category": "Product Analysis",
     "level": "Intermediate",
-    "tags": [
-      "sora-2",
-      "ai-video-generation",
-      "physics-simulation",
-      "content-creation",
-      "openai"
-    ]
+    "tags": ["sora-2", "ai-video-generation", "physics-simulation", "content-creation", "openai"],
+    "view_count": 475,
+    "featured": false
   },
   {
     "slug": "gemini-3-1-pro-vs-gpt-5-4-comparison",
     "title": "Gemini 3.1 Pro vs GPT-5.4: Which AI Model Should You Choose?",
     "excerpt": "Compare Gemini 3.1 Pro vs GPT-5.4 across code generation, reasoning, and agentic workflows. Gemini 3.1 Pro achieves 77.1% on ARC-AGI-2 benchmark. Find the right model for your needs.",
     "date": "2026-01-15",
+    "category": "Model Comparison",
     "level": "Intermediate",
-    "tags": [
-      "gemini-3-1-pro",
-      "gpt-5-4",
-      "ai-model-comparison",
-      "advanced-reasoning",
-      "code-generation"
-    ]
+    "tags": ["gemini-3-1-pro", "gpt-5-4", "ai-model-comparison", "advanced-reasoning", "code-generation"],
+    "view_count": 290,
+    "featured": true
   },
   {
     "slug": "voxtral-tts-mistral-ai-voice-agents",
     "title": "Voxtral TTS: Mistral AI's Open-Weights Text-to-Speech for Voice Agents",
     "excerpt": "Mistral AI released Voxtral TTS, a lightweight open-weights text-to-speech model with 70ms latency, multilingual support, and instant voice adaptation for production voice agents.",
     "date": "2026-04-01",
+    "category": "Product Analysis",
     "level": "Intermediate",
-    "tags": [
-      "voxtral-tts",
-      "mistral-ai",
-      "text-to-speech",
-      "voice-agents",
-      "open-weights"
-    ]
+    "tags": ["voxtral-tts", "mistral-ai", "text-to-speech", "voice-agents", "open-weights"],
+    "view_count": 370,
+    "featured": false
   },
   {
     "slug": "sam-3-1-meta-real-time-video-tracking",
     "title": "SAM 3.1: Meta's Real-Time Video Detection and Tracking Revolution",
     "excerpt": "Meta's SAM 3.1 brings real-time video detection and tracking to production systems using multiplexing and global reasoning. A major leap for computer vision accessibility.",
     "date": "2026-04-01",
+    "category": "Research & Innovation",
     "level": "Intermediate",
-    "tags": [
-      "sam-3-1",
-      "computer-vision",
-      "meta-ai",
-      "video-tracking",
-      "real-time-detection"
-    ]
+    "tags": ["sam-3-1", "computer-vision", "meta-ai", "video-tracking", "real-time-detection"],
+    "view_count": 370,
+    "featured": false
   },
   {
     "slug": "gemini-3-1-flash-live-audio-ai",
     "title": "Gemini 3.1 Flash Live: Google DeepMind's Audio AI Breakthrough",
     "excerpt": "Google DeepMind's Gemini 3.1 Flash Live brings enhanced audio AI with natural voice interactions and improved reliability for production applications.",
     "date": "2026-04-01",
+    "category": "Product Analysis",
     "level": "Intermediate",
-    "tags": [
-      "gemini-3-1",
-      "audio-ai",
-      "google-deepmind",
-      "voice-ai",
-      "multimodal-ai"
-    ]
+    "tags": ["gemini-3-1", "audio-ai", "google-deepmind", "voice-ai", "multimodal-ai"],
+    "view_count": 370,
+    "featured": false
   },
   {
     "slug": "claude-4-5-sonnet-developers-2026",
     "title": "Claude 4.5 Sonnet: What Developers Need to Know in 2026",
     "excerpt": "A practical look at Claude 4.5 Sonnet capabilities, performance benchmarks, and how it compares to GPT-5 for real-world coding tasks.",
     "date": "2026-04-01",
+    "category": "Product Analysis",
     "level": "Intermediate",
-    "tags": [
-      "claude",
-      "anthropic",
-      "ai-tools",
-      "code-generation"
-    ]
+    "tags": ["claude", "anthropic", "ai-tools", "code-generation"],
+    "view_count": 350,
+    "featured": false
   }
 ]
