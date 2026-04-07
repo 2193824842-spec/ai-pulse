@@ -254,6 +254,10 @@ nav a:hover { color: var(--accent); background: var(--accent-bg); }
   display: block;
 }
 
+.card-cover img[data-error] {
+  display: none;
+}
+
 .card-cover-placeholder {
   display: flex;
   align-items: center;
@@ -390,6 +394,21 @@ nav a:hover { color: var(--accent); background: var(--accent-bg); }
   border-color: var(--border-hover);
 }
 /* PLACEHOLDER_ARTICLE */
+
+/* ── Article cover (top of article page) ── */
+.article-cover {
+  margin: 24px 0 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  max-height: 400px;
+}
+
+.article-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 
 /* ── Article page ── */
 .article-header {
