@@ -57,7 +57,7 @@
     "slug": "best-reasoning-models-ai-2026",
     "title": "7 Best Reasoning Models AI 2026 | Complete Comparison",
     "excerpt": "Compare the top 7 reasoning models AI of 2026: OpenAI o3, DeepSeek-R1, Claude Extended Thinking. Benchmarks, costs, and real-world applications for problem-solving.",
-    "date": "2025-01-08",
+    "date": "2026-03-28",
     "category": "Model Comparison",
     "level": "Intermediate",
     "tags": [
@@ -75,7 +75,7 @@
     "slug": "generative-video-ai-guide-2025",
     "title": "Generative Video AI Guide 2025: Sora Turbo & Best Tools",
     "excerpt": "Master generative video AI with our complete guide to Sora Turbo, text-to-video tools, free options, and practical tutorials for marketers and filmmakers.",
-    "date": "2025-01-08",
+    "date": "2026-03-25",
     "category": "Tool Guide",
     "level": "Intermediate",
     "tags": [
@@ -142,76 +142,5 @@
     "view_count": 0,
     "featured": true,
     "cover_image": "/my-seo-site/assets/images/gemini-3-1-pro-vs-gpt-5-4-comparison.jpg"
-  },
-  {
-    "slug": "voxtral-tts-mistral-ai-voice-agents",
-    "title": "Voxtral TTS: Mistral AI's Open-Weights Text-to-Speech for Voice Agents",
-    "excerpt": "Mistral AI released Voxtral TTS, a lightweight open-weights text-to-speech model with 70ms latency, multilingual support, and instant voice adaptation for production voice agents.",
-    "date": "2026-04-01",
-    "category": "Product Analysis",
-    "level": "Intermediate",
-    "tags": [
-      "voxtral-tts",
-      "mistral-ai",
-      "text-to-speech",
-      "voice-agents",
-      "open-weights"
-    ],
-    "view_count": 0,
-    "featured": false,
-    "cover_image": "/my-seo-site/assets/images/voxtral-tts-mistral-ai-voice-agents.jpg"
-  },
-  {
-    "slug": "sam-3-1-meta-real-time-video-tracking",
-    "title": "SAM 3.1: Meta's Real-Time Video Detection and Tracking Revolution",
-    "excerpt": "Meta's SAM 3.1 brings real-time video detection and tracking to production systems using multiplexing and global reasoning. A major leap for computer vision accessibility.",
-    "date": "2026-04-01",
-    "category": "Research & Innovation",
-    "level": "Intermediate",
-    "tags": [
-      "sam-3-1",
-      "computer-vision",
-      "meta-ai",
-      "video-tracking",
-      "real-time-detection"
-    ],
-    "view_count": 0,
-    "featured": false,
-    "cover_image": "/my-seo-site/assets/images/sam-3-1-meta-real-time-video-tracking.jpg"
-  },
-  {
-    "slug": "gemini-3-1-flash-live-audio-ai",
-    "title": "Gemini 3.1 Flash Live: Google DeepMind's Audio AI Breakthrough",
-    "excerpt": "Google DeepMind's Gemini 3.1 Flash Live brings enhanced audio AI with natural voice interactions and improved reliability for production applications.",
-    "date": "2026-04-01",
-    "category": "Product Analysis",
-    "level": "Intermediate",
-    "tags": [
-      "gemini-3-1",
-      "audio-ai",
-      "google-deepmind",
-      "voice-ai",
-      "multimodal-ai"
-    ],
-    "view_count": 0,
-    "featured": false,
-    "cover_image": "/my-seo-site/assets/images/gemini-3-1-flash-live-audio-ai.jpg"
-  },
-  {
-    "slug": "claude-4-5-sonnet-developers-2026",
-    "title": "Claude 4.5 Sonnet: What Developers Need to Know in 2026",
-    "excerpt": "A practical look at Claude 4.5 Sonnet capabilities, performance benchmarks, and how it compares to GPT-5 for real-world coding tasks.",
-    "date": "2026-04-01",
-    "category": "Product Analysis",
-    "level": "Intermediate",
-    "tags": [
-      "claude",
-      "anthropic",
-      "ai-tools",
-      "code-generation"
-    ],
-    "view_count": 0,
-    "featured": false,
-    "cover_image": "/my-seo-site/assets/images/claude-4-5-sonnet-developers-2026.jpg"
   }
 ]
