@@ -28,7 +28,7 @@ body {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -200,11 +200,11 @@ nav a:hover { color: var(--accent); }
 }
 /* PLACEHOLDER_POST_LIST */
 
-/* ── Post list ── */
+/* ── Post list (blog page: 2-col grid) ── */
 .post-list {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
   padding-bottom: 72px;
 }
 
@@ -212,35 +212,77 @@ nav a:hover { color: var(--accent); }
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 0;
   text-decoration: none;
   color: inherit;
-  display: block;
+  display: flex;
+  flex-direction: column;
   box-shadow: var(--shadow-sm);
   transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
   overflow: hidden;
 }
 
-.post-card-gradient {
-  height: 6px;
-  background: var(--gradient);
-}
-
-.post-card[data-cat="Model Comparison"] .post-card-gradient { background: linear-gradient(135deg, #6366f1, #3b82f6); }
-.post-card[data-cat="Product Analysis"] .post-card-gradient { background: linear-gradient(135deg, #3b82f6, #06b6d4); }
-.post-card[data-cat="Industry Analysis"] .post-card-gradient { background: linear-gradient(135deg, #10b981, #14b8a6); }
-.post-card[data-cat="Research & Innovation"] .post-card-gradient { background: linear-gradient(135deg, #f59e0b, #ec4899); }
-.post-card[data-cat="Tool Guide"] .post-card-gradient { background: linear-gradient(135deg, #4f46e5, #7c3aed); }
-.post-card[data-cat="Opinion"] .post-card-gradient { background: linear-gradient(135deg, #e11d48, #f97316); }
-
-.post-card-body {
-  padding: 24px 28px;
-}
-
 .post-card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-md);
   border-color: var(--border-hover);
+}
+
+/* ── Card cover image ── */
+.card-cover {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a78bfa 100%);
+}
+
+.card-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card-cover-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-card[data-cat="Model Comparison"] .card-cover-placeholder { background: linear-gradient(135deg, #6366f1, #3b82f6); }
+.post-card[data-cat="Product Analysis"] .card-cover-placeholder { background: linear-gradient(135deg, #3b82f6, #06b6d4); }
+.post-card[data-cat="Industry Analysis"] .card-cover-placeholder { background: linear-gradient(135deg, #10b981, #14b8a6); }
+.post-card[data-cat="Research & Innovation"] .card-cover-placeholder { background: linear-gradient(135deg, #f59e0b, #ec4899); }
+.post-card[data-cat="Tool Guide"] .card-cover-placeholder { background: linear-gradient(135deg, #4f46e5, #7c3aed); }
+.post-card[data-cat="Opinion"] .card-cover-placeholder { background: linear-gradient(135deg, #e11d48, #f97316); }
+
+.card-cat-badge {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  font-size: 0.73rem;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.55);
+  color: #fff;
+  font-weight: 600;
+  backdrop-filter: blur(4px);
+}
+
+.card-date-badge {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  font-size: 0.73rem;
+  color: rgba(255,255,255,0.85);
+  font-weight: 500;
+}
+
+.post-card-body {
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .post-meta {
@@ -263,7 +305,6 @@ nav a:hover { color: var(--accent); }
   background: rgba(16, 185, 129, 0.1);
   color: #059669;
   font-weight: 600;
-  letter-spacing: 0.3px;
 }
 
 .post-level {
@@ -274,27 +315,44 @@ nav a:hover { color: var(--accent); }
   color: var(--accent);
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.3px;
 }
 
 .post-title {
-  font-size: 1.18rem;
+  font-size: 1.05rem;
   font-weight: 700;
   margin-bottom: 8px;
   color: var(--text);
   line-height: 1.4;
   letter-spacing: -0.3px;
-}
-
-.post-excerpt {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-  margin-bottom: 16px;
-  line-height: 1.7;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.post-excerpt {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
+}
+
+.post-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.post-views {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  white-space: nowrap;
 }
 
 .post-tags {
@@ -482,6 +540,7 @@ footer a:hover { color: var(--accent); }
   .post-card-body { padding: 16px 20px; }
   .container { padding: 0 16px; }
   .article-body { font-size: 1rem; }
+  .post-list { grid-template-columns: 1fr; }
   .card-grid { grid-template-columns: 1fr; }
   .stats-row { gap: 12px; flex-wrap: wrap; }
   .blog-header { flex-direction: column; gap: 12px; }

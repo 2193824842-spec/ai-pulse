@@ -6,9 +6,16 @@
     "date": "2026-04-04",
     "category": "Tool Guide",
     "level": "Beginner",
-    "tags": ["llm", "code-generation", "ai-tools", "generative-ai", "ai-research"],
+    "tags": [
+      "llm",
+      "code-generation",
+      "ai-tools",
+      "generative-ai",
+      "ai-research"
+    ],
     "view_count": 585,
-    "featured": true
+    "featured": true,
+    "cover_image": "https://images.pexels.com/photos/25626437/pexels-photo-25626437.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     "slug": "generative-ai-chip-design-ml-semiconductor",
@@ -17,9 +24,16 @@
     "date": "2026-04-03",
     "category": "Industry Analysis",
     "level": "Intermediate",
-    "tags": ["generative-ai", "ai-hardware", "enterprise-ai", "ai-tools", "ai-research"],
+    "tags": [
+      "generative-ai",
+      "ai-hardware",
+      "enterprise-ai",
+      "ai-tools",
+      "ai-research"
+    ],
     "view_count": 480,
-    "featured": true
+    "featured": true,
+    "cover_image": "https://images.pexels.com/photos/6755078/pexels-photo-6755078.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     "slug": "slackbot-ai-features-enterprise-automation-2026",
@@ -28,9 +42,16 @@
     "date": "2026-04-02",
     "category": "Product Analysis",
     "level": "Intermediate",
-    "tags": ["slackbot-ai", "enterprise-automation", "ai-workflows", "productivity-tools", "salesforce"],
+    "tags": [
+      "slackbot-ai",
+      "enterprise-automation",
+      "ai-workflows",
+      "productivity-tools",
+      "salesforce"
+    ],
     "view_count": 475,
-    "featured": false
+    "featured": false,
+    "cover_image": "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     "slug": "best-reasoning-models-ai-2026",
@@ -39,9 +60,16 @@
     "date": "2025-01-08",
     "category": "Model Comparison",
     "level": "Intermediate",
-    "tags": ["llm", "ai-benchmarks", "ai-research", "generative-ai", "ai-tools"],
+    "tags": [
+      "llm",
+      "ai-benchmarks",
+      "ai-research",
+      "generative-ai",
+      "ai-tools"
+    ],
     "view_count": 150,
-    "featured": false
+    "featured": false,
+    "cover_image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     "slug": "generative-video-ai-guide-2025",
@@ -50,9 +78,16 @@
     "date": "2025-01-08",
     "category": "Tool Guide",
     "level": "Intermediate",
-    "tags": ["generative-ai", "video-ai", "ai-tools", "content-creation", "ai-research"],
+    "tags": [
+      "generative-ai",
+      "video-ai",
+      "ai-tools",
+      "content-creation",
+      "ai-research"
+    ],
     "view_count": 150,
-    "featured": false
+    "featured": false,
+    "cover_image": "https://images.pexels.com/photos/7567443/pexels-photo-7567443.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     "slug": "openai-122b-agentic-workflows-gpt54",
@@ -61,9 +96,16 @@
     "date": "2026-03-31",
     "category": "Industry Analysis",
     "level": "Advanced",
-    "tags": ["openai-funding", "agentic-workflows", "gpt-5-4", "enterprise-ai", "ai-strategy"],
+    "tags": [
+      "openai-funding",
+      "agentic-workflows",
+      "gpt-5-4",
+      "enterprise-ai",
+      "ai-strategy"
+    ],
     "view_count": 465,
-    "featured": true
+    "featured": true,
+    "cover_image": "https://images.pexels.com/photos/8348457/pexels-photo-8348457.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     "slug": "sora-2-physics-accurate-ai-video-generation",
@@ -72,9 +114,16 @@
     "date": "2026-04-02",
     "category": "Product Analysis",
     "level": "Intermediate",
-    "tags": ["sora-2", "ai-video-generation", "physics-simulation", "content-creation", "openai"],
+    "tags": [
+      "sora-2",
+      "ai-video-generation",
+      "physics-simulation",
+      "content-creation",
+      "openai"
+    ],
     "view_count": 475,
-    "featured": false
+    "featured": false,
+    "cover_image": "https://images.pexels.com/photos/7567443/pexels-photo-7567443.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     "slug": "gemini-3-1-pro-vs-gpt-5-4-comparison",
@@ -83,9 +132,16 @@
     "date": "2026-01-15",
     "category": "Model Comparison",
     "level": "Intermediate",
-    "tags": ["gemini-3-1-pro", "gpt-5-4", "ai-model-comparison", "advanced-reasoning", "code-generation"],
+    "tags": [
+      "gemini-3-1-pro",
+      "gpt-5-4",
+      "ai-model-comparison",
+      "advanced-reasoning",
+      "code-generation"
+    ],
     "view_count": 290,
-    "featured": true
+    "featured": true,
+    "cover_image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     "slug": "voxtral-tts-mistral-ai-voice-agents",
@@ -94,9 +150,16 @@
     "date": "2026-04-01",
     "category": "Product Analysis",
     "level": "Intermediate",
-    "tags": ["voxtral-tts", "mistral-ai", "text-to-speech", "voice-agents", "open-weights"],
+    "tags": [
+      "voxtral-tts",
+      "mistral-ai",
+      "text-to-speech",
+      "voice-agents",
+      "open-weights"
+    ],
     "view_count": 370,
-    "featured": false
+    "featured": false,
+    "cover_image": "https://images.pexels.com/photos/8721318/pexels-photo-8721318.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     "slug": "sam-3-1-meta-real-time-video-tracking",
@@ -105,9 +168,16 @@
     "date": "2026-04-01",
     "category": "Research & Innovation",
     "level": "Intermediate",
-    "tags": ["sam-3-1", "computer-vision", "meta-ai", "video-tracking", "real-time-detection"],
+    "tags": [
+      "sam-3-1",
+      "computer-vision",
+      "meta-ai",
+      "video-tracking",
+      "real-time-detection"
+    ],
     "view_count": 370,
-    "featured": false
+    "featured": false,
+    "cover_image": "https://images.pexels.com/photos/8438922/pexels-photo-8438922.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     "slug": "gemini-3-1-flash-live-audio-ai",
@@ -116,9 +186,16 @@
     "date": "2026-04-01",
     "category": "Product Analysis",
     "level": "Intermediate",
-    "tags": ["gemini-3-1", "audio-ai", "google-deepmind", "voice-ai", "multimodal-ai"],
+    "tags": [
+      "gemini-3-1",
+      "audio-ai",
+      "google-deepmind",
+      "voice-ai",
+      "multimodal-ai"
+    ],
     "view_count": 370,
-    "featured": false
+    "featured": false,
+    "cover_image": "https://images.pexels.com/photos/8721318/pexels-photo-8721318.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     "slug": "claude-4-5-sonnet-developers-2026",
@@ -127,8 +204,14 @@
     "date": "2026-04-01",
     "category": "Product Analysis",
     "level": "Intermediate",
-    "tags": ["claude", "anthropic", "ai-tools", "code-generation"],
+    "tags": [
+      "claude",
+      "anthropic",
+      "ai-tools",
+      "code-generation"
+    ],
     "view_count": 350,
-    "featured": false
+    "featured": false,
+    "cover_image": "https://images.pexels.com/photos/8348457/pexels-photo-8348457.jpeg?auto=compress&cs=tinysrgb&w=600"
   }
 ]
