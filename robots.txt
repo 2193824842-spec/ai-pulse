@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://2193824842-spec.github.io/my-seo-site/sitemap.xml
+Sitemap: https://2193824842-spec.github.io/ai-pulse/sitemap.xml

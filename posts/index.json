@@ -15,7 +15,7 @@
     ],
     "word_count": 2847,
     "view_count": 0,
-    "cover_image": "/my-seo-site/assets/images/how-to-evaluate-ai-companies-framework.jpg",
+    "cover_image": "/ai-pulse/assets/images/how-to-evaluate-ai-companies-framework.jpg",
     "featured": false
   },
   {
@@ -35,7 +35,7 @@
     "word_count": 2087,
     "view_count": 0,
     "featured": false,
-    "cover_image": "/my-seo-site/assets/images/ai-startup-funding-trends-2026.jpg"
+    "cover_image": "/ai-pulse/assets/images/ai-startup-funding-trends-2026.jpg"
   },
   {
     "slug": "best-machine-learning-frameworks-2026-beginners-guide",
@@ -53,7 +53,7 @@
     ],
     "view_count": 0,
     "featured": true,
-    "cover_image": "/my-seo-site/assets/images/best-machine-learning-frameworks-2026-beginners-guide.jpg"
+    "cover_image": "/ai-pulse/assets/images/best-machine-learning-frameworks-2026-beginners-guide.jpg"
   },
   {
     "slug": "generative-ai-chip-design-ml-semiconductor",
@@ -71,7 +71,7 @@
     ],
     "view_count": 0,
     "featured": true,
-    "cover_image": "/my-seo-site/assets/images/generative-ai-chip-design-ml-semiconductor.jpg"
+    "cover_image": "/ai-pulse/assets/images/generative-ai-chip-design-ml-semiconductor.jpg"
   },
   {
     "slug": "slackbot-ai-features-enterprise-automation-2026",
@@ -89,7 +89,7 @@
     ],
     "view_count": 0,
     "featured": false,
-    "cover_image": "/my-seo-site/assets/images/slackbot-ai-features-enterprise-automation-2026.jpg"
+    "cover_image": "/ai-pulse/assets/images/slackbot-ai-features-enterprise-automation-2026.jpg"
   },
   {
     "slug": "best-reasoning-models-ai-2026",
@@ -107,7 +107,7 @@
     ],
     "view_count": 0,
     "featured": false,
-    "cover_image": "/my-seo-site/assets/images/best-reasoning-models-ai-2026.jpg"
+    "cover_image": "/ai-pulse/assets/images/best-reasoning-models-ai-2026.jpg"
   },
   {
     "slug": "generative-video-ai-guide-2025",
@@ -125,7 +125,7 @@
     ],
     "view_count": 0,
     "featured": false,
-    "cover_image": "/my-seo-site/assets/images/generative-video-ai-guide-2025.jpg"
+    "cover_image": "/ai-pulse/assets/images/generative-video-ai-guide-2025.jpg"
   },
   {
     "slug": "openai-122b-agentic-workflows-gpt54",
@@ -143,7 +143,7 @@
     ],
     "view_count": 0,
     "featured": true,
-    "cover_image": "/my-seo-site/assets/images/openai-122b-agentic-workflows-gpt54.jpg"
+    "cover_image": "/ai-pulse/assets/images/openai-122b-agentic-workflows-gpt54.jpg"
   },
   {
     "slug": "sora-2-physics-accurate-ai-video-generation",
@@ -161,7 +161,7 @@
     ],
     "view_count": 0,
     "featured": false,
-    "cover_image": "/my-seo-site/assets/images/sora-2-physics-accurate-ai-video-generation.jpg"
+    "cover_image": "/ai-pulse/assets/images/sora-2-physics-accurate-ai-video-generation.jpg"
   },
   {
     "slug": "gemini-3-1-pro-vs-gpt-5-4-comparison",
@@ -179,6 +179,6 @@
     ],
     "view_count": 0,
     "featured": true,
-    "cover_image": "/my-seo-site/assets/images/gemini-3-1-pro-vs-gpt-5-4-comparison.jpg"
+    "cover_image": "/ai-pulse/assets/images/gemini-3-1-pro-vs-gpt-5-4-comparison.jpg"
   }
 ]

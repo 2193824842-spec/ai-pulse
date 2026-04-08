@@ -6,7 +6,7 @@
   // Redirect ?tag= and ?category= to blog.html
   const params = new URLSearchParams(window.location.search);
   if (params.get('tag') || params.get('category')) {
-    window.location.href = '/my-seo-site/blog.html' + window.location.search;
+    window.location.href = '/ai-pulse/blog.html' + window.location.search;
     return;
   }
 
@@ -17,7 +17,7 @@
       if (e.key === 'Enter') {
         const q = searchInput.value.trim();
         if (q) {
-          window.location.href = '/my-seo-site/blog.html?q=' + encodeURIComponent(q);
+          window.location.href = '/ai-pulse/blog.html?q=' + encodeURIComponent(q);
         }
       }
     });
