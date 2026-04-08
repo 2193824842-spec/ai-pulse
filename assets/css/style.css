@@ -36,8 +36,8 @@ body {
   padding: 0 24px;
 }
 
-/* ── Header ── */
-header {
+/* ── Header (top nav only) ── */
+body > header {
   background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
