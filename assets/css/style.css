@@ -962,10 +962,30 @@ nav a.active { color: var(--accent); background: var(--accent-bg); }
 .callout-card.callout-pro {
   background: #f0fdf4;
   border-color: #d1e7dd;
+  border-left: 3px solid #22c55e;
 }
 .callout-card.callout-con {
-  background: #fef7f0;
-  border-color: #f0ddd0;
+  background: #fff5f5;
+  border-color: #fecaca;
+  border-left: 3px solid #ef4444;
+}
+.callout-card.callout-pro h3,
+.callout-card.callout-con h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0 0 10px !important;
+  padding: 0 !important;
+  border: none !important;
+}
+/* Pros/Cons two-column layout */
+.pros-cons-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 24px 0;
+}
+@media (max-width: 768px) {
+  .pros-cons-grid { grid-template-columns: 1fr; }
 }
 .callout-card h3 {
   margin-top: 0 !important;
