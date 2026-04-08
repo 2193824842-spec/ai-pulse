@@ -1098,3 +1098,32 @@ nav a.active { color: var(--accent); background: var(--accent-bg); }
   color: var(--text-secondary);
   line-height: 1.5;
 }
+
+/* ── Language switcher ── */
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: 8px;
+  border-left: 1px solid var(--border);
+  padding-left: 12px;
+}
+.lang-active {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--accent);
+  padding: 4px 8px;
+}
+.lang-link {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+.lang-link:hover {
+  color: var(--accent);
+  background: var(--accent-bg);
+}
