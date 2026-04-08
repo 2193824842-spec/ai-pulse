@@ -920,9 +920,9 @@ nav a.active { color: var(--accent); background: var(--accent-bg); }
   margin: 24px 0;
 }
 .callout-card.callout-faq {
-  background: #fffbeb;
-  border-color: #fde68a;
-  padding: 24px 28px;
+  background: transparent;
+  border: none;
+  padding: 0;
 }
 .callout-card.callout-faq h2 {
   font-size: 1.3rem;
@@ -933,15 +933,11 @@ nav a.active { color: var(--accent); background: var(--accent-bg); }
 .callout-card.callout-faq .faq-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 24px 32px;
+  gap: 0 32px;
 }
 .callout-card.callout-faq .faq-item {
-  padding-bottom: 20px;
-  border-bottom: 1px dashed #e5d9a8;
-}
-.callout-card.callout-faq .faq-item:nth-last-child(-n+2) {
-  padding-bottom: 0;
-  border-bottom: none;
+  padding: 20px 0;
+  border-bottom: 1px dashed var(--border);
 }
 .callout-card.callout-faq .faq-item h3 {
   font-size: 0.95rem;
