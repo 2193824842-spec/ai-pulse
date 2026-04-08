@@ -75,7 +75,12 @@
         </div>
       </header>
 
-      <div class="article-body">
+        <details class="article-toc" open>
+        <summary>Table of Contents</summary>
+        <ol id="toc-list"></ol>
+      </details>
+
+    <div class="article-body">
         <p>The artificial intelligence market has exploded from $390.91 billion in 2025 to a projected $3,497.26 billion by 2033, growing at 30.6% annually. With AI startups capturing nearly half of all venture capital investment worldwide—over $200 billion in 2025 alone—knowing how to evaluate AI companies has become essential for investors, analysts, and business leaders. Unlike traditional software businesses, AI companies operate with unique cost structures, competitive dynamics, and risk profiles that demand a specialized evaluation approach. This guide provides a systematic framework to assess AI startups and established players, helping you separate genuine innovation from hype.</p>
 <h2>What is an AI Startup? Understanding the Landscape</h2>
 <p>Before diving into evaluation metrics, it's crucial to understand what defines an AI company. When a startup claims to be "AI-powered," they could mean vastly different things. Artificial intelligence encompasses numerous mathematical approaches designed to emulate intelligent behavior, with each algorithm suited for specific problem sets. There's no universal AI tool that magically solves every challenge.</p>
@@ -267,5 +272,24 @@
       </div>
     </div>
   </footer>
+  <script>
+  (function(){
+    var body=document.querySelector('.article-body');
+    var toc=document.getElementById('toc-list');
+    if(!body||!toc)return;
+    var h2s=body.querySelectorAll('h2');
+    if(h2s.length<2){var d=document.querySelector('.article-toc');if(d)d.style.display='none';return;}
+    h2s.forEach(function(h,i){
+      var id='s'+(i+1);
+      h.id=id;
+      var li=document.createElement('li');
+      var a=document.createElement('a');
+      a.href='#'+id;
+      a.textContent=h.textContent;
+      li.appendChild(a);
+      toc.appendChild(li);
+    });
+  })();
+  </script>
 </body>
 </html>

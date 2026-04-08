@@ -74,6 +74,11 @@
       </div>
     </div>
 
+      <details class="article-toc" open>
+        <summary>Table of Contents</summary>
+        <ol id="toc-list"></ol>
+      </details>
+
     <div class="article-body">
       <p>The semiconductor industry faces a paradox that's becoming impossible to ignore. As artificial intelligence demands ever-more powerful chips to fuel its growth, the process of designing those chips remains stuck in a decades-old workflow that's painfully slow, prohibitively expensive, and increasingly unable to keep pace with market demands. A new wave of generative AI for chip design is emerging to break this bottleneck, promising to transform how the world's most complex products are created.</p>
 
@@ -201,5 +206,24 @@
       </div>
     </div>
   </footer>
+  <script>
+  (function(){
+    var body=document.querySelector('.article-body');
+    var toc=document.getElementById('toc-list');
+    if(!body||!toc)return;
+    var h2s=body.querySelectorAll('h2');
+    if(h2s.length<2){var d=document.querySelector('.article-toc');if(d)d.style.display='none';return;}
+    h2s.forEach(function(h,i){
+      var id='s'+(i+1);
+      h.id=id;
+      var li=document.createElement('li');
+      var a=document.createElement('a');
+      a.href='#'+id;
+      a.textContent=h.textContent;
+      li.appendChild(a);
+      toc.appendChild(li);
+    });
+  })();
+  </script>
 </body>
 </html>

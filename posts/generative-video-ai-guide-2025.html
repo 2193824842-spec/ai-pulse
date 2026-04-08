@@ -73,6 +73,11 @@
       </div>
     </div>
 
+      <details class="article-toc" open>
+        <summary>Table of Contents</summary>
+        <ol id="toc-list"></ol>
+      </details>
+
     <div class="article-body">
       <p>The video production landscape is undergoing a seismic shift. What once required expensive equipment, professional crews, and weeks of post-production can now be generated in minutes from a simple text prompt. <strong>Generative video AI</strong> has emerged as one of the most transformative technologies in content creation, with OpenAI's Sora Turbo leading the charge after its public launch in December 2024. This technology doesn't just automate video production—it fundamentally reimagines how we conceptualize, prototype, and create visual media.</p>
 
@@ -309,5 +314,24 @@
       </div>
     </div>
   </footer>
+  <script>
+  (function(){
+    var body=document.querySelector('.article-body');
+    var toc=document.getElementById('toc-list');
+    if(!body||!toc)return;
+    var h2s=body.querySelectorAll('h2');
+    if(h2s.length<2){var d=document.querySelector('.article-toc');if(d)d.style.display='none';return;}
+    h2s.forEach(function(h,i){
+      var id='s'+(i+1);
+      h.id=id;
+      var li=document.createElement('li');
+      var a=document.createElement('a');
+      a.href='#'+id;
+      a.textContent=h.textContent;
+      li.appendChild(a);
+      toc.appendChild(li);
+    });
+  })();
+  </script>
 </body>
 </html>

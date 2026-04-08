@@ -120,6 +120,11 @@
       </div>
     </div>
 
+      <details class="article-toc" open>
+        <summary>Table of Contents</summary>
+        <ol id="toc-list"></ol>
+      </details>
+
     <div class="article-body">
       <p>If you've ever felt buried under repetitive tasks—scheduling meetings, drafting follow-ups, hunting through message threads for that one critical detail—you're not alone. Enterprise teams waste countless hours on administrative work that pulls focus from strategic priorities. Salesforce's latest overhaul of Slack addresses this head-on, transforming Slackbot from a simple notification bot into a sophisticated AI agent capable of handling complex workflows across your entire business ecosystem.</p>
 
@@ -368,5 +373,24 @@ Slackbot handles general workplace tasks and coordination, while Agentforce allo
       </div>
     </div>
   </footer>
+  <script>
+  (function(){
+    var body=document.querySelector('.article-body');
+    var toc=document.getElementById('toc-list');
+    if(!body||!toc)return;
+    var h2s=body.querySelectorAll('h2');
+    if(h2s.length<2){var d=document.querySelector('.article-toc');if(d)d.style.display='none';return;}
+    h2s.forEach(function(h,i){
+      var id='s'+(i+1);
+      h.id=id;
+      var li=document.createElement('li');
+      var a=document.createElement('a');
+      a.href='#'+id;
+      a.textContent=h.textContent;
+      li.appendChild(a);
+      toc.appendChild(li);
+    });
+  })();
+  </script>
 </body>
 </html>

@@ -79,7 +79,12 @@
         </div>
       </header>
 
-      <div class="article-body">
+        <details class="article-toc" open>
+        <summary>Table of Contents</summary>
+        <ol id="toc-list"></ol>
+      </details>
+
+    <div class="article-body">
         <p>The AI startup funding landscape has reached unprecedented heights in 2026, with venture capital pouring $131.5 billion into AI companies globally—a 52% surge from the previous year. This massive capital reallocation comes as funding to non-AI startups declined nearly 10%, signaling a decisive shift in investor priorities. AI now commands close to one-third of all global venture capital, with mega-rounds above $100 million becoming the new normal rather than the exception.</p>
 
         <p>The first two months of 2026 alone saw 17 U.S.-based AI companies raise $100 million or more, setting a blistering pace that suggests total AI investment could exceed $200 billion by year-end. Foundation model companies captured $80 billion in 2025, while autonomous agents, enterprise AI platforms, and developer tools are emerging as the hottest categories for 2026. With OpenAI's valuation hitting $500 billion and xAI crossing $200 billion, the AI unicorn herd is expanding faster than any previous technology wave.</p>
@@ -367,5 +372,24 @@
       </div>
     </div>
   </footer>
+  <script>
+  (function(){
+    var body=document.querySelector('.article-body');
+    var toc=document.getElementById('toc-list');
+    if(!body||!toc)return;
+    var h2s=body.querySelectorAll('h2');
+    if(h2s.length<2){var d=document.querySelector('.article-toc');if(d)d.style.display='none';return;}
+    h2s.forEach(function(h,i){
+      var id='s'+(i+1);
+      h.id=id;
+      var li=document.createElement('li');
+      var a=document.createElement('a');
+      a.href='#'+id;
+      a.textContent=h.textContent;
+      li.appendChild(a);
+      toc.appendChild(li);
+    });
+  })();
+  </script>
 </body>
 </html>
