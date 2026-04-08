@@ -460,16 +460,14 @@ article {
   font-size: 1.45rem;
   font-weight: 700;
   margin: 48px 0 18px;
-  padding-top: 24px;
-  border-top: 1px solid var(--border);
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
   color: var(--text);
   letter-spacing: -0.3px;
 }
 
 .article-body h2:first-child {
   margin-top: 0;
-  padding-top: 0;
-  border-top: none;
 }
 
 .article-body figure {
@@ -928,8 +926,8 @@ nav a.active { color: var(--accent); background: var(--accent-bg); }
   font-size: 1.45rem;
   font-weight: 700;
   margin: 48px 0 18px;
-  padding-top: 24px;
-  border-top: 1px solid var(--border);
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
   color: var(--text);
   letter-spacing: -0.3px;
 }
