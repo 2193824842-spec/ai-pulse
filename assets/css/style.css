@@ -925,10 +925,13 @@ nav a.active { color: var(--accent); background: var(--accent-bg); }
   padding: 0;
 }
 .callout-card.callout-faq h2 {
-  font-size: 1.3rem;
-  margin: 0 0 20px !important;
-  padding: 0 !important;
-  border: none !important;
+  font-size: 1.45rem;
+  font-weight: 700;
+  margin: 48px 0 18px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  color: var(--text);
+  letter-spacing: -0.3px;
 }
 .callout-card.callout-faq .faq-grid {
   display: grid;
