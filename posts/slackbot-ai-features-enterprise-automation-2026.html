@@ -119,13 +119,7 @@
         <a href="/ai-pulse/blog.html?tag=slackbot-ai" class="tag">slackbot-ai</a><a href="/ai-pulse/blog.html?tag=enterprise-automation" class="tag">enterprise-automation</a><a href="/ai-pulse/blog.html?tag=ai-workflows" class="tag">ai-workflows</a><a href="/ai-pulse/blog.html?tag=productivity-tools" class="tag">productivity-tools</a><a href="/ai-pulse/blog.html?tag=salesforce" class="tag">salesforce</a>
       </div>
     </div>
-
-      <details class="article-toc" open>
-        <summary>Table of Contents</summary>
-        <ol id="toc-list"></ol>
-      </details>
-
-    <div class="article-body">
+<div class="article-body">
       <p>If you've ever felt buried under repetitive tasks—scheduling meetings, drafting follow-ups, hunting through message threads for that one critical detail—you're not alone. Enterprise teams waste countless hours on administrative work that pulls focus from strategic priorities. Salesforce's latest overhaul of Slack addresses this head-on, transforming Slackbot from a simple notification bot into a sophisticated AI agent capable of handling complex workflows across your entire business ecosystem.</p>
 
 <p>The March 2026 update introduces 30 new Slackbot AI features designed to automate routine work, coordinate across multiple platforms, and learn your team's unique processes. At the heart of this transformation are reusable AI skills—customizable task templates that turn hours of manual work into single-command automations. Whether you're managing budgets, coordinating cross-functional projects, or trying to stay on top of meeting action items, these capabilities represent a fundamental shift in how enterprise communication platforms support actual business operations.</p>
@@ -339,7 +333,7 @@ Slackbot handles general workplace tasks and coordination, while Agentforce allo
     </article>
     <aside class="article-toc" aria-label="Table of Contents">
       <p class="toc-title">Contents</p>
-      <ol id="toc-list"></ol>
+      <ol id="toc-sidebar"></ol>
     </aside>
     </div>
   </main>
@@ -381,7 +375,7 @@ Slackbot handles general workplace tasks and coordination, while Agentforce allo
   <script>
   (function(){
     var body=document.querySelector('.article-body');
-    var toc=document.getElementById('toc-list');
+    var toc=document.getElementById('toc-sidebar');
     if(!body||!toc)return;
     var h2s=body.querySelectorAll('h2');
     if(h2s.length<2){var d=document.querySelector('.article-toc');if(d)d.style.display='none';return;}

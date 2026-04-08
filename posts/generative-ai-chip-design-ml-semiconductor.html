@@ -73,13 +73,7 @@
         <a href="/ai-pulse/blog.html?tag=generative-ai" class="tag">generative-ai</a><a href="/ai-pulse/blog.html?tag=ai-hardware" class="tag">ai-hardware</a><a href="/ai-pulse/blog.html?tag=enterprise-ai" class="tag">enterprise-ai</a><a href="/ai-pulse/blog.html?tag=ai-tools" class="tag">ai-tools</a><a href="/ai-pulse/blog.html?tag=ai-research" class="tag">ai-research</a>
       </div>
     </div>
-
-      <details class="article-toc" open>
-        <summary>Table of Contents</summary>
-        <ol id="toc-list"></ol>
-      </details>
-
-    <div class="article-body">
+<div class="article-body">
       <p>The semiconductor industry faces a paradox that's becoming impossible to ignore. As artificial intelligence demands ever-more powerful chips to fuel its growth, the process of designing those chips remains stuck in a decades-old workflow that's painfully slow, prohibitively expensive, and increasingly unable to keep pace with market demands. A new wave of generative AI for chip design is emerging to break this bottleneck, promising to transform how the world's most complex products are created.</p>
 
 <p>The stakes couldn't be higher. Companies like <a href="/posts/openai-122b-agentic-workflows-gpt54.html">OpenAI</a> are now spending billions on AI infrastructure, generating $2 billion in monthly revenue while serving 900 million weekly active users. This explosive growth creates insatiable demand for specialized silicon, yet the traditional chip design process takes three to five years from concept to production. By the time a new chip reaches the market, the requirements that drove its design may have already shifted, potentially wasting hundreds of millions in development costs.</p>
@@ -172,7 +166,7 @@
     </article>
     <aside class="article-toc" aria-label="Table of Contents">
       <p class="toc-title">Contents</p>
-      <ol id="toc-list"></ol>
+      <ol id="toc-sidebar"></ol>
     </aside>
     </div>
   </main>
@@ -214,7 +208,7 @@
   <script>
   (function(){
     var body=document.querySelector('.article-body');
-    var toc=document.getElementById('toc-list');
+    var toc=document.getElementById('toc-sidebar');
     if(!body||!toc)return;
     var h2s=body.querySelectorAll('h2');
     if(h2s.length<2){var d=document.querySelector('.article-toc');if(d)d.style.display='none';return;}

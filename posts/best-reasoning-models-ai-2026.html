@@ -72,13 +72,7 @@
         <a href="/ai-pulse/blog.html?tag=llm" class="tag">llm</a><a href="/ai-pulse/blog.html?tag=ai-benchmarks" class="tag">ai-benchmarks</a><a href="/ai-pulse/blog.html?tag=ai-research" class="tag">ai-research</a><a href="/ai-pulse/blog.html?tag=generative-ai" class="tag">generative-ai</a><a href="/ai-pulse/blog.html?tag=ai-tools" class="tag">ai-tools</a>
       </div>
     </div>
-
-      <details class="article-toc" open>
-        <summary>Table of Contents</summary>
-        <ol id="toc-list"></ol>
-      </details>
-
-    <div class="article-body">
+<div class="article-body">
       <p>The artificial intelligence landscape has undergone a fundamental shift. For years, large language models excelled at generating human-like text but struggled with complex, multi-step problems requiring deep logical thinking. That changed dramatically when OpenAI introduced its o1 model in late 2024, sparking what industry insiders now call the "reasoning renaissance." These new <strong>reasoning models AI</strong> systems don't just predict the next word—they pause, plan, and verify their work through step-by-step reasoning before delivering answers.</p>
 
 <p>This breakthrough addresses one of AI's most persistent challenges: hallucinations and logical errors in complex problem-solving. Traditional models like GPT-4 would confidently provide incorrect solutions to mathematical proofs or coding challenges because they lacked internal verification mechanisms. Reasoning models attempt to "think" through problems methodically, sometimes spending minutes or even hours on a single query, dramatically improving accuracy on tasks like advanced mathematics, scientific research, and software engineering.</p>
@@ -359,7 +353,7 @@
     </article>
     <aside class="article-toc" aria-label="Table of Contents">
       <p class="toc-title">Contents</p>
-      <ol id="toc-list"></ol>
+      <ol id="toc-sidebar"></ol>
     </aside>
     </div>
   </main>
@@ -401,7 +395,7 @@
   <script>
   (function(){
     var body=document.querySelector('.article-body');
-    var toc=document.getElementById('toc-list');
+    var toc=document.getElementById('toc-sidebar');
     if(!body||!toc)return;
     var h2s=body.querySelectorAll('h2');
     if(h2s.length<2){var d=document.querySelector('.article-toc');if(d)d.style.display='none';return;}

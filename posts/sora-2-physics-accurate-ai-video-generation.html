@@ -72,13 +72,7 @@
         <a href="/ai-pulse/blog.html?tag=sora-2" class="tag">sora-2</a><a href="/ai-pulse/blog.html?tag=ai-video-generation" class="tag">ai-video-generation</a><a href="/ai-pulse/blog.html?tag=physics-simulation" class="tag">physics-simulation</a><a href="/ai-pulse/blog.html?tag=content-creation" class="tag">content-creation</a><a href="/ai-pulse/blog.html?tag=openai" class="tag">openai</a>
       </div>
     </div>
-
-      <details class="article-toc" open>
-        <summary>Table of Contents</summary>
-        <ol id="toc-list"></ol>
-      </details>
-
-    <div class="article-body">
+<div class="article-body">
       <p>OpenAI has just dropped what they're calling the "GPT-3.5 moment" for video—and if you've been watching the AI space, you know that's not hyperbole. Sora 2 AI video generation represents a fundamental shift in how we create video content, delivering physics-accurate simulations, synchronized audio-video generation, and professional-quality output that would have seemed impossible just months ago. This isn't another incremental update. This is the tool that finally makes AI video generation from text a practical reality for creators, marketers, and enterprises.</p>
 
       <p>The breakthrough? Sora 2 generates video and audio together in a single unified process, eliminating the clunky post-production workflow that plagued earlier AI video tools. You describe what you want, and the system delivers up to 60 seconds of 1080p video with perfectly synchronized sound—no manual audio editing, no mismatched lip-sync, no awkward silence where there should be footsteps or ambient noise.</p>
@@ -232,7 +226,7 @@
     </article>
     <aside class="article-toc" aria-label="Table of Contents">
       <p class="toc-title">Contents</p>
-      <ol id="toc-list"></ol>
+      <ol id="toc-sidebar"></ol>
     </aside>
     </div>
   </main>
@@ -274,7 +268,7 @@
   <script>
   (function(){
     var body=document.querySelector('.article-body');
-    var toc=document.getElementById('toc-list');
+    var toc=document.getElementById('toc-sidebar');
     if(!body||!toc)return;
     var h2s=body.querySelectorAll('h2');
     if(h2s.length<2){var d=document.querySelector('.article-toc');if(d)d.style.display='none';return;}
