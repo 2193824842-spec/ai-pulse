@@ -437,6 +437,9 @@ article {
   display: flex;
   gap: 40px;
   align-items: flex-start;
+  justify-content: center;
+  max-width: 1040px;
+  margin: 0 auto;
 }
 
 .article-body {
