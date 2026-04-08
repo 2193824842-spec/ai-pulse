@@ -404,8 +404,12 @@
       h.id=id;
       var li=document.createElement('li');
       var a=document.createElement('a');
-      a.href='#'+id;
+      a.href='javascript:void(0)';
       a.textContent=h.textContent;
+      a.onclick=function(e){
+        e.preventDefault();
+        h.scrollIntoView({behavior:'smooth',block:'start'});
+      };
       li.appendChild(a);
       toc.appendChild(li);
     });
