@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8TZNRYLZ15"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-8TZNRYLZ15');
+  </script>
+  <title>AI 工具目录 — 发现最佳 AI 工具</title>
+  <meta name="description" content="精选 AI 工具目录，涵盖写作、编程、图像生成、视频创作等领域的最佳工具。" />
+  <link rel="canonical" href="https://2193824842-spec.github.io/ai-pulse/zh/tools.html" />
+  <meta property="og:title" content="AI 工具目录 — 发现最佳 AI 工具" />
+  <meta property="og:description" content="精选 AI 工具目录，涵盖写作、编程、图像生成、视频创作等领域的最佳工具。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://2193824842-spec.github.io/ai-pulse/zh/tools.html" />
+  <meta property="og:image" content="https://2193824842-spec.github.io/ai-pulse/favicon.svg" />
+  <meta property="og:site_name" content="AI Pulse" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="AI 工具目录 — 发现最佳 AI 工具" />
+  <meta name="twitter:description" content="精选 AI 工具目录，涵盖写作、编程、图像生成、视频创作等领域的最佳工具。" />
+  <meta name="twitter:image" content="https://2193824842-spec.github.io/ai-pulse/favicon.svg" />
+  <link rel="icon" href="/ai-pulse/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../assets/css/style.css?v=3" />
+  <style>
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 24px;
+      margin-top: 32px;
+    }
+    .tool-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 24px;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .tool-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+      border-color: var(--primary-color);
+    }
+    .tool-icon {
+      font-size: 48px;
+      margin-bottom: 16px;
+      display: block;
+    }
+    .tool-name {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: var(--text-color);
+    }
+    .tool-description {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+    .tool-category {
+      display: inline-block;
+      font-size: 12px;
+      padding: 4px 12px;
+      background: var(--tag-bg);
+      color: var(--primary-color);
+      border-radius: 12px;
+      font-weight: 500;
+    }
+    .tool-card.hidden {
+      display: none;
+    }
+    @media (max-width: 768px) {
+      .tools-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a href="/ai-pulse/zh/" class="logo">AI Pulse</a>
+      <nav>
+        <a href="/ai-pulse/zh/">首页</a>
+        <a href="/ai-pulse/zh/blog.html">博客</a>
+        <a href="/ai-pulse/zh/tools.html" class="active">工具</a>
+        <a href="/ai-pulse/zh/about.html">关于</a>
+      <span class="lang-switcher"><a href="/ai-pulse/tools.html" class="lang-link">EN</a><span class="lang-active">中</span></span>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="hero-compact">
+      <h1>AI 工具目录</h1>
+      <p>发现适合你工作流程的最佳 AI 工具</p>
+    </div>
+
+    <div class="filters-row">
+      <div class="cat-list cat-list-horizontal">
+        <button class="cat-btn active" data-category="all">全部</button>
+        <button class="cat-btn" data-category="AI Writing">AI 写作</button>
+        <button class="cat-btn" data-category="AI Image">AI 图像</button>
+        <button class="cat-btn" data-category="AI Video">AI 视频</button>
+        <button class="cat-btn" data-category="AI Coding">AI 编程</button>
+        <button class="cat-btn" data-category="AI Audio">AI 音频</button>
+        <button class="cat-btn" data-category="AI Search">AI 搜索</button>
+      </div>
+    </div>
+
+    <div class="tools-grid" id="tools-container">
+      <!-- 工具将在这里加载 -->
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p>&copy; 2026 AI Pulse. 保留所有权利。</p>
+      </div>
+      <div class="footer-right">
+        <a href="/ai-pulse/zh/about.html">关于</a>
+        <a href="/ai-pulse/zh/blog.html">博客</a>
+        <a href="/ai-pulse/zh/tools.html">工具</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    let allTools = [];
+    let currentCategory = 'all';
+
+    const categoryMap = {
+      'AI Writing': 'AI 写作',
+      'AI Image': 'AI 图像',
+      'AI Video': 'AI 视频',
+      'AI Coding': 'AI 编程',
+      'AI Audio': 'AI 音频',
+      'AI Search': 'AI 搜索'
+    };
+
+    async function loadTools() {
+      try {
+        const response = await fetch('/ai-pulse/tools/index.json');
+        allTools = await response.json();
+        renderTools();
+      } catch (error) {
+        console.error('加载工具失败:', error);
+      }
+    }
+
+    function renderTools() {
+      const container = document.getElementById('tools-container');
+      const filtered = currentCategory === 'all'
+        ? allTools
+        : allTools.filter(tool => tool.category === currentCategory);
+
+      container.innerHTML = filtered.map(tool => `
+        <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="tool-card">
+          <span class="tool-icon">${tool.icon}</span>
+          <h3 class="tool-name">${tool.name}</h3>
+          <p class="tool-description">${tool.description}</p>
+          <span class="tool-category">${categoryMap[tool.category] || tool.category}</span>
+        </a>
+      `).join('');
+    }
+
+    document.querySelectorAll('.cat-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentCategory = btn.dataset.category;
+        renderTools();
+      });
+    });
+
+    loadTools();
+  </script>
+</body>
+</html>

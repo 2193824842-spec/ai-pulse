@@ -1,0 +1,98 @@
+[
+  {
+    "name": "ChatGPT",
+    "description": "OpenAI's conversational AI assistant for writing, coding, and problem-solving",
+    "category": "AI Writing",
+    "url": "https://chat.openai.com",
+    "icon": "🤖",
+    "tags": ["chatbot", "writing", "coding"]
+  },
+  {
+    "name": "Claude",
+    "description": "Anthropic's AI assistant with extended thinking and coding capabilities",
+    "category": "AI Writing",
+    "url": "https://claude.ai",
+    "icon": "🧠",
+    "tags": ["chatbot", "writing", "coding"]
+  },
+  {
+    "name": "Midjourney",
+    "description": "AI image generation tool for creating stunning artwork from text prompts",
+    "category": "AI Image",
+    "url": "https://midjourney.com",
+    "icon": "🎨",
+    "tags": ["image", "art", "generation"]
+  },
+  {
+    "name": "DALL-E 3",
+    "description": "OpenAI's advanced image generation model integrated with ChatGPT",
+    "category": "AI Image",
+    "url": "https://openai.com/dall-e-3",
+    "icon": "🖼️",
+    "tags": ["image", "art", "generation"]
+  },
+  {
+    "name": "Sora",
+    "description": "OpenAI's text-to-video AI model for creating realistic video content",
+    "category": "AI Video",
+    "url": "https://openai.com/sora",
+    "icon": "🎬",
+    "tags": ["video", "generation"]
+  },
+  {
+    "name": "Runway Gen-3",
+    "description": "Advanced AI video generation and editing platform",
+    "category": "AI Video",
+    "url": "https://runwayml.com",
+    "icon": "🎥",
+    "tags": ["video", "editing", "generation"]
+  },
+  {
+    "name": "GitHub Copilot",
+    "description": "AI pair programmer that helps you write code faster",
+    "category": "AI Coding",
+    "url": "https://github.com/features/copilot",
+    "icon": "💻",
+    "tags": ["coding", "programming", "assistant"]
+  },
+  {
+    "name": "Cursor",
+    "description": "AI-powered code editor built for productivity",
+    "category": "AI Coding",
+    "url": "https://cursor.sh",
+    "icon": "⌨️",
+    "tags": ["coding", "editor", "IDE"]
+  },
+  {
+    "name": "ElevenLabs",
+    "description": "AI voice generation and text-to-speech platform",
+    "category": "AI Audio",
+    "url": "https://elevenlabs.io",
+    "icon": "🎙️",
+    "tags": ["audio", "voice", "TTS"]
+  },
+  {
+    "name": "Perplexity",
+    "description": "AI-powered search engine with real-time information",
+    "category": "AI Search",
+    "url": "https://perplexity.ai",
+    "icon": "🔍",
+    "tags": ["search", "research", "information"]
+  },
+  {
+    "name": "Notion AI",
+    "description": "AI writing assistant integrated into Notion workspace",
+    "category": "AI Writing",
+    "url": "https://notion.so/product/ai",
+    "icon": "📝",
+    "tags": ["writing", "productivity", "workspace"]
+  },
+  {
+    "name": "Jasper",
+    "description": "AI content creation platform for marketing and copywriting",
+    "category": "AI Writing",
+    "url": "https://jasper.ai",
+    "icon": "✍️",
+    "tags": ["writing", "marketing", "copywriting"]
+  }
+]
