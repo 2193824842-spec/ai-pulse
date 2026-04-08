@@ -429,7 +429,14 @@ nav a:hover { color: var(--accent); background: var(--accent-bg); }
 /* Constrain article reading width */
 article {
   max-width: 760px;
-  margin: 0 auto;
+  min-width: 0;
+}
+
+/* ── Article layout (content + sidebar TOC) ── */
+.article-layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
 }
 
 .article-body {
@@ -632,6 +639,9 @@ footer {
   .card-grid { grid-template-columns: repeat(2, 1fr); }
   .related-grid { grid-template-columns: repeat(2, 1fr); }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 24px; }
+  .article-toc { display: none; }
+  .article-layout { display: block; }
+  article { margin: 0 auto; }
 }
 
 @media (max-width: 768px) {
@@ -856,49 +866,46 @@ nav a.active { color: var(--accent); background: var(--accent-bg); }
   background: #f1f5f9;
 }
 
-/* ── Table of Contents ── */
+/* ── Table of Contents (sticky sidebar) ── */
 .article-toc {
-  background: #f8fafc;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 20px 24px;
-  margin: 0 0 36px;
+  position: sticky;
+  top: 80px;
+  width: 220px;
+  flex-shrink: 0;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
 }
-.article-toc summary {
+.toc-title {
   font-weight: 600;
-  font-size: 0.95rem;
-  color: var(--text);
-  cursor: pointer;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-.article-toc summary::before {
-  content: "\25B6";
-  font-size: 0.65rem;
-  color: var(--accent);
-  transition: transform 0.2s;
-}
-.article-toc[open] summary::before {
-  transform: rotate(90deg);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
 }
 .article-toc ol {
-  margin: 12px 0 0 20px;
+  margin: 0;
   padding: 0;
-  list-style: decimal;
+  list-style: none;
+  border-left: 2px solid var(--border);
 }
 .article-toc li {
-  margin-bottom: 6px;
-  font-size: 0.9rem;
-  line-height: 1.5;
+  margin-bottom: 0;
+  font-size: 0.84rem;
+  line-height: 1.45;
 }
 .article-toc a {
-  color: var(--text-secondary);
+  display: block;
+  padding: 5px 0 5px 14px;
+  color: var(--text-muted);
   text-decoration: none;
+  border-left: 2px solid transparent;
+  margin-left: -2px;
+  transition: color 0.2s, border-color 0.2s;
 }
 .article-toc a:hover {
-  color: var(--accent);
+  color: var(--text);
+  border-left-color: var(--text-secondary);
 }
 
 /* ── Callout cards (FAQ, highlights, pros/cons) ── */

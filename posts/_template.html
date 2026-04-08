@@ -36,7 +36,7 @@
   {{SCHEMA_JSON_LD}}
 
   <link rel="icon" href="/ai-pulse/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="../assets/css/style.css?v=3" />
+  <link rel="stylesheet" href="../assets/css/style.css?v=4" />
 </head>
 <body>
   <header>
@@ -57,6 +57,7 @@
       {{BREADCRUMB_NAV}}
     </nav>
 
+    <div class="article-layout">
     <article>
       <div class="article-cover">
         <img src="{{COVER_IMAGE}}" alt="{{TITLE}}" />
@@ -72,11 +73,6 @@
           {{TAGS}}
         </div>
       </header>
-
-      <details class="article-toc" open>
-        <summary>Table of Contents</summary>
-        <ol id="toc-list"></ol>
-      </details>
 
       <div class="article-body">
         {{CONTENT}}
@@ -95,6 +91,11 @@
       <!-- RELATED_START -->
       <!-- RELATED_END -->
     </article>
+    <aside class="article-toc" aria-label="Table of Contents">
+      <p class="toc-title">Contents</p>
+      <ol id="toc-list"></ol>
+    </aside>
+    </div>
   </main>
 
   <footer>
