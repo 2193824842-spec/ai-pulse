@@ -143,6 +143,7 @@
     if(!body||!toc)return;
     var h2s=body.querySelectorAll('h2');
     if(h2s.length<2){var d=document.querySelector('.article-toc');if(d)d.style.display='none';return;}
+    var links=[];
     h2s.forEach(function(h,i){
       var id='s'+(i+1);
       h.id=id;
@@ -150,13 +151,26 @@
       var a=document.createElement('a');
       a.href='javascript:void(0)';
       a.textContent=h.textContent;
+      a.dataset.target=id;
       a.onclick=function(e){
         e.preventDefault();
         h.scrollIntoView({behavior:'smooth',block:'start'});
       };
       li.appendChild(a);
       toc.appendChild(li);
+      links.push(a);
     });
+    // Scroll spy
+    var observer=new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          links.forEach(function(link){link.classList.remove('active');});
+          var activeLink=links.find(function(link){return link.dataset.target===entry.target.id;});
+          if(activeLink)activeLink.classList.add('active');
+        }
+      });
+    },{rootMargin:'-20% 0px -70% 0px'});
+    h2s.forEach(function(h){observer.observe(h);});
   })();
   </script>
 </body>
