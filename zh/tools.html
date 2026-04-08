@@ -99,8 +99,19 @@
 
   <main class="container">
     <div class="hero-compact">
-      <h1>AI 工具目录</h1>
-      <p>发现适合你工作流程的最佳 AI 工具</p>
+      <div class="blog-header">
+        <div>
+          <h1>AI 工具目录</h1>
+          <p>发现适合你工作流程的最佳 AI 工具</p>
+        </div>
+        <div class="sort-toggle">
+          <button class="sort-btn active" data-sort="latest">最新</button>
+          <button class="sort-btn" data-sort="popular">最热门</button>
+        </div>
+      </div>
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="搜索工具..." autocomplete="off" />
+      </div>
     </div>
 
     <div class="filters-row">
@@ -136,6 +147,8 @@
   <script>
     let allTools = [];
     let currentCategory = 'all';
+    let currentSort = 'latest';
+    let searchQuery = '';
 
     const categoryMap = {
       'AI Writing': 'AI 写作',
@@ -158,9 +171,25 @@
 
     function renderTools() {
       const container = document.getElementById('tools-container');
-      const filtered = currentCategory === 'all'
-        ? allTools
+      let filtered = currentCategory === 'all'
+        ? [...allTools]
         : allTools.filter(tool => tool.category === currentCategory);
+
+      // Search filter
+      if (searchQuery) {
+        filtered = filtered.filter(tool =>
+          tool.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          tool.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          tool.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()))
+        );
+      }
+
+      // Sort
+      if (currentSort === 'popular') {
+        filtered.sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
+      } else {
+        filtered.sort((a, b) => (b.addedDate || '').localeCompare(a.addedDate || ''));
+      }
 
       container.innerHTML = filtered.map(tool => `
         <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="tool-card">
@@ -170,8 +199,13 @@
           <span class="tool-category">${categoryMap[tool.category] || tool.category}</span>
         </a>
       `).join('');
+
+      if (filtered.length === 0) {
+        container.innerHTML = '<p style="text-align:center;color:var(--text-muted);padding:40px;">未找到工具</p>';
+      }
     }
 
+    // Category filter
     document.querySelectorAll('.cat-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
@@ -179,6 +213,23 @@
         currentCategory = btn.dataset.category;
         renderTools();
       });
+    });
+
+    // Sort toggle
+    document.querySelectorAll('.sort-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentSort = btn.dataset.sort;
+        renderTools();
+      });
+    });
+
+    // Search
+    const searchInput = document.getElementById('search-input');
+    searchInput.addEventListener('input', (e) => {
+      searchQuery = e.target.value;
+      renderTools();
     });
 
     loadTools();

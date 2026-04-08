@@ -5,7 +5,9 @@
     "category": "AI Writing",
     "url": "https://chat.openai.com",
     "icon": "🤖",
-    "tags": ["chatbot", "writing", "coding"]
+    "tags": ["chatbot", "writing", "coding"],
+    "popularity": 100,
+    "addedDate": "2026-04-08"
   },
   {
     "name": "Claude",
@@ -13,7 +15,9 @@
     "category": "AI Writing",
     "url": "https://claude.ai",
     "icon": "🧠",
-    "tags": ["chatbot", "writing", "coding"]
+    "tags": ["chatbot", "writing", "coding"],
+    "popularity": 95,
+    "addedDate": "2026-04-08"
   },
   {
     "name": "Midjourney",
@@ -21,7 +25,9 @@
     "category": "AI Image",
     "url": "https://midjourney.com",
     "icon": "🎨",
-    "tags": ["image", "art", "generation"]
+    "tags": ["image", "art", "generation"],
+    "popularity": 90,
+    "addedDate": "2026-04-07"
   },
   {
     "name": "DALL-E 3",
@@ -29,7 +35,9 @@
     "category": "AI Image",
     "url": "https://openai.com/dall-e-3",
     "icon": "🖼️",
-    "tags": ["image", "art", "generation"]
+    "tags": ["image", "art", "generation"],
+    "popularity": 85,
+    "addedDate": "2026-04-07"
   },
   {
     "name": "Sora",
@@ -37,7 +45,9 @@
     "category": "AI Video",
     "url": "https://openai.com/sora",
     "icon": "🎬",
-    "tags": ["video", "generation"]
+    "tags": ["video", "generation"],
+    "popularity": 88,
+    "addedDate": "2026-04-06"
   },
   {
     "name": "Runway Gen-3",
@@ -45,7 +55,9 @@
     "category": "AI Video",
     "url": "https://runwayml.com",
     "icon": "🎥",
-    "tags": ["video", "editing", "generation"]
+    "tags": ["video", "editing", "generation"],
+    "popularity": 80,
+    "addedDate": "2026-04-06"
   },
   {
     "name": "GitHub Copilot",
@@ -53,7 +65,9 @@
     "category": "AI Coding",
     "url": "https://github.com/features/copilot",
     "icon": "💻",
-    "tags": ["coding", "programming", "assistant"]
+    "tags": ["coding", "programming", "assistant"],
+    "popularity": 92,
+    "addedDate": "2026-04-05"
   },
   {
     "name": "Cursor",
@@ -61,7 +75,9 @@
     "category": "AI Coding",
     "url": "https://cursor.sh",
     "icon": "⌨️",
-    "tags": ["coding", "editor", "IDE"]
+    "tags": ["coding", "editor", "IDE"],
+    "popularity": 87,
+    "addedDate": "2026-04-05"
   },
   {
     "name": "ElevenLabs",
@@ -69,7 +85,9 @@
     "category": "AI Audio",
     "url": "https://elevenlabs.io",
     "icon": "🎙️",
-    "tags": ["audio", "voice", "TTS"]
+    "tags": ["audio", "voice", "TTS"],
+    "popularity": 82,
+    "addedDate": "2026-04-04"
   },
   {
     "name": "Perplexity",
@@ -77,7 +95,9 @@
     "category": "AI Search",
     "url": "https://perplexity.ai",
     "icon": "🔍",
-    "tags": ["search", "research", "information"]
+    "tags": ["search", "research", "information"],
+    "popularity": 84,
+    "addedDate": "2026-04-04"
   },
   {
     "name": "Notion AI",
@@ -85,7 +105,9 @@
     "category": "AI Writing",
     "url": "https://notion.so/product/ai",
     "icon": "📝",
-    "tags": ["writing", "productivity", "workspace"]
+    "tags": ["writing", "productivity", "workspace"],
+    "popularity": 78,
+    "addedDate": "2026-04-03"
   },
   {
     "name": "Jasper",
@@ -93,6 +115,8 @@
     "category": "AI Writing",
     "url": "https://jasper.ai",
     "icon": "✍️",
-    "tags": ["writing", "marketing", "copywriting"]
+    "tags": ["writing", "marketing", "copywriting"],
+    "popularity": 75,
+    "addedDate": "2026-04-03"
   }
 ]
