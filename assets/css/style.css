@@ -868,3 +868,58 @@ nav a.active { color: var(--accent); background: var(--accent-bg); }
   line-height: 1.5;
   margin: 0;
 }
+
+/* Author byline */
+.author-byline {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+.author-byline a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+.author-byline a:hover {
+  text-decoration: underline;
+}
+
+/* Author box */
+.author-box {
+  margin: 2.5rem 0 2rem;
+  padding: 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.author-box-inner {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.author-box-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--gradient);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+.author-box-content strong a {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 1rem;
+}
+.author-box-content strong a:hover {
+  color: var(--accent);
+}
+.author-box-content p {
+  margin: 0.35rem 0 0;
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
