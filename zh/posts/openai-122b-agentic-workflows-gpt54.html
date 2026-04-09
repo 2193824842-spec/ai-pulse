@@ -269,32 +269,25 @@
       toc.appendChild(li);
       links.push(a);
     });
-    // Scroll spy
-    var visibleSections=new Set();
-    var observer=new IntersectionObserver(function(entries){
-      entries.forEach(function(entry){
-        if(entry.isIntersecting){
-          visibleSections.add(entry.target.id);
-        }else{
-          visibleSections.delete(entry.target.id);
+    // Scroll spy - highlight based on scroll position
+    function updateActive(){
+      var scrollPos=window.scrollY+150; // offset from top
+      var current=null;
+      h2s.forEach(function(h){
+        var top=h.offsetTop;
+        if(scrollPos>=top){
+          current=h.id;
         }
       });
-      // Find the first visible section
-      var firstVisible=null;
-      for(var i=0;i<h2s.length;i++){
-        if(visibleSections.has(h2s[i].id)){
-          firstVisible=h2s[i].id;
-          break;
-        }
-      }
-      // Update active link
       links.forEach(function(link){link.classList.remove('active');});
-      if(firstVisible){
-        var activeLink=links.find(function(link){return link.dataset.target===firstVisible;});
+      if(current){
+        var activeLink=links.find(function(link){return link.dataset.target===current;});
         if(activeLink)activeLink.classList.add('active');
       }
-    },{rootMargin:'-100px 0px -70% 0px',threshold:0});
-    h2s.forEach(function(h){observer.observe(h);});
+    }
+    window.addEventListener('scroll',updateActive);
+    window.addEventListener('load',updateActive);
+    updateActive();
   })();
   </script>
 </body>
