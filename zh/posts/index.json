@@ -1,12 +1,37 @@
 [
   {
+    "slug": "how-to-build-ai-agents-beginners-guide-2026",
+    "title": "初学者如何构建AI代理：2026年完整指南",
+    "excerpt": "从零开始构建AI代理的完整指南。涵盖框架选择、工具配置、部署流程与最佳实践，适合2026年入门开发者快速上手。",
+    "date": "2026-04-09",
+    "category": "Tool Guide",
+    "level": "Beginner",
+    "tags": [
+      "ai-agents",
+      "ai-tools",
+      "code-generation",
+      "generative-ai",
+      "ai-research"
+    ],
+    "word_count": 1898,
+    "view_count": 0,
+    "cover_image": "/ai-pulse/assets/images/how-to-build-ai-agents-beginners-guide-2026.jpg",
+    "featured": false
+  },
+  {
     "slug": "ai-company-revenue-comparison-2026",
     "title": "2026年AI公司收入对标分析：完整财务拆解",
     "excerpt": "深度解析2026年AI公司收入格局：OpenAI达200亿美元，Anthropic实现90亿美元增长，盈利能力分析与AI经济演变全景。",
     "date": "2026-04-09",
     "category": "行业分析",
     "level": "Intermediate",
-    "tags": ["ai-revenue", "ai-startups", "ai-valuations", "venture-capital", "enterprise-ai"],
+    "tags": [
+      "ai-revenue",
+      "ai-startups",
+      "ai-valuations",
+      "venture-capital",
+      "enterprise-ai"
+    ],
     "word_count": 1500,
     "view_count": 0,
     "cover_image": "/ai-pulse/assets/images/ai-company-revenue-comparison-2026.jpg",
@@ -19,7 +44,13 @@
     "date": "2026-04-08",
     "category": "工具指南",
     "level": "Intermediate",
-    "tags": ["ai-tools", "ai-research", "enterprise-ai", "generative-ai", "ai-benchmarks"],
+    "tags": [
+      "ai-tools",
+      "ai-research",
+      "enterprise-ai",
+      "generative-ai",
+      "ai-benchmarks"
+    ],
     "word_count": 2847,
     "view_count": 0,
     "cover_image": "/ai-pulse/assets/images/how-to-evaluate-ai-companies-framework.jpg",
@@ -32,7 +63,13 @@
     "date": "2026-04-07",
     "category": "行业分析",
     "level": "Intermediate",
-    "tags": ["generative-ai", "ai-research", "enterprise-ai", "ai-tools", "ai-benchmarks"],
+    "tags": [
+      "generative-ai",
+      "ai-research",
+      "enterprise-ai",
+      "ai-tools",
+      "ai-benchmarks"
+    ],
     "word_count": 2087,
     "view_count": 0,
     "featured": false,
@@ -45,7 +82,13 @@
     "date": "2026-04-04",
     "category": "工具指南",
     "level": "Beginner",
-    "tags": ["llm", "code-generation", "ai-tools", "generative-ai", "ai-research"],
+    "tags": [
+      "llm",
+      "code-generation",
+      "ai-tools",
+      "generative-ai",
+      "ai-research"
+    ],
     "view_count": 0,
     "featured": true,
     "cover_image": "/ai-pulse/assets/images/best-machine-learning-frameworks-2026-beginners-guide.jpg"
@@ -57,7 +100,13 @@
     "date": "2026-04-03",
     "category": "行业分析",
     "level": "Intermediate",
-    "tags": ["generative-ai", "ai-hardware", "enterprise-ai", "ai-tools", "ai-research"],
+    "tags": [
+      "generative-ai",
+      "ai-hardware",
+      "enterprise-ai",
+      "ai-tools",
+      "ai-research"
+    ],
     "view_count": 0,
     "featured": true,
     "cover_image": "/ai-pulse/assets/images/generative-ai-chip-design-ml-semiconductor.jpg"
@@ -69,7 +118,13 @@
     "date": "2026-04-02",
     "category": "产品评测",
     "level": "Intermediate",
-    "tags": ["slackbot-ai", "enterprise-automation", "ai-workflows", "productivity-tools", "salesforce"],
+    "tags": [
+      "slackbot-ai",
+      "enterprise-automation",
+      "ai-workflows",
+      "productivity-tools",
+      "salesforce"
+    ],
     "view_count": 0,
     "featured": false,
     "cover_image": "/ai-pulse/assets/images/slackbot-ai-features-enterprise-automation-2026.jpg"
@@ -81,7 +136,13 @@
     "date": "2026-03-28",
     "category": "模型对比",
     "level": "Intermediate",
-    "tags": ["llm", "ai-benchmarks", "ai-research", "generative-ai", "ai-tools"],
+    "tags": [
+      "llm",
+      "ai-benchmarks",
+      "ai-research",
+      "generative-ai",
+      "ai-tools"
+    ],
     "view_count": 0,
     "featured": false,
     "cover_image": "/ai-pulse/assets/images/best-reasoning-models-ai-2026.jpg"
@@ -93,7 +154,13 @@
     "date": "2026-03-25",
     "category": "工具指南",
     "level": "Intermediate",
-    "tags": ["generative-ai", "video-ai", "ai-tools", "content-creation", "ai-research"],
+    "tags": [
+      "generative-ai",
+      "video-ai",
+      "ai-tools",
+      "content-creation",
+      "ai-research"
+    ],
     "view_count": 0,
     "featured": false,
     "cover_image": "/ai-pulse/assets/images/generative-video-ai-guide-2025.jpg"
@@ -105,7 +172,13 @@
     "date": "2026-03-31",
     "category": "行业分析",
     "level": "Advanced",
-    "tags": ["openai-funding", "agentic-workflows", "gpt-5-4", "enterprise-ai", "ai-strategy"],
+    "tags": [
+      "openai-funding",
+      "agentic-workflows",
+      "gpt-5-4",
+      "enterprise-ai",
+      "ai-strategy"
+    ],
     "view_count": 0,
     "featured": true,
     "cover_image": "/ai-pulse/assets/images/openai-122b-agentic-workflows-gpt54.jpg"
@@ -117,7 +190,13 @@
     "date": "2026-04-02",
     "category": "产品评测",
     "level": "Intermediate",
-    "tags": ["sora-2", "ai-video-generation", "physics-simulation", "content-creation", "openai"],
+    "tags": [
+      "sora-2",
+      "ai-video-generation",
+      "physics-simulation",
+      "content-creation",
+      "openai"
+    ],
     "view_count": 0,
     "featured": false,
     "cover_image": "/ai-pulse/assets/images/sora-2-physics-accurate-ai-video-generation.jpg"
@@ -129,7 +208,13 @@
     "date": "2026-01-15",
     "category": "模型对比",
     "level": "Intermediate",
-    "tags": ["gemini-3-1-pro", "gpt-5-4", "ai-model-comparison", "advanced-reasoning", "code-generation"],
+    "tags": [
+      "gemini-3-1-pro",
+      "gpt-5-4",
+      "ai-model-comparison",
+      "advanced-reasoning",
+      "code-generation"
+    ],
     "view_count": 0,
     "featured": true,
     "cover_image": "/ai-pulse/assets/images/gemini-3-1-pro-vs-gpt-5-4-comparison.jpg"
