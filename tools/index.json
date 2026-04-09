@@ -2,6 +2,7 @@
   {
     "name": "ChatGPT",
     "description": "Conversational AI for writing, coding, and problem-solving",
+    "company": "OpenAI",
     "category": "AI Writing",
     "url": "https://chat.openai.com",
     "tags": ["chatbot", "writing", "coding"],
@@ -13,6 +14,7 @@
   {
     "name": "Claude",
     "description": "AI assistant with extended thinking capabilities",
+    "company": "Anthropic",
     "category": "AI Writing",
     "url": "https://claude.ai",
     "tags": ["chatbot", "writing", "coding"],
@@ -24,6 +26,7 @@
   {
     "name": "Gemini",
     "description": "Google's multimodal AI assistant",
+    "company": "Google",
     "category": "AI Writing",
     "url": "https://gemini.google.com",
     "tags": ["chatbot", "multimodal", "google"],
@@ -35,6 +38,7 @@
   {
     "name": "Copilot",
     "description": "Microsoft's AI assistant powered by GPT-4",
+    "company": "Microsoft",
     "category": "AI Writing",
     "url": "https://copilot.microsoft.com",
     "tags": ["chatbot", "microsoft", "search"],
@@ -45,6 +49,7 @@
   {
     "name": "Midjourney",
     "description": "AI image generation from text prompts",
+    "company": "Midjourney Inc.",
     "category": "AI Image",
     "url": "https://midjourney.com",
     "tags": ["image", "art", "generation"],
@@ -56,6 +61,7 @@
   {
     "name": "DALL-E 3",
     "description": "Advanced image generation by OpenAI",
+    "company": "OpenAI",
     "category": "AI Image",
     "url": "https://openai.com/dall-e-3",
     "tags": ["image", "art", "generation"],
@@ -66,6 +72,7 @@
   {
     "name": "Stable Diffusion",
     "description": "Open-source AI image generation model",
+    "company": "Stability AI",
     "category": "AI Image",
     "url": "https://stability.ai",
     "tags": ["image", "open-source", "generation"],
@@ -76,6 +83,7 @@
   {
     "name": "Leonardo AI",
     "description": "AI art generator for game assets and creative projects",
+    "company": "Leonardo AI",
     "category": "AI Image",
     "url": "https://leonardo.ai",
     "tags": ["image", "game", "art"],
@@ -86,6 +94,7 @@
   {
     "name": "Sora",
     "description": "Text-to-video AI model by OpenAI",
+    "company": "OpenAI",
     "category": "AI Video",
     "url": "https://openai.com/sora",
     "tags": ["video", "generation"],
@@ -97,6 +106,7 @@
   {
     "name": "Runway Gen-3",
     "description": "AI video generation and editing platform",
+    "company": "Runway AI",
     "category": "AI Video",
     "url": "https://runwayml.com",
     "tags": ["video", "editing", "generation"],
@@ -107,6 +117,7 @@
   {
     "name": "Pika",
     "description": "AI video creation from text and images",
+    "company": "Pika Labs",
     "category": "AI Video",
     "url": "https://pika.art",
     "tags": ["video", "generation", "animation"],
@@ -117,6 +128,7 @@
   {
     "name": "HeyGen",
     "description": "AI video avatars and text-to-video platform",
+    "company": "HeyGen",
     "category": "AI Video",
     "url": "https://heygen.com",
     "tags": ["video", "avatar", "presentation"],
@@ -127,6 +139,7 @@
   {
     "name": "GitHub Copilot",
     "description": "AI pair programmer for faster coding",
+    "company": "Microsoft / GitHub",
     "category": "AI Coding",
     "url": "https://github.com/features/copilot",
     "tags": ["coding", "programming", "assistant"],
@@ -138,6 +151,7 @@
   {
     "name": "Cursor",
     "description": "AI-powered code editor for productivity",
+    "company": "Anysphere",
     "category": "AI Coding",
     "url": "https://cursor.sh",
     "tags": ["coding", "editor", "IDE"],
@@ -149,6 +163,7 @@
   {
     "name": "Codeium",
     "description": "Free AI code completion and chat",
+    "company": "Exafunction",
     "category": "AI Coding",
     "url": "https://codeium.com",
     "tags": ["coding", "free", "autocomplete"],
@@ -159,6 +174,7 @@
   {
     "name": "Tabnine",
     "description": "AI code assistant for all major IDEs",
+    "company": "Tabnine",
     "category": "AI Coding",
     "url": "https://tabnine.com",
     "tags": ["coding", "IDE", "autocomplete"],
@@ -169,6 +185,7 @@
   {
     "name": "ElevenLabs",
     "description": "AI voice generation and text-to-speech",
+    "company": "ElevenLabs",
     "category": "AI Audio",
     "url": "https://elevenlabs.io",
     "tags": ["audio", "voice", "TTS"],
@@ -179,6 +196,7 @@
   {
     "name": "Murf AI",
     "description": "AI voice generator for videos and presentations",
+    "company": "Murf Inc.",
     "category": "AI Audio",
     "url": "https://murf.ai",
     "tags": ["audio", "voice", "voiceover"],
@@ -189,6 +207,7 @@
   {
     "name": "Suno",
     "description": "AI music generation from text prompts",
+    "company": "Suno AI",
     "category": "AI Audio",
     "url": "https://suno.ai",
     "tags": ["music", "generation", "audio"],
@@ -199,6 +218,7 @@
   {
     "name": "Perplexity",
     "description": "AI-powered search with real-time info",
+    "company": "Perplexity AI",
     "category": "AI Search",
     "url": "https://perplexity.ai",
     "tags": ["search", "research", "information"],
@@ -210,6 +230,7 @@
   {
     "name": "You.com",
     "description": "AI search engine with personalized results",
+    "company": "You.com",
     "category": "AI Search",
     "url": "https://you.com",
     "tags": ["search", "personalized", "AI"],
@@ -220,6 +241,7 @@
   {
     "name": "Notion AI",
     "description": "AI writing assistant in Notion workspace",
+    "company": "Notion Labs",
     "category": "AI Productivity",
     "url": "https://notion.so/product/ai",
     "tags": ["writing", "productivity", "workspace"],
@@ -230,6 +252,7 @@
   {
     "name": "Jasper",
     "description": "AI content for marketing and copywriting",
+    "company": "Jasper AI",
     "category": "AI Writing",
     "url": "https://jasper.ai",
     "tags": ["writing", "marketing", "copywriting"],
@@ -240,6 +263,7 @@
   {
     "name": "Copy.ai",
     "description": "AI copywriting tool for marketing content",
+    "company": "Copy.ai",
     "category": "AI Writing",
     "url": "https://copy.ai",
     "tags": ["copywriting", "marketing", "content"],
@@ -250,6 +274,7 @@
   {
     "name": "Grammarly",
     "description": "AI writing assistant for grammar and style",
+    "company": "Grammarly Inc.",
     "category": "AI Writing",
     "url": "https://grammarly.com",
     "tags": ["writing", "grammar", "editing"],
@@ -260,6 +285,7 @@
   {
     "name": "Canva AI",
     "description": "AI-powered design and image editing",
+    "company": "Canva",
     "category": "AI Design",
     "url": "https://canva.com",
     "tags": ["design", "editing", "graphics"],
@@ -271,6 +297,7 @@
   {
     "name": "Figma AI",
     "description": "AI features in collaborative design tool",
+    "company": "Figma",
     "category": "AI Design",
     "url": "https://figma.com",
     "tags": ["design", "UI", "collaboration"],
@@ -281,6 +308,7 @@
   {
     "name": "Framer AI",
     "description": "AI website builder and design tool",
+    "company": "Framer",
     "category": "AI Design",
     "url": "https://framer.com",
     "tags": ["website", "design", "no-code"],
@@ -291,6 +319,7 @@
   {
     "name": "Gamma",
     "description": "AI presentation and document creator",
+    "company": "Gamma App",
     "category": "AI Productivity",
     "url": "https://gamma.app",
     "tags": ["presentation", "documents", "slides"],
@@ -301,6 +330,7 @@
   {
     "name": "Beautiful.ai",
     "description": "AI-powered presentation software",
+    "company": "Beautiful.ai",
     "category": "AI Productivity",
     "url": "https://beautiful.ai",
     "tags": ["presentation", "slides", "design"],
@@ -311,6 +341,7 @@
   {
     "name": "Otter.ai",
     "description": "AI meeting notes and transcription",
+    "company": "Otter.ai",
     "category": "AI Productivity",
     "url": "https://otter.ai",
     "tags": ["transcription", "meetings", "notes"],
@@ -321,6 +352,7 @@
   {
     "name": "Fireflies.ai",
     "description": "AI meeting assistant and note-taker",
+    "company": "Fireflies.ai",
     "category": "AI Productivity",
     "url": "https://fireflies.ai",
     "tags": ["meetings", "transcription", "assistant"],
@@ -331,6 +363,7 @@
   {
     "name": "Descript",
     "description": "AI video and podcast editing",
+    "company": "Descript",
     "category": "AI Video",
     "url": "https://descript.com",
     "tags": ["video", "podcast", "editing"],
@@ -341,6 +374,7 @@
   {
     "name": "Synthesia",
     "description": "AI video creation with virtual avatars",
+    "company": "Synthesia",
     "category": "AI Video",
     "url": "https://synthesia.io",
     "tags": ["video", "avatar", "training"],
@@ -351,6 +385,7 @@
   {
     "name": "Luma AI",
     "description": "AI 3D capture and video generation",
+    "company": "Luma AI",
     "category": "AI Video",
     "url": "https://lumalabs.ai",
     "tags": ["3D", "video", "capture"],
@@ -361,6 +396,7 @@
   {
     "name": "Replicate",
     "description": "Run AI models in the cloud",
+    "company": "Replicate",
     "category": "AI Developer",
     "url": "https://replicate.com",
     "tags": ["API", "models", "cloud"],
@@ -371,6 +407,7 @@
   {
     "name": "Hugging Face",
     "description": "AI model hub and collaboration platform",
+    "company": "Hugging Face",
     "category": "AI Developer",
     "url": "https://huggingface.co",
     "tags": ["models", "open-source", "ML"],
@@ -381,6 +418,7 @@
   {
     "name": "Anthropic Console",
     "description": "Claude API and developer tools",
+    "company": "Anthropic",
     "category": "AI Developer",
     "url": "https://console.anthropic.com",
     "tags": ["API", "Claude", "developer"],
@@ -391,6 +429,7 @@
   {
     "name": "OpenAI Platform",
     "description": "GPT API and developer platform",
+    "company": "OpenAI",
     "category": "AI Developer",
     "url": "https://platform.openai.com",
     "tags": ["API", "GPT", "developer"],
@@ -401,6 +440,7 @@
   {
     "name": "Zapier AI",
     "description": "AI automation for workflows",
+    "company": "Zapier",
     "category": "AI Productivity",
     "url": "https://zapier.com",
     "tags": ["automation", "workflow", "integration"],

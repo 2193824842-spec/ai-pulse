@@ -212,6 +212,16 @@
     </div>
   </div>
 
+  <!-- Floating Compare Hint -->
+  <div class="compare-hint" id="compare-hint">
+    <div class="compare-hint-icon">⚖️</div>
+    <div class="compare-hint-text">
+      <strong>Compare Tools</strong>
+      <span>Click "+ Compare" on any tool card to compare up to 3 tools side by side</span>
+    </div>
+    <button class="compare-hint-close" id="compare-hint-close">&times;</button>
+  </div>
+
   <footer>
     <div class="container footer-inner">
       <div class="footer-left">
@@ -356,12 +366,16 @@
       if (compareList.length < 2) return;
       const wrap = document.getElementById('compare-table-wrap');
 
+      const pricingLabel = {free:'✅ Free', freemium:'🔓 Freemium', paid:'💳 Paid'};
       const rows = [
-        { label: 'Category',   fn: t => t.category || '—' },
-        { label: 'Pricing',    fn: t => { const m = {free:'Free',freemium:'Freemium',paid:'Paid'}; return m[t.pricing] || '—'; } },
-        { label: 'Popularity', fn: t => { const s = Math.round((t.popularity || 0) / 20); return '<span class="compare-stars">' + '★'.repeat(s) + '☆'.repeat(5-s) + '</span>'; } },
-        { label: 'Tags',       fn: t => (t.tags || []).map(tag => `<span class="compare-tag">${tag}</span>`).join('') },
-        { label: 'Visit',      fn: t => `<a href="${t.url}" target="_blank" rel="noopener noreferrer" class="compare-visit">Visit →</a>` },
+        { label: 'Description', fn: t => `<span style="font-size:12px;line-height:1.5;">${t.description || '—'}</span>` },
+        { label: 'Company',     fn: t => t.company || '—' },
+        { label: 'Category',    fn: t => t.category || '—' },
+        { label: 'Pricing',     fn: t => pricingLabel[t.pricing] || '—' },
+        { label: 'Free Trial',  fn: t => (t.pricing === 'free' || t.pricing === 'freemium') ? '✅ Yes' : '❌ No' },
+        { label: 'Popularity',  fn: t => { const s = Math.round((t.popularity || 0) / 20); return '<span class="compare-stars">' + '★'.repeat(s) + '☆'.repeat(5-s) + '</span> ' + (t.popularity || 0); } },
+        { label: 'Tags',        fn: t => (t.tags || []).map(tag => `<span class="compare-tag">${tag}</span>`).join('') },
+        { label: 'Visit',       fn: t => `<a href="${t.url}" target="_blank" rel="noopener noreferrer" class="compare-visit">Visit →</a>` },
       ];
 
       wrap.innerHTML = `<table class="compare-table">
@@ -395,6 +409,9 @@
     });
     document.getElementById('compare-overlay').addEventListener('click', (e) => {
       if (e.target === e.currentTarget) e.currentTarget.classList.remove('visible');
+    });
+    document.getElementById('compare-hint-close').addEventListener('click', () => {
+      document.getElementById('compare-hint').style.display = 'none';
     });
 
     // Category filter
