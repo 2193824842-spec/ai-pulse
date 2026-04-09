@@ -214,7 +214,7 @@
 
     async function loadTools() {
       try {
-        const response = await fetch('/ai-pulse/tools/index.json');
+        const response = await fetch('/ai-pulse/zh/tools/index.json');
         allTools = await response.json();
         renderTools();
       } catch (error) {

@@ -1,0 +1,411 @@
+[
+  {
+    "name": "ChatGPT",
+    "description": "对话式 AI，支持写作、编程和问题解答",
+    "category": "AI Writing",
+    "url": "https://chat.openai.com",
+    "tags": ["chatbot", "writing", "coding"],
+    "popularity": 100,
+    "addedDate": "2026-04-08",
+    "pricing": "freemium",
+    "featured": true
+  },
+  {
+    "name": "Claude",
+    "description": "具备深度思考能力的 AI 助手",
+    "category": "AI Writing",
+    "url": "https://claude.ai",
+    "tags": ["chatbot", "writing", "coding"],
+    "popularity": 95,
+    "addedDate": "2026-04-08",
+    "pricing": "freemium",
+    "featured": true
+  },
+  {
+    "name": "Gemini",
+    "description": "Google 推出的多模态 AI 助手",
+    "category": "AI Writing",
+    "url": "https://gemini.google.com",
+    "tags": ["chatbot", "multimodal", "google"],
+    "popularity": 93,
+    "addedDate": "2026-04-08",
+    "pricing": "freemium",
+    "featured": true
+  },
+  {
+    "name": "Copilot",
+    "description": "微软基于 GPT-4 打造的 AI 助手",
+    "category": "AI Writing",
+    "url": "https://copilot.microsoft.com",
+    "tags": ["chatbot", "microsoft", "search"],
+    "popularity": 88,
+    "addedDate": "2026-04-08",
+    "pricing": "freemium"
+  },
+  {
+    "name": "Midjourney",
+    "description": "通过文字描述生成高质量 AI 图像",
+    "category": "AI Image",
+    "url": "https://midjourney.com",
+    "tags": ["image", "art", "generation"],
+    "popularity": 90,
+    "addedDate": "2026-04-07",
+    "pricing": "paid",
+    "featured": true
+  },
+  {
+    "name": "DALL-E 3",
+    "description": "OpenAI 出品的高级 AI 图像生成工具",
+    "category": "AI Image",
+    "url": "https://openai.com/dall-e-3",
+    "tags": ["image", "art", "generation"],
+    "popularity": 85,
+    "addedDate": "2026-04-07",
+    "pricing": "paid"
+  },
+  {
+    "name": "Stable Diffusion",
+    "description": "开源 AI 图像生成模型，可本地部署",
+    "category": "AI Image",
+    "url": "https://stability.ai",
+    "tags": ["image", "open-source", "generation"],
+    "popularity": 82,
+    "addedDate": "2026-04-07",
+    "pricing": "free"
+  },
+  {
+    "name": "Leonardo AI",
+    "description": "专为游戏素材和创意项目设计的 AI 绘图工具",
+    "category": "AI Image",
+    "url": "https://leonardo.ai",
+    "tags": ["image", "game", "art"],
+    "popularity": 78,
+    "addedDate": "2026-04-07",
+    "pricing": "freemium"
+  },
+  {
+    "name": "Sora",
+    "description": "OpenAI 推出的文字转视频 AI 模型",
+    "category": "AI Video",
+    "url": "https://openai.com/sora",
+    "tags": ["video", "generation"],
+    "popularity": 88,
+    "addedDate": "2026-04-06",
+    "pricing": "paid",
+    "featured": true
+  },
+  {
+    "name": "Runway Gen-3",
+    "description": "AI 视频生成与编辑一体化平台",
+    "category": "AI Video",
+    "url": "https://runwayml.com",
+    "tags": ["video", "editing", "generation"],
+    "popularity": 80,
+    "addedDate": "2026-04-06",
+    "pricing": "freemium"
+  },
+  {
+    "name": "Pika",
+    "description": "通过文字和图片生成 AI 视频",
+    "category": "AI Video",
+    "url": "https://pika.art",
+    "tags": ["video", "generation", "animation"],
+    "popularity": 76,
+    "addedDate": "2026-04-06",
+    "pricing": "freemium"
+  },
+  {
+    "name": "HeyGen",
+    "description": "AI 数字人视频和文字转视频平台",
+    "category": "AI Video",
+    "url": "https://heygen.com",
+    "tags": ["video", "avatar", "presentation"],
+    "popularity": 74,
+    "addedDate": "2026-04-06",
+    "pricing": "freemium"
+  },
+  {
+    "name": "GitHub Copilot",
+    "description": "AI 编程助手，大幅提升代码编写效率",
+    "category": "AI Coding",
+    "url": "https://github.com/features/copilot",
+    "tags": ["coding", "programming", "assistant"],
+    "popularity": 92,
+    "addedDate": "2026-04-05",
+    "pricing": "paid",
+    "featured": true
+  },
+  {
+    "name": "Cursor",
+    "description": "内置 AI 的代码编辑器，提升开发效率",
+    "category": "AI Coding",
+    "url": "https://cursor.sh",
+    "tags": ["coding", "editor", "IDE"],
+    "popularity": 87,
+    "addedDate": "2026-04-05",
+    "pricing": "freemium",
+    "featured": true
+  },
+  {
+    "name": "Codeium",
+    "description": "免费 AI 代码补全与对话工具",
+    "category": "AI Coding",
+    "url": "https://codeium.com",
+    "tags": ["coding", "free", "autocomplete"],
+    "popularity": 79,
+    "addedDate": "2026-04-05",
+    "pricing": "free"
+  },
+  {
+    "name": "Tabnine",
+    "description": "支持主流 IDE 的 AI 代码助手",
+    "category": "AI Coding",
+    "url": "https://tabnine.com",
+    "tags": ["coding", "IDE", "autocomplete"],
+    "popularity": 75,
+    "addedDate": "2026-04-05",
+    "pricing": "freemium"
+  },
+  {
+    "name": "ElevenLabs",
+    "description": "AI 语音生成与文字转语音工具",
+    "category": "AI Audio",
+    "url": "https://elevenlabs.io",
+    "tags": ["audio", "voice", "TTS"],
+    "popularity": 82,
+    "addedDate": "2026-04-04",
+    "pricing": "freemium"
+  },
+  {
+    "name": "Murf AI",
+    "description": "适用于视频和演示的 AI 配音工具",
+    "category": "AI Audio",
+    "url": "https://murf.ai",
+    "tags": ["audio", "voice", "voiceover"],
+    "popularity": 73,
+    "addedDate": "2026-04-04",
+    "pricing": "freemium"
+  },
+  {
+    "name": "Suno",
+    "description": "通过文字描述生成 AI 音乐",
+    "category": "AI Audio",
+    "url": "https://suno.ai",
+    "tags": ["music", "generation", "audio"],
+    "popularity": 77,
+    "addedDate": "2026-04-04",
+    "pricing": "freemium"
+  },
+  {
+    "name": "Perplexity",
+    "description": "实时联网的 AI 搜索引擎",
+    "category": "AI Search",
+    "url": "https://perplexity.ai",
+    "tags": ["search", "research", "information"],
+    "popularity": 84,
+    "addedDate": "2026-04-04",
+    "pricing": "freemium",
+    "featured": true
+  },
+  {
+    "name": "You.com",
+    "description": "个性化结果的 AI 搜索引擎",
+    "category": "AI Search",
+    "url": "https://you.com",
+    "tags": ["search", "personalized", "AI"],
+    "popularity": 71,
+    "addedDate": "2026-04-04",
+    "pricing": "freemium"
+  },
+  {
+    "name": "Notion AI",
+    "description": "集成在 Notion 工作区的 AI 写作助手",
+    "category": "AI Productivity",
+    "url": "https://notion.so/product/ai",
+    "tags": ["writing", "productivity", "workspace"],
+    "popularity": 78,
+    "addedDate": "2026-04-03",
+    "pricing": "paid"
+  },
+  {
+    "name": "Jasper",
+    "description": "面向营销和文案创作的 AI 内容工具",
+    "category": "AI Writing",
+    "url": "https://jasper.ai",
+    "tags": ["writing", "marketing", "copywriting"],
+    "popularity": 75,
+    "addedDate": "2026-04-03",
+    "pricing": "paid"
+  },
+  {
+    "name": "Copy.ai",
+    "description": "营销内容 AI 文案生成工具",
+    "category": "AI Writing",
+    "url": "https://copy.ai",
+    "tags": ["copywriting", "marketing", "content"],
+    "popularity": 72,
+    "addedDate": "2026-04-03",
+    "pricing": "freemium"
+  },
+  {
+    "name": "Grammarly",
+    "description": "AI 写作助手，优化语法与文风",
+    "category": "AI Writing",
+    "url": "https://grammarly.com",
+    "tags": ["writing", "grammar", "editing"],
+    "popularity": 86,
+    "addedDate": "2026-04-03",
+    "pricing": "freemium"
+  },
+  {
+    "name": "Canva AI",
+    "description": "AI 驱动的设计与图像编辑平台",
+    "category": "AI Design",
+    "url": "https://canva.com",
+    "tags": ["design", "editing", "graphics"],
+    "popularity": 89,
+    "addedDate": "2026-04-02",
+    "pricing": "freemium",
+    "featured": true
+  },
+  {
+    "name": "Figma AI",
+    "description": "协作设计工具中的 AI 功能集成",
+    "category": "AI Design",
+    "url": "https://figma.com",
+    "tags": ["design", "UI", "collaboration"],
+    "popularity": 83,
+    "addedDate": "2026-04-02",
+    "pricing": "freemium"
+  },
+  {
+    "name": "Framer AI",
+    "description": "AI 网站构建与设计工具",
+    "category": "AI Design",
+    "url": "https://framer.com",
+    "tags": ["website", "design", "no-code"],
+    "popularity": 76,
+    "addedDate": "2026-04-02",
+    "pricing": "freemium"
+  },
+  {
+    "name": "Gamma",
+    "description": "AI 演示文稿和文档创作工具",
+    "category": "AI Productivity",
+    "url": "https://gamma.app",
+    "tags": ["presentation", "documents", "slides"],
+    "popularity": 74,
+    "addedDate": "2026-04-02",
+    "pricing": "freemium"
+  },
+  {
+    "name": "Beautiful.ai",
+    "description": "AI 驱动的演示文稿制作软件",
+    "category": "AI Productivity",
+    "url": "https://beautiful.ai",
+    "tags": ["presentation", "slides", "design"],
+    "popularity": 70,
+    "addedDate": "2026-04-02",
+    "pricing": "freemium"
+  },
+  {
+    "name": "Otter.ai",
+    "description": "AI 会议记录与语音转文字工具",
+    "category": "AI Productivity",
+    "url": "https://otter.ai",
+    "tags": ["transcription", "meetings", "notes"],
+    "popularity": 77,
+    "addedDate": "2026-04-01",
+    "pricing": "freemium"
+  },
+  {
+    "name": "Fireflies.ai",
+    "description": "AI 会议助手，自动记录和整理会议内容",
+    "category": "AI Productivity",
+    "url": "https://fireflies.ai",
+    "tags": ["meetings", "transcription", "assistant"],
+    "popularity": 73,
+    "addedDate": "2026-04-01",
+    "pricing": "freemium"
+  },
+  {
+    "name": "Descript",
+    "description": "AI 视频和播客编辑工具",
+    "category": "AI Video",
+    "url": "https://descript.com",
+    "tags": ["video", "podcast", "editing"],
+    "popularity": 79,
+    "addedDate": "2026-04-01",
+    "pricing": "freemium"
+  },
+  {
+    "name": "Synthesia",
+    "description": "使用虚拟数字人创建 AI 视频",
+    "category": "AI Video",
+    "url": "https://synthesia.io",
+    "tags": ["video", "avatar", "training"],
+    "popularity": 75,
+    "addedDate": "2026-04-01",
+    "pricing": "paid"
+  },
+  {
+    "name": "Luma AI",
+    "description": "AI 3D 捕捉与视频生成工具",
+    "category": "AI Video",
+    "url": "https://lumalabs.ai",
+    "tags": ["3D", "video", "capture"],
+    "popularity": 72,
+    "addedDate": "2026-03-31",
+    "pricing": "freemium"
+  },
+  {
+    "name": "Replicate",
+    "description": "在云端运行各类 AI 模型的平台",
+    "category": "AI Developer",
+    "url": "https://replicate.com",
+    "tags": ["API", "models", "cloud"],
+    "popularity": 76,
+    "addedDate": "2026-03-31",
+    "pricing": "paid"
+  },
+  {
+    "name": "Hugging Face",
+    "description": "AI 模型托管与开源协作平台",
+    "category": "AI Developer",
+    "url": "https://huggingface.co",
+    "tags": ["models", "open-source", "ML"],
+    "popularity": 85,
+    "addedDate": "2026-03-31",
+    "pricing": "freemium"
+  },
+  {
+    "name": "Anthropic Console",
+    "description": "Claude API 与开发者工具平台",
+    "category": "AI Developer",
+    "url": "https://console.anthropic.com",
+    "tags": ["API", "Claude", "developer"],
+    "popularity": 80,
+    "addedDate": "2026-03-31",
+    "pricing": "paid"
+  },
+  {
+    "name": "OpenAI Platform",
+    "description": "GPT API 与 OpenAI 开发者平台",
+    "category": "AI Developer",
+    "url": "https://platform.openai.com",
+    "tags": ["API", "GPT", "developer"],
+    "popularity": 91,
+    "addedDate": "2026-03-31",
+    "pricing": "paid"
+  },
+  {
+    "name": "Zapier AI",
+    "description": "AI 驱动的工作流自动化工具",
+    "category": "AI Productivity",
+    "url": "https://zapier.com",
+    "tags": ["automation", "workflow", "integration"],
+    "popularity": 81,
+    "addedDate": "2026-03-30",
+    "pricing": "freemium"
+  }
+]
