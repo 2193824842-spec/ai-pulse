@@ -235,34 +235,45 @@
       }
 
       container.innerHTML = filtered.map(tool => {
-        // Extract domain from URL for Google favicon
-        const domain = new URL(tool.url).hostname;
-        const logoUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=128`;
+        try {
+          // Extract domain from URL for Google favicon
+          const domain = new URL(tool.url).hostname;
+          const logoUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=128`;
 
-        // Determine badges
-        const badges = [];
-        if (tool.featured) badges.push('<span class="tool-badge badge-hot">Hot</span>');
+          // Determine badges
+          const badges = [];
+          if (tool.featured) badges.push('<span class="tool-badge badge-hot">Hot</span>');
 
-        // Check if new (added within 7 days)
-        const addedDate = new Date(tool.addedDate);
-        const daysSinceAdded = Math.floor((new Date() - addedDate) / (1000 * 60 * 60 * 24));
-        if (daysSinceAdded <= 7) badges.push('<span class="tool-badge badge-new">New</span>');
+          // Check if new (added within 7 days)
+          if (tool.addedDate) {
+            const addedDate = new Date(tool.addedDate);
+            const now = new Date();
+            const daysSinceAdded = Math.floor((now - addedDate) / (1000 * 60 * 60 * 24));
+            if (daysSinceAdded >= 0 && daysSinceAdded <= 7) {
+              badges.push('<span class="tool-badge badge-new">New</span>');
+            }
+          }
 
-        // Pricing badge
-        if (tool.pricing === 'free') {
-          badges.push('<span class="tool-badge badge-free">Free</span>');
-        } else if (tool.pricing === 'freemium') {
-          badges.push('<span class="tool-badge badge-freemium">Freemium</span>');
+          // Pricing badge
+          if (tool.pricing === 'free') {
+            badges.push('<span class="tool-badge badge-free">Free</span>');
+          } else if (tool.pricing === 'freemium') {
+            badges.push('<span class="tool-badge badge-freemium">Freemium</span>');
+          }
+
+          return `
+          <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="tool-card">
+            ${badges.length > 0 ? `<div class="tool-badges">${badges.join('')}</div>` : ''}
+            <img src="${logoUrl}" alt="${tool.name}" class="tool-logo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2248%22 height=%2248%22%3E%3Crect width=%2248%22 height=%2248%22 fill=%22%23e0e0e0%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2220%22 fill=%22%23999%22%3E${tool.name.charAt(0)}%3C/text%3E%3C/svg%3E'" />
+            <h3 class="tool-name">${tool.name}</h3>
+            <p class="tool-description">${tool.description}</p>
+          </a>
+        `;
+        } catch (error) {
+          console.error('Error rendering tool:', tool.name, error);
+          return '';
         }
-
-        return `
-        <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="tool-card">
-          ${badges.length > 0 ? `<div class="tool-badges">${badges.join('')}</div>` : ''}
-          <img src="${logoUrl}" alt="${tool.name}" class="tool-logo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2248%22 height=%2248%22%3E%3Crect width=%2248%22 height=%2248%22 fill=%22%23e0e0e0%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2220%22 fill=%22%23999%22%3E${tool.name.charAt(0)}%3C/text%3E%3C/svg%3E'" />
-          <h3 class="tool-name">${tool.name}</h3>
-          <p class="tool-description">${tool.description}</p>
-        </a>
-      `}).join('');
+      }).join('');
 
 
       if (filtered.length === 0) {
