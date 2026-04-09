@@ -16,7 +16,6 @@
   <link rel="alternate" hreflang="zh" href="https://2193824842-spec.github.io/ai-pulse/zh/" />
   <link rel="alternate" hreflang="en" href="https://2193824842-spec.github.io/ai-pulse/" />
   <link rel="alternate" hreflang="x-default" href="https://2193824842-spec.github.io/ai-pulse/" />
-  <link rel="alternate" hreflang="x-default" href="https://2193824842-spec.github.io/ai-pulse/" />
   <meta property="og:title" content="AI Pulse — 最新 AI 资讯与深度分析" />
   <meta property="og:description" content="每日 AI 资讯、教程与深度分析，涵盖 OpenAI、Claude 及人工智能领域最新动态。" />
   <meta property="og:type" content="website" />
@@ -34,7 +33,6 @@
         <a href="/ai-pulse/zh/" class="active">首页</a>
         <a href="/ai-pulse/zh/blog.html">博客</a>
         <a href="/ai-pulse/zh/tools.html">工具</a>
-        <a href="/ai-pulse/zh/tools.html">工具</a>
         <a href="/ai-pulse/zh/about.html">关于</a>
         <span class="lang-switcher"><a href="/ai-pulse/" class="lang-link">EN</a><span class="lang-active">中</span></span>
       </nav>
@@ -46,20 +44,45 @@
       <h1>AI 资讯与深度分析</h1>
       <p>穿透炒作，解码真正重要的 AI 动态。</p>
       <div class="search-box">
-        <input type="text" id="home-search" placeholder="搜索文章..." autocomplete="off" />
+        <input type="text" id="home-search" placeholder="搜索文章和工具..." autocomplete="off" />
       </div>
       <div class="stats-row">
         <span class="stat-item"><span class="stat-number" id="stat-articles">13</span> 篇文章</span>
+        <span class="stat-item"><span class="stat-number" id="stat-tools">40</span> 个工具</span>
         <span class="stat-item"><span class="stat-number" id="stat-categories">5</span> 个分类</span>
         <span class="stat-item">每日更新</span>
       </div>
     </div>
 
-    <div class="section-header">
-      <span class="section-title">最新文章</span>
-      <div class="sort-toggle">
-        <button class="sort-btn active" data-sort="latest">最新</button>
-        <button class="sort-btn" data-sort="popular">热门</button>
+    <!-- 热门工具区块 -->
+    <div id="featured-tools-section">
+      <div class="section-header">
+        <span class="section-title">热门工具</span>
+        <a href="/ai-pulse/zh/tools.html" class="view-all-inline">查看全部工具 &rarr;</a>
+      </div>
+      <div id="featured-tools-grid" class="featured-tools-grid">
+        <!-- 由 JS 加载 -->
+      </div>
+    </div>
+
+    <!-- 搜索结果（默认隐藏） -->
+    <div id="search-results-section" style="display:none;">
+      <div class="section-header">
+        <span class="section-title" id="search-results-title">搜索结果</span>
+      </div>
+      <div id="search-tools-results"></div>
+      <div id="search-articles-results" class="card-grid"></div>
+      <p id="search-no-results" style="display:none;text-align:center;color:var(--text-muted);padding:40px 0;">未找到相关内容。</p>
+    </div>
+
+    <!-- 文章区块 -->
+    <div id="articles-section">
+      <div class="section-header">
+        <span class="section-title">最新文章</span>
+        <div class="sort-toggle">
+          <button class="sort-btn active" data-sort="latest">最新</button>
+          <button class="sort-btn" data-sort="popular">热门</button>
+        </div>
       </div>
     </div>
 
@@ -76,8 +99,8 @@
           </div>
         </div>
       </a>
-      <a href="/ai-pulse/zh/posts/how-to-build-ai-agents-beginners-guide-2026.html" class="post-card" data-cat="Tool Guide" data-tags="ai-agents,ai-tools,code-generation,generative-ai,ai-research" data-date="2026-04-09" data-views="0">
-        <div class="card-cover"><img src="/ai-pulse/assets/images/how-to-build-ai-agents-beginners-guide-2026.jpg" alt="初学者如何构建AI代理：2026年完整指南" loading="lazy" onerror="this.dataset.error=1" /><span class="card-cat-badge">Tool Guide</span><span class="card-date-badge">2026年04月09日</span></div>
+      <a href="/ai-pulse/zh/posts/how-to-build-ai-agents-beginners-guide-2026.html" class="post-card" data-cat="工具指南" data-tags="ai-agents,ai-tools,code-generation,generative-ai,ai-research" data-date="2026-04-09" data-views="0">
+        <div class="card-cover"><img src="/ai-pulse/assets/images/how-to-build-ai-agents-beginners-guide-2026.jpg" alt="初学者如何构建AI代理：2026年完整指南" loading="lazy" onerror="this.dataset.error=1" /><span class="card-cat-badge">工具指南</span><span class="card-date-badge">2026年04月09日</span></div>
         <div class="post-card-body">
           <h2 class="post-title">初学者如何构建AI代理：2026年完整指南</h2>
           <p class="post-excerpt">从零开始构建AI代理的完整指南。涵盖框架选择、工具配置、部署流程与最佳实践，适合2026年入门开发者快速上手。</p>
@@ -113,7 +136,7 @@
         <div class="card-cover"><img src="/ai-pulse/assets/images/ai-startup-funding-trends-2026.jpg" alt="2026 年 AI 初创企业融资趋势：全球投入 1315 亿美元" loading="lazy" onerror="this.dataset.error=1" /><span class="card-cat-badge">行业分析</span><span class="card-date-badge">2026年04月07日</span></div>
         <div class="post-card-body">
           <h2 class="post-title">2026 年 AI 初创企业融资趋势：全球投入 1315 亿美元</h2>
-          <p class="post-excerpt">深度解析 2026 年 AI 初创企业融资趋势：全球投入 1315 亿美元，超大轮融资主导市场，自主智能体赛道爆发。涵盖顶级 AI 初创企业、风险投资分析与投资机会。</p>
+          <p class="post-excerpt">深度解析 2026 年 AI 初创企业融资趋势：全球投入 1315 亿美元，超大轮融资主导市场，自主智能体赛道爆发。</p>
           <div class="post-card-footer">
             <div class="post-tags"><span class="tag">generative-ai</span><span class="tag">ai-research</span><span class="tag">enterprise-ai</span></div>
             <span class="read-time">10 分钟阅读</span>
@@ -127,7 +150,6 @@
           <p class="post-excerpt">掌握机器学习基础，选择 2026 年最适合的框架。Scikit-learn、TensorFlow、PyTorch 等主流框架完整入门指南。</p>
           <div class="post-card-footer">
             <div class="post-tags"><span class="tag">llm</span><span class="tag">code-generation</span><span class="tag">ai-tools</span></div>
-            
           </div>
         </div>
       </a>
@@ -173,15 +195,161 @@
       </div>
     </div>
   </footer>
-  <script src="/ai-pulse/assets/js/home.js"></script>
+
   <script>
-  // Override search redirect for ZH pages
-  document.getElementById('home-search').addEventListener('keydown', function(e) {
-    if (e.key === 'Enter' && this.value.trim()) {
-      e.stopImmediatePropagation();
-      window.location.href = '/ai-pulse/zh/blog.html?q=' + encodeURIComponent(this.value.trim());
+  (function() {
+    const cardGrid = document.getElementById('home-cards');
+    const cards = Array.from(cardGrid.querySelectorAll('.post-card'));
+    const articlesSection = document.getElementById('articles-section');
+    const featuredSection = document.getElementById('featured-tools-section');
+    const searchResultsSection = document.getElementById('search-results-section');
+    const searchToolsResults = document.getElementById('search-tools-results');
+    const searchArticlesResults = document.getElementById('search-articles-results');
+    const searchNoResults = document.getElementById('search-no-results');
+    const searchResultsTitle = document.getElementById('search-results-title');
+    const viewAllWrap = document.querySelector('.view-all-wrap');
+    let activeSort = 'latest';
+    let allTools = [];
+    let allArticles = [];
+
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('tag') || params.get('category')) {
+      window.location.href = '/ai-pulse/zh/blog.html' + window.location.search;
+      return;
     }
-  });
+
+    Promise.all([
+      fetch('/ai-pulse/zh/tools/index.json').then(r => r.json()).catch(() => []),
+      fetch('/ai-pulse/zh/posts/index.json').then(r => r.json()).catch(() => [])
+    ]).then(([tools, articles]) => {
+      allTools = tools;
+      allArticles = articles;
+      renderFeaturedTools(tools.filter(t => t.featured));
+      const statTools = document.getElementById('stat-tools');
+      if (statTools) statTools.textContent = tools.length;
+      const statArticles = document.getElementById('stat-articles');
+      if (statArticles) statArticles.textContent = articles.length;
+    });
+
+    function renderFeaturedTools(tools) {
+      const grid = document.getElementById('featured-tools-grid');
+      if (!grid) return;
+      grid.innerHTML = tools.map(tool => {
+        const domain = (() => { try { return new URL(tool.url).hostname; } catch(e) { return ''; } })();
+        const logoUrl = domain ? `https://www.google.com/s2/favicons?domain=${domain}&sz=64` : '';
+        const fallback = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36'%3E%3Crect width='36' height='36' fill='%23e0e0e0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='16' fill='%23999'%3E${tool.name.charAt(0)}%3C/text%3E%3C/svg%3E`;
+        return `<a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="ft-card">
+          <img src="${logoUrl}" alt="${tool.name}" class="ft-logo" onerror="this.src='${fallback}'" />
+          <span class="ft-name">${tool.name}</span>
+        </a>`;
+      }).join('');
+    }
+
+    const searchInput = document.getElementById('home-search');
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        const q = e.target.value.trim().toLowerCase();
+        q.length === 0 ? showDefault() : showSearchResults(q);
+      });
+      searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') { searchInput.value = ''; showDefault(); }
+      });
+    }
+
+    function showDefault() {
+      featuredSection.style.display = '';
+      articlesSection.style.display = '';
+      cardGrid.style.display = '';
+      if (viewAllWrap) viewAllWrap.style.display = '';
+      searchResultsSection.style.display = 'none';
+    }
+
+    function showSearchResults(q) {
+      featuredSection.style.display = 'none';
+      articlesSection.style.display = 'none';
+      cardGrid.style.display = 'none';
+      if (viewAllWrap) viewAllWrap.style.display = 'none';
+      searchResultsSection.style.display = '';
+
+      const matchedArticles = allArticles.filter(a =>
+        (a.title || '').toLowerCase().includes(q) ||
+        (a.excerpt || '').toLowerCase().includes(q) ||
+        (a.tags || []).some(t => t.toLowerCase().includes(q)) ||
+        (a.category || '').toLowerCase().includes(q)
+      );
+
+      const matchedTools = allTools.filter(tool =>
+        tool.name.toLowerCase().includes(q) ||
+        tool.description.toLowerCase().includes(q) ||
+        (tool.tags || []).some(t => t.toLowerCase().includes(q))
+      );
+
+      const total = matchedArticles.length + matchedTools.length;
+      searchResultsTitle.textContent = `"${q}" 的搜索结果（${total}）`;
+
+      if (matchedTools.length > 0) {
+        searchToolsResults.innerHTML = `<p class="search-tools-label">工具（${matchedTools.length}）</p>
+          <div class="search-tools-row">${matchedTools.slice(0, 8).map(tool => {
+            const domain = (() => { try { return new URL(tool.url).hostname; } catch(e) { return ''; } })();
+            const logoUrl = domain ? `https://www.google.com/s2/favicons?domain=${domain}&sz=64` : '';
+            const fallback = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36'%3E%3Crect width='36' height='36' fill='%23e0e0e0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='16' fill='%23999'%3E${tool.name.charAt(0)}%3C/text%3E%3C/svg%3E`;
+            return `<a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="ft-card" style="width:80px;">
+              <img src="${logoUrl}" alt="${tool.name}" class="ft-logo" onerror="this.src='${fallback}'" />
+              <span class="ft-name">${tool.name}</span>
+            </a>`;
+          }).join('')}</div>`;
+        searchToolsResults.style.display = '';
+      } else {
+        searchToolsResults.innerHTML = '';
+        searchToolsResults.style.display = 'none';
+      }
+
+      searchArticlesResults.innerHTML = '';
+      if (matchedArticles.length > 0) {
+        const label = document.createElement('p');
+        label.className = 'search-tools-label';
+        label.textContent = `文章（${matchedArticles.length}）`;
+        searchArticlesResults.appendChild(label);
+        const grid = document.createElement('div');
+        grid.className = 'card-grid';
+        matchedArticles.forEach(a => {
+          const tags = (a.tags || []).slice(0, 3).map(t => `<span class="tag">${t}</span>`).join('');
+          const date = a.date ? new Date(a.date).toLocaleDateString('zh-CN', {year:'numeric', month:'2-digit', day:'2-digit'}) : '';
+          grid.innerHTML += `<a href="/ai-pulse/zh/posts/${a.slug}.html" class="post-card">
+            <div class="card-cover">
+              <img src="/ai-pulse/assets/images/${a.slug}.jpg" alt="${a.title}" loading="lazy" onerror="this.style.display='none'" />
+              <span class="card-cat-badge">${a.category || ''}</span>
+              <span class="card-date-badge">${date}</span>
+            </div>
+            <div class="post-card-body">
+              <h2 class="post-title">${a.title}</h2>
+              <p class="post-excerpt">${a.excerpt || ''}</p>
+              <div class="post-card-footer"><div class="post-tags">${tags}</div></div>
+            </div>
+          </a>`;
+        });
+        searchArticlesResults.appendChild(grid);
+        searchArticlesResults.style.display = 'block';
+      } else {
+        searchArticlesResults.style.display = 'none';
+      }
+
+      searchNoResults.style.display = total === 0 ? '' : 'none';
+    }
+
+    document.querySelectorAll('.sort-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        activeSort = btn.dataset.sort;
+        document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const sorted = [...cards].sort((a, b) => {
+          if (activeSort === 'popular') return parseInt(b.dataset.views || 0) - parseInt(a.dataset.views || 0);
+          return (b.dataset.date || '').localeCompare(a.dataset.date || '');
+        });
+        sorted.forEach(card => cardGrid.appendChild(card));
+      });
+    });
+  })();
   </script>
 </body>
 </html>
