@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8TZNRYLZ15"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-8TZNRYLZ15');
+  </script>
+
+  <title>Claude Code 初学者教程：2026年完整指南 — AI Pulse</title>
+  <meta name="description" content="学习如何安装 Claude Code、完成账户认证并构建你的第一个 AI 驱动项目。面向初学者的完整分步指南，涵盖最佳实践与常见误区。" />
+  <link rel="canonical" href="https://2193824842-spec.github.io/ai-pulse/zh/posts/claude-code-tutorial-beginners-2026.html" />
+  <link rel="alternate" hreflang="zh" href="https://2193824842-spec.github.io/ai-pulse/zh/posts/claude-code-tutorial-beginners-2026.html" />
+  <link rel="alternate" hreflang="en" href="https://2193824842-spec.github.io/ai-pulse/posts/claude-code-tutorial-beginners-2026.html" />
+  <link rel="alternate" hreflang="x-default" href="https://2193824842-spec.github.io/ai-pulse/posts/claude-code-tutorial-beginners-2026.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Claude Code 初学者教程：2026年完整指南" />
+  <meta property="og:description" content="学习如何安装 Claude Code、完成账户认证并构建你的第一个 AI 驱动项目。面向初学者的完整分步指南，涵盖最佳实践与常见误区。" />
+  <meta property="og:url" content="https://2193824842-spec.github.io/ai-pulse/zh/posts/claude-code-tutorial-beginners-2026.html" />
+  <meta property="og:site_name" content="AI Pulse" />
+  <meta property="og:image" content="https://2193824842-spec.github.io/ai-pulse/assets/images/claude-code-tutorial-beginners-2026.jpg" />
+  <meta property="article:published_time" content="2026-04-09" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Claude Code 初学者教程：2026年完整指南" />
+  <meta name="twitter:description" content="学习如何安装 Claude Code、完成账户认证并构建你的第一个 AI 驱动项目。面向初学者的完整分步指南，涵盖最佳实践与常见误区。" />
+  <meta name="twitter:image" content="https://2193824842-spec.github.io/ai-pulse/assets/images/claude-code-tutorial-beginners-2026.jpg" />
+
+  <!-- Schema JSON-LD -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Claude Code 初学者教程：2026年完整指南",
+  "description": "学习如何安装 Claude Code、完成账户认证并构建你的第一个 AI 驱动项目。面向初学者的完整分步指南，涵盖最佳实践与常见误区。",
+  "datePublished": "2026-04-09",
+  "author": {"@type": "Organization", "name": "AI Pulse"},
+  "publisher": {
+    "@type": "Organization", "name": "AI Pulse",
+    "logo": {"@type": "ImageObject", "url": "https://2193824842-spec.github.io/ai-pulse/favicon.svg"}
+  },
+  "keywords": "Claude Code 教程, Claude Code 使用方法, Claude Code vs Cursor vs Copilot 2026, 最佳 AI 编程工具",
+  "articleSection": "工具指南",
+  "wordCount": 1850,
+  "inLanguage": "zh-CN"
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "如何在 Windows 上安装 Claude Code？",
+      "acceptedAnswer": {"@type": "Answer", "text": "在 Windows 上，以管理员身份打开 PowerShell 并运行：irm https://claude.ai/install.ps1 | iex。如果遇到执行策略错误，先运行 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser。也可以使用 WinGet 自动处理权限：winget install Anthropic.ClaudeCLI。"}
+    },
+    {
+      "@type": "Question",
+      "name": "Claude Code 能用于机器学习项目吗？",
+      "acceptedAnswer": {"@type": "Answer", "text": "可以，Claude Code 能很好地处理数据预处理、模型训练脚本和实验追踪等机器学习任务。但由于它运行在终端中，无法像 Jupyter Notebook 那样直接可视化图表。建议用 Claude Code 生成和重构 ML 代码，再单独运行 Notebook 进行可视化和实验。"}
+    },
+    {
+      "@type": "Question",
+      "name": "Claude Pro 和 Claude Max 在编程方面有什么区别？",
+      "acceptedAnswer": {"@type": "Answer", "text": "Claude Pro（20美元/月）适合轻度日常编程。Claude Max 5x（100美元/月）提供5倍用量，适合全职开发者。Claude Max 20x（200美元/月）面向重度用户。建议从 Pro 开始，频繁触达用量上限后再升级。"}
+    },
+    {
+      "@type": "Question",
+      "name": "如何用 Claude Code 完成编程任务？",
+      "acceptedAnswer": {"@type": "Answer", "text": "在项目目录中运行 claude 命令启动会话，用自然语言描述你的需求，Claude 会自主规划、执行并持续迭代直到完成。使用 /help、/clear、/cost 等斜杠命令管理会话。"}
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Claude Code 初学者教程：2026年完整指南",
+  "description": "学习如何安装 Claude Code、完成账户认证并构建你的第一个 AI 驱动项目。",
+  "step": [
+    {"@type": "HowToStep", "name": "安装 Claude Code", "text": "macOS/Linux 运行：curl -fsSL https://claude.ai/install.sh | bash。Windows PowerShell 运行：irm https://claude.ai/install.ps1 | iex。用 claude --version 验证安装。"},
+    {"@type": "HowToStep", "name": "完成账户认证", "text": "在终端运行 claude 命令触发浏览器认证，用 Claude 账户登录并授权。认证状态跨会话保持，只需操作一次。"},
+    {"@type": "HowToStep", "name": "创建 CLAUDE.md 配置文件", "text": "进入项目目录，运行 claude /init 生成初始 CLAUDE.md 文件，并根据项目架构、构建命令和代码规范进行自定义。"},
+    {"@type": "HowToStep", "name": "掌握核心命令与快捷键", "text": "熟悉 /help、/clear、/cost、/status 等命令，以及 Tab 补全、@ 引用文件、! 执行 Shell 命令等快捷操作。"},
+    {"@type": "HowToStep", "name": "用 Claude Code 构建第一个项目", "text": "创建项目目录并启动 Claude，用自然语言描述需求，审查 Claude 提出的变更差异，确认后执行，不满意则用自然语言修正。"}
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "首页", "item": "https://2193824842-spec.github.io/ai-pulse/zh/"},
+    {"@type": "ListItem", "position": 2, "name": "工具指南", "item": "https://2193824842-spec.github.io/ai-pulse/zh/blog.html?category=Tool%20Guide"},
+    {"@type": "ListItem", "position": 3, "name": "Claude Code 初学者教程：2026年完整指南"}
+  ]
+}
+  </script>
+
+  <link rel="icon" href="/ai-pulse/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../../assets/css/style.css?v=5" />
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a href="/ai-pulse/zh/" class="logo">AI Pulse</a>
+      <nav>
+        <a href="/ai-pulse/zh/">首页</a>
+        <a href="/ai-pulse/zh/blog.html">博客</a>
+        <a href="/ai-pulse/about.html">关于</a>
+        <span class="lang-switcher"><a href="/ai-pulse/posts/claude-code-tutorial-beginners-2026.html" class="lang-link">EN</a><span class="lang-active">中</span></span>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <a href="/ai-pulse/zh/blog.html" class="back-link">← 返回文章列表</a>
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/ai-pulse/zh/">首页</a> &gt; <a href="/ai-pulse/zh/blog.html?category=Tool+Guide">工具指南</a> &gt; <span>Claude Code 初学者教程：2026年完整指南</span>
+    </nav>
+
+    <div class="article-layout">
+    <article>
+      <div class="article-cover">
+        <img src="../../assets/images/claude-code-tutorial-beginners-2026.jpg" alt="Claude Code 初学者教程：2026年完整指南" loading="eager" />
+      </div>
+      <header class="article-header">
+        <div class="post-meta">
+          <span class="author-byline">作者：<a href="/ai-pulse/about.html">AI Pulse</a></span>
+          <time datetime="2026-04-09">2026年04月09日</time>
+          <span class="post-level">Beginner</span>
+        </div>
+        <h1>Claude Code 初学者教程：2026年完整指南</h1>
+        <div class="post-tags">
+          <a href="/ai-pulse/zh/blog.html?tag=code-generation" class="tag">code-generation</a>
+          <a href="/ai-pulse/zh/blog.html?tag=ai-tools" class="tag">ai-tools</a>
+          <a href="/ai-pulse/zh/blog.html?tag=generative-ai" class="tag">generative-ai</a>
+          <a href="/ai-pulse/zh/blog.html?tag=llm" class="tag">llm</a>
+        </div>
+      </header>
+
+      <div class="article-body">
+        <h2>前提条件</h2>
+        <p>在开始使用 Claude Code 之前，请确认你已具备以下条件：</p>
+        <ul>
+          <li><strong>操作系统：</strong>macOS、Linux，或搭载 PowerShell 的 Windows 10+</li>
+          <li><strong>Claude 账户：</strong>免费账户或已开启 API 访问权限的 Pro/Max 账户</li>
+          <li><strong>终端基础：</strong>对命令行界面有基本了解</li>
+          <li><strong>网络连接：</strong>认证和 API 调用均需联网</li>
+        </ul>
+
+        <h2>什么是 Claude Code？</h2>
+        <p>Claude Code 是 Anthropic 为 Claude 打造的命令行界面（CLI），让开发者能够完全通过自然语言来编写、重构和调试代码。与传统 IDE 不同，Claude Code 直接在终端中运行，能够自主执行指令、规划多步骤任务，并持续迭代直到完成目标。</p>
+
+        <h3>与竞品的核心差异</h3>
+        <p><strong>Claude Code vs Cursor vs GitHub Copilot：</strong>Cursor 是在 VS Code 基础上叠加 AI 能力的 IDE 封装工具；GitHub Copilot 是编辑器内的代码自动补全插件；而 Claude Code 是一个独立的 CLI 代理，能够自主管理整个项目，做出架构层面的决策，处理那些手动操作往往需要数小时的复杂重构任务。</p>
+
+        <h2>第一步：在你的系统上安装 Claude Code</h2>
+        <p>安装过程简单，各平台均只需 2-3 分钟。</p>
+
+        <h3>macOS 和 Linux 安装</h3>
+        <p>打开终端并运行：</p>
+        <pre><code>curl -fsSL https://claude.ai/install.sh | bash</code></pre>
+        <p>安装完成后，关闭并重新打开终端，或执行：</p>
+        <pre><code>source ~/.bashrc</code></pre>
+        <p>验证安装是否成功：</p>
+        <pre><code>claude --version</code></pre>
+        <p>预期输出：<code>Claude CLI version 1.2.0 (or higher)</code></p>
+
+        <h3>Windows PowerShell 安装</h3>
+        <p>以管理员身份打开 PowerShell 并运行：</p>
+        <pre><code>irm https://claude.ai/install.ps1 | iex</code></pre>
+        <p>如果遇到执行策略错误，先运行以下命令，再重新执行安装：</p>
+        <pre><code>Set-ExecutionPolicy RemoteSigned -Scope CurrentUser</code></pre>
+        <p><strong>Windows 备选方案：</strong>使用 WinGet 可自动处理权限问题：</p>
+        <pre><code>winget install Anthropic.ClaudeCLI</code></pre>
+
+        <h2>第二步：完成 Claude 账户认证</h2>
+        <p>Claude Code 采用基于浏览器的认证方式，安全可靠，不会在本地存储任何 API 密钥。</p>
+
+        <h3>首次配置流程</h3>
+        <ol>
+          <li>在终端运行：<code>claude</code></li>
+          <li>默认浏览器会自动打开认证页面</li>
+          <li>用你的 Claude 账户登录（与 Claude.ai 使用同一邮箱）</li>
+          <li>按提示授予相应权限</li>
+          <li>返回终端，看到确认信息即表示认证成功</li>
+        </ol>
+        <p><strong>小贴士：</strong>认证状态跨会话持久保存，除非你主动退出登录，否则只需操作一次。</p>
+
+        <h2>第三步：创建 CLAUDE.md 配置文件</h2>
+        <p>CLAUDE.md 是 Claude Code 的项目说明书，用于定义项目结构、构建流程和代码规范。</p>
+
+        <h3>生成初始配置</h3>
+        <p>进入项目目录并运行：</p>
+        <pre><code>cd my-project
+claude /init</code></pre>
+        <p>这会生成一个包含以下模块的 <code>CLAUDE.md</code> 文件：</p>
+        <ul>
+          <li><strong>项目概述：</strong>简要描述项目目的</li>
+          <li><strong>架构说明：</strong>目录结构与核心依赖</li>
+          <li><strong>构建命令：</strong>编译和运行项目的方式</li>
+          <li><strong>代码规范：</strong>命名约定、格式要求</li>
+          <li><strong>忽略文件：</strong>需要排除的路径模式（如 .git、node_modules 等）</li>
+        </ul>
+
+        <h3>自定义你的 CLAUDE.md</h3>
+        <p>以 Python 项目为例：</p>
+        <pre><code># Project Overview
+Flask REST API for task management
+
+## Architecture
+- app.py (main entry point)
+- models/ (SQLAlchemy models)
+- routes/ (API endpoints)
+- tests/ (pytest unit tests)
+
+## Build Commands
+- pip install -r requirements.txt
+- python app.py
+
+## Code Style
+- PEP 8 compliance
+- Type hints required
+- Docstrings for all functions
+
+## Ignored Files
+__pycache__/
+venv/
+*.pyc
+.env</code></pre>
+
+        <h2>第四步：掌握核心命令与快捷键</h2>
+        <p>以下命令用于控制你的 Claude Code 会话：</p>
+
+        <h3>核心命令</h3>
+        <ul>
+          <li><code>/help</code> — 显示可用命令列表</li>
+          <li><code>/clear</code> — 清除对话历史</li>
+          <li><code>/cost</code> — 查看 API 用量和预估费用</li>
+          <li><code>/status</code> — 查看当前项目上下文</li>
+          <li><code>/exit</code> — 安全退出会话</li>
+        </ul>
+
+        <h3>快捷键</h3>
+        <ul>
+          <li><code>Tab</code> — 自动补全文件名和命令</li>
+          <li><code>@文件名</code> — 在消息中直接引用指定文件</li>
+          <li><code>!</code> — 直接执行 Shell 命令（如 <code>!npm test</code>）</li>
+          <li><code>Ctrl+C</code> — 取消当前操作</li>
+          <li><code>↑/↓</code> — 浏览命令历史</li>
+        </ul>
+
+        <h2>第五步：用 Claude Code 构建你的第一个项目</h2>
+        <p>现在用自然语言从零开始创建一个实际项目。</p>
+
+        <h3>创建项目目录</h3>
+        <pre><code>mkdir claude-weather-app
+cd claude-weather-app
+claude</code></pre>
+
+        <h3>用自然语言描述需求</h3>
+        <p>直接用中文或英文描述你想要的项目：</p>
+        <pre><code>Create a Python command-line weather app that:
+1. Takes a city name as input
+2. Fetches current weather data from a free API
+3. Displays temperature, humidity, and conditions
+4. Has error handling for invalid cities
+5. Includes unit tests using pytest</code></pre>
+
+        <p><strong>接下来会发生什么：</strong></p>
+        <ol>
+          <li>Claude 分析你的需求并制定项目计划</li>
+          <li>生成所需文件（主程序、requirements.txt、测试文件）</li>
+          <li>展示变更差异（diff）供你审查</li>
+          <li>等待你确认：输入 <code>yes</code> 接受，输入 <code>no</code> 修改</li>
+          <li>持续迭代直到项目完整可运行</li>
+        </ol>
+
+        <h3>审查差异并提出修改</h3>
+        <p>在确认前务必仔细阅读 Claude 的提案：</p>
+        <pre><code>--- app.py (new file)
++++ app.py
+@@ -1,0 +1,25 @@
++import requests
++from typing import Dict
++
++def get_weather(city: str) -> Dict[str, str]:
++    """Fetch weather data for a given city."""
++    ...
+
+[Diff continues]
+
+Accept these changes? (yes/no)</code></pre>
+
+        <p>如果对某处变更有异议，直接用自然语言说明：</p>
+        <pre><code>no, use the weather.gov API instead and include wind speed</code></pre>
+
+        <h2>Claude Code 最佳实践</h2>
+
+        <h3>1. 需求描述要具体</h3>
+        <p><strong>❌ 模糊：</strong>"做一个 Web 应用"</p>
+        <p><strong>✅ 具体：</strong>"用 FastAPI + PostgreSQL 创建一个博客 REST API，包含 JWT 用户认证、文章 CRUD 操作和错误处理。"</p>
+
+        <h3>2. 善用 @文件 语法</h3>
+        <p>处理已有代码时，直接引用文件：</p>
+        <pre><code>@models.py add pagination to the User query</code></pre>
+
+        <h3>3. 用 /cost 监控用量</h3>
+        <p>Claude Code 的使用会计入 API 用量：</p>
+        <pre><code>/cost
+Current session: $2.34
+Today: $12.50
+Monthly limit: $100</code></pre>
+
+        <h3>4. 定期提交代码</h3>
+        <p>用 Git 追踪 Claude 的每次修改：</p>
+        <pre><code>git add .
+git commit -m "Claude Code: Add authentication system"</code></pre>
+
+        <h2>常见误区与规避方法</h2>
+
+        <h3>误区一：项目上下文不完整</h3>
+        <p><strong>问题：</strong>没有配置 CLAUDE.md，导致 Claude 做出错误的架构决策。</p>
+        <p><strong>解决：</strong>在执行复杂任务前，务必先运行 <code>claude /init</code> 并完善配置文件。</p>
+
+        <h3>误区二：不审查就直接接受变更</h3>
+        <p><strong>问题：</strong>盲目接受每一个 diff，可能引入安全漏洞或导致应用崩溃。</p>
+        <p><strong>解决：</strong>每次都要仔细阅读差异，尤其是涉及认证等安全敏感区域的改动。</p>
+
+        <h3>误区三：需求描述过于模糊</h3>
+        <p><strong>问题：</strong>让 Claude "修复整个应用"这类宽泛请求，既浪费 API 额度，效果也差强人意。</p>
+        <p><strong>解决：</strong>将大任务拆解为小而明确的子任务，每个任务都有清晰的完成标准。</p>
+
+        <h3>误区四：忽视错误信息</h3>
+        <p><strong>问题：</strong>Claude 给出了有用的错误提示，但用户直接忽略，重复执行同一命令。</p>
+        <p><strong>解决：</strong>认真阅读错误信息，根据提示调整你的请求。</p>
+
+        <h2>故障排查指南</h2>
+
+        <h3>问题：出现"Authentication Failed"错误</h3>
+        <p><strong>解决方案：</strong></p>
+        <pre><code>claude /logout
+claude /login
+# 重新完成浏览器认证流程</code></pre>
+
+        <h3>问题：Claude 做出了错误的架构决策</h3>
+        <p><strong>解决方案：</strong>在 CLAUDE.md 中补充明确的架构约束，然后用更新后的配置重新执行命令。</p>
+
+        <h3>问题：简单任务消耗了过多 API 费用</h3>
+        <p><strong>解决方案：</strong>在不相关的任务之间使用 <code>/clear</code> 清除上下文，用 <code>/cost</code> 实时监控用量。</p>
+
+        <h2>Claude Pro vs Claude Max：编程场景对比</h2>
+        <p><strong>Claude Pro（20美元/月）：</strong>适合轻度编程需求（每周1-2个项目），速率限制为每分钟40次 API 调用。</p>
+        <p><strong>Claude Max 5x（100美元/月）：</strong>面向全职开发者，用量是 Pro 的5倍，针对大型代码库优化。</p>
+        <p><strong>Claude Max 20x（200美元/月）：</strong>面向重度用户和商业开发团队，用量是 Pro 的20倍。</p>
+
+        <h2>进阶功能</h2>
+
+        <h3>在 Claude Code 中执行 Shell 命令</h3>
+        <p>直接运行系统命令：</p>
+        <pre><code>!npm test
+!python -m pytest
+!docker build .</code></pre>
+
+        <h3>机器学习项目支持</h3>
+        <p>Claude Code 能很好地处理 ML 项目：</p>
+        <ul>
+          <li>生成数据预处理脚本</li>
+          <li>编写模型训练代码</li>
+          <li>实现评估指标</li>
+          <li><strong>注意：</strong>无法直接可视化图表，需要单独运行 Jupyter Notebook 进行可视化。</li>
+        </ul>
+
+        <h3>多文件项目管理</h3>
+        <p>Claude Code 擅长管理具有复杂依赖关系的大型项目，只需指向主文件或目录即可：</p>
+        <pre><code>claude
+I need to refactor the entire authentication system in this codebase.
+@auth/ @models/ @utils/ - review these and suggest improvements.</code></pre>
+
+        <div class="callout-card callout-faq">
+        <h2>常见问题解答</h2>
+        <div class="faq-grid">
+        <div class="faq-item">
+        <h3>如何在 Windows 上安装 Claude Code？</h3>
+        <p>以管理员身份打开 PowerShell，运行 <code>irm https://claude.ai/install.ps1 | iex</code>。遇到执行策略错误时，先运行 <code>Set-ExecutionPolicy RemoteSigned -Scope CurrentUser</code>。也可以用 WinGet：<code>winget install Anthropic.ClaudeCLI</code>，会自动处理权限问题。</p>
+        </div>
+        <div class="faq-item">
+        <h3>Claude Code 能用于机器学习项目吗？</h3>
+        <p>可以，Claude Code 能很好地处理数据预处理、模型训练脚本和实验追踪等任务。但由于运行在终端中，无法像 Jupyter Notebook 那样直接可视化图表。建议用 Claude Code 生成和重构 ML 代码，再单独运行 Notebook 进行可视化。</p>
+        </div>
+        <div class="faq-item">
+        <h3>Claude Pro 和 Claude Max 在编程方面有什么区别？</h3>
+        <p>Claude Pro（20美元/月）适合轻度日常编程。Claude Max 5x（100美元/月）提供5倍用量，适合全职开发者。Claude Max 20x（200美元/月）面向重度用户。建议从 Pro 开始，频繁触达用量上限后再考虑升级。</p>
+        </div>
+        <div class="faq-item">
+        <h3>如何用 Claude Code 完成编程任务？</h3>
+        <p>在项目目录中运行 <code>claude</code> 命令启动会话，用自然语言描述你的需求，Claude 会自主规划、执行并持续迭代直到完成。使用 <code>/help</code>、<code>/clear</code>、<code>/cost</code> 等斜杠命令管理会话。</p>
+        </div>
+        </div>
+        </div>
+
+        <h2>参考文献</h2>
+        <ul>
+          <li><a href="https://claude.ai" target="_blank">Claude 官方网站</a></li>
+          <li><a href="https://github.com/anthropics/claude" target="_blank">Claude GitHub 仓库</a></li>
+          <li><a href="https://docs.anthropic.com" target="_blank">Anthropic 官方文档</a></li>
+          <li><a href="https://www.python.org/downloads/" target="_blank">Python 下载</a></li>
+          <li><a href="https://docs.microsoft.com/en-us/powershell/" target="_blank">PowerShell 文档</a></li>
+        </ul>
+      </div>
+
+      <div class="author-box">
+        <div class="author-box-inner">
+          <div class="author-box-icon">ai</div>
+          <div class="author-box-content">
+            <strong><a href="/ai-pulse/about.html">AI Pulse</a></strong>
+            <p>深度AI分析、模型对比与实用指南。每篇文章均基于一手资料和公开基准测试数据撰写。</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- RELATED_START -->
+      <section class="related-posts">
+        <h3>相关文章</h3>
+        <div class="related-grid">
+        <a href="/ai-pulse/zh/posts/best-machine-learning-frameworks-2026-beginners-guide.html" class="related-card"><h4>2026 年最佳机器学习框架：初学者完整指南</h4><p>掌握机器学习基础，选择 2026 年最适合的框架。Scikit-learn、TensorFlow、PyTorch 等主流框架完整入门指南。...</p></a>
+        <a href="/ai-pulse/zh/posts/generative-video-ai-guide-2025.html" class="related-card"><h4>生成式视频 AI 完整指南：Sora Turbo 与最佳工具</h4><p>掌握生成式视频 AI，涵盖 Sora Turbo、文本转视频工具、免费选项及面向营销人员和影视创作者的实用教程。...</p></a>
+        <a href="/ai-pulse/zh/posts/how-to-evaluate-ai-companies-framework.html" class="related-card"><h4>如何评估 AI 公司：投资者完整框架</h4><p>掌握 AI 公司评估方法，涵盖核心能力、团队人才、技术栈、收入模式与竞争定位，帮助你识别优质 AI 初创企业。...</p></a>
+        </div>
+      </section>
+<!-- RELATED_END -->
+    </article>
+    <aside class="article-toc" aria-label="目录">
+      <p class="toc-title">目录</p>
+      <ol id="toc-sidebar"></ol>
+    </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/ai-pulse/zh/" class="logo">AI Pulse</a>
+          <p>穿透AI热潮，聚焦真正重要的内容。每日更新AI资讯、教程与深度洞察。</p>
+        </div>
+        <div class="footer-col">
+          <h4>分类</h4>
+          <ul>
+            <li><a href="/ai-pulse/zh/blog.html?category=Model+Comparison">模型对比</a></li>
+            <li><a href="/ai-pulse/zh/blog.html?category=Product+Review">产品评测</a></li>
+            <li><a href="/ai-pulse/zh/blog.html?category=Industry+Analysis">行业分析</a></li>
+            <li><a href="/ai-pulse/zh/blog.html?category=Tool+Guide">工具指南</a></li>
+            <li><a href="/ai-pulse/zh/blog.html?category=Opinion">观点</a></li>
+            <li><a href="/ai-pulse/zh/blog.html?category=Research+%26+Innovation">研究与创新</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>链接</h4>
+          <ul>
+            <li><a href="/ai-pulse/zh/">首页</a></li>
+            <li><a href="/ai-pulse/zh/blog.html">全部文章</a></li>
+            <li><a href="https://github.com/2193824842-spec/ai-pulse" target="_blank">GitHub</a></li>
+            <li><a href="/ai-pulse/privacy.html">隐私政策</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 AI Pulse</span>
+        <span>Built with curiosity &amp; code</span>
+      </div>
+    </div>
+  </footer>
+  <script>
+  (function(){
+    var body=document.querySelector('.article-body');
+    var toc=document.getElementById('toc-sidebar');
+    if(!body||!toc)return;
+    var h2s=body.querySelectorAll('h2');
+    if(h2s.length<2){var d=document.querySelector('.article-toc');if(d)d.style.display='none';return;}
+    var links=[];
+    h2s.forEach(function(h,i){
+      var id='s'+(i+1);
+      h.id=id;
+      var li=document.createElement('li');
+      var a=document.createElement('a');
+      a.href='javascript:void(0)';
+      a.textContent=h.textContent;
+      a.dataset.target=id;
+      a.onclick=function(e){
+        e.preventDefault();
+        h.scrollIntoView({behavior:'smooth',block:'start'});
+      };
+      li.appendChild(a);
+      toc.appendChild(li);
+      links.push(a);
+    });
+    function updateActive(){
+      var scrollPos=window.scrollY+150;
+      var current=null;
+      h2s.forEach(function(h){
+        if(scrollPos>=h.offsetTop) current=h.id;
+      });
+      links.forEach(function(link){link.classList.remove('active');});
+      if(current){
+        var activeLink=links.find(function(link){return link.dataset.target===current;});
+        if(activeLink)activeLink.classList.add('active');
+      }
+    }
+    window.addEventListener('scroll',updateActive);
+    window.addEventListener('load',updateActive);
+    updateActive();
+  })();
+  </script>
+</body>
+</html>

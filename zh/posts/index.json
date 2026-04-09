@@ -1,5 +1,24 @@
 [
   {
+    "slug": "claude-code-tutorial-beginners-2026",
+    "title": "Claude Code 初学者完整教程：2026年从零上手指南",
+    "excerpt": "从安装配置到高级技巧，全面掌握 Claude Code 的使用方法。涵盖核心命令、工作流优化、常见错误排查，适合 2026 年入门开发者快速上手。",
+    "date": "2026-04-09",
+    "category": "工具指南",
+    "level": "Beginner",
+    "tags": [
+      "claude-code",
+      "ai-tools",
+      "code-generation",
+      "developer-tools",
+      "anthropic"
+    ],
+    "word_count": 2100,
+    "view_count": 0,
+    "cover_image": "/ai-pulse/assets/images/claude-code-tutorial-beginners-2026.jpg",
+    "featured": false
+  },
+  {
     "slug": "how-to-build-ai-agents-beginners-guide-2026",
     "title": "初学者如何构建AI代理：2026年完整指南",
     "excerpt": "从零开始构建AI代理的完整指南。涵盖框架选择、工具配置、部署流程与最佳实践，适合2026年入门开发者快速上手。",
