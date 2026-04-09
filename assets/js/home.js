@@ -19,12 +19,14 @@
     return;
   }
 
-  // Load featured tools
+  // Load featured tools and update stats
   fetch('/ai-pulse/tools/index.json')
     .then(r => r.json())
     .then(data => {
       allTools = data;
       renderFeaturedTools(data.filter(t => t.featured));
+      const statTools = document.getElementById('stat-tools');
+      if (statTools) statTools.textContent = data.length;
     })
     .catch(() => {
       if (featuredSection) featuredSection.style.display = 'none';
@@ -117,11 +119,14 @@
     // Render article results
     searchArticlesResults.innerHTML = '';
     if (matchedArticles.length > 0) {
+      const label = document.createElement('p');
+      label.className = 'search-tools-label';
+      label.textContent = `Articles (${matchedArticles.length})`;
+      searchArticlesResults.appendChild(label);
       matchedArticles.forEach(card => {
-        const clone = card.cloneNode(true);
-        searchArticlesResults.appendChild(clone);
+        searchArticlesResults.appendChild(card.cloneNode(true));
       });
-      searchArticlesResults.style.display = '';
+      searchArticlesResults.style.display = 'block';
     } else {
       searchArticlesResults.style.display = 'none';
     }
