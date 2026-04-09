@@ -229,7 +229,9 @@
         : allTools.filter(tool => tool.category === currentCategory);
 
       // Pricing filter
-      if (currentPricing !== 'all') {
+      if (currentPricing === 'free') {
+        filtered = filtered.filter(tool => tool.pricing === 'free' || tool.pricing === 'freemium');
+      } else if (currentPricing !== 'all') {
         filtered = filtered.filter(tool => tool.pricing === currentPricing);
       }
 
