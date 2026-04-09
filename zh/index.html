@@ -22,6 +22,24 @@
   <meta property="og:url" content="https://2193824842-spec.github.io/ai-pulse/zh/" />
   <meta property="og:image" content="https://2193824842-spec.github.io/ai-pulse/favicon.svg" />
   <meta property="og:site_name" content="AI Pulse" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "AI Pulse",
+    "url": "https://2193824842-spec.github.io/ai-pulse/zh/",
+    "description": "每日 AI 资讯、教程与深度分析，涵盖 OpenAI、Claude 及人工智能领域最新动态。",
+    "inLanguage": "zh-CN",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://2193824842-spec.github.io/ai-pulse/zh/blog.html?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
   <link rel="icon" href="/ai-pulse/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="/ai-pulse/assets/css/style.css?v=5" />
 </head>
@@ -47,7 +65,7 @@
         <input type="text" id="home-search" placeholder="搜索文章和工具..." autocomplete="off" />
       </div>
       <div class="stats-row">
-        <span class="stat-item"><span class="stat-number" id="stat-articles">13</span> 篇文章</span>
+        <span class="stat-item"><span class="stat-number" id="stat-articles">14</span> 篇文章</span>
         <span class="stat-item"><span class="stat-number" id="stat-tools">40</span> 个工具</span>
         <span class="stat-item"><span class="stat-number" id="stat-categories">5</span> 个分类</span>
         <span class="stat-item">每日更新</span>
@@ -88,6 +106,17 @@
 
     <div id="home-cards" class="card-grid">
 <!-- HOME_CARDS_START -->
+      <a href="/ai-pulse/zh/posts/how-to-use-ai-for-coding-guide-2026.html" class="post-card" data-cat="工具指南" data-tags="code-generation,ai-tools,generative-ai,ai-research,nlp" data-date="2026-04-09" data-views="0">
+        <div class="card-cover"><img src="/ai-pulse/assets/images/how-to-use-ai-for-coding-guide-2026.jpg" alt="如何用 AI 辅助编程：2026 年开发者完整指南" loading="lazy" onerror="this.dataset.error=1" /><span class="card-cat-badge">工具指南</span><span class="card-date-badge">2026年04月09日</span></div>
+        <div class="post-card-body">
+          <h2 class="post-title">如何用 AI 辅助编程：2026 年开发者完整指南</h2>
+          <p class="post-excerpt">全面掌握 AI 辅助编程：涵盖 GitHub Copilot、Cursor、提示词策略、代码审查与 Agent 模式，2026 年开发者必读指南。</p>
+          <div class="post-card-footer">
+            <div class="post-tags"><span class="tag">code-generation</span><span class="tag">ai-tools</span><span class="tag">generative-ai</span></div>
+            <span class="read-time">11 分钟阅读</span>
+          </div>
+        </div>
+      </a>
       <a href="/ai-pulse/zh/posts/claude-code-tutorial-beginners-2026.html" class="post-card" data-cat="工具指南" data-tags="claude-code,ai-tools,code-generation,developer-tools,anthropic" data-date="2026-04-09" data-views="0">
         <div class="card-cover"><img src="/ai-pulse/assets/images/claude-code-tutorial-beginners-2026.jpg" alt="Claude Code 初学者完整教程：2026年从零上手指南" loading="lazy" onerror="this.dataset.error=1" /><span class="card-cat-badge">工具指南</span><span class="card-date-badge">2026年04月09日</span></div>
         <div class="post-card-body">
@@ -99,8 +128,8 @@
           </div>
         </div>
       </a>
-      <a href="/ai-pulse/zh/posts/how-to-build-ai-agents-beginners-guide-2026.html" class="post-card" data-cat="工具指南" data-tags="ai-agents,ai-tools,code-generation,generative-ai,ai-research" data-date="2026-04-09" data-views="0">
-        <div class="card-cover"><img src="/ai-pulse/assets/images/how-to-build-ai-agents-beginners-guide-2026.jpg" alt="初学者如何构建AI代理：2026年完整指南" loading="lazy" onerror="this.dataset.error=1" /><span class="card-cat-badge">工具指南</span><span class="card-date-badge">2026年04月09日</span></div>
+      <a href="/ai-pulse/zh/posts/how-to-build-ai-agents-beginners-guide-2026.html" class="post-card" data-cat="Tool Guide" data-tags="ai-agents,ai-tools,code-generation,generative-ai,ai-research" data-date="2026-04-09" data-views="0">
+        <div class="card-cover"><img src="/ai-pulse/assets/images/how-to-build-ai-agents-beginners-guide-2026.jpg" alt="初学者如何构建AI代理：2026年完整指南" loading="lazy" onerror="this.dataset.error=1" /><span class="card-cat-badge">Tool Guide</span><span class="card-date-badge">2026年04月09日</span></div>
         <div class="post-card-body">
           <h2 class="post-title">初学者如何构建AI代理：2026年完整指南</h2>
           <p class="post-excerpt">从零开始构建AI代理的完整指南。涵盖框架选择、工具配置、部署流程与最佳实践，适合2026年入门开发者快速上手。</p>
@@ -136,20 +165,10 @@
         <div class="card-cover"><img src="/ai-pulse/assets/images/ai-startup-funding-trends-2026.jpg" alt="2026 年 AI 初创企业融资趋势：全球投入 1315 亿美元" loading="lazy" onerror="this.dataset.error=1" /><span class="card-cat-badge">行业分析</span><span class="card-date-badge">2026年04月07日</span></div>
         <div class="post-card-body">
           <h2 class="post-title">2026 年 AI 初创企业融资趋势：全球投入 1315 亿美元</h2>
-          <p class="post-excerpt">深度解析 2026 年 AI 初创企业融资趋势：全球投入 1315 亿美元，超大轮融资主导市场，自主智能体赛道爆发。</p>
+          <p class="post-excerpt">深度解析 2026 年 AI 初创企业融资趋势：全球投入 1315 亿美元，超大轮融资主导市场，自主智能体赛道爆发。涵盖顶级 AI 初创企业、风险投资分析与投资机会。</p>
           <div class="post-card-footer">
             <div class="post-tags"><span class="tag">generative-ai</span><span class="tag">ai-research</span><span class="tag">enterprise-ai</span></div>
             <span class="read-time">10 分钟阅读</span>
-          </div>
-        </div>
-      </a>
-      <a href="/ai-pulse/zh/posts/best-machine-learning-frameworks-2026-beginners-guide.html" class="post-card" data-cat="工具指南" data-tags="llm,code-generation,ai-tools,generative-ai,ai-research" data-date="2026-04-04" data-views="0">
-        <div class="card-cover"><img src="/ai-pulse/assets/images/best-machine-learning-frameworks-2026-beginners-guide.jpg" alt="2026 年最佳机器学习框架：初学者完整指南" loading="lazy" onerror="this.dataset.error=1" /><span class="card-cat-badge">工具指南</span><span class="card-date-badge">2026年04月04日</span></div>
-        <div class="post-card-body">
-          <h2 class="post-title">2026 年最佳机器学习框架：初学者完整指南</h2>
-          <p class="post-excerpt">掌握机器学习基础，选择 2026 年最适合的框架。Scikit-learn、TensorFlow、PyTorch 等主流框架完整入门指南。</p>
-          <div class="post-card-footer">
-            <div class="post-tags"><span class="tag">llm</span><span class="tag">code-generation</span><span class="tag">ai-tools</span></div>
           </div>
         </div>
       </a>

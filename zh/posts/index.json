@@ -1,5 +1,24 @@
 [
   {
+    "slug": "how-to-use-ai-for-coding-guide-2026",
+    "title": "如何用 AI 辅助编程：2026 年开发者完整指南",
+    "excerpt": "全面掌握 AI 辅助编程：涵盖 GitHub Copilot、Cursor、提示词策略、代码审查与 Agent 模式，2026 年开发者必读指南。",
+    "date": "2026-04-09",
+    "category": "工具指南",
+    "level": "Beginner",
+    "tags": [
+      "code-generation",
+      "ai-tools",
+      "generative-ai",
+      "ai-research",
+      "nlp"
+    ],
+    "word_count": 2200,
+    "view_count": 0,
+    "cover_image": "/ai-pulse/assets/images/how-to-use-ai-for-coding-guide-2026.jpg",
+    "featured": false
+  },
+  {
     "slug": "claude-code-tutorial-beginners-2026",
     "title": "Claude Code 初学者完整教程：2026年从零上手指南",
     "excerpt": "从安装配置到高级技巧，全面掌握 Claude Code 的使用方法。涵盖核心命令、工作流优化、常见错误排查，适合 2026 年入门开发者快速上手。",
