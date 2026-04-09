@@ -26,6 +26,30 @@
   <meta name="twitter:title" content="AI 工具目录 — 发现最佳 AI 工具" />
   <meta name="twitter:description" content="精选 AI 工具目录，涵盖写作、编程、图像生成、视频创作等领域的最佳工具。" />
   <meta name="twitter:image" content="https://2193824842-spec.github.io/ai-pulse/favicon.svg" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "2026年最佳AI工具目录",
+    "description": "精选AI工具目录，涵盖写作、编程、图像生成、视频创作等领域的最佳工具。",
+    "url": "https://2193824842-spec.github.io/ai-pulse/zh/tools.html",
+    "numberOfItems": 12,
+    "itemListElement": [
+      {"@type":"ListItem","position":1,"name":"ChatGPT","description":"对话式AI，适用于写作、编程和问题解决","url":"https://chat.openai.com"},
+      {"@type":"ListItem","position":2,"name":"Claude","description":"具备深度思考能力的AI助手","url":"https://claude.ai"},
+      {"@type":"ListItem","position":3,"name":"Gemini","description":"Google多模态AI助手","url":"https://gemini.google.com"},
+      {"@type":"ListItem","position":4,"name":"Midjourney","description":"文本生成图像的AI工具","url":"https://midjourney.com"},
+      {"@type":"ListItem","position":5,"name":"Sora","description":"OpenAI文本生成视频模型","url":"https://openai.com/sora"},
+      {"@type":"ListItem","position":6,"name":"GitHub Copilot","description":"AI编程助手，提升开发效率","url":"https://github.com/features/copilot"},
+      {"@type":"ListItem","position":7,"name":"Cursor","description":"AI驱动的代码编辑器","url":"https://cursor.sh"},
+      {"@type":"ListItem","position":8,"name":"Perplexity","description":"实时信息AI搜索引擎","url":"https://perplexity.ai"},
+      {"@type":"ListItem","position":9,"name":"Canva AI","description":"AI驱动的设计与图像编辑工具","url":"https://canva.com"},
+      {"@type":"ListItem","position":10,"name":"Hugging Face","description":"AI模型库与协作平台","url":"https://huggingface.co"},
+      {"@type":"ListItem","position":11,"name":"OpenAI Platform","description":"GPT API与开发者平台","url":"https://platform.openai.com"},
+      {"@type":"ListItem","position":12,"name":"Zapier AI","description":"AI工作流自动化工具","url":"https://zapier.com"}
+    ]
+  }
+  </script>
   <link rel="icon" href="/ai-pulse/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="../assets/css/style.css?v=3" />
   <style>
@@ -192,6 +216,34 @@
     </div>
   </main>
 
+  <!-- 对比栏 -->
+  <div class="compare-bar" id="compare-bar">
+    <div class="compare-bar-slots" id="compare-slots"></div>
+    <div class="compare-bar-actions">
+      <button class="btn-compare-now" id="btn-compare-now" disabled>开始对比</button>
+      <button class="btn-compare-clear" id="btn-compare-clear">清除</button>
+    </div>
+  </div>
+
+  <!-- 对比弹窗 -->
+  <div class="compare-overlay" id="compare-overlay">
+    <div class="compare-modal">
+      <button class="compare-modal-close" id="compare-modal-close">&times;</button>
+      <h2>工具对比</h2>
+      <div id="compare-table-wrap"></div>
+    </div>
+  </div>
+
+  <!-- 悬浮提示 -->
+  <div class="compare-hint" id="compare-hint">
+    <div class="compare-hint-icon">⚖️</div>
+    <div class="compare-hint-text">
+      <strong>工具对比</strong>
+      <span>点击卡片上的"+ 对比"，最多选 3 个工具进行横向对比</span>
+    </div>
+    <button class="compare-hint-close" id="compare-hint-close">&times;</button>
+  </div>
+
   <footer>
     <div class="container footer-inner">
       <div class="footer-left">
@@ -211,6 +263,7 @@
     let currentPricing = 'all';
     let currentSort = 'latest';
     let searchQuery = '';
+    let compareList = [];
 
     async function loadTools() {
       try {
@@ -228,14 +281,12 @@
         ? [...allTools]
         : allTools.filter(tool => tool.category === currentCategory);
 
-      // Pricing filter
       if (currentPricing === 'free') {
         filtered = filtered.filter(tool => tool.pricing === 'free' || tool.pricing === 'freemium');
       } else if (currentPricing !== 'all') {
         filtered = filtered.filter(tool => tool.pricing === currentPricing);
       }
 
-      // Search filter
       if (searchQuery) {
         filtered = filtered.filter(tool =>
           tool.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -244,7 +295,6 @@
         );
       }
 
-      // Sort
       if (currentSort === 'popular') {
         filtered.sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
       } else {
@@ -255,37 +305,30 @@
         try {
           const domain = new URL(tool.url).hostname;
           const logoUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=128`;
-
           const badges = [];
           if (tool.featured) badges.push('<span class="tool-badge badge-hot">热门</span>');
-
           if (tool.addedDate) {
-            const addedDate = new Date(tool.addedDate);
-            const now = new Date();
-            const daysSinceAdded = Math.floor((now - addedDate) / (1000 * 60 * 60 * 24));
-            if (daysSinceAdded >= 0 && daysSinceAdded <= 7) {
-              badges.push('<span class="tool-badge badge-new">新上线</span>');
-            }
+            const days = Math.floor((new Date() - new Date(tool.addedDate)) / 86400000);
+            if (days >= 0 && days <= 7) badges.push('<span class="tool-badge badge-new">新上线</span>');
           }
+          if (tool.pricing === 'free') badges.push('<span class="tool-badge badge-free">免费</span>');
+          else if (tool.pricing === 'freemium') badges.push('<span class="tool-badge badge-freemium">免费增值</span>');
 
-          if (tool.pricing === 'free') {
-            badges.push('<span class="tool-badge badge-free">免费</span>');
-          } else if (tool.pricing === 'freemium') {
-            badges.push('<span class="tool-badge badge-freemium">免费增值</span>');
-          }
+          const inCompare = compareList.some(t => t.name === tool.name);
+          const btnLabel = inCompare ? '✓ 已添加' : '+ 对比';
+          const btnClass = inCompare ? 'compare-btn selected' : 'compare-btn';
 
           return `
-          <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="tool-card">
-            ${badges.length > 0 ? `<div class="tool-badges">${badges.join('')}</div>` : ''}
-            <img src="${logoUrl}" alt="${tool.name}" class="tool-logo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2248%22 height=%2248%22%3E%3Crect width=%2248%22 height=%2248%22 fill=%22%23e0e0e0%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2220%22 fill=%22%23999%22%3E${tool.name.charAt(0)}%3C/text%3E%3C/svg%3E'" />
-            <h3 class="tool-name">${tool.name}</h3>
-            <p class="tool-description">${tool.description}</p>
-          </a>
-        `;
-        } catch (error) {
-          console.error('渲染工具出错:', tool.name, error);
-          return '';
-        }
+          <div class="tool-card-wrap" style="position:relative;">
+            <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="tool-card">
+              ${badges.length > 0 ? `<div class="tool-badges">${badges.join('')}</div>` : ''}
+              <img src="${logoUrl}" alt="${tool.name}" class="tool-logo" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2248%22 height=%2248%22%3E%3Crect width=%2248%22 height=%2248%22 fill=%22%23e0e0e0%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2220%22 fill=%22%23999%22%3E${tool.name.charAt(0)}%3C/text%3E%3C/svg%3E'" />
+              <h3 class="tool-name">${tool.name}</h3>
+              <p class="tool-description">${tool.description}</p>
+            </a>
+            <button class="${btnClass}" onclick="toggleCompare(event, '${tool.name}')">${btnLabel}</button>
+          </div>`;
+        } catch (e) { return ''; }
       }).join('');
 
       if (filtered.length === 0) {
@@ -293,7 +336,87 @@
       }
     }
 
-    // Category filter
+    function toggleCompare(e, toolName) {
+      e.preventDefault();
+      e.stopPropagation();
+      const tool = allTools.find(t => t.name === toolName);
+      if (!tool) return;
+      const idx = compareList.findIndex(t => t.name === toolName);
+      if (idx > -1) {
+        compareList.splice(idx, 1);
+      } else {
+        if (compareList.length >= 3) { alert('最多同时对比 3 个工具。'); return; }
+        compareList.push(tool);
+      }
+      renderTools();
+      updateCompareBar();
+    }
+
+    function updateCompareBar() {
+      const bar = document.getElementById('compare-bar');
+      const slots = document.getElementById('compare-slots');
+      const btn = document.getElementById('btn-compare-now');
+      if (compareList.length === 0) { bar.classList.remove('visible'); return; }
+      bar.classList.add('visible');
+      btn.disabled = compareList.length < 2;
+      slots.innerHTML = compareList.map(tool => {
+        const domain = (() => { try { return new URL(tool.url).hostname; } catch(e) { return ''; } })();
+        const logo = domain ? `https://www.google.com/s2/favicons?domain=${domain}&sz=64` : '';
+        return `<div class="compare-slot filled">
+          <img src="${logo}" alt="${tool.name}" onerror="this.style.display='none'" />
+          <span>${tool.name}</span>
+          <span class="compare-slot-remove" onclick="toggleCompare(event, '${tool.name}')">&times;</span>
+        </div>`;
+      }).join('');
+      for (let i = compareList.length; i < 3; i++) {
+        slots.innerHTML += `<div class="compare-slot">+ 添加工具</div>`;
+      }
+    }
+
+    function showCompareModal() {
+      if (compareList.length < 2) return;
+      const wrap = document.getElementById('compare-table-wrap');
+      const pricingLabel = {free:'✅ 免费', freemium:'🔓 免费增值', paid:'💳 付费'};
+      const rows = [
+        { label: '简介',     fn: t => `<span style="font-size:12px;line-height:1.5;">${t.description || '—'}</span>` },
+        { label: '所属公司', fn: t => t.company || '—' },
+        { label: '分类',     fn: t => t.category || '—' },
+        { label: '定价',     fn: t => pricingLabel[t.pricing] || '—' },
+        { label: '免费试用', fn: t => (t.pricing === 'free' || t.pricing === 'freemium') ? '✅ 有' : '❌ 无' },
+        { label: '热度',     fn: t => { const s = Math.round((t.popularity || 0) / 20); return '<span class="compare-stars">' + '★'.repeat(s) + '☆'.repeat(5-s) + '</span> ' + (t.popularity || 0); } },
+        { label: '标签',     fn: t => (t.tags || []).map(tag => `<span class="compare-tag">${tag}</span>`).join('') },
+        { label: '访问',     fn: t => `<a href="${t.url}" target="_blank" rel="noopener noreferrer" class="compare-visit">访问 →</a>` },
+      ];
+      wrap.innerHTML = `<table class="compare-table">
+        <thead><tr>
+          <th></th>
+          ${compareList.map(t => {
+            const domain = (() => { try { return new URL(t.url).hostname; } catch(e) { return ''; } })();
+            const logo = domain ? `https://www.google.com/s2/favicons?domain=${domain}&sz=64` : '';
+            return `<th class="tool-header"><img src="${logo}" alt="${t.name}" onerror="this.style.display='none'" /><span>${t.name}</span></th>`;
+          }).join('')}
+        </tr></thead>
+        <tbody>
+          ${rows.map(row => `<tr><td>${row.label}</td>${compareList.map(t => `<td>${row.fn(t)}</td>`).join('')}</tr>`).join('')}
+        </tbody>
+      </table>`;
+      document.getElementById('compare-overlay').classList.add('visible');
+    }
+
+    document.getElementById('btn-compare-now').addEventListener('click', showCompareModal);
+    document.getElementById('btn-compare-clear').addEventListener('click', () => {
+      compareList = []; renderTools(); updateCompareBar();
+    });
+    document.getElementById('compare-modal-close').addEventListener('click', () => {
+      document.getElementById('compare-overlay').classList.remove('visible');
+    });
+    document.getElementById('compare-overlay').addEventListener('click', (e) => {
+      if (e.target === e.currentTarget) e.currentTarget.classList.remove('visible');
+    });
+    document.getElementById('compare-hint-close').addEventListener('click', () => {
+      document.getElementById('compare-hint').style.display = 'none';
+    });
+
     document.querySelectorAll('[data-category]').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('[data-category]').forEach(b => b.classList.remove('active'));
@@ -303,7 +426,6 @@
       });
     });
 
-    // Pricing filter
     document.querySelectorAll('[data-pricing]').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('[data-pricing]').forEach(b => b.classList.remove('active'));
@@ -313,7 +435,6 @@
       });
     });
 
-    // Sort toggle
     document.querySelectorAll('.sort-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
@@ -323,9 +444,7 @@
       });
     });
 
-    // Search
-    const searchInput = document.getElementById('search-input');
-    searchInput.addEventListener('input', (e) => {
+    document.getElementById('search-input').addEventListener('input', (e) => {
       searchQuery = e.target.value;
       renderTools();
     });
