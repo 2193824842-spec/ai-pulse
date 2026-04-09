@@ -1,5 +1,18 @@
 [
   {
+    "slug": "how-to-build-ai-agents-beginners-guide-2026",
+    "title": "How to Build AI Agents for Beginners: Complete 2026 Guide",
+    "excerpt": "Learn how to build AI agents from scratch. Step-by-step guide covering frameworks, tools, deployment, and best practices for beginners in 2026.",
+    "date": "2026-04-09",
+    "category": "Tool Guide",
+    "level": "Beginner",
+    "tags": ["ai-agents", "ai-tools", "code-generation", "generative-ai", "ai-research"],
+    "word_count": 1898,
+    "view_count": 0,
+    "cover_image": "/ai-pulse/assets/images/how-to-build-ai-agents-beginners-guide-2026.jpg",
+    "featured": false
+  },
+  {
     "slug": "claude-code-tutorial-beginners-2026",
     "title": "Claude Code Tutorial for Beginners: Complete 2026 Guide",
     "excerpt": "Learn how to install Claude Code, authenticate your account, and build your first AI-powered project. Complete step-by-step guide for beginners with best practices and common mistakes to avoid.",
