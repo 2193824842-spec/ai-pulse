@@ -1,5 +1,18 @@
 [
   {
+    "slug": "claude-code-tutorial-beginners-2026",
+    "title": "Claude Code Tutorial for Beginners: Complete 2026 Guide",
+    "excerpt": "Learn how to install Claude Code, authenticate your account, and build your first AI-powered project. Complete step-by-step guide for beginners with best practices and common mistakes to avoid.",
+    "date": "2026-04-09",
+    "category": "Tool Guide",
+    "level": "Beginner",
+    "tags": ["code-generation", "ai-tools", "generative-ai", "llm"],
+    "word_count": 1850,
+    "view_count": 0,
+    "cover_image": "/ai-pulse/assets/images/claude-code-tutorial-beginners-2026.jpg",
+    "featured": false
+  },
+  {
     "slug": "how-to-use-ai-for-coding-guide-2026",
     "title": "How to Use AI for Coding: Complete Guide for Developers 2026",
     "excerpt": "Master AI for coding with this complete guide covering GitHub Copilot, Cursor, prompting strategies, code review, and agent mode for developers in 2026.",
