@@ -20,6 +20,26 @@
     "addedDate": "2026-04-08"
   },
   {
+    "name": "Gemini",
+    "description": "Google's multimodal AI assistant",
+    "category": "AI Writing",
+    "url": "https://gemini.google.com",
+    "logo": "https://logo.clearbit.com/google.com",
+    "tags": ["chatbot", "multimodal", "google"],
+    "popularity": 93,
+    "addedDate": "2026-04-08"
+  },
+  {
+    "name": "Copilot",
+    "description": "Microsoft's AI assistant powered by GPT-4",
+    "category": "AI Writing",
+    "url": "https://copilot.microsoft.com",
+    "logo": "https://logo.clearbit.com/microsoft.com",
+    "tags": ["chatbot", "microsoft", "search"],
+    "popularity": 88,
+    "addedDate": "2026-04-08"
+  },
+  {
     "name": "Midjourney",
     "description": "AI image generation from text prompts",
     "category": "AI Image",
@@ -37,6 +57,26 @@
     "logo": "https://logo.clearbit.com/openai.com",
     "tags": ["image", "art", "generation"],
     "popularity": 85,
+    "addedDate": "2026-04-07"
+  },
+  {
+    "name": "Stable Diffusion",
+    "description": "Open-source AI image generation model",
+    "category": "AI Image",
+    "url": "https://stability.ai",
+    "logo": "https://logo.clearbit.com/stability.ai",
+    "tags": ["image", "open-source", "generation"],
+    "popularity": 82,
+    "addedDate": "2026-04-07"
+  },
+  {
+    "name": "Leonardo AI",
+    "description": "AI art generator for game assets and creative projects",
+    "category": "AI Image",
+    "url": "https://leonardo.ai",
+    "logo": "https://logo.clearbit.com/leonardo.ai",
+    "tags": ["image", "game", "art"],
+    "popularity": 78,
     "addedDate": "2026-04-07"
   },
   {
@@ -60,6 +100,26 @@
     "addedDate": "2026-04-06"
   },
   {
+    "name": "Pika",
+    "description": "AI video creation from text and images",
+    "category": "AI Video",
+    "url": "https://pika.art",
+    "logo": "https://logo.clearbit.com/pika.art",
+    "tags": ["video", "generation", "animation"],
+    "popularity": 76,
+    "addedDate": "2026-04-06"
+  },
+  {
+    "name": "HeyGen",
+    "description": "AI video avatars and text-to-video platform",
+    "category": "AI Video",
+    "url": "https://heygen.com",
+    "logo": "https://logo.clearbit.com/heygen.com",
+    "tags": ["video", "avatar", "presentation"],
+    "popularity": 74,
+    "addedDate": "2026-04-06"
+  },
+  {
     "name": "GitHub Copilot",
     "description": "AI pair programmer for faster coding",
     "category": "AI Coding",
@@ -80,6 +140,26 @@
     "addedDate": "2026-04-05"
   },
   {
+    "name": "Codeium",
+    "description": "Free AI code completion and chat",
+    "category": "AI Coding",
+    "url": "https://codeium.com",
+    "logo": "https://logo.clearbit.com/codeium.com",
+    "tags": ["coding", "free", "autocomplete"],
+    "popularity": 79,
+    "addedDate": "2026-04-05"
+  },
+  {
+    "name": "Tabnine",
+    "description": "AI code assistant for all major IDEs",
+    "category": "AI Coding",
+    "url": "https://tabnine.com",
+    "logo": "https://logo.clearbit.com/tabnine.com",
+    "tags": ["coding", "IDE", "autocomplete"],
+    "popularity": 75,
+    "addedDate": "2026-04-05"
+  },
+  {
     "name": "ElevenLabs",
     "description": "AI voice generation and text-to-speech",
     "category": "AI Audio",
@@ -87,6 +167,26 @@
     "logo": "https://logo.clearbit.com/elevenlabs.io",
     "tags": ["audio", "voice", "TTS"],
     "popularity": 82,
+    "addedDate": "2026-04-04"
+  },
+  {
+    "name": "Murf AI",
+    "description": "AI voice generator for videos and presentations",
+    "category": "AI Audio",
+    "url": "https://murf.ai",
+    "logo": "https://logo.clearbit.com/murf.ai",
+    "tags": ["audio", "voice", "voiceover"],
+    "popularity": 73,
+    "addedDate": "2026-04-04"
+  },
+  {
+    "name": "Suno",
+    "description": "AI music generation from text prompts",
+    "category": "AI Audio",
+    "url": "https://suno.ai",
+    "logo": "https://logo.clearbit.com/suno.ai",
+    "tags": ["music", "generation", "audio"],
+    "popularity": 77,
     "addedDate": "2026-04-04"
   },
   {
@@ -100,9 +200,19 @@
     "addedDate": "2026-04-04"
   },
   {
+    "name": "You.com",
+    "description": "AI search engine with personalized results",
+    "category": "AI Search",
+    "url": "https://you.com",
+    "logo": "https://logo.clearbit.com/you.com",
+    "tags": ["search", "personalized", "AI"],
+    "popularity": 71,
+    "addedDate": "2026-04-04"
+  },
+  {
     "name": "Notion AI",
     "description": "AI writing assistant in Notion workspace",
-    "category": "AI Writing",
+    "category": "AI Productivity",
     "url": "https://notion.so/product/ai",
     "logo": "https://logo.clearbit.com/notion.so",
     "tags": ["writing", "productivity", "workspace"],
@@ -118,5 +228,175 @@
     "tags": ["writing", "marketing", "copywriting"],
     "popularity": 75,
     "addedDate": "2026-04-03"
+  },
+  {
+    "name": "Copy.ai",
+    "description": "AI copywriting tool for marketing content",
+    "category": "AI Writing",
+    "url": "https://copy.ai",
+    "logo": "https://logo.clearbit.com/copy.ai",
+    "tags": ["copywriting", "marketing", "content"],
+    "popularity": 72,
+    "addedDate": "2026-04-03"
+  },
+  {
+    "name": "Grammarly",
+    "description": "AI writing assistant for grammar and style",
+    "category": "AI Writing",
+    "url": "https://grammarly.com",
+    "logo": "https://logo.clearbit.com/grammarly.com",
+    "tags": ["writing", "grammar", "editing"],
+    "popularity": 86,
+    "addedDate": "2026-04-03"
+  },
+  {
+    "name": "Canva AI",
+    "description": "AI-powered design and image editing",
+    "category": "AI Design",
+    "url": "https://canva.com",
+    "logo": "https://logo.clearbit.com/canva.com",
+    "tags": ["design", "editing", "graphics"],
+    "popularity": 89,
+    "addedDate": "2026-04-02"
+  },
+  {
+    "name": "Figma AI",
+    "description": "AI features in collaborative design tool",
+    "category": "AI Design",
+    "url": "https://figma.com",
+    "logo": "https://logo.clearbit.com/figma.com",
+    "tags": ["design", "UI", "collaboration"],
+    "popularity": 83,
+    "addedDate": "2026-04-02"
+  },
+  {
+    "name": "Framer AI",
+    "description": "AI website builder and design tool",
+    "category": "AI Design",
+    "url": "https://framer.com",
+    "logo": "https://logo.clearbit.com/framer.com",
+    "tags": ["website", "design", "no-code"],
+    "popularity": 76,
+    "addedDate": "2026-04-02"
+  },
+  {
+    "name": "Gamma",
+    "description": "AI presentation and document creator",
+    "category": "AI Productivity",
+    "url": "https://gamma.app",
+    "logo": "https://logo.clearbit.com/gamma.app",
+    "tags": ["presentation", "documents", "slides"],
+    "popularity": 74,
+    "addedDate": "2026-04-02"
+  },
+  {
+    "name": "Beautiful.ai",
+    "description": "AI-powered presentation software",
+    "category": "AI Productivity",
+    "url": "https://beautiful.ai",
+    "logo": "https://logo.clearbit.com/beautiful.ai",
+    "tags": ["presentation", "slides", "design"],
+    "popularity": 70,
+    "addedDate": "2026-04-02"
+  },
+  {
+    "name": "Otter.ai",
+    "description": "AI meeting notes and transcription",
+    "category": "AI Productivity",
+    "url": "https://otter.ai",
+    "logo": "https://logo.clearbit.com/otter.ai",
+    "tags": ["transcription", "meetings", "notes"],
+    "popularity": 77,
+    "addedDate": "2026-04-01"
+  },
+  {
+    "name": "Fireflies.ai",
+    "description": "AI meeting assistant and note-taker",
+    "category": "AI Productivity",
+    "url": "https://fireflies.ai",
+    "logo": "https://logo.clearbit.com/fireflies.ai",
+    "tags": ["meetings", "transcription", "assistant"],
+    "popularity": 73,
+    "addedDate": "2026-04-01"
+  },
+  {
+    "name": "Descript",
+    "description": "AI video and podcast editing",
+    "category": "AI Video",
+    "url": "https://descript.com",
+    "logo": "https://logo.clearbit.com/descript.com",
+    "tags": ["video", "podcast", "editing"],
+    "popularity": 79,
+    "addedDate": "2026-04-01"
+  },
+  {
+    "name": "Synthesia",
+    "description": "AI video creation with virtual avatars",
+    "category": "AI Video",
+    "url": "https://synthesia.io",
+    "logo": "https://logo.clearbit.com/synthesia.io",
+    "tags": ["video", "avatar", "training"],
+    "popularity": 75,
+    "addedDate": "2026-04-01"
+  },
+  {
+    "name": "Luma AI",
+    "description": "AI 3D capture and video generation",
+    "category": "AI Video",
+    "url": "https://lumalabs.ai",
+    "logo": "https://logo.clearbit.com/lumalabs.ai",
+    "tags": ["3D", "video", "capture"],
+    "popularity": 72,
+    "addedDate": "2026-03-31"
+  },
+  {
+    "name": "Replicate",
+    "description": "Run AI models in the cloud",
+    "category": "AI Developer",
+    "url": "https://replicate.com",
+    "logo": "https://logo.clearbit.com/replicate.com",
+    "tags": ["API", "models", "cloud"],
+    "popularity": 76,
+    "addedDate": "2026-03-31"
+  },
+  {
+    "name": "Hugging Face",
+    "description": "AI model hub and collaboration platform",
+    "category": "AI Developer",
+    "url": "https://huggingface.co",
+    "logo": "https://logo.clearbit.com/huggingface.co",
+    "tags": ["models", "open-source", "ML"],
+    "popularity": 85,
+    "addedDate": "2026-03-31"
+  },
+  {
+    "name": "Anthropic Console",
+    "description": "Claude API and developer tools",
+    "category": "AI Developer",
+    "url": "https://console.anthropic.com",
+    "logo": "https://logo.clearbit.com/anthropic.com",
+    "tags": ["API", "Claude", "developer"],
+    "popularity": 80,
+    "addedDate": "2026-03-31"
+  },
+  {
+    "name": "OpenAI Platform",
+    "description": "GPT API and developer platform",
+    "category": "AI Developer",
+    "url": "https://platform.openai.com",
+    "logo": "https://logo.clearbit.com/openai.com",
+    "tags": ["API", "GPT", "developer"],
+    "popularity": 91,
+    "addedDate": "2026-03-31"
+  },
+  {
+    "name": "Zapier AI",
+    "description": "AI automation for workflows",
+    "category": "AI Productivity",
+    "url": "https://zapier.com",
+    "logo": "https://logo.clearbit.com/zapier.com",
+    "tags": ["automation", "workflow", "integration"],
+    "popularity": 81,
+    "addedDate": "2026-03-30"
   }
 ]
