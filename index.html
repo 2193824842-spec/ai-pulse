@@ -59,11 +59,35 @@
       </div>
     </div>
 
-    <div class="section-header">
-      <span class="section-title">Latest Articles</span>
-      <div class="sort-toggle">
-        <button class="sort-btn active" data-sort="latest">Latest</button>
-        <button class="sort-btn" data-sort="popular">Popular</button>
+    <!-- Featured Tools Section -->
+    <div id="featured-tools-section">
+      <div class="section-header">
+        <span class="section-title">Featured Tools</span>
+        <a href="/ai-pulse/tools.html" class="view-all-inline">View all tools &rarr;</a>
+      </div>
+      <div id="featured-tools-grid" class="featured-tools-grid">
+        <!-- loaded by JS -->
+      </div>
+    </div>
+
+    <!-- Search Results (hidden by default) -->
+    <div id="search-results-section" style="display:none;">
+      <div class="section-header">
+        <span class="section-title" id="search-results-title">Search Results</span>
+      </div>
+      <div id="search-tools-results"></div>
+      <div id="search-articles-results" class="card-grid"></div>
+      <p id="search-no-results" style="display:none;text-align:center;color:var(--text-muted);padding:40px 0;">No results found.</p>
+    </div>
+
+    <!-- Articles Section -->
+    <div id="articles-section">
+      <div class="section-header">
+        <span class="section-title">Latest Articles</span>
+        <div class="sort-toggle">
+          <button class="sort-btn active" data-sort="latest">Latest</button>
+          <button class="sort-btn" data-sort="popular">Popular</button>
+        </div>
       </div>
     </div>
 
