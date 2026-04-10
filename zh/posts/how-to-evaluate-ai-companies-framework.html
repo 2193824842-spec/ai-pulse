@@ -27,6 +27,7 @@
   <meta property="og:url" content="https://2193824842-spec.github.io/ai-pulse/zh/posts/how-to-evaluate-ai-companies-framework.html" />
   <meta property="og:site_name" content="AI Pulse" />
   <meta property="og:image" content="/ai-pulse/assets/images/how-to-evaluate-ai-companies-framework.jpg" />
+  <meta name="article-tags" content="ai-tools, ai-research, enterprise-ai, generative-ai, ai-benchmarks" />
   <meta property="article:published_time" content="2026-04-08" />
 
   <!-- Twitter Card -->
@@ -40,6 +41,9 @@
 
   <link rel="icon" href="/ai-pulse/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="/ai-pulse/assets/css/style.css?v=5" />
+  <style>
+    .article-cover img{display:block;width:100%;height:auto;aspect-ratio:16/9;}
+  </style>
 </head>
 <body>
   <header>
@@ -48,6 +52,7 @@
       <nav>
         <a href="/ai-pulse/zh/">首页</a>
         <a href="/ai-pulse/zh/blog.html">博客</a>
+        <a href="/ai-pulse/zh/tools.html">工具</a>
         <a href="/ai-pulse/zh/about.html">关于</a>
         <span class="lang-switcher"><a href="/ai-pulse/posts/how-to-evaluate-ai-companies-framework.html" class="lang-link">EN</a><span class="lang-active">中</span></span>
       </nav>
@@ -64,11 +69,11 @@
     <div class="article-layout">
     <article>
       <div class="article-cover">
-        <img src="/ai-pulse/assets/images/how-to-evaluate-ai-companies-framework.jpg" alt="如何评估 AI 公司：投资者完整框架" />
+        <img src="/ai-pulse/assets/images/how-to-evaluate-ai-companies-framework.jpg" alt="如何评估 AI 公司：投资者完整框架" width="800" height="450" fetchpriority="high" />
       </div>
       <header class="article-header">
         <div class="post-meta">
-          <span class="author-byline">作者：<a href="/ai-pulse/zh/about.html">AI Pulse</a></span>
+          <span class="author-byline">作者：<a href="/ai-pulse/zh/about.html">Avery Tong</a></span>
           <time datetime="2026-04-08">2026年04月08日</time>
           <span class="post-level">Intermediate</span>
         </div>
@@ -235,24 +240,23 @@
 
       <div class="author-box">
         <div class="author-box-inner">
-          <div class="author-box-icon">ai</div>
+          <div class="author-box-icon">AT</div>
           <div class="author-box-content">
-            <strong><a href="/ai-pulse/zh/about.html">AI Pulse</a></strong>
-            <p>深度 AI 分析、模型对比与实用指南。每篇文章均基于一手资料和已发布基准数据进行研究。</p>
+            <strong><a href="/ai-pulse/zh/about.html">Avery Tong</a></strong>
+            <p>产品与市场策略背景，长期关注 AI 领域。用这些工具做自己的项目，分享真实的使用体验和判断。</p>
           </div>
         </div>
       </div>
 
-      <!-- RELATED_START -->
-      <section class="related-posts">
+            <!-- RELATED_START -->
+      <section class="related-posts" id="related-section" style="display:none">
         <h3>相关文章</h3>
-        <div class="related-grid">
-        <a href="/ai-pulse/zh/posts/generative-video-ai-guide-2025.html" class="related-card"><h4>生成式视频 AI 完整指南：Sora Turbo 与最佳工具</h4><p>掌握生成式视频 AI，涵盖 Sora Turbo、文本转视频工具、免费选项及面向营销人员和影视创作者的实用教程。...</p></a>
-        <a href="/ai-pulse/zh/posts/best-machine-learning-frameworks-2026-beginners-guide.html" class="related-card"><h4>2026 年最佳机器学习框架：初学者完整指南</h4><p>掌握机器学习基础，选择 2026 年最适合的框架。Scikit-learn、TensorFlow、PyTorch 等主流框架完整入门指南。...</p></a>
-        <a href="/ai-pulse/zh/posts/ai-startup-funding-trends-2026.html" class="related-card"><h4>2026 年 AI 初创企业融资趋势：全球投入 1315 亿美元</h4><p>深度解析 2026 年 AI 初创企业融资趋势：全球投入 1315 亿美元，超大轮融资主导市场，自主智能体赛道爆发。涵盖顶级 AI 初创企业、风险投资分析与投资机会。...</p></a>
+        <div class="related-grid" id="related-grid"></div>
+        <div style="text-align:center;margin-top:1rem">
+          <button id="related-shuffle" style="display:none;padding:0.4rem 1.2rem;border:1px solid #ccc;border-radius:4px;background:#fff;cursor:pointer;font-size:0.9rem">换一换 ↻</button>
         </div>
       </section>
-<!-- RELATED_END -->
+      <!-- RELATED_END -->
     </article>
     <aside class="article-toc" aria-label="目录">
       <p class="toc-title">目录</p>
@@ -296,6 +300,11 @@
     </div>
   </footer>
   <script>
+  document.querySelectorAll('.article-body img').forEach(function(img){
+    img.loading='lazy';
+  });
+  </script>
+    <script>
   (function(){
     var body=document.querySelector('.article-body');
     var toc=document.getElementById('toc-sidebar');

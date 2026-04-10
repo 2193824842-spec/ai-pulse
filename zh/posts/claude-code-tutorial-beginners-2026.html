@@ -27,6 +27,7 @@
   <meta property="og:url" content="https://2193824842-spec.github.io/ai-pulse/zh/posts/claude-code-tutorial-beginners-2026.html" />
   <meta property="og:site_name" content="AI Pulse" />
   <meta property="og:image" content="https://2193824842-spec.github.io/ai-pulse/assets/images/claude-code-tutorial-beginners-2026.jpg" />
+  <meta name="article-tags" content="claude-code, ai-tools, code-generation, developer-tools, anthropic" />
   <meta property="article:published_time" content="2026-04-09" />
 
   <!-- Twitter Card -->
@@ -111,6 +112,9 @@
 
   <link rel="icon" href="/ai-pulse/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="../../assets/css/style.css?v=5" />
+  <style>
+    .article-cover img{display:block;width:100%;height:auto;aspect-ratio:16/9;}
+  </style>
 </head>
 <body>
   <header>
@@ -119,7 +123,8 @@
       <nav>
         <a href="/ai-pulse/zh/">首页</a>
         <a href="/ai-pulse/zh/blog.html">博客</a>
-        <a href="/ai-pulse/about.html">关于</a>
+        <a href="/ai-pulse/zh/tools.html">工具</a>
+        <a href="/ai-pulse/zh/about.html">关于</a>
         <span class="lang-switcher"><a href="/ai-pulse/posts/claude-code-tutorial-beginners-2026.html" class="lang-link">EN</a><span class="lang-active">中</span></span>
       </nav>
     </div>
@@ -425,7 +430,7 @@ I need to refactor the entire authentication system in this codebase.
 
       <div class="author-box">
         <div class="author-box-inner">
-          <div class="author-box-icon">ai</div>
+          <div class="author-box-icon">AT</div>
           <div class="author-box-content">
             <strong><a href="/ai-pulse/about.html">AI Pulse</a></strong>
             <p>深度AI分析、模型对比与实用指南。每篇文章均基于一手资料和公开基准测试数据撰写。</p>
@@ -433,16 +438,15 @@ I need to refactor the entire authentication system in this codebase.
         </div>
       </div>
 
-      <!-- RELATED_START -->
-      <section class="related-posts">
+            <!-- RELATED_START -->
+      <section class="related-posts" id="related-section" style="display:none">
         <h3>相关文章</h3>
-        <div class="related-grid">
-        <a href="/ai-pulse/zh/posts/best-machine-learning-frameworks-2026-beginners-guide.html" class="related-card"><h4>2026 年最佳机器学习框架：初学者完整指南</h4><p>掌握机器学习基础，选择 2026 年最适合的框架。Scikit-learn、TensorFlow、PyTorch 等主流框架完整入门指南。...</p></a>
-        <a href="/ai-pulse/zh/posts/generative-video-ai-guide-2025.html" class="related-card"><h4>生成式视频 AI 完整指南：Sora Turbo 与最佳工具</h4><p>掌握生成式视频 AI，涵盖 Sora Turbo、文本转视频工具、免费选项及面向营销人员和影视创作者的实用教程。...</p></a>
-        <a href="/ai-pulse/zh/posts/how-to-evaluate-ai-companies-framework.html" class="related-card"><h4>如何评估 AI 公司：投资者完整框架</h4><p>掌握 AI 公司评估方法，涵盖核心能力、团队人才、技术栈、收入模式与竞争定位，帮助你识别优质 AI 初创企业。...</p></a>
+        <div class="related-grid" id="related-grid"></div>
+        <div style="text-align:center;margin-top:1rem">
+          <button id="related-shuffle" style="display:none;padding:0.4rem 1.2rem;border:1px solid #ccc;border-radius:4px;background:#fff;cursor:pointer;font-size:0.9rem">换一换 ↻</button>
         </div>
       </section>
-<!-- RELATED_END -->
+      <!-- RELATED_END -->
     </article>
     <aside class="article-toc" aria-label="目录">
       <p class="toc-title">目录</p>
@@ -486,6 +490,11 @@ I need to refactor the entire authentication system in this codebase.
     </div>
   </footer>
   <script>
+  document.querySelectorAll('.article-body img').forEach(function(img){
+    img.loading='lazy';
+  });
+  </script>
+    <script>
   (function(){
     var body=document.querySelector('.article-body');
     var toc=document.getElementById('toc-sidebar');
