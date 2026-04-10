@@ -1,5 +1,33 @@
 [
   {
+    "slug": "ai-venture-capital-trends-2026",
+    "title": "AI Venture Capital Trends 2026: Where the Money Is Going — and What It Means",
+    "excerpt": "$160B raised in 2 months. See where AI funding is concentrating, which startups are winning, and investment opportunities across valuations.",
+    "date": "2026-04-10",
+    "category": "Industry Analysis",
+    "level": "Intermediate",
+    "tags": ["enterprise-ai", "generative-ai", "ai-research", "ai-tools", "ai-benchmarks"],
+    "word_count": 1847,
+    "view_count": 0,
+    "cover_image": "/ai-pulse/assets/images/ai-venture-capital-trends-2026.jpg",
+    "featured": false,
+    "target_audience": ["learner", "investor"]
+  },
+  {
+    "slug": "ai-2027-scenario-realistic-infrastructure-impact",
+    "title": "Is the AI 2027 Scenario Realistic? Infrastructure Promise Meets Real-World Friction",
+    "excerpt": "The trillion-dollar compute infrastructure will arrive by 2027, but the impact on jobs and business won't. Why AI adoption is slower than predictions.",
+    "date": "2026-04-10",
+    "category": "Opinion",
+    "level": "Intermediate",
+    "tags": ["generative-ai", "ai-research", "enterprise-ai", "ai-benchmarks", "llm"],
+    "word_count": 1347,
+    "view_count": 0,
+    "cover_image": "/ai-pulse/assets/images/ai-2027-scenario-realistic-infrastructure-impact.jpg",
+    "featured": false,
+    "target_audience": ["learner", "investor"]
+  },
+  {
     "slug": "ai-company-revenue-comparison-2026",
     "title": "AI Company Revenue Comparison 2026: Complete Financial Breakdown",
     "excerpt": "Comprehensive analysis of AI company revenues in 2026. OpenAI $20B, Anthropic $9B growth, profitability analysis, and the evolving AI economy.",
