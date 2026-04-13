@@ -1,5 +1,31 @@
 [
   {
+    "slug": "ai-unicorn-bubble-reality-check-2026-startup-failure",
+    "title": "2026年AI独角兽泡沫现实检验：创业公司能活下来吗？",
+    "excerpt": "2026年AI独角兽泡沫通过降价融资和关停悄然收缩。308家独角兽中有一半将在2027年前重组，估值面对现实。",
+    "date": "2026-04-10",
+    "category": "观点分析",
+    "level": "Intermediate",
+    "tags": ["企业AI", "AI研究", "生成式AI", "AI工具", "AI基准测试"],
+    "cover_image": "/ai-pulse/assets/images/ai-unicorn-bubble-reality-check-2026-startup-failure.jpg",
+    "word_count": 1485,
+    "view_count": 0,
+    "featured": false
+  },
+  {
+    "slug": "ai-agent-market-consolidation-2026-frameworks",
+    "title": "2026年AI智能体市场整合：框架生存指南",
+    "excerpt": "真实的AI智能体市场仅有130家真正的玩家，却吸引了38亿美元融资。了解哪些框架能在整合浪潮中存活、市场趋势及如何选择技术栈。",
+    "date": "2026-04-10",
+    "category": "行业分析",
+    "level": "Intermediate",
+    "tags": ["ai-agents", "enterprise-ai", "ai-tools", "llm", "generative-ai"],
+    "cover_image": "/ai-pulse/assets/images/ai-agent-market-consolidation-2026-frameworks.jpg",
+    "word_count": 2200,
+    "view_count": 0,
+    "featured": false
+  },
+  {
     "slug": "how-to-use-ai-for-coding-guide-2026",
     "title": "如何用 AI 辅助编程：2026 年开发者完整指南",
     "excerpt": "全面掌握 AI 辅助编程：涵盖 GitHub Copilot、Cursor、提示词策略、代码审查与 Agent 模式，2026 年开发者必读指南。",
