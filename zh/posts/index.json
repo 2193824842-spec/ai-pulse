@@ -1,5 +1,62 @@
 [
   {
+    "slug": "best-ai-agent-frameworks-2026",
+    "title": "2026年最佳AI智能体框架对比：LangChain vs AutoGen vs CrewAI",
+    "excerpt": "用真实基准数据对比 LangChain、AutoGen 和 CrewAI 的 token 成本与适用场景，帮你选出 2026 年最适合的 AI 智能体框架。",
+    "date": "2026-04-10",
+    "category": "Tool Guide",
+    "level": "Intermediate",
+    "tags": [
+      "AI智能体",
+      "AI工具",
+      "大语言模型",
+      "企业AI",
+      "代码生成"
+    ],
+    "cover_image": "/ai-pulse/assets/images/best-ai-agent-frameworks-2026.jpg",
+    "word_count": 2480,
+    "view_count": 0,
+    "featured": false
+  },
+  {
+    "slug": "ai-2027-scenario-realistic-infrastructure-impact",
+    "title": "AI 2027场景预测：基础设施会到位，但实际影响不会",
+    "excerpt": "万亿美元算力基础设施会在2027年到位，但对工作和商业的影响不会。为什么AI采用比预测慢得多。",
+    "date": "2026-04-10",
+    "category": "Opinion",
+    "level": "Intermediate",
+    "tags": [
+      "生成式AI",
+      "AI研究",
+      "企业AI",
+      "AI基准测试",
+      "大语言模型"
+    ],
+    "cover_image": "/ai-pulse/assets/images/ai-2027-scenario-realistic-infrastructure-impact.jpg",
+    "word_count": 1500,
+    "view_count": 0,
+    "featured": false
+  },
+  {
+    "slug": "ai-venture-capital-trends-2026",
+    "title": "2026年AI风险投资全景：两个月融资1600亿美元",
+    "excerpt": "两个月融资1600亿美元。看AI资金流向哪里、哪些创业公司在赢、以及各估值区间的投资机会",
+    "date": "2026-04-10",
+    "category": "Industry Analysis",
+    "level": "Intermediate",
+    "tags": [
+      "企业AI",
+      "生成式AI",
+      "AI研究",
+      "AI工具",
+      "AI基准测试"
+    ],
+    "cover_image": "/ai-pulse/assets/images/ai-venture-capital-trends-2026.jpg",
+    "word_count": 1847,
+    "view_count": 0,
+    "featured": false
+  },
+  {
     "slug": "ai-unicorn-bubble-reality-check-2026-startup-failure",
     "title": "2026年AI独角兽泡沫现实检验：创业公司能活下来吗？",
     "excerpt": "2026年AI独角兽泡沫通过降价融资和关停悄然放气。308家独角兽中有一半将在2027年重组，估值面对现实。",
