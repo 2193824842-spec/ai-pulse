@@ -38,7 +38,7 @@ jobs:
 
       - name: Run build_daily.py
         run: |
-          python scripts/build_daily.py --dry-run=false
+          python scripts/build_daily.py
         env:
           SITE_DIR: ${{ github.workspace }}
 
