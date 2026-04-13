@@ -34,6 +34,10 @@
     if (statArticles) statArticles.textContent = articles.length;
   });
 
+  function toolSlug(name) {
+    return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  }
+
   function renderFeaturedTools(tools) {
     const grid = document.getElementById('featured-tools-grid');
     if (!grid) return;
@@ -41,7 +45,8 @@
       const domain = (() => { try { return new URL(tool.url).hostname; } catch(e) { return ''; } })();
       const logoUrl = domain ? `https://www.google.com/s2/favicons?domain=${domain}&sz=64` : '';
       const fallback = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36'%3E%3Crect width='36' height='36' fill='%23e0e0e0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='16' fill='%23999'%3E${tool.name.charAt(0)}%3C/text%3E%3C/svg%3E`;
-      return `<a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="ft-card">
+      const detailUrl = `/ai-pulse/tools/${toolSlug(tool.name)}.html`;
+      return `<a href="${detailUrl}" class="ft-card">
         <img src="${logoUrl}" alt="${tool.name}" class="ft-logo" onerror="this.src='${fallback}'" />
         <span class="ft-name">${tool.name}</span>
       </a>`;
@@ -107,7 +112,7 @@
           const domain = (() => { try { return new URL(tool.url).hostname; } catch(e) { return ''; } })();
           const logoUrl = domain ? `https://www.google.com/s2/favicons?domain=${domain}&sz=64` : '';
           const fallback = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36'%3E%3Crect width='36' height='36' fill='%23e0e0e0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='16' fill='%23999'%3E${tool.name.charAt(0)}%3C/text%3E%3C/svg%3E`;
-          return `<a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="ft-card" style="width:80px;">
+          return `<a href="/ai-pulse/tools/${toolSlug(tool.name)}.html" class="ft-card" style="width:80px;">
             <img src="${logoUrl}" alt="${tool.name}" class="ft-logo" onerror="this.src='${fallback}'" />
             <span class="ft-name">${tool.name}</span>
           </a>`;
