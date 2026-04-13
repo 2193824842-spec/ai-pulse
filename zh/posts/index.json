@@ -2,11 +2,17 @@
   {
     "slug": "ai-unicorn-bubble-reality-check-2026-startup-failure",
     "title": "2026年AI独角兽泡沫现实检验：创业公司能活下来吗？",
-    "excerpt": "2026年AI独角兽泡沫通过降价融资和关停悄然收缩。308家独角兽中有一半将在2027年前重组，估值面对现实。",
+    "excerpt": "2026年AI独角兽泡沫通过降价融资和关停悄然放气。308家独角兽中有一半将在2027年重组，估值面对现实。",
     "date": "2026-04-10",
-    "category": "观点分析",
+    "category": "Opinion",
     "level": "Intermediate",
-    "tags": ["企业AI", "AI研究", "生成式AI", "AI工具", "AI基准测试"],
+    "tags": [
+      "企业AI",
+      "AI研究",
+      "生成式AI",
+      "AI工具",
+      "AI基准测试"
+    ],
     "cover_image": "/ai-pulse/assets/images/ai-unicorn-bubble-reality-check-2026-startup-failure.jpg",
     "word_count": 1485,
     "view_count": 0,
@@ -19,7 +25,13 @@
     "date": "2026-04-10",
     "category": "行业分析",
     "level": "Intermediate",
-    "tags": ["ai-agents", "enterprise-ai", "ai-tools", "llm", "generative-ai"],
+    "tags": [
+      "ai-agents",
+      "enterprise-ai",
+      "ai-tools",
+      "llm",
+      "generative-ai"
+    ],
     "cover_image": "/ai-pulse/assets/images/ai-agent-market-consolidation-2026-frameworks.jpg",
     "word_count": 2200,
     "view_count": 0,
