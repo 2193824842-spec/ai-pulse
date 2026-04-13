@@ -522,16 +522,15 @@ const result = await executor.call({
         </div>
       </div>
 
-            <!-- RELATED_START -->
-      <section class="related-posts">
+                  <!-- RELATED_START -->
+      <section class="related-posts" id="related-section" style="display:none">
         <h3>Related Articles</h3>
-        <div class="related-grid">
-        <a href="/ai-pulse/posts/best-machine-learning-frameworks-2026-beginners-guide.html" class="related-card"><h4>Best Machine Learning Frameworks 2026: Beginner's Guide</h4><p>Master machine learning fundamentals and choose the right framework in 2026. Complete guide to Sciki...</p></a>
-        <a href="/ai-pulse/posts/how-to-use-ai-for-coding-guide-2026.html" class="related-card"><h4>How to Use AI for Coding: Complete Guide for Developers 2026</h4><p>Master AI for coding with this complete guide covering GitHub Copilot, Cursor, prompting strategies,...</p></a>
-        <a href="/ai-pulse/posts/generative-video-ai-guide-2025.html" class="related-card"><h4>Generative Video AI Guide 2025: Sora Turbo & Best Tools</h4><p>Master generative video AI with our complete guide to Sora Turbo, text-to-video tools, free options,...</p></a>
+        <div class="related-grid" id="related-grid"></div>
+        <div style="text-align:center;margin-top:1rem">
+          <button id="related-shuffle" style="display:none;padding:0.4rem 1.2rem;border:1px solid #ccc;border-radius:4px;background:#fff;cursor:pointer;font-size:0.9rem">Shuffle ↻</button>
         </div>
       </section>
-<!-- RELATED_END -->
+      <!-- RELATED_END -->
     </article>
     <aside class="article-toc" aria-label="Table of Contents">
       <p class="toc-title">Contents</p>
