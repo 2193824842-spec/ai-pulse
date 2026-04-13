@@ -303,7 +303,7 @@
 
       container.innerHTML = filtered.map(tool => {
         try {
-          const domain = new URL(tool.url).hostname;
+          const domain = tool.favicon_domain || new URL(tool.url).hostname;
           const logoUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=128`;
           const badges = [];
           if (tool.featured) badges.push('<span class="tool-badge badge-hot">热门</span>');
@@ -362,7 +362,7 @@
       bar.classList.add('visible');
       btn.disabled = compareList.length < 2;
       slots.innerHTML = compareList.map(tool => {
-        const domain = (() => { try { return new URL(tool.url).hostname; } catch(e) { return ''; } })();
+        const domain = (() => { try { return tool.favicon_domain || new URL(tool.url).hostname; } catch(e) { return ''; } })();
         const logo = domain ? `https://www.google.com/s2/favicons?domain=${domain}&sz=64` : '';
         return `<div class="compare-slot filled">
           <img src="${logo}" alt="${tool.name}" onerror="this.style.display='none'" />
@@ -393,7 +393,7 @@
         <thead><tr>
           <th></th>
           ${compareList.map(t => {
-            const domain = (() => { try { return new URL(t.url).hostname; } catch(e) { return ''; } })();
+            const domain = (() => { try { return t.favicon_domain || new URL(t.url).hostname; } catch(e) { return ''; } })();
             const logo = domain ? `https://www.google.com/s2/favicons?domain=${domain}&sz=64` : '';
             return `<th class="tool-header"><img src="${logo}" alt="${t.name}" onerror="this.style.display='none'" /><span>${t.name}</span></th>`;
           }).join('')}
