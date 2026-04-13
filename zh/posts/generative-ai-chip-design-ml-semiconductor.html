@@ -218,5 +218,48 @@
     updateActive();
   })();
   </script>
+  <script>
+  (function(){
+    var currentSlug = location.pathname.split('/').pop().replace('.html','');
+    var currentTags = document.querySelector('meta[name="article-tags"]');
+    var tags = currentTags ? currentTags.content.split(',').map(function(t){return t.trim();}) : [];
+    fetch('/ai-pulse/zh/posts/index.json')
+      .then(function(r){return r.json();})
+      .then(function(articles){
+        var candidates = articles.filter(function(a){
+          if(a.slug === currentSlug) return false;
+          if(!a.tags) return false;
+          return a.tags.some(function(t){return tags.indexOf(t)!==-1;});
+        });
+        if(candidates.length < 4){
+          var extras = articles.filter(function(a){
+            return a.slug !== currentSlug && candidates.indexOf(a)===-1;
+          });
+          candidates = candidates.concat(extras).slice(0,8);
+        }
+        if(candidates.length === 0) return;
+        var section = document.getElementById('related-section');
+        var grid = document.getElementById('related-grid');
+        var btn = document.getElementById('related-shuffle');
+        var offset = 0;
+        var pageSize = 4;
+        function render(){
+          var batch = candidates.slice(offset, offset+pageSize);
+          grid.innerHTML = batch.map(function(a){
+            return '<a href="/ai-pulse/zh/posts/'+a.slug+'.html" class="related-card"><h4>'+a.title+'</h4><p>'+(a.excerpt||'').slice(0,100)+'...</p></a>';
+          }).join('');
+        }
+        render();
+        section.style.display='';
+        if(candidates.length > pageSize){
+          btn.style.display='inline-block';
+          btn.addEventListener('click',function(){
+            offset=(offset+pageSize>=candidates.length)?0:offset+pageSize;
+            render();
+          });
+        }
+      }).catch(function(){});
+  })();
+  </script>
 </body>
 </html>
