@@ -47,6 +47,10 @@
           <p>精选 AI 领域重要动态，每天中午 12:00 更新。</p>
         </div>
       </div>
+      <div class="daily-search-wrap">
+        <input type="text" id="daily-search" placeholder="搜索资讯..." autocomplete="off" />
+        <span id="daily-search-count"></span>
+      </div>
     </div>
 
     <div class="daily-feed">
@@ -429,5 +433,39 @@
       </div>
     </div>
   </footer>
+  <style>
+    .daily-search-wrap{margin-top:16px;display:flex;align-items:center;gap:12px}
+    .daily-search-wrap input{flex:1;max-width:480px;padding:9px 16px;border:1px solid var(--border);border-radius:8px;font-size:14px;background:var(--surface);color:var(--text);outline:none;transition:border-color .2s}
+    .daily-search-wrap input:focus{border-color:var(--accent)}
+    #daily-search-count{font-size:13px;color:var(--text-muted)}
+    .daily-item.hidden{display:none}
+    .daily-day.hidden{display:none}
+  </style>
+  <script>
+  (function(){
+    const input = document.getElementById('daily-search');
+    const counter = document.getElementById('daily-search-count');
+    if (!input) return;
+    input.addEventListener('input', function(){
+      const q = this.value.trim().toLowerCase();
+      let total = 0;
+      document.querySelectorAll('.daily-day').forEach(function(day){
+        let visible = 0;
+        day.querySelectorAll('.daily-item').forEach(function(item){
+          const text = item.textContent.toLowerCase();
+          if (!q || text.includes(q)) {
+            item.classList.remove('hidden');
+            visible++;
+            total++;
+          } else {
+            item.classList.add('hidden');
+          }
+        });
+        day.classList.toggle('hidden', visible === 0);
+      });
+      counter.textContent = q ? total + ' 条结果' : '';
+    });
+  })();
+  </script>
 </body>
 </html>
