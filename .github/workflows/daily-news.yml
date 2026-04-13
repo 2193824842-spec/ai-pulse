@@ -16,16 +16,6 @@ jobs:
         with:
           token: ${{ secrets.GH_PAT }}
 
-      - name: Checkout seo-farm scripts
-        uses: actions/checkout@v4
-        with:
-          repository: 2193824842-spec/seo-farm
-          token: ${{ secrets.GH_PAT }}
-          path: seo-farm-scripts
-          sparse-checkout: |
-            scripts/build_daily.py
-            config.yaml
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -37,7 +27,7 @@ jobs:
 
       - name: Write config
         run: |
-          cat > seo-farm-scripts/config.yaml << 'EOF'
+          cat > scripts/config.yaml << 'EOF'
           api:
             base_url: ${{ secrets.API_BASE_URL }}
             api_key: ${{ secrets.API_KEY }}
@@ -48,7 +38,6 @@ jobs:
 
       - name: Run build_daily.py
         run: |
-          cd seo-farm-scripts
           python scripts/build_daily.py --dry-run=false
         env:
           SITE_DIR: ${{ github.workspace }}
