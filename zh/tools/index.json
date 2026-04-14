@@ -1,7 +1,7 @@
 [
   {
     "name": "ChatGPT",
-    "description": "对话式 AI，支持写作、编程和问题解答",
+    "description": "ChatGPT 是 OpenAI 推出的对话型 AI 助手，每周有超过 4 亿用户使用。它可以处理文案写作、编码、研究、图像分析和语音对话。由 GPT-5 系列模型驱动，是全球应用最广泛的 AI 工具。",
     "category": "AI Writing",
     "url": "https://chat.openai.com",
     "tags": [
@@ -120,7 +120,7 @@
   },
   {
     "name": "Claude",
-    "description": "具备深度思考能力的 AI 助手",
+    "description": "Claude 是 Anthropic 开发的 AI 助手，专注于安全、有用和诚实的设计理念。它在长上下文推理、写作、编码和分析方面表现出色。Claude 3.5 和 3.7 模型系列因其在编码、精细化写作和指令遵循方面的卓越表现而广受认可。",
     "category": "AI Writing",
     "url": "https://claude.ai",
     "tags": [
@@ -229,7 +229,7 @@
   },
   {
     "name": "Gemini",
-    "description": "Google 推出的多模态 AI 助手",
+    "description": "Gemini 是 Google 的旗舰 AI 助手和模型系列。它深度集成到 Google Workspace（Docs、Gmail、Sheets）和 Android 中。Gemini 1.5/2.0 Pro 具有 100 万 token 的上下文窗口，使其特别适合处理整个代码库或书籍。Gemini Advanced 提供访问最强大模型的权限。",
     "category": "AI Writing",
     "url": "https://gemini.google.com",
     "tags": [
@@ -324,7 +324,7 @@
   },
   {
     "name": "Copilot",
-    "description": "微软基于 GPT-4 打造的 AI 助手",
+    "description": "Microsoft Copilot 是由 OpenAI 的 GPT-4 和 DALL-E 3 驱动的 AI 助手，深度集成在 Windows 11、Microsoft 365（Word、Excel、PowerPoint、Outlook、Teams）和 Bing Search 中。它提供免费访问 GPT-4 级别模型的功能，包括网络搜索、图像生成和文档分析。",
     "category": "AI Writing",
     "url": "https://copilot.microsoft.com",
     "tags": [
@@ -418,7 +418,7 @@
   },
   {
     "name": "Midjourney",
-    "description": "通过文字描述生成高质量 AI 图像",
+    "description": "Midjourney 是领先的 AI 图像生成工具，以通过文本提示生成高质量、视觉效果出众的图像而著称。它通过网页界面和 Discord 运行。Midjourney V6/V6.1 能生成具有卓越细节、风格一致性和提示词遵循度的照片级真实感和艺术风格图像——是设计师和创意专业人士的首选工具。",
     "category": "AI Image",
     "url": "https://midjourney.com",
     "tags": [
@@ -528,7 +528,7 @@
   },
   {
     "name": "DALL-E 3",
-    "description": "OpenAI 出品的高级 AI 图像生成工具",
+    "description": "DALL-E 3 是 OpenAI 最先进的图像生成模型，直接集成在 ChatGPT 中。它能够以高精度执行复杂、详细的提示词，相比之前的版本有了显著提升。可通过 ChatGPT Plus 和 OpenAI API 获取。",
     "category": "AI Image",
     "url": "https://openai.com/dall-e-3",
     "tags": [
@@ -616,7 +616,7 @@
   },
   {
     "name": "Stable Diffusion",
-    "description": "开源 AI 图像生成模型，可本地部署",
+    "description": "Stable Diffusion 是由 Stability AI 开发的开源文本生成图像 AI 模型。与仅限云端的工具不同，它可以在消费级硬件上本地运行，用户能够完全掌控生成过程，没有使用限制或内容审查。SD3 和 SDXL 模型提供高质量的输出效果，配合庞大的微调模型和扩展生态系统。",
     "category": "AI Image",
     "url": "https://stability.ai",
     "tags": [
@@ -708,7 +708,7 @@
   },
   {
     "name": "Leonardo AI",
-    "description": "专为游戏素材和创意项目设计的 AI 绘图工具",
+    "description": "Leonardo AI 是一个功能强大的 AI 图像生成平台，专为游戏开发者、概念艺术家和创意专业人士设计。它提供用于一致性角色和资源生成的微调模型、用于图像修复的画布编辑器，以及慷慨的免费套餐配额和每日代币额度。",
     "category": "AI Image",
     "url": "https://leonardo.ai",
     "tags": [
@@ -817,7 +817,7 @@
   },
   {
     "name": "Sora",
-    "description": "OpenAI 推出的文字转视频 AI 模型",
+    "description": "Sora 是 OpenAI 开发的突破性文生视频模型，能够根据文本提示生成逼真且富有想象力的视频场景。它可以生成长达 1 分钟的视频，具有高视觉质量，并能理解物理学、运动和场景连贯性。目前已向 ChatGPT Plus 和 Pro 订阅用户开放。",
     "category": "AI Video",
     "url": "https://openai.com/sora",
     "tags": [
@@ -893,7 +893,7 @@
   },
   {
     "name": "Runway Gen-3",
-    "description": "AI 视频生成与编辑一体化平台",
+    "description": "Runway 是专业电影制作人、工作室和内容创作者使用的领先 AI 视频生成平台。Gen-3 Alpha 能够从文本和图像提示生成高质量的电影级视频。Runway 还提供了完整的 AI 视频编辑工具套件，包括背景移除、动作追踪和图像修复。",
     "category": "AI Video",
     "url": "https://runwayml.com",
     "tags": [
@@ -1002,7 +1002,7 @@
   },
   {
     "name": "Pika",
-    "description": "通过文字和图片生成 AI 视频",
+    "description": "Pika 是一个 AI 视频生成平台，让任何人都能从文本提示、图像或现有视频片段生成和编辑视频。Pika 1.5 和 2.0 提供高质量的创意视频，具备 Pikaffects 特效功能和 Pikamovie 长形式内容创作等特性。",
     "category": "AI Video",
     "url": "https://pika.art",
     "tags": [
@@ -1112,7 +1112,7 @@
   },
   {
     "name": "HeyGen",
-    "description": "AI 数字人视频和文字转视频平台",
+    "description": "HeyGen 是一个专业的 AI 视频平台，专注于虚拟形象视频创作和视频翻译。它让你能够用 AI 虚拟形象创建专业的真人出镜视频，克隆你自己的虚拟形象，并将现有视频翻译成 40 多种语言，同时保持讲话者的原音和唇形同步。",
     "category": "AI Video",
     "url": "https://heygen.com",
     "tags": [
@@ -1225,7 +1225,7 @@
   },
   {
     "name": "GitHub Copilot",
-    "description": "AI 编程助手，大幅提升代码编写效率",
+    "description": "GitHub Copilot 是由 GitHub 和 OpenAI 开发的 AI 驱动编程助手。它在你的 IDE 中提供实时代码建议、补全和解释。Copilot X 进一步扩展了这些功能，增加了聊天、拉取请求摘要和 CLI 协助。已被数百万开发者在所有主流编程语言和编辑器中使用。",
     "category": "AI Coding",
     "url": "https://github.com/features/copilot",
     "tags": [
@@ -1335,7 +1335,7 @@
   },
   {
     "name": "Cursor",
-    "description": "内置 AI 的代码编辑器，提升开发效率",
+    "description": "Cursor 是一款基于 VS Code 构建的 AI 代码编辑器，深度融合了 AI 与编码工作流。它支持多文件编辑、代码库感知聊天以及用于处理复杂任务的自主代理模式。Cursor 采用最前沿的模型（GPT-4、Claude），已成为 AI 辅助开发的首选编辑器。",
     "category": "AI Coding",
     "url": "https://cursor.sh",
     "tags": [
@@ -1431,7 +1431,7 @@
   },
   {
     "name": "Codeium",
-    "description": "免费 AI 代码补全与对话工具",
+    "description": "Codeium 是一个免费的 AI 编码助手，为 70 多种编程语言提供代码补全、对话和搜索功能。它支持与 40 多个 IDE 集成，对个人开发者完全免费。Codeium 的企业版产品（Windsurf）提供团队协作功能和自托管部署方案。",
     "category": "AI Coding",
     "url": "https://codeium.com",
     "tags": [
@@ -1526,7 +1526,7 @@
   },
   {
     "name": "Tabnine",
-    "description": "支持主流 IDE 的 AI 代码助手",
+    "description": "Tabnine 是一款专注于隐私和安全的 AI 代码补全工具。与竞争对手不同，它提供了完全本地化的模型选项，代码永远不会发送到外部服务器。它与所有主流 IDE 集成，支持 30 多种编程语言，在对数据安全有严格要求的企业环境中广受欢迎。",
     "category": "AI Coding",
     "url": "https://tabnine.com",
     "tags": [
@@ -1621,7 +1621,7 @@
   },
   {
     "name": "ElevenLabs",
-    "description": "AI 语音生成与文字转语音工具",
+    "description": "ElevenLabs 是业界领先的 AI 语音生成平台，提供超逼真的文本转语音、语音克隆和配音服务，支持 29 种以上语言。内容创作者、出版机构和企业广泛使用它来制作有声书、播客、视频和无障碍工具。",
     "category": "AI Audio",
     "url": "https://elevenlabs.io",
     "tags": [
@@ -1729,7 +1729,7 @@
   },
   {
     "name": "Murf AI",
-    "description": "适用于视频和演示的 AI 配音工具",
+    "description": "Murf AI 是一款专业的 AI 语音生成工具，用于为视频、演讲和电子学习内容创建配音。它提供 120 多个 AI 语音，支持 20 多种语言，并配备内置的工作室编辑器，可将音频与视频和幻灯片同步。",
     "category": "AI Audio",
     "url": "https://murf.ai",
     "tags": [
@@ -1841,7 +1841,7 @@
   },
   {
     "name": "Suno",
-    "description": "通过文字描述生成 AI 音乐",
+    "description": "Suno 是一个 AI 音乐生成平台，可以根据简单的文本提示创作完整的原创歌曲——包括人声、乐器和歌词。它使非音乐专业人士也能创作音乐，被创意工作者用于背景音乐、社交内容和创意项目。",
     "category": "AI Audio",
     "url": "https://suno.ai",
     "tags": [
@@ -1933,7 +1933,7 @@
   },
   {
     "name": "Perplexity",
-    "description": "实时联网的 AI 搜索引擎",
+    "description": "Perplexity 是一个由人工智能驱动的搜索引擎，它将实时网络搜索与大语言模型相结合，为用户问题提供直接、有引用来源的答案。与传统搜索引擎不同，它能综合多个信息源的内容，并呈现清晰的答案和参考资料——使研究变得更快速、更可靠。",
     "category": "AI Search",
     "url": "https://perplexity.ai",
     "tags": [
@@ -2013,7 +2013,7 @@
   },
   {
     "name": "You.com",
-    "description": "个性化结果的 AI 搜索引擎",
+    "description": "You.com 是一个 AI 驱动的搜索引擎，将网页搜索与 AI 对话、代码生成和图像创建功能相结合。它提供多种 AI 模式（Chat、Create、Research），让用户能够自定义搜索体验。You.com 重视隐私保护，将数据控制权交给用户。",
     "category": "AI Search",
     "url": "https://you.com",
     "tags": [
@@ -2086,7 +2086,7 @@
   },
   {
     "name": "Notion AI",
-    "description": "集成在 Notion 工作区的 AI 写作助手",
+    "description": "Notion AI 是集成在 Notion 工作区中的 AI 助手。它可以帮助用户编写、总结、翻译和组织现有笔记和文档中的内容。对于已在使用 Notion 并希望获得 AI 协助而无需切换工具的团队来说，它是理想选择。",
     "category": "AI Productivity",
     "url": "https://notion.so/product/ai",
     "tags": [
@@ -2179,7 +2179,7 @@
   },
   {
     "name": "Jasper",
-    "description": "面向营销和文案创作的 AI 内容工具",
+    "description": "Jasper 是为营销团队打造的 AI 内容创作平台。它提供 50 多个模板，可用于博客文章、广告、电子邮件和社媒内容，支持品牌语调定制和团队协作功能。Jasper 专为需要大规模生成一致、符合品牌调性内容的专业营销人员设计。",
     "category": "AI Writing",
     "url": "https://jasper.ai",
     "tags": [
@@ -2279,7 +2279,7 @@
   },
   {
     "name": "Copy.ai",
-    "description": "营销内容 AI 文案生成工具",
+    "description": "Copy.ai 是一个专为营销人员和销售团队设计的 AI 文案平台。它提供 90 多个模板，用于广告、电子邮件、产品描述和社交媒体帖子。GTM AI Platform 帮助市场上线团队大规模自动化内容工作流程。",
     "category": "AI Writing",
     "url": "https://copy.ai",
     "tags": [
@@ -2388,7 +2388,7 @@
   },
   {
     "name": "Grammarly",
-    "description": "AI 写作助手，优化语法与文风",
+    "description": "Grammarly 是全球使用最广泛的 AI 写作助手，帮助超过 3000 万人更清晰、更有效地进行写作。它可以在浏览器、桌面应用和 Microsoft Office 中实时检查语法、拼写、标点符号、清晰度和语气。GrammarlyGO 增加了用于起草和改写的生成式 AI 功能。",
     "category": "AI Writing",
     "url": "https://grammarly.com",
     "tags": [
@@ -2483,7 +2483,7 @@
   },
   {
     "name": "Canva AI",
-    "description": "AI 驱动的设计与图像编辑平台",
+    "description": "Canva 是全球最受欢迎的设计平台，现已融合强大的 AI 功能。Magic Studio 为 Canva 的拖拽编辑器增添了 AI 图像生成、背景移除、文本生成图像以及 AI 驱动的设计建议等功能。超过 1.5 亿用户使用 Canva 进行社交媒体内容创作、演示文稿制作、市场营销物料设计等各种工作。",
     "category": "AI Design",
     "url": "https://canva.com",
     "tags": [
@@ -2582,7 +2582,7 @@
   },
   {
     "name": "Figma AI",
-    "description": "协作设计工具中的 AI 功能集成",
+    "description": "Figma 是 UI/UX 设计师的行业标准协作设计工具，现已增强了 AI 功能。Figma AI 包括自动布局建议、文本生成设计、资源搜索和原型生成。它是产品团队构建数字产品的首选平台。",
     "category": "AI Design",
     "url": "https://figma.com",
     "tags": [
@@ -2694,7 +2694,7 @@
   },
   {
     "name": "Framer AI",
-    "description": "AI 网站构建与设计工具",
+    "description": "Framer 是一个由 AI 驱动的网站构建器，让你可以从文本描述创建专业网站。其 AI 可以根据提示生成完整的网站布局、文案和组件。Framer 结合了可视化设计工具的强大功能与无代码构建器的简洁性。",
     "category": "AI Design",
     "url": "https://framer.com",
     "tags": [
@@ -2807,7 +2807,7 @@
   },
   {
     "name": "Gamma",
-    "description": "AI 演示文稿和文档创作工具",
+    "description": "Gamma 是一个由 AI 驱动的演示文稿和文档创建工具，可以从文本提示或大纲生成精美、结构化的内容。与传统的幻灯片工具不同，Gamma 创建的是原生网页演示文稿，易于分享且在任何设备上都呈现效果出众。",
     "category": "AI Productivity",
     "url": "https://gamma.app",
     "tags": [
@@ -2902,7 +2902,7 @@
   },
   {
     "name": "Beautiful.ai",
-    "description": "AI 驱动的演示文稿制作软件",
+    "description": "Beautiful.ai 是一款 AI 驱动的演示文稿工具，可在你添加内容时自动格式化和设计幻灯片。智能幻灯片模板会自适应你的内容，确保呈现出专业水准的演示文稿，无需手动设计。深受商务团队青睐，常用于制作路演演讲稿和报告。",
     "category": "AI Productivity",
     "url": "https://beautiful.ai",
     "tags": [
@@ -2995,7 +2995,7 @@
   },
   {
     "name": "Otter.ai",
-    "description": "AI 会议记录与语音转文字工具",
+    "description": "Otter.ai 是一个AI会议助手，可以实时自动转录会议、生成摘要和提取行动项。它与 Zoom、Google Meet 和 Microsoft Teams 集成，可以自动捕获每场会议的内容。",
     "category": "AI Productivity",
     "url": "https://otter.ai",
     "tags": [
@@ -3086,7 +3086,7 @@
   },
   {
     "name": "Fireflies.ai",
-    "description": "AI 会议助手，自动记录和整理会议内容",
+    "description": "Fireflies.ai 是一款 AI 会议助手，可以自动加入、录制和转录各大视频会议平台上的会议。它提供 AI 生成的摘要、待办事项和对话分析，帮助团队保持同步并提高工作效率。",
     "category": "AI Productivity",
     "url": "https://fireflies.ai",
     "tags": [
@@ -3177,7 +3177,7 @@
   },
   {
     "name": "Descript",
-    "description": "AI 视频和播客编辑工具",
+    "description": "Descript 是一款由 AI 驱动的视频和播客编辑工具，允许用户通过编辑文稿来编辑媒体内容。删除文稿中的词语，视频会自动编辑。功能包括 AI 语音克隆（Overdub）、填充词移除、屏幕录制和为社交媒体提供的 AI 驱动的片段生成。",
     "category": "AI Video",
     "url": "https://descript.com",
     "tags": [
@@ -3289,7 +3289,7 @@
   },
   {
     "name": "Synthesia",
-    "description": "使用虚拟数字人创建 AI 视频",
+    "description": "Synthesia 是一个 AI 视频生成平台，让你可以使用 AI 虚拟形象和文本脚本创建专业的讲话视频——无需摄像机、麦克风或录音棚。全球 50,000 多家企业使用 Synthesia 制作培训、入职和营销视频，该平台支持 140 多种语言和 230 多个 AI 虚拟形象。",
     "category": "AI Video",
     "url": "https://synthesia.io",
     "tags": [
@@ -3404,7 +3404,7 @@
   },
   {
     "name": "Luma AI",
-    "description": "AI 3D 捕捉与视频生成工具",
+    "description": "Luma AI 是一个 AI 创意平台，提供两款旗舰产品：Dream Machine 用于高质量的文本转视频和图像转视频生成，以及 Luma 3D 用于从视频进行逼真的 3D 场景捕捉。Dream Machine 以其电影级画质、流畅的动作和逼真的物理模拟而著称。",
     "category": "AI Video",
     "url": "https://lumalabs.ai",
     "tags": [
@@ -3513,7 +3513,7 @@
   },
   {
     "name": "Replicate",
-    "description": "在云端运行各类 AI 模型的平台",
+    "description": "Replicate 是一个云平台，可通过 API 运行开源 AI 模型。它托管数千个用于图像生成、语言、音频、视频等领域的模型，让开发者能够在无需管理基础设施的情况下将 AI 集成到应用程序中。按使用量付费。",
     "category": "AI Developer",
     "url": "https://replicate.com",
     "tags": [
@@ -3591,7 +3591,7 @@
   },
   {
     "name": "Hugging Face",
-    "description": "AI 模型托管与开源协作平台",
+    "description": "Hugging Face 是开源 AI 社区的中心枢纽。它托管了超过 50 万个模型、10 万多个数据集和 20 万多个演示应用（Spaces）。开发者使用它来发现、分享和部署 AI 模型。Transformers 库和 Inference API 使其成为现代 AI 开发的基础。",
     "category": "AI Developer",
     "url": "https://huggingface.co",
     "tags": [
@@ -3686,7 +3686,7 @@
   },
   {
     "name": "Anthropic Console",
-    "description": "Claude API 与开发者工具平台",
+    "description": "Anthropic Console 是访问 Claude 模型 API 的开发者平台。它提供了 Claude 3.5 Sonnet、Claude 3.7 Sonnet 和 Claude Opus 的访问权限，用于构建 AI 驱动的应用程序。功能包括提示词测试、使用情况分析和细粒度 API 控制。",
     "category": "AI Developer",
     "url": "https://console.anthropic.com",
     "tags": [
@@ -3787,7 +3787,7 @@
   },
   {
     "name": "OpenAI Platform",
-    "description": "GPT API 与 OpenAI 开发者平台",
+    "description": "OpenAI Platform 是用于访问 GPT-4、GPT-4o、DALL-E 3、Whisper 和其他 OpenAI 模型的开发者 API。它是使用最广泛的 AI API，为数千个应用程序提供支持。Playground 让开发者能够测试提示词，而 API 则为生产应用程序提供程序化访问。",
     "category": "AI Developer",
     "url": "https://platform.openai.com",
     "tags": [
@@ -3889,7 +3889,7 @@
   },
   {
     "name": "Zapier AI",
-    "description": "AI 驱动的工作流自动化工具",
+    "description": "Zapier 是领先的无代码自动化平台，现已融合 AI 能力。借助 Zapier AI，你可以使用自然语言构建自动化流程，利用 ChatGPT 和其他模型创建 AI 驱动的工作流，以及在 6000+ 个应用中自动化重复任务，无需编写代码。",
     "category": "AI Productivity",
     "url": "https://zapier.com",
     "tags": [
