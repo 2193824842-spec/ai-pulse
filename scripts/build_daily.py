@@ -25,13 +25,21 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 # ── 路径 ─────────────────────────────────────────────────────────────────────
 _HERE     = Path(__file__).parent
-_ROOT     = _HERE.parent          # D:\seo-farm\
-SITE_DIR  = _ROOT / "site"
+_ROOT     = _HERE.parent          # 本地: D:\seo-farm\  / CI: 仓库根目录
+
+# CI 环境：脚本在仓库根的 scripts/ 下，站点文件就在根目录
+# 本地环境：脚本在 seo-farm/scripts/ 下，站点文件在 seo-farm/site/
+_SITE_CANDIDATE = _ROOT / "site"
+SITE_DIR  = _SITE_CANDIDATE if _SITE_CANDIDATE.is_dir() else _ROOT
 DAILY_EN  = SITE_DIR / "daily.html"
 DAILY_ZH  = SITE_DIR / "zh" / "daily.html"
 
 # ── 读取配置 ──────────────────────────────────────────────────────────────────
-with open(_ROOT / "config.yaml", encoding="utf-8") as f:
+_cfg_candidates = [_HERE / "config.yaml", _ROOT / "config.yaml"]
+_cfg_path = next((p for p in _cfg_candidates if p.is_file()), None)
+if _cfg_path is None:
+    raise FileNotFoundError(f"config.yaml not found, tried: {_cfg_candidates}")
+with open(_cfg_path, encoding="utf-8") as f:
     _cfg = yaml.safe_load(f)
 
 API_KEY      = _cfg["api"]["api_key"]
