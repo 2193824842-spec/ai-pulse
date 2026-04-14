@@ -5353,5 +5353,783 @@
       "E-commerce and product description writers",
       "Freelance writers seeking productivity tools"
     ]
+  },
+  {
+    "name": "CrushOn AI",
+    "description": "# 中文翻译\n\nCrushOn AI是一个平台，允许用户创建、自定义AI角色，并在不受限制的对话中与其交互。该平台强调创意角色扮演和角色开发，内容审核最少，使用户能够与个性化AI伙伴探索多样化的对话场景。\n\n---",
+    "company": "CrushOn",
+    "category": "AI Chat",
+    "url": "https://www.crushon.ai",
+    "tags": [
+      "人工智能聊天",
+      "角色扮演",
+      "角色创建",
+      "无限制内容",
+      "社区驱动"
+    ],
+    "popularity": 45,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Limited daily messages",
+            "Access to community characters",
+            "Basic character creation"
+          ],
+          "zh_highlights": [
+            "每日消息限制",
+            "访问社区角色",
+            "基本角色创建"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited messages",
+            "Advanced character customization",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "无限消息",
+            "高级角色自定义",
+            "优先支持"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Translation to Chinese\n\n最适合寻求无限制AI角色扮演和角色互动的创意用户。\n\nOr more concise:\n\n适合寻求无限制AI角色扮演的创意用户。",
+    "features": [
+      "不受限制的角色创建和自定义",
+      "没有严格内容过滤的NSFW友好对话",
+      "多样化的预制角色库",
+      "跨对话的记忆和个性持久性",
+      "多种对话风格和交互模式",
+      "社区创建的角色分享"
+    ],
+    "pros": [
+      "高度宽松的内容政策支持真实的角色扮演",
+      "直观的角色创建和自定义工具",
+      "具有共享角色库的活跃社区",
+      "为高级用户提供无严格对话限制"
+    ],
+    "cons": [
+      "最少的内容审核可能会产生安全隐患",
+      "数据隐私实践的透明度有限",
+      "与主流替代方案相比用户基数较小"
+    ],
+    "best_for": [
+      "Creative writers seeking character development",
+      "Users interested in uncensored roleplay scenarios",
+      "People exploring diverse conversational experiences",
+      "Community-driven AI interaction enthusiasts"
+    ]
+  },
+  {
+    "name": "Janitor AI",
+    "description": "# 中文翻译\n\nJanitor AI 是一个平台，用户可以创建、自定义和交互AI驱动的角色，用于角色扮演、创意写作和娱乐目的。它提供易用的界面来构建个性化聊天机器人，无需编程知识。该平台支持从奇幻到现",
+    "company": "Janitor AI",
+    "category": "AI Chat",
+    "url": "https://www.janitorai.com",
+    "tags": [
+      "ai-chat: 人工智能聊天",
+      "character-creation: 角色创建",
+      "roleplay: 角色扮演",
+      "chatbot: 聊天机器人",
+      "interactive: 交互式"
+    ],
+    "popularity": 62,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Create and chat with basic characters",
+            "Limited daily messages",
+            "Community character access"
+          ],
+          "zh_highlights": [
+            "创建和聊天基本角色",
+            "每日消息数量有限",
+            "社区角色访问"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited messages and conversations",
+            "Advanced customization options",
+            "Priority character creation and faster responses"
+          ],
+          "zh_highlights": [
+            "无限消息和对话",
+            "高级自定义选项",
+            "优先角色创建和更快的响应"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "适合寻求互动式AI角色的创意爱好者和讲故事者。",
+    "features": [
+      "具有详细性格特征的自定义AI角色创建",
+      "用于逼真对话的先进自然语言处理",
+      "跨对话的角色记忆和上下文保留",
+      "用户创建角色的社区共享和发现",
+      "包括角色扮演和故事讲述的多种对话模式",
+      "与各种AI模型的集成和自定义选项"
+    ],
+    "pros": [
+      "用户友好的界面，无需编码技能",
+      "高度可定制的角色，提供广泛的个性化选项",
+      "活跃社区，拥有共享角色库",
+      "价格实惠，提供完整的免费版本"
+    ],
+    "cons": [
+      "免费计划有限制，消息数量受限",
+      "偶尔出现响应质量不一致",
+      "内容审核问题和成人内容限制"
+    ],
+    "best_for": [
+      "Creative writers and storytellers",
+      "Roleplay enthusiasts",
+      "Entertainment and casual chatbot users",
+      "Users exploring AI character interaction"
+    ]
+  },
+  {
+    "name": "StoryChat",
+    "description": "# StoryChat 中文翻译\n\nStoryChat 是一个人工智能驱动的对话平台，通过交互式对话生成动态个性化故事。用户可与AI角色共同创作叙事、探索分支剧情，并实时塑造故事结局。该平台将自然语言处理与创意写作能力相",
+    "company": "StoryChat AI",
+    "category": "AI Chat",
+    "url": "https://www.storychat.ai",
+    "tags": [
+      "讲故事",
+      "创意写作",
+      "互动小说",
+      "叙事人工智能",
+      "娱乐"
+    ],
+    "popularity": 42,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Limited daily story generations",
+            "Access to basic story themes",
+            "Community stories and shared narratives"
+          ],
+          "zh_highlights": [
+            "每日故事生成次数有限",
+            "访问基础故事主题",
+            "社区故事和共享叙事"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited story generation",
+            "Advanced customization options",
+            "Priority story access and new features"
+          ],
+          "zh_highlights": [
+            "无限故事生成",
+            "高级自定义选项",
+            "优先故事访问权和新功能"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "最适合寻求个性化AI讲故事的创意写手和互动小说爱好者。",
+    "features": [
+      "具有分支叙事的交互式故事生成",
+      "AI驱动的角色对话和对白",
+      "可自定义的故事主题和类型",
+      "基于用户选择的实时叙事自适应",
+      "多章节故事持久化和保存",
+      "与AI伙伴的协作讲故事"
+    ],
+    "pros": [
+      "聊天与创意讲故事的独特融合",
+      "高度个性化的叙述体验",
+      "为非技术用户设计的直观界面",
+      "为创意写作爱好者提供的引人入胜的娱乐体验"
+    ],
+    "cons": [
+      "某些地区可用性有限",
+      "故事质量可能不一致",
+      "无限使用需要高级订阅"
+    ],
+    "best_for": [
+      "Creative writers seeking inspiration",
+      "Interactive fiction enthusiasts",
+      "Entertainment and leisure users",
+      "Educational content creators"
+    ]
+  },
+  {
+    "name": "SillyTavern",
+    "description": "SillyTavern是一个免费的开源用户界面，用于与AI语言模型和基于角色的聊天机器人交互。它支持多个AI后端，包括Claude、GPT和本地模型，能够实现具有自定义角色定义的沉浸式角色扮演对话。该平台通过允许本地模",
+    "company": "Community-Driven Open Source",
+    "category": "AI Chat",
+    "url": "https://sillytavern.app",
+    "tags": [
+      "开源",
+      "角色扮演",
+      "可定制",
+      "隐私为中心",
+      "角色AI"
+    ],
+    "popularity": 65,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "free",
+      "plans": [
+        {
+          "name": "SillyTavern",
+          "price": "$0",
+          "highlights": [
+            "Completely free and open-source",
+            "No mandatory subscriptions or premium tiers",
+            "Self-hosted or cloud deployment options"
+          ],
+          "zh_highlights": [
+            "完全免费和开源",
+            "无强制订阅或高级版本",
+            "自托管或云部署选项"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Chinese Translation\n\n**适合寻求可定制、隐私优先的AI聊天和角色扮演的技术用户。**\n\nOr more concisely:\n\n**为追求可定制、隐私至上的AI聊天和角色扮演的技术用户而设。**",
+    "features": [
+      "多后端AI模型支持（Claude、OpenAI、Llama等）",
+      "角色创建和扮演，具有详细的角色定义",
+      "聊天历史管理和记忆系统",
+      "高级提示词工程和令牌计数",
+      "本地模型支持和隐私聚焦部署",
+      "可自定义UI主题和用户扩展"
+    ],
+    "pros": [
+      "免费开源，无付费墙",
+      "高度可定制，支持社区扩展和主题",
+      "支持多个AI后端，灵活性强",
+      "强大的隐私功能，支持本地模型"
+    ],
+    "cons": [
+      "非技术用户的学习曲线更陡峭",
+      "大多数AI后端需要外部API密钥",
+      "社区驱动的开发可能缺乏企业支持"
+    ],
+    "best_for": [
+      "Roleplay enthusiasts and creative writers",
+      "Technical users seeking AI customization",
+      "Privacy-conscious individuals",
+      "Indie developers building chatbot applications"
+    ]
+  },
+  {
+    "name": "Roleplay AI",
+    "description": "# 角色扮演AI是一个平台，让用户创建和互动定制化AI角色，用于创意写作、游戏和娱乐。该工具使用先进语言模型模拟逼真对话和人格，允许用户探索不同场景和叙述。它支持角色创建、多轮对话和协作",
+    "company": "Roleplay AI Inc.",
+    "category": "AI Chat",
+    "url": "https://www.roleplay.ai",
+    "tags": [
+      "创意写作",
+      "互动小说",
+      "角色扮演",
+      "角色人工智能",
+      "讲故事"
+    ],
+    "popularity": 62,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Access to basic characters",
+            "Limited monthly interactions",
+            "Community character library"
+          ],
+          "zh_highlights": [
+            "访问基本角色",
+            "有限的月度交互",
+            "社区角色库"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited character creation",
+            "Unlimited interactions",
+            "Advanced customization options"
+          ],
+          "zh_highlights": [
+            "无限角色创建",
+            "无限交互",
+            "高级自定义选项"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$19.99/month",
+          "highlights": [
+            "Priority support",
+            "Custom model fine-tuning",
+            "Export and API access"
+          ],
+          "zh_highlights": [
+            "优先支持",
+            "自定义模型微调",
+            "导出和API访问"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "最适合寻求沉浸式AI驱动故事体验的创意写手和角色扮演者。\n\nOr more concisely:\n\n适合创意写手和角色扮演者的沉浸式AI故事平台。",
+    "features": [
+      "可定制的AI角色创建和个性构建",
+      "具有上下文感知的多轮对话AI",
+      "角色记忆和持久故事线追踪",
+      "交互式场景和世界构建工具",
+      "预构建角色和故事的社区库",
+      "实时协作角色扮演会话"
+    ],
+    "pros": [
+      "高度可定制的角色，具有深层个性配置",
+      "引人入胜的沉浸式对话体验",
+      "活跃的社区和共享角色库",
+      "价格实惠，免费层级慷慨"
+    ],
+    "cons": [
+      "在扩展的长期会话中字符记忆有限",
+      "字符性格保留中偶尔出现不一致",
+      "与主流AI聊天工具相比用户基数较小"
+    ],
+    "best_for": [
+      "Creative writers and storytellers",
+      "Tabletop RPG enthusiasts",
+      "Interactive fiction fans",
+      "Character development and worldbuilding practitioners"
+    ]
+  },
+  {
+    "name": "Xoul.ai",
+    "description": "# 中文翻译\n\nXoul.ai 是一个由人工智能驱动的对话平台，旨在为各个领域提供智能协助。它利用自然语言处理技术理解复杂查询并提供上下文化、个性化的回应。该平台将聊天功能与高级推理相结合，帮助",
+    "company": "Xoul",
+    "category": "AI Chat",
+    "url": "https://xoul.ai",
+    "tags": [
+      "人工智能聊天",
+      "对话式人工智能",
+      "自动化",
+      "自然语言处理",
+      "生产力"
+    ],
+    "popularity": 45,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Limited daily conversations",
+            "Basic AI features",
+            "Community support"
+          ],
+          "zh_highlights": [
+            "有限的每日对话",
+            "基础AI功能",
+            "社区支持"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$19/month",
+          "highlights": [
+            "Unlimited conversations",
+            "Advanced features",
+            "Priority support",
+            "API access"
+          ],
+          "zh_highlights": [
+            "无限对话",
+            "高级功能",
+            "优先支持",
+            "API 访问"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Custom integration",
+            "Dedicated support",
+            "Advanced security",
+            "White-label options"
+          ],
+          "zh_highlights": [
+            "自定义集成",
+            "专属支持",
+            "高级安全",
+            "白标选项"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Translation to Chinese (Concise)\n\n**适合寻求智能AI助手协助内容创作和任务自动化的专业人士。**\n\nOr more concisely:\n\n**专为需要AI助手进行内容创作和任务自动化的专业人士设计。**",
+    "features": [
+      "先进的自然语言理解",
+      "多轮对话能力",
+      "上下文感知响应",
+      "任务自动化和工作流集成",
+      "实时信息处理",
+      "自定义AI模型微调"
+    ],
+    "pros": [
+      "直观易用的界面",
+      "支持多种语言和领域",
+      "价格实惠，提供灵活的套餐",
+      "强大的推理和理解能力"
+    ],
+    "cons": [
+      "免费版本的定制化选项有限",
+      "API文档可以更加全面",
+      "高峰使用时段偶尔出现延迟"
+    ],
+    "best_for": [
+      "Content creators",
+      "Business professionals",
+      "Students and researchers",
+      "Automation enthusiasts"
+    ]
+  },
+  {
+    "name": "Chai",
+    "description": "# Chinese Translation (Concise)\n\nChai是一个平台，用户可以在其上创建、定制和交互AI驱动的角色和聊天机器人。该平台支持休闲对话和角色扮演体验，提供多样化的AI个性。平台支持社区创建的机器人，并为开发者提供工具来构",
+    "company": "Chai Research",
+    "category": "AI Chat",
+    "url": "https://www.chai-research.io",
+    "tags": [
+      "聊天机器人",
+      "人工智能角色",
+      "对话",
+      "角色扮演",
+      "社区"
+    ],
+    "popularity": 62,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Access to community-created bots",
+            "Limited daily conversations",
+            "Basic character interactions"
+          ],
+          "zh_highlights": [
+            "访问社区创建的机器人",
+            "每日对话次数有限",
+            "基本角色互动"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited conversations",
+            "Create custom characters",
+            "Advanced personalization features"
+          ],
+          "zh_highlights": [
+            "无限对话",
+            "创建自定义角色",
+            "高级个性化功能"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "适合任何想要与各种AI个性和角色进行有趣对话的人。\n\nOr more concisely:\n\n适合寻求与多样AI角色进行互动对话的人。",
+    "features": [
+      "AI角色创建和自定义",
+      "多轮对话功能",
+      "社区驱动的机器人市场",
+      "角色个性调整",
+      "跨平台可用性",
+      "用于自定义机器人创建的开发者API"
+    ],
+    "pros": [
+      "多样化的AI角色和个性",
+      "用户友好的对话界面",
+      "活跃的社区贡献新机器人",
+      "可访问的移动和网络平台"
+    ],
+    "cons": [
+      "与专业AI工具相比，对话深度受限",
+      "具有受限制的每日消息数量的免费增值模式",
+      "角色质量因创作者而异"
+    ],
+    "best_for": [
+      "Casual AI conversation enthusiasts",
+      "Roleplay and creative writing fans",
+      "Developers building chatbot applications",
+      "Users seeking diverse AI personalities"
+    ]
+  },
+  {
+    "name": "Layla",
+    "description": "# 中文翻译\n\nLayla是一款智能AI助手，旨在通过对话式AI帮助用户完成学习、写作和生产力任务。它根据个人需求和学习风格提供个性化推荐和自适应支持。该平台结合自然语言处理与教育专业知识，以增强用户参",
+    "company": "Layla AI",
+    "category": "AI Chat",
+    "url": "https://www.layla.ai",
+    "tags": [
+      "AI助手",
+      "学习",
+      "生产力",
+      "聊天机器人",
+      "个性化"
+    ],
+    "popularity": 32,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Basic conversational features",
+            "Limited daily interactions",
+            "Standard response quality"
+          ],
+          "zh_highlights": [
+            "基本对话功能",
+            "日常互动受限",
+            "标准响应质量"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited conversations",
+            "Priority support",
+            "Advanced personalization"
+          ],
+          "zh_highlights": [
+            "无限对话",
+            "优先支持",
+            "高级个性化"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# 最适合寻求个性化AI学习和生产力辅助的学生和专业人士。\n\nOr more concisely:\n\n# 最适合学生和专业人士获取个性化AI学习及生产力支持。",
+    "features": [
+      "对话式人工智能助手",
+      "个性化学习推荐",
+      "写作和编辑支持",
+      "任务自动化和日程安排",
+      "多语言支持",
+      "上下文感知响应"
+    ],
+    "pros": [
+      "用户友好的对话界面",
+      "个性化学习路径和推荐",
+      "有效提高生产力和任务管理",
+      "经济实惠的免费增值定价模式"
+    ],
+    "cons": [
+      "与第三方工具的集成有限",
+      "免费层具有显著的使用限制",
+      "与竞争对手相比用户社区较小"
+    ],
+    "best_for": [
+      "Students seeking personalized learning support",
+      "Professionals improving writing and communication",
+      "Lifelong learners exploring new topics",
+      "Individuals managing multiple productivity tasks"
+    ]
+  },
+  {
+    "name": "Talkie AI",
+    "description": "# Talkie AI 中文翻译\n\nTalkie AI 是一个移动优先平台，允许用户创建、自定义并与 AI 角色互动进行对话和讲故事。它结合了角色创建工具和自然语言处理技术，实现沉浸式角色扮演和社交互动。该平台强调",
+    "company": "Talkie AI",
+    "category": "AI Chat",
+    "url": "https://www.talkie.ai",
+    "tags": [
+      "角色AI",
+      "角色扮演",
+      "创意写作",
+      "社交AI",
+      "移动应用"
+    ],
+    "popularity": 72,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Basic character creation",
+            "Limited daily conversations",
+            "Standard character library access"
+          ],
+          "zh_highlights": [
+            "基础角色创建",
+            "有限的日常对话",
+            "标准角色库访问"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited conversations",
+            "Advanced character customization",
+            "Priority support and features"
+          ],
+          "zh_highlights": [
+            "无限对话",
+            "高级角色自定义",
+            "优先支持和功能"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# 最适合寻求沉浸式AI角色对话和故事讲述体验的创意用户。\n\nOr more concisely:\n\n# 最适合追求沉浸式AI角色交互和创意叙事的用户。",
+    "features": [
+      "AI角色创建和自定义",
+      "与多样化角色进行自然语言对话",
+      "角色扮演和故事讲述功能",
+      "角色个性训练和发展",
+      "社区共享角色和场景",
+      "移动优化聊天界面"
+    ],
+    "pros": [
+      "直观的角色创建界面",
+      "庞大的共享角色社区",
+      "引人入胜的角色扮演和创意写作功能",
+      "具有实际功能的免费套餐"
+    ],
+    "cons": [
+      "免费套餐每日对话次数有限",
+      "社区平台的内容审核问题",
+      "移动应用性能可能不稳定"
+    ],
+    "best_for": [
+      "Creative writers and storytellers",
+      "Roleplay enthusiasts",
+      "Character development explorers",
+      "Social interaction seekers"
+    ]
+  },
+  {
+    "name": "Dreamily",
+    "description": "# 中文翻译\n\nDreamily是一款AI工具，旨在帮助用户生成创意故事、叙述和想象内容。它利用先进的语言模型，协助作家、内容创作者和讲述者开发独特的情节、人物和叙事。该平台提供直观的界面，支持AI辅助",
+    "company": "Dreamily",
+    "category": "AI Chat",
+    "url": "https://dreamily.ai",
+    "tags": [
+      "创意写作",
+      "故事生成",
+      "人工智能写作",
+      "内容创作",
+      "叙述型人工智能"
+    ],
+    "popularity": 42,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Basic story generation",
+            "Limited monthly requests",
+            "Community features"
+          ],
+          "zh_highlights": [
+            "基本故事生成",
+            "有限的每月请求",
+            "社区功能"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited story generation",
+            "Advanced customization options",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "无限故事生成",
+            "高级自定义选项",
+            "优先支持"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Chinese Translation\n\n**非常适合寻求AI协助进行故事创作和叙事发展的创意写手。**\n\nOr more concisely:\n\n**适合寻求AI协助进行创意写作和叙事开发的作家。**",
+    "features": [
+      "故事生成和情节发展",
+      "角色创建和发展",
+      "交互式叙事构建",
+      "写作风格自定义",
+      "多用户协作工具",
+      "多格式导出"
+    ],
+    "pros": [
+      "为创意写手提供的用户友好界面",
+      "快速的故事和内容生成",
+      "可自定义的写作风格和流派",
+      "经济实惠的高级定价"
+    ],
+    "cons": [
+      "免费版功能有限",
+      "需要互联网连接才能获得完整功能",
+      "偶尔出现重复输出模式"
+    ],
+    "best_for": [
+      "Fiction writers and novelists",
+      "Content creators and bloggers",
+      "Students working on creative projects",
+      "Game developers and narrative designers"
+    ]
   }
 ]

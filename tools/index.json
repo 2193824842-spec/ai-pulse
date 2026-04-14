@@ -4297,5 +4297,676 @@
       "E-commerce and product description writers",
       "Freelance writers seeking productivity tools"
     ]
+  },
+  {
+    "name": "CrushOn AI",
+    "description": "CrushOn AI is a platform that allows users to create, customize, and interact with AI-powered characters in unrestricted conversations. The platform emphasizes creative roleplay and character development with minimal content moderation, enabling users to explore diverse conversational scenarios with personalized AI companions.",
+    "company": "CrushOn",
+    "category": "AI Chat",
+    "url": "https://www.crushon.ai",
+    "tags": [
+      "ai-chat",
+      "roleplay",
+      "character-creation",
+      "unrestricted-content",
+      "community-driven"
+    ],
+    "popularity": 45,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Limited daily messages",
+            "Access to community characters",
+            "Basic character creation"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited messages",
+            "Advanced character customization",
+            "Priority support"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "Best for creative users seeking unrestricted AI roleplay and character interactions.",
+    "features": [
+      "Unrestricted character creation and customization",
+      "NSFW-friendly conversations without strict content filters",
+      "Diverse pre-made character library",
+      "Memory and personality persistence across conversations",
+      "Multiple conversation styles and interaction modes",
+      "Community-created character sharing"
+    ],
+    "pros": [
+      "Highly permissive content policy enables authentic roleplay",
+      "Intuitive character creation and customization tools",
+      "Active community with shared character library",
+      "No strict conversation limitations for premium users"
+    ],
+    "cons": [
+      "Minimal content moderation may create safety concerns",
+      "Limited transparency on data privacy practices",
+      "Smaller user base compared to mainstream alternatives"
+    ],
+    "best_for": [
+      "Creative writers seeking character development",
+      "Users interested in uncensored roleplay scenarios",
+      "People exploring diverse conversational experiences",
+      "Community-driven AI interaction enthusiasts"
+    ]
+  },
+  {
+    "name": "Janitor AI",
+    "description": "Janitor AI is a platform that enables users to create, customize, and interact with AI-powered characters for roleplay, creative writing, and entertainment purposes. It offers an accessible interface for building personalized chatbots without requiring coding knowledge. The platform supports diverse character creation scenarios from fantasy to realistic personas.",
+    "company": "Janitor AI",
+    "category": "AI Chat",
+    "url": "https://www.janitorai.com",
+    "tags": [
+      "ai-chat",
+      "character-creation",
+      "roleplay",
+      "chatbot",
+      "interactive"
+    ],
+    "popularity": 62,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Create and chat with basic characters",
+            "Limited daily messages",
+            "Community character access"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited messages and conversations",
+            "Advanced customization options",
+            "Priority character creation and faster responses"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "Ideal for creative enthusiasts and storytellers seeking interactive AI characters.",
+    "features": [
+      "Custom AI character creation with detailed personality traits",
+      "Advanced natural language processing for realistic conversations",
+      "Character memory and context retention across conversations",
+      "Community sharing and discovery of user-created characters",
+      "Multiple conversation modes including roleplay and storytelling",
+      "Integration with various AI models and customization options"
+    ],
+    "pros": [
+      "User-friendly interface requiring no coding skills",
+      "Highly customizable characters with extensive personalization options",
+      "Active community with shared character library",
+      "Affordable pricing with solid free tier"
+    ],
+    "cons": [
+      "Limited free plan with message restrictions",
+      "Occasional response quality inconsistencies",
+      "Content moderation concerns and adult content limitations"
+    ],
+    "best_for": [
+      "Creative writers and storytellers",
+      "Roleplay enthusiasts",
+      "Entertainment and casual chatbot users",
+      "Users exploring AI character interaction"
+    ]
+  },
+  {
+    "name": "StoryChat",
+    "description": "StoryChat is an AI-powered conversational platform that generates dynamic, personalized stories through interactive dialogue. Users can co-create narratives with AI characters, explore branching storylines, and shape outcomes in real-time. The platform combines natural language processing with creative writing capabilities to deliver immersive storytelling experiences.",
+    "company": "StoryChat AI",
+    "category": "AI Chat",
+    "url": "https://www.storychat.ai",
+    "tags": [
+      "storytelling",
+      "creative-writing",
+      "interactive-fiction",
+      "narrative-ai",
+      "entertainment"
+    ],
+    "popularity": 42,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Limited daily story generations",
+            "Access to basic story themes",
+            "Community stories and shared narratives"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited story generation",
+            "Advanced customization options",
+            "Priority story access and new features"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "Best for creative writers and interactive fiction enthusiasts seeking personalized AI storytelling.",
+    "features": [
+      "Interactive story generation with branching narratives",
+      "AI-powered character conversations and dialogue",
+      "Customizable story themes and genres",
+      "Real-time narrative adaptation based on user choices",
+      "Multi-chapter story persistence and saving",
+      "Collaborative storytelling with AI partners"
+    ],
+    "pros": [
+      "Unique blend of chat and creative storytelling",
+      "Highly personalized narrative experiences",
+      "Intuitive interface for non-technical users",
+      "Engaging and entertaining for creative writing enthusiasts"
+    ],
+    "cons": [
+      "Limited availability in some regions",
+      "Story quality can be inconsistent",
+      "Premium tier required for unlimited use"
+    ],
+    "best_for": [
+      "Creative writers seeking inspiration",
+      "Interactive fiction enthusiasts",
+      "Entertainment and leisure users",
+      "Educational content creators"
+    ]
+  },
+  {
+    "name": "SillyTavern",
+    "description": "SillyTavern is a free, open-source user interface for interacting with AI language models and character-based chatbots. It supports multiple AI backends including Claude, GPT, and local models, enabling immersive roleplay conversations with custom character definitions. The platform prioritizes user privacy by allowing local model deployment and offering extensive customization options.",
+    "company": "Community-Driven Open Source",
+    "category": "AI Chat",
+    "url": "https://sillytavern.app",
+    "tags": [
+      "open-source",
+      "roleplay",
+      "customizable",
+      "privacy-focused",
+      "character-ai"
+    ],
+    "popularity": 65,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "free",
+      "plans": [
+        {
+          "name": "SillyTavern",
+          "price": "$0",
+          "highlights": [
+            "Completely free and open-source",
+            "No mandatory subscriptions or premium tiers",
+            "Self-hosted or cloud deployment options"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "Ideal for technical users seeking customizable, privacy-first AI chatting with character roleplay.",
+    "features": [
+      "Multi-backend AI model support (Claude, OpenAI, Llama, etc.)",
+      "Character creation and roleplay with detailed persona definitions",
+      "Chat history management and memory systems",
+      "Advanced prompt engineering and token counting",
+      "Local model support and privacy-focused deployment",
+      "Customizable UI themes and user extensions"
+    ],
+    "pros": [
+      "Free and open-source with no paywalls",
+      "Highly customizable with community extensions and themes",
+      "Supports multiple AI backends for flexibility",
+      "Strong privacy features with local model support"
+    ],
+    "cons": [
+      "Steeper learning curve for non-technical users",
+      "Requires external API keys for most AI backends",
+      "Community-driven development may lack corporate support"
+    ],
+    "best_for": [
+      "Roleplay enthusiasts and creative writers",
+      "Technical users seeking AI customization",
+      "Privacy-conscious individuals",
+      "Indie developers building chatbot applications"
+    ]
+  },
+  {
+    "name": "Roleplay AI",
+    "description": "Roleplay AI is a platform that enables users to create and interact with customizable AI characters for creative writing, gaming, and entertainment purposes. The tool uses advanced language models to simulate realistic conversations and personalities, allowing users to explore different scenarios and narratives. It supports character creation, multi-turn conversations, and collaborative storytelling experiences.",
+    "company": "Roleplay AI Inc.",
+    "category": "AI Chat",
+    "url": "https://www.roleplay.ai",
+    "tags": [
+      "creative-writing",
+      "interactive-fiction",
+      "roleplay",
+      "character-ai",
+      "storytelling"
+    ],
+    "popularity": 62,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Access to basic characters",
+            "Limited monthly interactions",
+            "Community character library"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited character creation",
+            "Unlimited interactions",
+            "Advanced customization options"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$19.99/month",
+          "highlights": [
+            "Priority support",
+            "Custom model fine-tuning",
+            "Export and API access"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "Best for creative writers and roleplayers seeking immersive AI-driven storytelling experiences.",
+    "features": [
+      "Customizable AI character creation and personality building",
+      "Multi-turn conversational AI with context awareness",
+      "Character memory and persistent storyline tracking",
+      "Interactive scenario and world-building tools",
+      "Community library of pre-built characters and stories",
+      "Real-time collaborative roleplay sessions"
+    ],
+    "pros": [
+      "Highly customizable characters with deep personality configuration",
+      "Engaging and immersive conversational experiences",
+      "Active community with shared character library",
+      "Affordable pricing with generous free tier"
+    ],
+    "cons": [
+      "Limited character memory in extended long-term sessions",
+      "Occasional inconsistency in character personality retention",
+      "Smaller user base compared to mainstream AI chat tools"
+    ],
+    "best_for": [
+      "Creative writers and storytellers",
+      "Tabletop RPG enthusiasts",
+      "Interactive fiction fans",
+      "Character development and worldbuilding practitioners"
+    ]
+  },
+  {
+    "name": "Xoul.ai",
+    "description": "Xoul.ai is an AI-powered conversational platform designed to provide intelligent assistance across various domains. It leverages natural language processing to understand complex queries and deliver contextual, personalized responses. The platform combines chat capabilities with advanced reasoning to help users solve problems, generate content, and automate workflows.",
+    "company": "Xoul",
+    "category": "AI Chat",
+    "url": "https://xoul.ai",
+    "tags": [
+      "ai-chat",
+      "conversational-ai",
+      "automation",
+      "nlp",
+      "productivity"
+    ],
+    "popularity": 45,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Limited daily conversations",
+            "Basic AI features",
+            "Community support"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$19/month",
+          "highlights": [
+            "Unlimited conversations",
+            "Advanced features",
+            "Priority support",
+            "API access"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Custom integration",
+            "Dedicated support",
+            "Advanced security",
+            "White-label options"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "Ideal for professionals seeking intelligent AI assistance for content creation and task automation.",
+    "features": [
+      "Advanced natural language understanding",
+      "Multi-turn conversation capabilities",
+      "Context-aware responses",
+      "Task automation and workflow integration",
+      "Real-time information processing",
+      "Custom AI model fine-tuning"
+    ],
+    "pros": [
+      "Intuitive and user-friendly interface",
+      "Supports multiple languages and domains",
+      "Affordable pricing with flexible plans",
+      "Strong reasoning and comprehension abilities"
+    ],
+    "cons": [
+      "Limited customization in free tier",
+      "API documentation could be more comprehensive",
+      "Occasional latency in peak usage times"
+    ],
+    "best_for": [
+      "Content creators",
+      "Business professionals",
+      "Students and researchers",
+      "Automation enthusiasts"
+    ]
+  },
+  {
+    "name": "Chai",
+    "description": "Chai is a platform that allows users to create, customize, and interact with AI-powered characters and chatbots. It enables both casual conversations and character roleplay experiences with diverse AI personalities. The platform supports community-created bots and provides tools for developers to build and deploy their own AI characters.",
+    "company": "Chai Research",
+    "category": "AI Chat",
+    "url": "https://www.chai-research.io",
+    "tags": [
+      "chatbot",
+      "ai-characters",
+      "conversation",
+      "roleplay",
+      "community"
+    ],
+    "popularity": 62,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Access to community-created bots",
+            "Limited daily conversations",
+            "Basic character interactions"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited conversations",
+            "Create custom characters",
+            "Advanced personalization features"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "Ideal for anyone seeking engaging conversations with diverse AI personalities and characters.",
+    "features": [
+      "AI character creation and customization",
+      "Multi-turn conversation capabilities",
+      "Community-driven bot marketplace",
+      "Character personality tuning",
+      "Cross-platform availability",
+      "Developer API for custom bot creation"
+    ],
+    "pros": [
+      "Diverse range of AI characters and personalities",
+      "User-friendly interface for conversation",
+      "Active community contributing new bots",
+      "Accessible mobile and web platforms"
+    ],
+    "cons": [
+      "Limited conversation depth compared to specialized AI tools",
+      "Freemium model with restricted daily messages",
+      "Character quality varies by creator"
+    ],
+    "best_for": [
+      "Casual AI conversation enthusiasts",
+      "Roleplay and creative writing fans",
+      "Developers building chatbot applications",
+      "Users seeking diverse AI personalities"
+    ]
+  },
+  {
+    "name": "Layla",
+    "description": "Layla is an intelligent AI assistant designed to help users with learning, writing, and productivity tasks through conversational AI. It provides personalized recommendations and adaptive support tailored to individual user needs and learning styles. The platform combines natural language processing with educational expertise to enhance user engagement and knowledge retention.",
+    "company": "Layla AI",
+    "category": "AI Chat",
+    "url": "https://www.layla.ai",
+    "tags": [
+      "ai-assistant",
+      "learning",
+      "productivity",
+      "chatbot",
+      "personalization"
+    ],
+    "popularity": 32,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Basic conversational features",
+            "Limited daily interactions",
+            "Standard response quality"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited conversations",
+            "Priority support",
+            "Advanced personalization"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "Best for students and professionals seeking personalized AI-powered learning and productivity assistance.",
+    "features": [
+      "Conversational AI assistant",
+      "Personalized learning recommendations",
+      "Writing and editing support",
+      "Task automation and scheduling",
+      "Multi-language support",
+      "Context-aware responses"
+    ],
+    "pros": [
+      "User-friendly conversational interface",
+      "Personalized learning paths and recommendations",
+      "Effective for productivity and task management",
+      "Affordable freemium pricing model"
+    ],
+    "cons": [
+      "Limited integration with third-party tools",
+      "Free tier has significant usage restrictions",
+      "Smaller user community compared to competitors"
+    ],
+    "best_for": [
+      "Students seeking personalized learning support",
+      "Professionals improving writing and communication",
+      "Lifelong learners exploring new topics",
+      "Individuals managing multiple productivity tasks"
+    ]
+  },
+  {
+    "name": "Talkie AI",
+    "description": "Talkie AI is a mobile-first platform that allows users to create, customize, and interact with AI-powered characters for conversations and storytelling. It combines character creation tools with natural language processing to enable engaging roleplay and social interactions. The platform emphasizes creative expression and character depth in AI conversations.",
+    "company": "Talkie AI",
+    "category": "AI Chat",
+    "url": "https://www.talkie.ai",
+    "tags": [
+      "character-ai",
+      "roleplay",
+      "creative-writing",
+      "social-ai",
+      "mobile-app"
+    ],
+    "popularity": 72,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Basic character creation",
+            "Limited daily conversations",
+            "Standard character library access"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited conversations",
+            "Advanced character customization",
+            "Priority support and features"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "Best for creative users seeking immersive AI character conversations and storytelling experiences.",
+    "features": [
+      "AI character creation and customization",
+      "Natural language conversations with diverse characters",
+      "Roleplay and storytelling capabilities",
+      "Character personality training and development",
+      "Community-shared characters and scenarios",
+      "Mobile-optimized chat interface"
+    ],
+    "pros": [
+      "Intuitive character creation interface",
+      "Large community of shared characters",
+      "Engaging roleplay and creative writing features",
+      "Free tier with meaningful functionality"
+    ],
+    "cons": [
+      "Limited free tier daily conversation limits",
+      "Content moderation concerns on community platform",
+      "Mobile app performance can be inconsistent"
+    ],
+    "best_for": [
+      "Creative writers and storytellers",
+      "Roleplay enthusiasts",
+      "Character development explorers",
+      "Social interaction seekers"
+    ]
+  },
+  {
+    "name": "Dreamily",
+    "description": "Dreamily is an AI tool designed to help users generate creative stories, narratives, and imaginative content. It leverages advanced language models to assist writers, content creators, and storytellers in developing unique plots, characters, and narratives. The platform offers an intuitive interface for collaborative creative writing with AI assistance.",
+    "company": "Dreamily",
+    "category": "AI Chat",
+    "url": "https://dreamily.ai",
+    "tags": [
+      "creative-writing",
+      "story-generation",
+      "ai-writing",
+      "content-creation",
+      "narrative-ai"
+    ],
+    "popularity": 42,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Basic story generation",
+            "Limited monthly requests",
+            "Community features"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited story generation",
+            "Advanced customization options",
+            "Priority support"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "Ideal for creative writers seeking AI assistance with storytelling and narrative development.",
+    "features": [
+      "Story generation and plot development",
+      "Character creation and development",
+      "Interactive narrative building",
+      "Writing style customization",
+      "Collaboration tools for multiple users",
+      "Export in multiple formats"
+    ],
+    "pros": [
+      "User-friendly interface for creative writers",
+      "Fast story and content generation",
+      "Customizable writing styles and genres",
+      "Affordable premium pricing"
+    ],
+    "cons": [
+      "Limited free tier functionality",
+      "Requires internet connection for full features",
+      "Occasional repetitive output patterns"
+    ],
+    "best_for": [
+      "Fiction writers and novelists",
+      "Content creators and bloggers",
+      "Students working on creative projects",
+      "Game developers and narrative designers"
+    ]
   }
 ]
