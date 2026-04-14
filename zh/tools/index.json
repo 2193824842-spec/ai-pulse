@@ -111,7 +111,12 @@
       "Students and researchers",
       "Businesses needing team AI tools"
     ],
-    "recommended_for": "适合需要快速编码帮助的开发者和通用AI协助。"
+    "recommended_for": "适合需要快速编码帮助的开发者和通用AI协助。",
+    "categories": [
+      "AI Chat",
+      "AI Writing",
+      "AI Coding"
+    ]
   },
   {
     "name": "Claude",
@@ -215,7 +220,12 @@
       "大量使用时API成本会迅速增加"
     ],
     "best_for": [],
-    "recommended_for": "需要高级编码协助和广泛上下文分析的开发者。"
+    "recommended_for": "需要高级编码协助和广泛上下文分析的开发者。",
+    "categories": [
+      "AI Writing",
+      "AI Coding",
+      "AI Research"
+    ]
   },
   {
     "name": "Gemini",
@@ -305,7 +315,12 @@
       "Workspace AI 功能需要单独购买计划"
     ],
     "best_for": [],
-    "recommended_for": "需要处理大型代码库的开发者。"
+    "recommended_for": "需要处理大型代码库的开发者。",
+    "categories": [
+      "AI Chat",
+      "AI Writing",
+      "AI Productivity"
+    ]
   },
   {
     "name": "Copilot",
@@ -394,7 +409,12 @@
       "与 Microsoft 生态系统深度绑定"
     ],
     "best_for": [],
-    "recommended_for": "适合寻求免费GPT-4和Office无缝集成的Microsoft 365用户。"
+    "recommended_for": "适合寻求免费GPT-4和Office无缝集成的Microsoft 365用户。",
+    "categories": [
+      "AI Writing",
+      "AI Productivity",
+      "AI Search"
+    ]
   },
   {
     "name": "Midjourney",
@@ -500,7 +520,11 @@
       "基于 Discord 的工作流程对新用户来说可能不够直观"
     ],
     "best_for": [],
-    "recommended_for": "设计师追求高质量、风格一致的AI图像生成。"
+    "recommended_for": "设计师追求高质量、风格一致的AI图像生成。",
+    "categories": [
+      "AI Image",
+      "AI Design"
+    ]
   },
   {
     "name": "DALL-E 3",
@@ -584,7 +608,11 @@
       "缺少风格参考和角色一致性功能"
     ],
     "best_for": [],
-    "recommended_for": "需要从复杂创意简报生成精确图像的设计师。"
+    "recommended_for": "需要从复杂创意简报生成精确图像的设计师。",
+    "categories": [
+      "AI Image",
+      "AI Design"
+    ]
   },
   {
     "name": "Stable Diffusion",
@@ -671,7 +699,12 @@
       "相比 Midjourney 等云工具有更陡峭的学习曲线"
     ],
     "best_for": [],
-    "recommended_for": "最适合想要无限制生成图像且无云成本的创意工作者。"
+    "recommended_for": "最适合想要无限制生成图像且无云成本的创意工作者。",
+    "categories": [
+      "AI Image",
+      "AI Design",
+      "AI Developer"
+    ]
   },
   {
     "name": "Leonardo AI",
@@ -776,7 +809,11 @@
       "在摄影方面不如Midjourney的逼真度高"
     ],
     "best_for": [],
-    "recommended_for": "需要生成一致角色和资产的游戏开发者。"
+    "recommended_for": "需要生成一致角色和资产的游戏开发者。",
+    "categories": [
+      "AI Image",
+      "AI Design"
+    ]
   },
   {
     "name": "Sora",
@@ -848,7 +885,11 @@
       "相比传统视频编辑工具的编辑控制能力有限"
     ],
     "best_for": [],
-    "recommended_for": "需要快速从文本生成逼真视频的内容创作者。"
+    "recommended_for": "需要快速从文本生成逼真视频的内容创作者。",
+    "categories": [
+      "AI Video",
+      "AI Design"
+    ]
   },
   {
     "name": "Runway Gen-3",
@@ -953,7 +994,11 @@
       "高峰期生成速度较慢"
     ],
     "best_for": [],
-    "recommended_for": "需要专业级电影AI视频生成的电影制作人和工作室。"
+    "recommended_for": "需要专业级电影AI视频生成的电影制作人和工作室。",
+    "categories": [
+      "AI Video",
+      "AI Design"
+    ]
   },
   {
     "name": "Pika",
@@ -1058,7 +1103,12 @@
       "不太适合专业/商业用途"
     ],
     "best_for": [],
-    "recommended_for": "寻求经济实惠视频生成和创意特效的内容创作者。"
+    "recommended_for": "寻求经济实惠视频生成和创意特效的内容创作者。",
+    "categories": [
+      "AI Video",
+      "AI Image",
+      "AI Design"
+    ]
   },
   {
     "name": "HeyGen",
@@ -1167,7 +1217,11 @@
       "头像质量在特写镜头中可能显得不够逼真"
     ],
     "best_for": [],
-    "recommended_for": "需要多语言视频和逼真虚拟人物的内容创作者。"
+    "recommended_for": "需要多语言视频和逼真虚拟人物的内容创作者。",
+    "categories": [
+      "AI Video",
+      "AI Audio"
+    ]
   },
   {
     "name": "GitHub Copilot",
@@ -1273,7 +1327,11 @@
       "在复杂多文件重构方面不如 Cursor 强大"
     ],
     "best_for": [],
-    "recommended_for": "希望在IDE中获得实时代码建议的开发人员。"
+    "recommended_for": "希望在IDE中获得实时代码建议的开发人员。",
+    "categories": [
+      "AI Coding",
+      "AI Developer"
+    ]
   },
   {
     "name": "Cursor",
@@ -1365,7 +1423,11 @@
       "Business 计划价格昂贵，$40/用户/月"
     ],
     "best_for": [],
-    "recommended_for": "需要AI辅助多文件重构的复杂项目开发者。"
+    "recommended_for": "需要AI辅助多文件重构的复杂项目开发者。",
+    "categories": [
+      "AI Coding",
+      "AI Developer"
+    ]
   },
   {
     "name": "Codeium",
@@ -1456,7 +1518,11 @@
       "企业级功能需要较大投入"
     ],
     "best_for": [],
-    "recommended_for": "适合寻求无限免费AI代码补全的开发者。"
+    "recommended_for": "适合寻求无限免费AI代码补全的开发者。",
+    "categories": [
+      "AI Coding",
+      "AI Developer"
+    ]
   },
   {
     "name": "Tabnine",
@@ -1547,7 +1613,11 @@
       "社区规模小，更新频率低于竞品"
     ],
     "best_for": [],
-    "recommended_for": "优先考虑代码隐私和安全合规的企业开发者。"
+    "recommended_for": "优先考虑代码隐私和安全合规的企业开发者。",
+    "categories": [
+      "AI Coding",
+      "AI Developer"
+    ]
   },
   {
     "name": "ElevenLabs",
@@ -1652,7 +1722,10 @@
       "生成的音频偶尔会出现失真"
     ],
     "best_for": [],
-    "recommended_for": "需要逼真AI语音的内容创作者制作播客、有声书和视频。"
+    "recommended_for": "需要逼真AI语音的内容创作者制作播客、有声书和视频。",
+    "categories": [
+      "AI Audio"
+    ]
   },
   {
     "name": "Murf AI",
@@ -1759,7 +1832,12 @@
       "声音定制功能相比 ElevenLabs 受限"
     ],
     "best_for": [],
-    "recommended_for": "需要快速生成专业配音的内容创作者。"
+    "recommended_for": "需要快速生成专业配音的内容创作者。",
+    "categories": [
+      "AI Audio",
+      "AI Video",
+      "AI Productivity"
+    ]
   },
   {
     "name": "Suno",
@@ -1848,7 +1926,10 @@
       "AI音乐的版权和许可在法律上仍不明确"
     ],
     "best_for": [],
-    "recommended_for": "需要快速生成背景音乐的内容创作者和社交媒体运营者。"
+    "recommended_for": "需要快速生成背景音乐的内容创作者和社交媒体运营者。",
+    "categories": [
+      "AI Audio"
+    ]
   },
   {
     "name": "Perplexity",
@@ -1924,7 +2005,11 @@
       "来源可能来自低质量网站"
     ],
     "best_for": [],
-    "recommended_for": "适合需要快速获取有引用来源的实时答案的研究人员。"
+    "recommended_for": "适合需要快速获取有引用来源的实时答案的研究人员。",
+    "categories": [
+      "AI Search",
+      "AI Research"
+    ]
   },
   {
     "name": "You.com",
@@ -2086,7 +2171,11 @@
       "AI 质量参差不齐——更擅长编辑而非从零开始生成"
     ],
     "best_for": [],
-    "recommended_for": "已使用Notion的团队，想要AI辅助而无需切换工具。"
+    "recommended_for": "已使用Notion的团队，想要AI辅助而无需切换工具。",
+    "categories": [
+      "AI Writing",
+      "AI Productivity"
+    ]
   },
   {
     "name": "Jasper",
@@ -2181,7 +2270,12 @@
       "对于个人用户或简单写作任务来说过于强大"
     ],
     "best_for": [],
-    "recommended_for": "需要大规模生成品牌一致内容的营销团队。"
+    "recommended_for": "需要大规模生成品牌一致内容的营销团队。",
+    "categories": [
+      "AI Writing",
+      "AI Chat",
+      "AI Productivity"
+    ]
   },
   {
     "name": "Copy.ai",
@@ -2381,7 +2475,11 @@
       "隐私问题 — 所有文本都会发送到 Grammarly 服务器"
     ],
     "best_for": [],
-    "recommended_for": "最适合需要在各平台进行专业写作的人士。"
+    "recommended_for": "最适合需要在各平台进行专业写作的人士。",
+    "categories": [
+      "AI Writing",
+      "AI Productivity"
+    ]
   },
   {
     "name": "Canva AI",
@@ -2475,7 +2573,12 @@
       "选项众多可能显得杂乱无章"
     ],
     "best_for": [],
-    "recommended_for": "需要快速创建专业视觉内容的非设计人士。"
+    "recommended_for": "需要快速创建专业视觉内容的非设计人士。",
+    "categories": [
+      "AI Design",
+      "AI Image",
+      "AI Video"
+    ]
   },
   {
     "name": "Figma AI",
@@ -2582,7 +2685,12 @@
       "处理非常复杂的文件时性能可能滞后"
     ],
     "best_for": [],
-    "recommended_for": "适合需要AI驱动的协作UI/UX设计的产品团队。"
+    "recommended_for": "适合需要AI驱动的协作UI/UX设计的产品团队。",
+    "categories": [
+      "AI Design",
+      "AI Coding",
+      "AI Productivity"
+    ]
   },
   {
     "name": "Framer AI",
@@ -2691,7 +2799,11 @@
       "电商功能有限"
     ],
     "best_for": [],
-    "recommended_for": "需要快速从文字描述生成专业网站的非设计师。"
+    "recommended_for": "需要快速从文字描述生成专业网站的非设计师。",
+    "categories": [
+      "AI Design",
+      "AI Productivity"
+    ]
   },
   {
     "name": "Gamma",
@@ -2782,7 +2894,11 @@
       "动画和过渡选项有限"
     ],
     "best_for": [],
-    "recommended_for": "需要快速生成专业演示文稿的团队。"
+    "recommended_for": "需要快速生成专业演示文稿的团队。",
+    "categories": [
+      "AI Design",
+      "AI Productivity"
+    ]
   },
   {
     "name": "Beautiful.ai",
@@ -3164,7 +3280,12 @@
       "不太适合复杂的多摄像头制作"
     ],
     "best_for": [],
-    "recommended_for": "想通过编辑文字来剪辑视频的内容创作者。"
+    "recommended_for": "想通过编辑文字来剪辑视频的内容创作者。",
+    "categories": [
+      "AI Video",
+      "AI Audio",
+      "AI Productivity"
+    ]
   },
   {
     "name": "Synthesia",
@@ -3275,7 +3396,11 @@
       "相比 Runway 或 Pika 的创意灵活性较低"
     ],
     "best_for": [],
-    "recommended_for": "最适合需要快速创建多语言培训和入职视频的公司。"
+    "recommended_for": "最适合需要快速创建多语言培训和入职视频的公司。",
+    "categories": [
+      "AI Video",
+      "AI Design"
+    ]
   },
   {
     "name": "Luma AI",
@@ -3380,7 +3505,11 @@
       "3D 捕捉需要良好的光照和相机移动"
     ],
     "best_for": [],
-    "recommended_for": "需要逼真运动和物理效果电影级视频的内容创作者。"
+    "recommended_for": "需要逼真运动和物理效果电影级视频的内容创作者。",
+    "categories": [
+      "AI Video",
+      "AI Design"
+    ]
   },
   {
     "name": "Replicate",
@@ -3453,7 +3582,12 @@
       "某些热门模型存在使用限制"
     ],
     "best_for": [],
-    "recommended_for": "适合需要廉价可扩展AI且无需管理基础设施的开发者。"
+    "recommended_for": "适合需要廉价可扩展AI且无需管理基础设施的开发者。",
+    "categories": [
+      "AI Developer",
+      "AI Image",
+      "AI Video"
+    ]
   },
   {
     "name": "Hugging Face",
@@ -3544,7 +3678,11 @@
       "企业功能价格昂贵"
     ],
     "best_for": [],
-    "recommended_for": "需要使用预训练模型和开源工具构建AI应用的开发者。"
+    "recommended_for": "需要使用预训练模型和开源工具构建AI应用的开发者。",
+    "categories": [
+      "AI Developer",
+      "AI Research"
+    ]
   },
   {
     "name": "Anthropic Console",
@@ -3641,7 +3779,11 @@
       "不支持图像生成（仅支持文本和视觉）"
     ],
     "best_for": [],
-    "recommended_for": "需要先进编码和推理能力的AI应用开发者。"
+    "recommended_for": "需要先进编码和推理能力的AI应用开发者。",
+    "categories": [
+      "AI Developer",
+      "AI Coding"
+    ]
   },
   {
     "name": "OpenAI Platform",
@@ -3738,7 +3880,12 @@
       "GPT-4 的质量因 2026 年的下降而受到批评"
     ],
     "best_for": [],
-    "recommended_for": "需要先进多模态AI能力的生产应用开发者。"
+    "recommended_for": "需要先进多模态AI能力的生产应用开发者。",
+    "categories": [
+      "AI Developer",
+      "AI Coding",
+      "AI Audio"
+    ]
   },
   {
     "name": "Zapier AI",
@@ -3843,7 +3990,11 @@
       "某些高级应用锁定在更高的付费计划中"
     ],
     "best_for": [],
-    "recommended_for": "需要跨应用自动化工作流的非技术团队。"
+    "recommended_for": "需要跨应用自动化工作流的非技术团队。",
+    "categories": [
+      "AI Productivity",
+      "AI Developer"
+    ]
   },
   {
     "name": "Adobe Firefly",
@@ -3919,6 +4070,10 @@
       "Marketing and advertising teams",
       "Content creators and photographers",
       "Enterprise creative departments"
+    ],
+    "categories": [
+      "AI Image",
+      "AI Design"
     ]
   },
   {
@@ -3995,6 +4150,11 @@
       "Researchers and academics",
       "Companies seeking cost-effective AI solutions",
       "Users requiring advanced reasoning capabilities"
+    ],
+    "categories": [
+      "AI Chat",
+      "AI Coding",
+      "AI Developer"
     ]
   },
   {
@@ -4099,6 +4259,9 @@
       "Roleplay and interactive fiction enthusiasts",
       "Fantasy and sci-fi worldbuilders",
       "Creative writers seeking AI inspiration"
+    ],
+    "categories": [
+      "AI Writing"
     ]
   },
   {
@@ -4175,6 +4338,10 @@
       "Tabletop RPG enthusiasts",
       "Interactive storytelling fans",
       "Game developers exploring narrative design"
+    ],
+    "categories": [
+      "AI Writing",
+      "AI Productivity"
     ]
   },
   {
@@ -4237,6 +4404,10 @@
       "Developers and engineers",
       "Local AI model enthusiasts",
       "Organizations with strict data policies"
+    ],
+    "categories": [
+      "AI Chat",
+      "AI Developer"
     ]
   },
   {
@@ -4327,6 +4498,10 @@
       "Students learning programming concepts and syntax",
       "DevOps engineers automating infrastructure code",
       "Enterprises scaling development velocity"
+    ],
+    "categories": [
+      "AI Coding",
+      "AI Developer"
     ]
   },
   {
@@ -4417,6 +4592,10 @@
       "Startup teams with limited design resources",
       "UX/UI designers seeking faster workflows",
       "Non-designers prototyping digital products"
+    ],
+    "categories": [
+      "AI Design",
+      "AI Coding"
     ]
   },
   {
@@ -4493,6 +4672,10 @@
       "Small business owners",
       "Freelancers building brand identity",
       "Non-profits with limited budgets"
+    ],
+    "categories": [
+      "AI Design",
+      "AI Image"
     ]
   },
   {
@@ -4583,6 +4766,10 @@
       "Project management professionals",
       "Operations and administrative staff",
       "Remote-first organizations"
+    ],
+    "categories": [
+      "AI Productivity",
+      "AI Developer"
     ]
   },
   {
@@ -4673,6 +4860,10 @@
       "Content creators and designers",
       "AI image generation enthusiasts",
       "Marketing and social media teams"
+    ],
+    "categories": [
+      "AI Image",
+      "AI Design"
     ]
   },
   {
@@ -4751,6 +4942,10 @@
       "Live streamers",
       "Social media influencers",
       "Small business marketers"
+    ],
+    "categories": [
+      "AI Video",
+      "AI Design"
     ]
   },
   {
@@ -4813,6 +5008,10 @@
       "Archivists restoring old footage",
       "Anime and manga enthusiasts",
       "Technical users comfortable with desktop software"
+    ],
+    "categories": [
+      "AI Video",
+      "AI Developer"
     ]
   },
   {
@@ -4903,6 +5102,10 @@
       "Developers building custom workflow integrations",
       "Enterprise teams seeking productivity gains",
       "Remote professionals managing multiple applications"
+    ],
+    "categories": [
+      "AI Productivity",
+      "AI Developer"
     ]
   },
   {
@@ -4992,6 +5195,10 @@
       "Marketing teams",
       "Data scientists",
       "Financial professionals"
+    ],
+    "categories": [
+      "AI Design",
+      "AI Productivity"
     ]
   },
   {
@@ -5082,6 +5289,11 @@
       "Marketing and advertising teams",
       "Educational institutions and e-learning platforms",
       "Social media influencers and brands"
+    ],
+    "categories": [
+      "AI Video",
+      "AI Design",
+      "AI Productivity"
     ]
   },
   {
@@ -5172,6 +5384,9 @@
       "Business professionals handling contracts and reports",
       "Content creators converting between document formats",
       "Remote teams requiring collaborative document tools"
+    ],
+    "categories": [
+      "AI Productivity"
     ]
   },
   {
@@ -5262,6 +5477,10 @@
       "Legal and compliance professionals",
       "Research organizations",
       "Government agencies"
+    ],
+    "categories": [
+      "AI Search",
+      "AI Productivity"
     ]
   },
   {
@@ -5352,6 +5571,10 @@
       "Business writers and communications teams",
       "E-commerce and product description writers",
       "Freelance writers seeking productivity tools"
+    ],
+    "categories": [
+      "AI Writing",
+      "AI Productivity"
     ]
   },
   {
@@ -5428,6 +5651,9 @@
       "Users interested in uncensored roleplay scenarios",
       "People exploring diverse conversational experiences",
       "Community-driven AI interaction enthusiasts"
+    ],
+    "categories": [
+      "AI Chat"
     ]
   },
   {
@@ -5504,6 +5730,10 @@
       "Roleplay enthusiasts",
       "Entertainment and casual chatbot users",
       "Users exploring AI character interaction"
+    ],
+    "categories": [
+      "AI Chat",
+      "AI Writing"
     ]
   },
   {
@@ -5580,6 +5810,10 @@
       "Interactive fiction enthusiasts",
       "Entertainment and leisure users",
       "Educational content creators"
+    ],
+    "categories": [
+      "AI Chat",
+      "AI Writing"
     ]
   },
   {
@@ -5642,6 +5876,10 @@
       "Technical users seeking AI customization",
       "Privacy-conscious individuals",
       "Indie developers building chatbot applications"
+    ],
+    "categories": [
+      "AI Chat",
+      "AI Writing"
     ]
   },
   {
@@ -5732,6 +5970,10 @@
       "Tabletop RPG enthusiasts",
       "Interactive fiction fans",
       "Character development and worldbuilding practitioners"
+    ],
+    "categories": [
+      "AI Chat",
+      "AI Writing"
     ]
   },
   {
@@ -5826,6 +6068,11 @@
       "Business professionals",
       "Students and researchers",
       "Automation enthusiasts"
+    ],
+    "categories": [
+      "AI Chat",
+      "AI Productivity",
+      "AI Developer"
     ]
   },
   {
@@ -5902,6 +6149,9 @@
       "Roleplay and creative writing fans",
       "Developers building chatbot applications",
       "Users seeking diverse AI personalities"
+    ],
+    "categories": [
+      "AI Chat"
     ]
   },
   {
@@ -5978,6 +6228,11 @@
       "Professionals improving writing and communication",
       "Lifelong learners exploring new topics",
       "Individuals managing multiple productivity tasks"
+    ],
+    "categories": [
+      "AI Chat",
+      "AI Writing",
+      "AI Productivity"
     ]
   },
   {
@@ -6054,6 +6309,10 @@
       "Roleplay enthusiasts",
       "Character development explorers",
       "Social interaction seekers"
+    ],
+    "categories": [
+      "AI Chat",
+      "AI Writing"
     ]
   },
   {
@@ -6130,6 +6389,10 @@
       "Content creators and bloggers",
       "Students working on creative projects",
       "Game developers and narrative designers"
+    ],
+    "categories": [
+      "AI Writing",
+      "AI Chat"
     ]
   }
 ]

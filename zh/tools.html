@@ -280,7 +280,7 @@
       const container = document.getElementById('tools-container');
       let filtered = currentCategory === 'all'
         ? [...allTools]
-        : allTools.filter(tool => tool.category === currentCategory);
+        : allTools.filter(tool => (tool.categories || [tool.category]).includes(currentCategory));
 
       if (currentPricing === 'free') {
         filtered = filtered.filter(tool => { const m = typeof tool.pricing === 'object' ? tool.pricing.model : tool.pricing; return m === 'free' || m === 'freemium'; });
