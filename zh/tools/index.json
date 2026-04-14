@@ -3998,7 +3998,7 @@
   },
   {
     "name": "Adobe Firefly",
-    "description": "# Chinese Translation\n\n**Name:** Claude Code / Claude\n\n**Tagline (≤20 chars):** \n创意内容生成AI\n\n**Recommended For (≤20 chars):**\n内容创意与生成\n\n**Description:**\n一款强大的生成式AI工具，专门为创意内容生成而设计。无论是文案撰写、故事创作、还是",
+    "description": "创意内容生成AI",
     "company": "Adobe",
     "category": "AI Image",
     "url": "https://www.adobe.com/products/firefly.html",
@@ -4045,7 +4045,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "Here's the translation:\n\n**Target Audience:** 专业设计师和创意团队\n\n**Description:** 已在使用Adobe Creative Cloud的专业设计师和创意团队。\n\n**Tagline/Recommended For:** 专业设计师与创意团队\n\n(All versions stay well under 20 characters for the tagline option)",
+    "recommended_for": "专业设计师和创意团队",
     "features": [
       "具有风格控制的文本到图像生成",
       "用于智能图像编辑的生成填充",
@@ -4078,7 +4078,7 @@
   },
   {
     "name": "DeepSeek",
-    "description": "# Advanced AI reasoning and code generation models\n\n**Chinese Translation:**\n\n**Product Name:** Claude Code\n**Tagline:** 高级AI推理与代码生成\n(Advanced AI Reasoning & Code Generation)\n\n**Description:** \nClaude Code 是 Anthropic 官方的命令行工具，提供先进的 AI 推理能力和高效的代码生成功能。它能够帮助",
+    "description": "高级AI推理与代码生成",
     "company": "DeepSeek",
     "category": "AI Chat",
     "url": "https://www.deepseek.com",
@@ -4125,7 +4125,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Claude Code Translation to Chinese\n\n**Tagline:** 高效推理，成本优化\n(Advanced reasoning, cost optimization)\n\n**Recommended For:** 开发者与研究人员\n(Developers and researchers)\n\n**Description:** 为开发者和研究人员提供先进的推理能力，同时保持具有竞争力的定价。\n(Provides advanced reasoning capabilities for developers and",
+    "recommended_for": "开发者与研究人员",
     "features": [
       "用于复杂问题解决的高级推理能力",
       "强大的代码生成和编程支持",
@@ -4159,7 +4159,7 @@
   },
   {
     "name": "NovelAI",
-    "description": "# Chinese Translation\n\n**Product Name:** Claude Code (or keep as is)\n\n**Tagline:** \n创意写作AI助手 (15 chars)\n\n**Description:** \nClaude Code是一款专为创意写作者和作家打造的AI叙事助手。它能帮助激发灵感、完善故事情节、优化文字表达和提高写作效率，",
+    "description": "创意写作AI助手",
     "company": "Anlatan",
     "category": "AI Writing",
     "url": "https://novelai.net",
@@ -4234,7 +4234,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Chinese Translation\n\n**Tagline/Recommended For (max 20 chars):**\n创意写作者和小说家的AI故事助手\n\n**Description:**\n为创意写作者和小说家设计，提供AI辅助的故事创作和人物塑造功能。帮助用户快速生成创意灵感、完善情节结构、深化角色",
+    "recommended_for": "创意写作者和小说家的AI故事助手",
     "features": [
       "基于神经网络的故事生成和续写",
       "使用个人写作样本的自定义AI模型微调",
@@ -4266,7 +4266,7 @@
   },
   {
     "name": "AI Dungeon",
-    "description": "# AI-powered Interactive Fiction and Adventure Game Creation\n\n**Chinese Translation:**\n\n**Title (正式名称):**\nAI驱动的交互式小说与冒险游戏创作平台\n\n**Tagline (标语 - max 20 chars):**\nAI创作，无限想象\n\n**Recommended For (推荐用途 - max 20 chars):**\n创意写作与游",
+    "description": "AI创作，无限想象",
     "company": "Latitude",
     "category": "AI Writing",
     "url": "https://www.aidungeon.io",
@@ -4313,7 +4313,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Chinese Translation\n\n**Tagline:** AI互动故事体验\n\n**Recommended_for:** 创意写手和游戏玩家\n\n**Description:** 为创意写手和游戏玩家提供AI驱动的交互式故事讲述体验。这个工具能够帮助用户创作沉浸式叙事内容，通过人工智能",
+    "recommended_for": "创意写手和游戏玩家",
     "features": [
       "由GPT模型驱动的实时故事生成",
       "自定义世界和角色创建工具",
@@ -4346,7 +4346,7 @@
   },
   {
     "name": "Jan",
-    "description": "# Chinese Translation\n\n**Name:** Claude Code / 本地AI聊天应用\n\n**Tagline (20 chars max):** \n本地运行的开源AI聊天应用\n\n**Recommended for (20 chars max):**\n离线使用、隐私保护、本地部署\n\n**Description:**\n一个开源的AI聊天应用，完全在您的设备上本",
+    "description": "本地运行的开源AI聊天应用",
     "company": "Jan",
     "category": "AI Chat",
     "url": "https://jan.ai",
@@ -4379,7 +4379,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Chinese Translation\n\n**Tagline/Recommended_for (≤20 chars):**\n注重隐私，本地运行AI模型\n\n**Description (natural):**\n最适合那些将隐私保护放在首位，希望在本地运行AI模型而不依赖云服务的用户。\n\n---\n\n**Alternative tagline option:**\n离线隐私，本地AI",
+    "recommended_for": "注重隐私，本地运行AI模型",
     "features": [
       "本地模型执行，无需云依赖",
       "支持多种AI模型格式（GGUF、PyTorch）",
@@ -4412,7 +4412,7 @@
   },
   {
     "name": "OpenAI Codex",
-    "description": "# English to Chinese Translation\n\n**Product Name:** Claude Code\n\n**Tagline (≤20 chars):**\n自然语言转代码的AI\n\n**Recommended For (≤20 chars):**\n开发者、学生、技术爱好者\n\n**Description:**\n一款由Anthropic推出的官方命令行工具，能够将自然语言指令转换为可直接运",
+    "description": "自然语言转代码的AI",
     "company": "OpenAI",
     "category": "AI Coding",
     "url": "https://openai.com/blog/openai-codex/",
@@ -4473,7 +4473,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Chinese Translation\n\n**Tagline:** AI驱动代码生成与完成\n\n**Recommended_for:** 多语言开发者\n\n**Description:** 为寻求跨多种编程语言实现AI驱动代码生成和完成功能的开发者而设计。该工具提供智能代码建议，加速开发流程，提高编程效率。",
+    "recommended_for": "多语言开发者",
     "features": [
       "自然语言到代码的转换",
       "多语言支持（Python、JavaScript、TypeScript、Go、Ruby、Java、C#、PHP）",
@@ -4506,7 +4506,7 @@
   },
   {
     "name": "Visily",
-    "description": "# Chinese Translation\n\n**Name:** Claude Code (保持原名)\n\n**Tagline:** AI驱动的快速UI/UX原型设计工具\n(18 characters)\n\n**Description:** \n这是一款由人工智能驱动的设计工具，能够帮助设计师和开发者快速创建和迭代用户界面原型。通过智能化",
+    "description": "AI驱动的快速UI/UX原型设计工具",
     "company": "Visily Inc.",
     "category": "AI Design",
     "url": "https://www.visily.ai",
@@ -4567,7 +4567,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Translation to Chinese\n\n**Tagline/Recommended For:**\n快速UI原型设计工具\n\n**Description:**\n适合需要快速进行UI原型设计但设计经验有限的产品团队和创业者使用。无需复杂的设计知识，即可快速创建专业的产品原型。\n\n---\n\n**Character counts:**\n- Tagline:",
+    "recommended_for": "快速UI原型设计工具",
     "features": [
       "使用AI进行草图到设计的转换",
       "从描述生成文本到UI",
@@ -4600,7 +4600,7 @@
   },
   {
     "name": "LogoAI",
-    "description": "# Chinese Translation\n\n**Product Name:** Claude Code / Claude设计助手\n\n**Tagline:** \nAI智能标志生成器 (16 chars)\n\n**Description:** \n这是一个由人工智能驱动的标志设计生成器，可以为您的品牌提供即时设计方案。只需输入品牌信息，系统就能快速生成",
+    "description": "AI智能标志生成器",
     "company": "Brandmark",
     "category": "AI Design",
     "url": "https://www.logoai.com",
@@ -4647,7 +4647,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Chinese Translation\n\n**Tagline/Recommended for (max 20 chars):**\n快速廉价标志设计\n\n**Description (natural):**\n为没有专业设计经验的创业者提供快速、经济的标志设计解决方案。帮助初创企业在预算有限的情况下，轻松获得高质量的品牌标识。",
+    "recommended_for": "快速廉价标志设计",
     "features": [
       "从文本输入生成的AI徽标变体",
       "按行业可定制的设计模板",
@@ -4680,7 +4680,7 @@
   },
   {
     "name": "GoodBird",
-    "description": "# Chinese Translation\n\n**Product Name:** Claude Code (保持英文)\n\n**Tagline:** 智能任务自动化平台\n(Smart task automation platform - 10 chars)\n\n**Recommended for:** 现代团队效率提升\n(Modern team productivity - 10 chars)\n\n**Description:** \nClaude Code 是为现代团队设计的智能任务自动化解决方案。",
+    "description": "智能任务自动化平台",
     "company": "GoodBird Inc.",
     "category": "AI Productivity",
     "url": "https://www.goodbird.ai",
@@ -4741,7 +4741,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Chinese Translation\n\n**Tagline/Recommended For (max 20 chars):**\nAI驱动的团队协作与自动化\n\n**Description (natural):**\n最适合寻求AI驱动工作流自动化和跨平台协作的团队。该解决方案能够智能化处理日常任务，提升团队效率，同时支持多个平",
+    "recommended_for": "AI驱动的团队协作与自动化",
     "features": [
       "使用自然语言命令的工作流自动化",
       "与Slack、Asana和电子邮件的多工具集成",
@@ -4774,7 +4774,7 @@
   },
   {
     "name": "Image to Prompt Generator",
-    "description": "# Chinese Translation\n\n**Name:** Claude Code (keeping original)\n\n**Tagline:** 将图像转换为详细文本提示\n\n**Description:** 自动将图像转换为详细的文本提示，帮助用户快速生成高质量的AI图像描述和创意指导。\n\n**Recommended_for:** 图像分析、提示词生成\n\n---\n\n### Character",
+    "description": "将图像转换为详细文本提示",
     "company": "Various (Open Source & Commercial)",
     "category": "AI Image",
     "url": "https://huggingface.co/spaces/timbrooks/instruct-pix2pix",
@@ -4835,7 +4835,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Chinese Translation\n\n**Tagline:** 设计师和艺术家的AI提示生成工具\n(18 characters)\n\n**Recommended_for:** 设计师、艺术家\n(8 characters)\n\n**Description:** \n为设计师和艺术家打造的高效AI提示词生成平台。帮助用户快速创建精准、创意十足的",
+    "recommended_for": "设计师、艺术家",
     "features": [
       "自动图像分析和描述生成",
       "从视觉内容创建详细提示词",
@@ -4868,7 +4868,7 @@
   },
   {
     "name": "Warp Intro Creator",
-    "description": "# Chinese Translation\n\n**Product Name:** Claude Code / AI视频开场生成器\n\n**Tagline:** AI驱动的视频开场生成工具\n\n**Recommended For:** 内容创作者\n\n**Description:** \n一个由人工智能驱动的视频开场生成器，帮助内容创作者快速制作专业的视频介绍。无需复",
+    "description": "AI驱动的视频开场生成工具",
     "company": "Warp",
     "category": "AI Video",
     "url": "https://www.warp.dev",
@@ -4917,7 +4917,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Translation to Chinese\n\n**Tagline:** 内容创作者的快速视频开场\n(14 chars - \"Quick Video Intros for Content Creators\")\n\n**Recommended for:** 视频创作者\n(6 chars - \"Video Creators\")\n\n**Description:** \n为内容创作者设计的专业视频开场制作工具。只需几秒钟即可生成",
+    "recommended_for": "视频创作者",
     "features": [
       "使用可自定义模板的AI生成动画开场",
       "用于开场序列的文字转视频转换",
@@ -4950,7 +4950,7 @@
   },
   {
     "name": "Free AI Video Upscaler",
-    "description": "# Chinese Translation\n\n**Name:** 视频超分辨率工具 / AI视频增强器\n\n**Tagline (≤20 chars):** AI技术提升视频清晰度\n\n**Description:** \n利用先进的人工智能技术，自动将您的视频升级到更高分辨率。该工具采用深度学习算法，能够智能",
+    "description": "AI技术提升视频清晰度",
     "company": "Upscayl",
     "category": "AI Video",
     "url": "https://www.upscayl.org",
@@ -4983,7 +4983,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Chinese Translation\n\n**Tagline:** 免费强大的视频升级工具\n(Free powerful video upscaling tool)\n\n**Recommended_for:** 视频创作者\n(Video creators)\n\n**Description:** 为需要免费、强大的视频升级且无需订阅的视频创作者而设计。这款工具提供专业级的视频画质提升功",
+    "recommended_for": "视频创作者",
     "features": [
       "多个AI超分模型（Real-ESRGAN、Anime4K、BSRGAN）",
       "批量视频处理多个文件",
@@ -5016,7 +5016,7 @@
   },
   {
     "name": "RabbitAI",
-    "description": "# Chinese Translation\n\n**tagline:** 个人数字AI操作系统 (17 chars)\n\n**recommended_for:** 数字任务管理 (6 chars)\n\n**description:** 一个专为个人设计的AI操作系统，帮助您高效地完成各种数字化任务。无论是文件处理、信息整理还是工作自动化，",
+    "description": "个人数字AI操作系统",
     "company": "Rabbit Inc.",
     "category": "AI Productivity",
     "url": "https://www.rabbit.tech",
@@ -5077,7 +5077,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Chinese Translation\n\n**Tagline:** 专业人士自动化重复任务\n(Professionals automating repetitive tasks)\n*[19 characters]*\n\n**Recommended for:** 跨应用自动化工作流\n(Cross-application workflow automation)\n*[10 characters]*\n\n**Description:** 帮助专业人士通过自动化跨多个应用程序的重复数字",
+    "recommended_for": "跨应用自动化工作流",
     "features": [
       "自然语言任务自动化",
       "跨应用工作流集成",
@@ -5110,7 +5110,7 @@
   },
   {
     "name": "Plotica",
-    "description": "```json\n{\n  \"tagline\": \"AI驱动的数据可视化工具\",\n  \"description\": \"这是一个由人工智能驱动的数据可视化和图表创建工具。它能够自动分析数据、生成专业的图表和可视化效果，帮助用户更直观地理解和展示数据信息。\",",
+    "description": "AI驱动的数据可视化工具",
     "company": "Plotica Inc.",
     "category": "AI Design",
     "url": "https://plotica.com",
@@ -5170,7 +5170,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Chinese Translation\n\n**Tagline (≤20 chars):**\n无需设计资源的数据可视化\n\n**Recommended_for (≤20 chars):**\n缺乏设计人员的团队\n\n**Description (natural):**\n最适合没有专业设计团队的企业和团队使用。这个解决方案能帮助你轻松创建专",
+    "recommended_for": "缺乏设计人员的团队",
     "features": [
       "AI驱动的图表类型推荐",
       "来自多个来源的自动数据导入",
@@ -5203,7 +5203,7 @@
   },
   {
     "name": "midReal",
-    "description": "# Chinese Translation\n\n**Product Name:** Claude Code / AI视频生成工具\n\n**Tagline:** 文本和图像生成AI视频\n(Text and images generate AI videos)\n*Character count: 12 characters*\n\n**Description:** \n这是一款先进的AI视频生成工具,能够将文本描述和图像快速转换为高质量视频内容。用户",
+    "description": "文本和图像生成AI视频",
     "company": "midReal",
     "category": "AI Video",
     "url": "https://www.midreal.ai",
@@ -5264,7 +5264,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Chinese Translation\n\n**Tagline/Recommended For** (18 chars):\n市场营销人员和内容创作者\n\n**Description** (natural):\n为需要快速生成优质视频内容，但缺乏专业制作经验的营销人员和内容创作者而设计。\n\n---\n\n### Alternative options:\n\n**Tagline** (shorter, 10 chars):",
+    "recommended_for": "市场营销人员和内容创作者",
     "features": [
       "使用自然语言处理的文本到视频生成",
       "图像到视频的动画和动作合成",
@@ -5298,7 +5298,7 @@
   },
   {
     "name": "LightPDF",
-    "description": "# Chinese Translation\n\n**Product Name:** Claude Code (保持英文名)\n\n**Tagline (推荐标语):**\nAI驱动的PDF编辑转换工具\n\n**Recommended For (推荐用途):**\n高效文档管理\n\n**Description (描述):**\n利用AI技术的PDF编辑器和转换工具,让您的文档管理工作变",
+    "description": "AI驱动的PDF编辑转换工具",
     "company": "LightPDF",
     "category": "AI Productivity",
     "url": "https://lightpdf.com",
@@ -5359,7 +5359,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Chinese Translation\n\n**Target Audience:**\n学生和专业人士\n\n**Tagline/Recommended For (under 20 chars):**\n快速易用的PDF编辑转换\n\n**Description:**\n面向学生和专业人士，提供快速便捷的PDF编辑和转换工具，使复杂的文档处理变得简单易行。\n\n---\n\n**Character",
+    "recommended_for": "学生和专业人士",
     "features": [
       "AI驱动的PDF编辑和注释",
       "文档转换（PDF转Word、Excel、PowerPoint、图像）",
@@ -5391,7 +5391,7 @@
   },
   {
     "name": "IndexFlow",
-    "description": "# Translation to Chinese\n\n**Product Name:** Claude Code / 智能编码助手\n\n**Tagline (≤20 chars):** \n智能索引与工作流自动化\n\n**Recommended For (≤20 chars):**\n开发团队与企业\n\n**Description:**\n一个强大的智能索引和工作流自动化平台，可帮助团队自动化复",
+    "description": "智能索引与工作流自动化",
     "company": "IndexFlow Inc.",
     "category": "AI Productivity",
     "url": "https://www.indexflow.ai",
@@ -5452,7 +5452,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# English → Chinese Translation\n\n**Tagline/Recommended For (max 20 chars):**\n适合大规模智能文档管理\n\n**Description (natural):**\n为需要大规模智能文档组织的企业提供最佳解决方案。\n\n---\n\n**Alternative options:**\n\n*Tagline (more concise):*\n- 企业级智能文档管理 (12",
+    "recommended_for": "适合大规模智能文档管理",
     "features": [
       "自动文档分类和索引",
       "AI驱动的元数据提取",
@@ -5485,7 +5485,7 @@
   },
   {
     "name": "Sentence 3.0",
-    "description": "# Chinese Translation\n\n**Product Name:** Claude 写作助手\n(Claude Writing Assistant)\n\n**Tagline:** (≤20 chars)\nAI驱动的专业写作工具\n(AI-powered professional writing tool)\n\n**Recommended For:** (≤20 chars)\n职业内容创作者\n(Professional content creators)\n\n**Description:**\n一款由人工智能驱动的写作助",
+    "description": "AI驱动的专业写作工具",
     "company": "Sentence",
     "category": "AI Writing",
     "url": "https://www.sentence.ai",
@@ -5546,7 +5546,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Chinese Translation\n\n**Tagline/Recommended For (max 20 chars):**\n营销团队和内容创作者的最佳选择\n\n**Description (natural Chinese):**\n为营销团队和内容创作者设计，快速生成高质量的文案和内容。无论是社交媒体帖子、广告文案还是博客文章，都能在",
+    "recommended_for": "营销团队和内容创作者的最佳选择",
     "features": [
       "跨多种格式的AI驱动内容生成",
       "实时语法和风格检查",
@@ -5579,7 +5579,7 @@
   },
   {
     "name": "CrushOn AI",
-    "description": "# Chinese Translation\n\n创建和聊天AI角色，无内容限制。\n\nOr slightly more natural:\n\n与AI角色聊天交互，无内容审查限制。",
+    "description": "创建和聊天AI角色，无内容限制。",
     "company": "CrushOn",
     "category": "AI Chat",
     "url": "https://www.crushon.ai",
@@ -5626,7 +5626,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Translation to Chinese\n\n最适合寻求无限制AI角色扮演和角色互动的创意用户。\n\nOr more concise:\n\n适合寻求无限制AI角色扮演的创意用户。",
+    "recommended_for": "最适合寻求无限制AI角色扮演和角色互动的创意用户。",
     "features": [
       "不受限制的角色创建和自定义",
       "没有严格内容过滤的NSFW友好对话",
@@ -5658,7 +5658,7 @@
   },
   {
     "name": "Janitor AI",
-    "description": "# Chinese Translation\n\n**创建并即时与自定义AI角色聊天。**\n\n或更简洁的版本：\n\n**快速创建和聊天自定义AI角色。**",
+    "description": "创建并即时与自定义AI角色聊天。",
     "company": "Janitor AI",
     "category": "AI Chat",
     "url": "https://www.janitorai.com",
@@ -5738,7 +5738,7 @@
   },
   {
     "name": "StoryChat",
-    "description": "# Chinese Translation\n\n**AI驱动的交互式叙事生成**\n\n或\n\n**AI智能交互故事生成**\n\n---\n\n## Variations:\n\n- **AI驱动的互动叙事** (more formal)\n- **AI交互式故事创作** (emphasizing creation)\n- **智能交互叙事系统** (emphasizing system)",
+    "description": "AI驱动的交互式叙事生成",
     "company": "StoryChat AI",
     "category": "AI Chat",
     "url": "https://www.storychat.ai",
@@ -5818,7 +5818,7 @@
   },
   {
     "name": "SillyTavern",
-    "description": "# 开源AI聊天前端，支持角色扮演。\n\nOr more concisely:\n\n# 开源AI聊天前端（角色扮演）",
+    "description": "开源AI聊天前端，支持角色扮演。",
     "company": "Community-Driven Open Source",
     "category": "AI Chat",
     "url": "https://sillytavern.app",
@@ -5851,7 +5851,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Chinese Translation\n\n**适合寻求可定制、隐私优先的AI聊天和角色扮演的技术用户。**\n\nOr more concisely:\n\n**为追求可定制、隐私至上的AI聊天和角色扮演的技术用户而设。**",
+    "recommended_for": "适合寻求可定制、隐私优先的AI聊天和角色扮演的技术用户。",
     "features": [
       "多后端AI模型支持（Claude、OpenAI、Llama等）",
       "角色创建和扮演，具有详细的角色定义",
@@ -5884,7 +5884,7 @@
   },
   {
     "name": "Roleplay AI",
-    "description": "# 用于沉浸式叙事体验的交互式AI角色\n\nOr more concisely:\n\n**交互式AI角色，打造沉浸式故事体验**",
+    "description": "用于沉浸式叙事体验的交互式AI角色",
     "company": "Roleplay AI Inc.",
     "category": "AI Chat",
     "url": "https://www.roleplay.ai",
@@ -5945,7 +5945,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "最适合寻求沉浸式AI驱动故事体验的创意写手和角色扮演者。\n\nOr more concisely:\n\n适合创意写手和角色扮演者的沉浸式AI故事平台。",
+    "recommended_for": "最适合寻求沉浸式AI驱动故事体验的创意写手和角色扮演者。",
     "features": [
       "可定制的AI角色创建和个性构建",
       "具有上下文感知的多轮对话AI",
@@ -5978,7 +5978,7 @@
   },
   {
     "name": "Xoul.ai",
-    "description": "# Chinese Translation\n\n**高级AI助手，支持智能对话和任务自动化。**\n\nOr more concisely:\n\n**高级AI助手，实现智能对话与任务自动化。**\n\nBoth translations convey the meaning concisely in Chinese. The first is slightly more natural, while the second uses more formal/technical phrasing.",
+    "description": "高级AI助手，支持智能对话和任务自动化。",
     "company": "Xoul",
     "category": "AI Chat",
     "url": "https://xoul.ai",
@@ -6043,7 +6043,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Translation to Chinese (Concise)\n\n**适合寻求智能AI助手协助内容创作和任务自动化的专业人士。**\n\nOr more concisely:\n\n**专为需要AI助手进行内容创作和任务自动化的专业人士设计。**",
+    "recommended_for": "适合寻求智能AI助手协助内容创作和任务自动化的专业人士。",
     "features": [
       "先进的自然语言理解",
       "多轮对话能力",
@@ -6077,7 +6077,7 @@
   },
   {
     "name": "Chai",
-    "description": "# 创建并与AI角色和人格互动。\n\nOr more naturally:\n\n# 创建并与AI角色聊天。",
+    "description": "创建并与AI角色和人格互动。",
     "company": "Chai Research",
     "category": "AI Chat",
     "url": "https://www.chai-research.io",
@@ -6124,7 +6124,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "适合任何想要与各种AI个性和角色进行有趣对话的人。\n\nOr more concisely:\n\n适合寻求与多样AI角色进行互动对话的人。",
+    "recommended_for": "适合任何想要与各种AI个性和角色进行有趣对话的人。",
     "features": [
       "AI角色创建和自定义",
       "多轮对话功能",
@@ -6156,7 +6156,7 @@
   },
   {
     "name": "Layla",
-    "description": "# Chinese Translation\n\n**AI助手，提供个性化学习和生产力支持。**\n\n或更简洁的版本：\n\n**个性化学习和生产力AI助手。**",
+    "description": "AI助手，提供个性化学习和生产力支持。",
     "company": "Layla AI",
     "category": "AI Chat",
     "url": "https://www.layla.ai",
@@ -6203,7 +6203,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# 最适合寻求个性化AI学习和生产力辅助的学生和专业人士。\n\nOr more concisely:\n\n# 最适合学生和专业人士获取个性化AI学习及生产力支持。",
+    "recommended_for": "最适合寻求个性化AI学习和生产力辅助的学生和专业人士。",
     "features": [
       "对话式人工智能助手",
       "个性化学习推荐",
@@ -6237,7 +6237,7 @@
   },
   {
     "name": "Talkie AI",
-    "description": "# Create and chat with AI character companions\n\n**创建和聊天AI角色伴侣**\n\n或更简洁的表达：\n\n**创建和与AI角色伴侣聊天**",
+    "description": "创建和聊天AI角色伴侣",
     "company": "Talkie AI",
     "category": "AI Chat",
     "url": "https://www.talkie.ai",
@@ -6284,7 +6284,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# 最适合寻求沉浸式AI角色对话和故事讲述体验的创意用户。\n\nOr more concisely:\n\n# 最适合追求沉浸式AI角色交互和创意叙事的用户。",
+    "recommended_for": "最适合寻求沉浸式AI角色对话和故事讲述体验的创意用户。",
     "features": [
       "AI角色创建和自定义",
       "与多样化角色进行自然语言对话",
@@ -6317,7 +6317,7 @@
   },
   {
     "name": "Dreamily",
-    "description": "# 中文翻译\n\n**AI驱动的创意写作和故事讲述伙伴**\n\n或更简洁的版本：\n\n**AI创意写作与故事叙述助手**",
+    "description": "AI驱动的创意写作和故事讲述伙伴",
     "company": "Dreamily",
     "category": "AI Chat",
     "url": "https://dreamily.ai",
@@ -6364,7 +6364,7 @@
       ]
     },
     "featured": false,
-    "recommended_for": "# Chinese Translation\n\n**非常适合寻求AI协助进行故事创作和叙事发展的创意写手。**\n\nOr more concisely:\n\n**适合寻求AI协助进行创意写作和叙事开发的作家。**",
+    "recommended_for": "非常适合寻求AI协助进行故事创作和叙事发展的创意写手。",
     "features": [
       "故事生成和情节发展",
       "角色创建和发展",
