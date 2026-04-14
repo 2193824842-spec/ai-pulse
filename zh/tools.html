@@ -383,6 +383,7 @@
       const pricingLabel = {free:'✅ 免费', freemium:'🔓 免费增值', paid:'💳 付费'};
       const rows = [
         { label: '简介',     fn: t => `<span style="font-size:12px;line-height:1.5;">${t.description || '—'}</span>` },
+        { label: '推荐人群', fn: t => t.recommended_for ? `<span class="compare-recommended">${t.recommended_for}</span>` : '—' },
         { label: '所属公司', fn: t => t.company || '—' },
         { label: '分类',     fn: t => t.category || '—' },
         { label: '定价',     fn: t => pricingLabel[pricingModel(t)] || '—' },

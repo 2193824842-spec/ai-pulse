@@ -1350,6 +1350,7 @@ nav a.active { color: var(--accent); background: var(--accent-bg); }
 .compare-tag { display: inline-block; font-size: 11px; padding: 2px 7px; background: var(--tag-bg, #f0f0f0); border-radius: 6px; margin: 2px; }
 .compare-visit { display: inline-block; font-size: 12px; padding: 4px 12px; background: var(--accent); color: #fff; border-radius: 6px; text-decoration: none; font-weight: 500; }
 .compare-visit:hover { opacity: 0.85; }
+.compare-recommended { font-size: 12px; color: var(--accent); font-style: italic; line-height: 1.5; }
 .compare-plan { font-size: 12px; padding: 2px 0; }
 .compare-plan strong { margin-right: 4px; }
 .compare-plan span { color: var(--text-muted); }

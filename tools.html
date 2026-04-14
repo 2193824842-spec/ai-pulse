@@ -397,6 +397,7 @@
       const pricingLabel = {free:'✅ Free', freemium:'🔓 Freemium', paid:'💳 Paid'};
       const rows = [
         { label: 'Description', fn: t => `<span style="font-size:12px;line-height:1.5;">${t.description || '—'}</span>` },
+        { label: 'Recommended For', fn: t => t.recommended_for ? `<span class="compare-recommended">${t.recommended_for}</span>` : '—' },
         { label: 'Company',     fn: t => t.company || '—' },
         { label: 'Category',    fn: t => t.category || '—' },
         { label: 'Pricing',     fn: t => pricingLabel[pricingModel(t)] || '—' },
