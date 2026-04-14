@@ -284,9 +284,9 @@
         : allTools.filter(tool => tool.category === currentCategory);
 
       if (currentPricing === 'free') {
-        filtered = filtered.filter(tool => tool.pricing === 'free' || tool.pricing === 'freemium');
+        filtered = filtered.filter(tool => { const m = typeof tool.pricing === 'object' ? tool.pricing.model : tool.pricing; return m === 'free' || m === 'freemium'; });
       } else if (currentPricing !== 'all') {
-        filtered = filtered.filter(tool => tool.pricing === currentPricing);
+        filtered = filtered.filter(tool => { const m = typeof tool.pricing === 'object' ? tool.pricing.model : tool.pricing; return m === currentPricing; });
       }
 
       if (searchQuery) {
@@ -313,8 +313,9 @@
             const days = Math.floor((new Date() - new Date(tool.addedDate)) / 86400000);
             if (days >= 0 && days <= 7) badges.push('<span class="tool-badge badge-new">New</span>');
           }
-          if (tool.pricing === 'free') badges.push('<span class="tool-badge badge-free">Free</span>');
-          else if (tool.pricing === 'freemium') badges.push('<span class="tool-badge badge-freemium">Freemium</span>');
+          const pm = typeof tool.pricing === 'object' ? tool.pricing.model : tool.pricing;
+          if (pm === 'free') badges.push('<span class="tool-badge badge-free">Free</span>');
+          else if (pm === 'freemium') badges.push('<span class="tool-badge badge-freemium">Freemium</span>');
 
           const inCompare = compareList.some(t => t.name === tool.name);
           const btnLabel = inCompare ? '✓ Added' : '+ Compare';
@@ -392,13 +393,22 @@
       if (compareList.length < 2) return;
       const wrap = document.getElementById('compare-table-wrap');
 
+      const pricingModel = t => typeof t.pricing === 'object' ? t.pricing.model : t.pricing;
       const pricingLabel = {free:'✅ Free', freemium:'🔓 Freemium', paid:'💳 Paid'};
       const rows = [
         { label: 'Description', fn: t => `<span style="font-size:12px;line-height:1.5;">${t.description || '—'}</span>` },
         { label: 'Company',     fn: t => t.company || '—' },
         { label: 'Category',    fn: t => t.category || '—' },
-        { label: 'Pricing',     fn: t => pricingLabel[t.pricing] || '—' },
-        { label: 'Free Trial',  fn: t => (t.pricing === 'free' || t.pricing === 'freemium') ? '✅ Yes' : '❌ No' },
+        { label: 'Pricing',     fn: t => pricingLabel[pricingModel(t)] || '—' },
+        { label: 'Plans',       fn: t => {
+          const plans = (typeof t.pricing === 'object' ? t.pricing.plans : null) || [];
+          if (!plans.length) return '—';
+          return plans.map(p => `<div class="compare-plan"><strong>${p.name}</strong> <span>${p.price}</span></div>`).join('');
+        }},
+        { label: 'Best For',    fn: t => (t.best_for || []).length ? '<ul class="compare-list">' + (t.best_for || []).map(x => `<li>${x}</li>`).join('') + '</ul>' : '—' },
+        { label: 'Key Features',fn: t => (t.features || []).length ? '<ul class="compare-list">' + (t.features || []).map(x => `<li>${x}</li>`).join('') + '</ul>' : '—' },
+        { label: 'Pros',        fn: t => (t.pros || []).length ? '<ul class="compare-list compare-pros">' + (t.pros || []).map(x => `<li>${x}</li>`).join('') + '</ul>' : '—' },
+        { label: 'Cons',        fn: t => (t.cons || []).length ? '<ul class="compare-list compare-cons">' + (t.cons || []).map(x => `<li>${x}</li>`).join('') + '</ul>' : '—' },
         { label: 'Popularity',  fn: t => { const s = Math.round((t.popularity || 0) / 20); return '<span class="compare-stars">' + '★'.repeat(s) + '☆'.repeat(5-s) + '</span> ' + (t.popularity || 0); } },
         { label: 'Tags',        fn: t => (t.tags || []).map(tag => `<span class="compare-tag">${tag}</span>`).join('') },
         { label: 'Visit',       fn: t => `<a href="${t.url}" target="_blank" rel="noopener noreferrer" class="compare-visit">Visit →</a>` },

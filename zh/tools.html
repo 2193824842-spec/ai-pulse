@@ -282,9 +282,9 @@
         : allTools.filter(tool => tool.category === currentCategory);
 
       if (currentPricing === 'free') {
-        filtered = filtered.filter(tool => tool.pricing === 'free' || tool.pricing === 'freemium');
+        filtered = filtered.filter(tool => { const m = typeof tool.pricing === 'object' ? tool.pricing.model : tool.pricing; return m === 'free' || m === 'freemium'; });
       } else if (currentPricing !== 'all') {
-        filtered = filtered.filter(tool => tool.pricing === currentPricing);
+        filtered = filtered.filter(tool => { const m = typeof tool.pricing === 'object' ? tool.pricing.model : tool.pricing; return m === currentPricing; });
       }
 
       if (searchQuery) {
@@ -311,8 +311,9 @@
             const days = Math.floor((new Date() - new Date(tool.addedDate)) / 86400000);
             if (days >= 0 && days <= 7) badges.push('<span class="tool-badge badge-new">新上线</span>');
           }
-          if (tool.pricing === 'free') badges.push('<span class="tool-badge badge-free">免费</span>');
-          else if (tool.pricing === 'freemium') badges.push('<span class="tool-badge badge-freemium">免费增值</span>');
+          const pm = typeof tool.pricing === 'object' ? tool.pricing.model : tool.pricing;
+          if (pm === 'free') badges.push('<span class="tool-badge badge-free">免费</span>');
+          else if (pm === 'freemium') badges.push('<span class="tool-badge badge-freemium">免费增值</span>');
 
           const inCompare = compareList.some(t => t.name === tool.name);
           const btnLabel = inCompare ? '✓ 已添加' : '+ 对比';
@@ -378,13 +379,22 @@
     function showCompareModal() {
       if (compareList.length < 2) return;
       const wrap = document.getElementById('compare-table-wrap');
+      const pricingModel = t => typeof t.pricing === 'object' ? t.pricing.model : t.pricing;
       const pricingLabel = {free:'✅ 免费', freemium:'🔓 免费增值', paid:'💳 付费'};
       const rows = [
         { label: '简介',     fn: t => `<span style="font-size:12px;line-height:1.5;">${t.description || '—'}</span>` },
         { label: '所属公司', fn: t => t.company || '—' },
         { label: '分类',     fn: t => t.category || '—' },
-        { label: '定价',     fn: t => pricingLabel[t.pricing] || '—' },
-        { label: '免费试用', fn: t => (t.pricing === 'free' || t.pricing === 'freemium') ? '✅ 有' : '❌ 无' },
+        { label: '定价',     fn: t => pricingLabel[pricingModel(t)] || '—' },
+        { label: '套餐',     fn: t => {
+          const plans = (typeof t.pricing === 'object' ? t.pricing.plans : null) || [];
+          if (!plans.length) return '—';
+          return plans.map(p => `<div class="compare-plan"><strong>${p.name}</strong> <span>${p.price}</span></div>`).join('');
+        }},
+        { label: '适合人群', fn: t => (t.best_for || []).length ? '<ul class="compare-list">' + (t.best_for || []).map(x => `<li>${x}</li>`).join('') + '</ul>' : '—' },
+        { label: '核心功能', fn: t => (t.features || []).length ? '<ul class="compare-list">' + (t.features || []).map(x => `<li>${x}</li>`).join('') + '</ul>' : '—' },
+        { label: '优点',     fn: t => (t.pros || []).length ? '<ul class="compare-list compare-pros">' + (t.pros || []).map(x => `<li>${x}</li>`).join('') + '</ul>' : '—' },
+        { label: '缺点',     fn: t => (t.cons || []).length ? '<ul class="compare-list compare-cons">' + (t.cons || []).map(x => `<li>${x}</li>`).join('') + '</ul>' : '—' },
         { label: '热度',     fn: t => { const s = Math.round((t.popularity || 0) / 20); return '<span class="compare-stars">' + '★'.repeat(s) + '☆'.repeat(5-s) + '</span> ' + (t.popularity || 0); } },
         { label: '标签',     fn: t => (t.tags || []).map(tag => `<span class="compare-tag">${tag}</span>`).join('') },
         { label: '访问',     fn: t => `<a href="${t.url}" target="_blank" rel="noopener noreferrer" class="compare-visit">访问 →</a>` },

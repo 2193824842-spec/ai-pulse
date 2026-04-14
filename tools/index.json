@@ -5,11 +5,87 @@
     "company": "OpenAI",
     "category": "AI Writing",
     "url": "https://chat.openai.com",
-    "tags": ["chatbot", "writing", "coding"],
+    "tags": [
+      "chatbot",
+      "writing",
+      "coding"
+    ],
     "popularity": 100,
     "addedDate": "2026-04-08",
-    "pricing": "freemium",
-    "featured": true
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "GPT-5.3 access with limits",
+            "Limited image generation",
+            "Ads (US)",
+            "No advanced reasoning"
+          ]
+        },
+        {
+          "name": "Go",
+          "price": "$8/mo",
+          "highlights": [
+            "More messages & uploads",
+            "More image creation",
+            "Still includes ads",
+            "No Sora/Codex/Agent Mode"
+          ]
+        },
+        {
+          "name": "Plus",
+          "price": "$20/mo",
+          "highlights": [
+            "Full model suite (GPT-5.4)",
+            "Deep Research (10 runs/mo)",
+            "Sora, Codex, Agent Mode",
+            "Ad-free",
+            "~320 page context window"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$200/mo",
+          "highlights": [
+            "GPT-5.4 Pro model",
+            "250 Deep Research runs/mo",
+            "Double context window",
+            "Priority access"
+          ]
+        }
+      ]
+    },
+    "featured": true,
+    "features": [
+      "Conversational Q&A across any topic",
+      "Writing assistance (essays, emails, copy, summaries)",
+      "Code generation, review, and debugging",
+      "Image analysis and DALL-E image generation",
+      "Real-time web search (Plus and above)",
+      "Voice conversations (Advanced Voice Mode)"
+    ],
+    "pros": [
+      "Most widely used AI tool globally — huge community and ecosystem",
+      "Extremely versatile: writing, coding, research, images, voice",
+      "GPTs marketplace with thousands of specialized assistants",
+      "Frequent model updates and new feature releases"
+    ],
+    "cons": [
+      "Quality complaints increased in 2026 — outputs can feel watered down",
+      "Ads introduced on free/Go plans (Feb 2026) — controversial move",
+      "Expensive at $200/mo for Pro tier",
+      "Inconsistent response quality across sessions"
+    ],
+    "best_for": [
+      "General-purpose AI assistance",
+      "Content writers and marketers",
+      "Developers needing code help",
+      "Students and researchers",
+      "Businesses needing team AI tools"
+    ]
   },
   {
     "name": "Claude",
@@ -17,11 +93,79 @@
     "company": "Anthropic",
     "category": "AI Writing",
     "url": "https://claude.ai",
-    "tags": ["chatbot", "writing", "coding"],
+    "tags": [
+      "chatbot",
+      "writing",
+      "coding"
+    ],
     "popularity": 95,
     "addedDate": "2026-04-08",
-    "pricing": "freemium",
-    "featured": true
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "Claude 3.5 Sonnet access (limited)",
+            "Limited daily messages",
+            "No Projects feature"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$20/mo",
+          "highlights": [
+            "5x more usage than Free",
+            "All Claude models incl. Opus",
+            "Projects with persistent memory",
+            "Priority access"
+          ]
+        },
+        {
+          "name": "Team",
+          "price": "$25/user/mo",
+          "highlights": [
+            "Everything in Pro",
+            "Higher usage limits",
+            "Admin console",
+            "Data not used for training"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Unlimited usage tiers",
+            "SSO and advanced security",
+            "Custom retention policies",
+            "Dedicated support"
+          ]
+        }
+      ]
+    },
+    "featured": true,
+    "features": [
+      "200K token context window for long documents",
+      "Advanced code generation and debugging",
+      "Document and PDF analysis",
+      "Artifacts: inline code, SVG, and HTML rendering",
+      "Vision: image understanding and analysis",
+      "Projects with persistent memory across conversations"
+    ],
+    "pros": [
+      "Exceptional at nuanced writing and long-form content",
+      "Best-in-class 200K context window for document analysis",
+      "Strong coding performance with Claude 3.5/3.7 Sonnet",
+      "Low hallucination rates on factual tasks"
+    ],
+    "cons": [
+      "Free tier has strict daily usage limits",
+      "No built-in image generation",
+      "Web search not natively integrated in base product",
+      "API costs can add up for high-volume use"
+    ],
+    "best_for": []
   },
   {
     "name": "Gemini",
@@ -29,11 +173,70 @@
     "company": "Google",
     "category": "AI Writing",
     "url": "https://gemini.google.com",
-    "tags": ["chatbot", "multimodal", "google"],
+    "tags": [
+      "chatbot",
+      "multimodal",
+      "google"
+    ],
     "popularity": 93,
     "addedDate": "2026-04-08",
-    "pricing": "freemium",
-    "featured": true
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "Gemini 2.0 Flash access",
+            "Google Search integration",
+            "Basic image generation",
+            "Limited daily usage"
+          ]
+        },
+        {
+          "name": "Gemini Advanced",
+          "price": "$19.99/mo",
+          "highlights": [
+            "Gemini Ultra model",
+            "2TB Google One storage",
+            "Gemini in Gmail, Docs, Sheets, Slides, Meet",
+            "Gems custom assistants"
+          ]
+        },
+        {
+          "name": "Google Workspace Business",
+          "price": "$30/user/mo",
+          "highlights": [
+            "Gemini in all Workspace apps",
+            "Enterprise data protection",
+            "Meeting summaries",
+            "Admin controls"
+          ]
+        }
+      ]
+    },
+    "featured": true,
+    "features": [
+      "1 million token context window (Gemini 1.5/2.0 Pro)",
+      "Native Google Search integration for real-time information",
+      "Deep Google Workspace integration (Docs, Gmail, Sheets, Slides)",
+      "Multimodal: text, image, audio, video, and code",
+      "Image generation via Imagen 3",
+      "Code execution and analysis"
+    ],
+    "pros": [
+      "Unmatched 1M token context window for large documents",
+      "Real-time web search built in by default",
+      "Best-in-class Google Workspace integration",
+      "Strong multimodal capabilities (text, image, audio, video)"
+    ],
+    "cons": [
+      "Gemini Advanced requires Google One subscription bundled with storage",
+      "Can be less precise than Claude on nuanced reasoning",
+      "Privacy concerns given Google's data practices",
+      "Workspace AI features require separate plan"
+    ],
+    "best_for": []
   },
   {
     "name": "Copilot",
@@ -41,10 +244,69 @@
     "company": "Microsoft",
     "category": "AI Writing",
     "url": "https://copilot.microsoft.com",
-    "tags": ["chatbot", "microsoft", "search"],
+    "tags": [
+      "chatbot",
+      "microsoft",
+      "search"
+    ],
     "popularity": 88,
     "addedDate": "2026-04-08",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "GPT-4 access (limited turns)",
+            "Bing web search",
+            "DALL-E 3 image generation (limited)",
+            "Available in Windows 11, Edge, Bing"
+          ]
+        },
+        {
+          "name": "Copilot Pro",
+          "price": "$20/mo",
+          "highlights": [
+            "Priority GPT-4 Turbo access",
+            "100 image boosts/day",
+            "Copilot in Word, Excel, PowerPoint, Outlook, OneNote",
+            "Custom GPT builder"
+          ]
+        },
+        {
+          "name": "Microsoft 365 Copilot",
+          "price": "$30/user/mo",
+          "highlights": [
+            "Requires Microsoft 365 Business",
+            "Copilot in Teams, Outlook, Word, Excel",
+            "Meeting summaries",
+            "Enterprise data protection"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "Powered by GPT-4 Turbo (free tier)",
+      "Bing web search integration for real-time answers",
+      "DALL-E 3 image generation via Designer",
+      "Microsoft 365 integration (Word, Excel, PowerPoint, Outlook, Teams)",
+      "Windows 11 system-level integration",
+      "Voice conversation mode"
+    ],
+    "pros": [
+      "Free GPT-4 access — most generous free tier among major AI tools",
+      "Best Microsoft 365 / Office integration available",
+      "Built into Windows 11 — no extra install needed",
+      "Real-time web search via Bing included by default"
+    ],
+    "cons": [
+      "Free tier has session turn limits and slower responses at peak",
+      "Microsoft 365 Copilot business plan is expensive at $30/user/mo",
+      "Less capable than Claude or ChatGPT for deep reasoning",
+      "Heavily tied to Microsoft ecosystem"
+    ],
+    "best_for": []
   },
   {
     "name": "Midjourney",
@@ -52,11 +314,80 @@
     "company": "Midjourney Inc.",
     "category": "AI Image",
     "url": "https://midjourney.com",
-    "tags": ["image", "art", "generation"],
+    "tags": [
+      "image",
+      "art",
+      "generation"
+    ],
     "popularity": 90,
     "addedDate": "2026-04-07",
-    "pricing": "paid",
-    "featured": true
+    "pricing": {
+      "model": "paid",
+      "plans": [
+        {
+          "name": "Basic",
+          "price": "$10/mo",
+          "highlights": [
+            "~200 image generations/mo (Fast GPU)",
+            "3 concurrent jobs",
+            "Commercial usage rights",
+            "No Relax mode"
+          ]
+        },
+        {
+          "name": "Standard",
+          "price": "$30/mo",
+          "highlights": [
+            "15 hours Fast GPU time/mo",
+            "Unlimited Relax mode",
+            "3 concurrent Fast jobs",
+            "Commercial usage rights"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$60/mo",
+          "highlights": [
+            "30 hours Fast GPU time/mo",
+            "Unlimited Relax mode",
+            "12 concurrent Fast jobs",
+            "Stealth mode (private)"
+          ]
+        },
+        {
+          "name": "Mega",
+          "price": "$120/mo",
+          "highlights": [
+            "60 hours Fast GPU time/mo",
+            "Unlimited Relax mode",
+            "12 concurrent Fast jobs",
+            "Highest priority queue"
+          ]
+        }
+      ]
+    },
+    "featured": true,
+    "features": [
+      "Text-to-image generation (Midjourney V6/V6.1)",
+      "High-resolution output (up to 2048x2048 and upscaled)",
+      "Style reference (--sref) for consistent visual style",
+      "Character reference (--cref) for consistent characters",
+      "Image-to-image variations and remixing",
+      "Inpainting (Vary Region) for selective editing"
+    ],
+    "pros": [
+      "Best overall image quality and aesthetic output among AI image generators",
+      "Exceptional style consistency with --sref and --cref parameters",
+      "Active community and Discord ecosystem for inspiration",
+      "Continuous model improvements (V5 → V6 → V6.1)"
+    ],
+    "cons": [
+      "No free tier — requires paid subscription from $10/mo",
+      "No API for programmatic access",
+      "Limited fine-grained editing compared to Stable Diffusion",
+      "Discord-based workflow can feel unintuitive for new users"
+    ],
+    "best_for": []
   },
   {
     "name": "DALL-E 3",
@@ -65,10 +396,66 @@
     "category": "AI Image",
     "url": "https://openai.com/dall-e-3",
     "favicon_domain": "labs.openai.com",
-    "tags": ["image", "art", "generation"],
+    "tags": [
+      "image",
+      "art",
+      "generation"
+    ],
     "popularity": 85,
     "addedDate": "2026-04-07",
-    "pricing": "paid"
+    "pricing": {
+      "model": "paid",
+      "plans": [
+        {
+          "name": "ChatGPT Plus",
+          "price": "$20/mo",
+          "highlights": [
+            "DALL-E 3 via ChatGPT",
+            "Limited generations per day",
+            "Conversational image editing"
+          ]
+        },
+        {
+          "name": "API - Standard",
+          "price": "$0.040/image",
+          "highlights": [
+            "1024x1024 resolution",
+            "Pay per image",
+            "No subscription needed"
+          ]
+        },
+        {
+          "name": "API - HD",
+          "price": "$0.080/image",
+          "highlights": [
+            "1024x1024 HD quality",
+            "Higher detail and fidelity",
+            "Pay per image"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "High-fidelity text-to-image generation",
+      "Precise prompt adherence (major improvement over DALL-E 2)",
+      "Integrated directly into ChatGPT for conversational image creation",
+      "Multiple aspect ratios (square, landscape, portrait)",
+      "Inpainting and image editing via API",
+      "Natural language prompt refinement through ChatGPT"
+    ],
+    "pros": [
+      "Best prompt adherence of any image model — follows complex instructions accurately",
+      "Seamlessly integrated into ChatGPT for conversational workflows",
+      "No separate subscription needed — included in ChatGPT Plus",
+      "Clean, developer-friendly API"
+    ],
+    "cons": [
+      "No free tier for image generation",
+      "Less artistic/stylized output compared to Midjourney",
+      "Limited editing and inpainting capabilities vs Stable Diffusion",
+      "No style reference or character consistency features"
+    ],
+    "best_for": []
   },
   {
     "name": "Stable Diffusion",
@@ -76,10 +463,68 @@
     "company": "Stability AI",
     "category": "AI Image",
     "url": "https://stability.ai",
-    "tags": ["image", "open-source", "generation"],
+    "tags": [
+      "image",
+      "open-source",
+      "generation"
+    ],
     "popularity": 82,
     "addedDate": "2026-04-07",
-    "pricing": "free"
+    "pricing": {
+      "model": "free",
+      "plans": [
+        {
+          "name": "Self-hosted (Free)",
+          "price": "$0",
+          "highlights": [
+            "Run locally on your GPU",
+            "No usage limits",
+            "Full model control",
+            "Requires 4GB+ VRAM"
+          ]
+        },
+        {
+          "name": "Stability AI API",
+          "price": "From $0.003/image",
+          "highlights": [
+            "Cloud generation",
+            "No GPU required",
+            "Pay per image",
+            "Access to latest models"
+          ]
+        },
+        {
+          "name": "DreamStudio",
+          "price": "Credit-based (~$10 for 1000 credits)",
+          "highlights": [
+            "Web interface",
+            "No setup required",
+            "SDXL and SD3 access"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "Open-source model — run locally or in the cloud",
+      "Text-to-image and image-to-image generation",
+      "Inpainting and outpainting",
+      "ControlNet for precise pose and composition control",
+      "Thousands of community fine-tuned models (Civitai)",
+      "LoRA training for custom styles and characters"
+    ],
+    "pros": [
+      "Completely free when self-hosted — no usage limits",
+      "Massive ecosystem of fine-tuned models and LoRAs",
+      "Full control: no content restrictions, custom training",
+      "ControlNet enables precise composition and pose control"
+    ],
+    "cons": [
+      "Requires technical setup for local installation",
+      "Needs a capable GPU (4GB+ VRAM) for local use",
+      "Output quality varies widely depending on model and settings",
+      "Steeper learning curve than cloud tools like Midjourney"
+    ],
+    "best_for": []
   },
   {
     "name": "Leonardo AI",
@@ -87,10 +532,79 @@
     "company": "Leonardo AI",
     "category": "AI Image",
     "url": "https://leonardo.ai",
-    "tags": ["image", "game", "art"],
+    "tags": [
+      "image",
+      "game",
+      "art"
+    ],
     "popularity": 78,
     "addedDate": "2026-04-07",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "150 tokens/day (~150 images)",
+            "Access to community models",
+            "AI Canvas",
+            "No commercial license"
+          ]
+        },
+        {
+          "name": "Apprentice",
+          "price": "$10/mo",
+          "highlights": [
+            "8,500 tokens/mo",
+            "Private generations",
+            "Commercial license",
+            "Priority queue"
+          ]
+        },
+        {
+          "name": "Artisan",
+          "price": "$24/mo",
+          "highlights": [
+            "25,000 tokens/mo",
+            "Custom model training",
+            "Commercial license",
+            "API access"
+          ]
+        },
+        {
+          "name": "Maestro",
+          "price": "$48/mo",
+          "highlights": [
+            "60,000 tokens/mo",
+            "Highest priority",
+            "All features",
+            "Commercial license"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "Text-to-image generation with multiple model options",
+      "Fine-tuned models for game assets and concept art",
+      "AI Canvas for inpainting and outpainting",
+      "Image-to-image transformation",
+      "Motion: animate still images",
+      "3D texture generation"
+    ],
+    "pros": [
+      "Generous free tier with 150 daily tokens",
+      "Excellent for game asset and concept art generation",
+      "Custom model training for consistent style",
+      "AI Canvas for powerful inpainting workflows"
+    ],
+    "cons": [
+      "Free tier lacks commercial license",
+      "Token system can be confusing for new users",
+      "Output quality varies by model selection",
+      "Less photorealistic than Midjourney for photography"
+    ],
+    "best_for": []
   },
   {
     "name": "Sora",
@@ -99,11 +613,58 @@
     "category": "AI Video",
     "url": "https://openai.com/sora",
     "favicon_domain": "sora.com",
-    "tags": ["video", "generation"],
+    "tags": [
+      "video",
+      "generation"
+    ],
     "popularity": 88,
     "addedDate": "2026-04-06",
-    "pricing": "paid",
-    "featured": true
+    "pricing": {
+      "model": "paid",
+      "plans": [
+        {
+          "name": "ChatGPT Plus",
+          "price": "$20/mo",
+          "highlights": [
+            "50 priority videos/mo (720p)",
+            "Up to 5 seconds",
+            "Watermarked output"
+          ]
+        },
+        {
+          "name": "ChatGPT Pro",
+          "price": "$200/mo",
+          "highlights": [
+            "500 priority videos/mo (1080p)",
+            "Up to 20 seconds",
+            "No watermark",
+            "Unlimited relaxed generations"
+          ]
+        }
+      ]
+    },
+    "featured": true,
+    "features": [
+      "Text-to-video generation (up to 1 minute)",
+      "High-resolution video output (up to 1080p)",
+      "Image-to-video animation",
+      "Video-to-video style transfer",
+      "Storyboard mode for multi-scene videos",
+      "Remix: modify existing videos with prompts"
+    ],
+    "pros": [
+      "Most realistic physics and motion understanding of any video AI",
+      "Integrated into ChatGPT for easy access",
+      "Supports diverse video styles from cinematic to animated",
+      "Storyboard mode enables multi-scene storytelling"
+    ],
+    "cons": [
+      "No free tier — requires ChatGPT Plus ($20/mo) minimum",
+      "Video length limited to 20 seconds on Pro, 5 seconds on Plus",
+      "Generation can be slow during peak times",
+      "Limited editing control compared to traditional video tools"
+    ],
+    "best_for": []
   },
   {
     "name": "Runway Gen-3",
@@ -111,10 +672,79 @@
     "company": "Runway AI",
     "category": "AI Video",
     "url": "https://runwayml.com",
-    "tags": ["video", "editing", "generation"],
+    "tags": [
+      "video",
+      "editing",
+      "generation"
+    ],
     "popularity": 80,
     "addedDate": "2026-04-06",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "125 credits one-time",
+            "720p video",
+            "Watermarked output",
+            "Basic tools"
+          ]
+        },
+        {
+          "name": "Standard",
+          "price": "$12/mo",
+          "highlights": [
+            "625 credits/mo",
+            "No watermark",
+            "720p video",
+            "All Gen-3 features"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$28/mo",
+          "highlights": [
+            "2,250 credits/mo",
+            "4K upscaling",
+            "Custom AI training",
+            "Priority generation"
+          ]
+        },
+        {
+          "name": "Unlimited",
+          "price": "$76/mo",
+          "highlights": [
+            "Unlimited standard generations",
+            "4K upscaling",
+            "All features",
+            "Priority support"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "Gen-3 Alpha: text-to-video generation",
+      "Image-to-video animation",
+      "Video-to-video style transfer",
+      "Motion Brush: control movement in videos",
+      "Inpainting: remove or replace objects in video",
+      "Background removal for video"
+    ],
+    "pros": [
+      "Best professional-grade AI video generation quality",
+      "Comprehensive video editing suite beyond just generation",
+      "Motion Brush gives precise control over movement",
+      "Used by major studios and professional filmmakers"
+    ],
+    "cons": [
+      "Credits deplete quickly for high-quality generations",
+      "Unlimited plan is expensive at $76/mo",
+      "Video length limited to 10 seconds per generation",
+      "Generation can be slow during peak times"
+    ],
+    "best_for": []
   },
   {
     "name": "Pika",
@@ -122,10 +752,79 @@
     "company": "Pika Labs",
     "category": "AI Video",
     "url": "https://pika.art",
-    "tags": ["video", "generation", "animation"],
+    "tags": [
+      "video",
+      "generation",
+      "animation"
+    ],
     "popularity": 76,
     "addedDate": "2026-04-06",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "150 credits/mo",
+            "Watermarked output",
+            "720p video",
+            "Basic features"
+          ]
+        },
+        {
+          "name": "Basic",
+          "price": "$8/mo",
+          "highlights": [
+            "700 credits/mo",
+            "No watermark",
+            "1080p video",
+            "All Pikaffects"
+          ]
+        },
+        {
+          "name": "Standard",
+          "price": "$28/mo",
+          "highlights": [
+            "2,000 credits/mo",
+            "1080p video",
+            "Priority generation",
+            "All features"
+          ]
+        },
+        {
+          "name": "Unlimited",
+          "price": "$70/mo",
+          "highlights": [
+            "Unlimited standard generations",
+            "1080p video",
+            "Highest priority",
+            "All features"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "Text-to-video generation",
+      "Image-to-video animation",
+      "Video-to-video transformation",
+      "Pikaffects: special effects (explosion, melt, crush, etc.)",
+      "Pikamovie: longer video generation",
+      "Lip sync for talking videos"
+    ],
+    "pros": [
+      "Pikaffects enable creative special effects not available elsewhere",
+      "Affordable entry point at $8/mo",
+      "Good for creative and entertainment content",
+      "Lip sync feature for talking avatar videos"
+    ],
+    "cons": [
+      "Video quality not as cinematic as Runway or Sora",
+      "Credits deplete quickly for complex generations",
+      "Limited video length per generation",
+      "Less suitable for professional/commercial use"
+    ],
+    "best_for": []
   },
   {
     "name": "HeyGen",
@@ -133,10 +832,81 @@
     "company": "HeyGen",
     "category": "AI Video",
     "url": "https://heygen.com",
-    "tags": ["video", "avatar", "presentation"],
+    "tags": [
+      "video",
+      "avatar",
+      "presentation"
+    ],
     "popularity": 74,
     "addedDate": "2026-04-06",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "1 credit/mo (1 minute video)",
+            "3 AI avatars",
+            "Watermarked output",
+            "720p video"
+          ]
+        },
+        {
+          "name": "Creator",
+          "price": "$24/mo",
+          "highlights": [
+            "15 credits/mo",
+            "Custom avatar",
+            "No watermark",
+            "1080p video",
+            "Video translation"
+          ]
+        },
+        {
+          "name": "Business",
+          "price": "$72/mo",
+          "highlights": [
+            "30 credits/mo",
+            "5 custom avatars",
+            "Priority support",
+            "API access",
+            "Brand kit"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Unlimited credits",
+            "Unlimited avatars",
+            "SSO",
+            "Dedicated support"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "100+ AI avatar templates",
+      "Custom avatar creation from your video",
+      "Video translation into 40+ languages",
+      "Voice cloning for translated videos",
+      "Lip sync for translated content",
+      "Text-to-video with AI avatars"
+    ],
+    "pros": [
+      "Best AI video translation with voice cloning and lip sync",
+      "Custom avatar creation from your own video",
+      "Professional quality for corporate training and marketing",
+      "40+ language support for global content"
+    ],
+    "cons": [
+      "Credit system can be confusing (1 credit = 1 minute)",
+      "Free tier very limited (1 credit/mo)",
+      "Business plan expensive at $72/mo",
+      "Avatar quality can look artificial for close-up shots"
+    ],
+    "best_for": []
   },
   {
     "name": "GitHub Copilot",
@@ -144,11 +914,80 @@
     "company": "Microsoft / GitHub",
     "category": "AI Coding",
     "url": "https://github.com/features/copilot",
-    "tags": ["coding", "programming", "assistant"],
+    "tags": [
+      "coding",
+      "programming",
+      "assistant"
+    ],
     "popularity": 92,
     "addedDate": "2026-04-05",
-    "pricing": "paid",
-    "featured": true
+    "pricing": {
+      "model": "paid",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "2,000 code completions/mo",
+            "50 chat messages/mo",
+            "VS Code and JetBrains",
+            "Limited to individual use"
+          ]
+        },
+        {
+          "name": "Individual",
+          "price": "$10/mo",
+          "highlights": [
+            "Unlimited completions",
+            "Unlimited chat",
+            "All supported editors",
+            "CLI assistant"
+          ]
+        },
+        {
+          "name": "Business",
+          "price": "$19/user/mo",
+          "highlights": [
+            "Everything in Individual",
+            "Organization-wide policy management",
+            "Audit logs",
+            "IP indemnity"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "$39/user/mo",
+          "highlights": [
+            "Custom fine-tuned models on your codebase",
+            "Copilot Workspace",
+            "Advanced security features",
+            "Dedicated support"
+          ]
+        }
+      ]
+    },
+    "featured": true,
+    "features": [
+      "Real-time code completions and suggestions",
+      "Multi-line code generation from comments",
+      "Copilot Chat: conversational coding assistant in IDE",
+      "Pull request summaries and code review",
+      "CLI assistant (Copilot in the terminal)",
+      "Supports VS Code, JetBrains, Neovim, Visual Studio"
+    ],
+    "pros": [
+      "Best IDE integration — works natively in VS Code, JetBrains, and more",
+      "Context-aware suggestions that understand your entire codebase",
+      "Copilot Chat enables conversational debugging and explanation",
+      "Supports virtually all programming languages"
+    ],
+    "cons": [
+      "Paid plan required for unlimited use ($10/mo individual)",
+      "Can suggest outdated or insecure code patterns",
+      "Privacy concerns about code being sent to GitHub servers",
+      "Less capable than Cursor for complex multi-file refactoring"
+    ],
+    "best_for": []
   },
   {
     "name": "Cursor",
@@ -156,11 +995,71 @@
     "company": "Anysphere",
     "category": "AI Coding",
     "url": "https://cursor.sh",
-    "tags": ["coding", "editor", "IDE"],
+    "tags": [
+      "coding",
+      "editor",
+      "IDE"
+    ],
     "popularity": 87,
     "addedDate": "2026-04-05",
-    "pricing": "freemium",
-    "featured": true
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Hobby",
+          "price": "$0/mo",
+          "highlights": [
+            "2 weeks Pro trial",
+            "50 slow premium requests/mo",
+            "200 cursor-small completions/mo",
+            "Basic features"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$20/mo",
+          "highlights": [
+            "500 fast premium requests/mo",
+            "Unlimited slow requests",
+            "Unlimited cursor-small completions",
+            "10 Claude Opus requests/day"
+          ]
+        },
+        {
+          "name": "Business",
+          "price": "$40/user/mo",
+          "highlights": [
+            "Everything in Pro",
+            "Centralized billing",
+            "Admin dashboard",
+            "Enforced privacy mode",
+            "SSO"
+          ]
+        }
+      ]
+    },
+    "featured": true,
+    "features": [
+      "AI-powered code editor (VS Code fork)",
+      "Tab: intelligent multi-line autocomplete",
+      "Cmd+K: inline code generation and editing",
+      "Chat: codebase-aware AI assistant",
+      "Composer: multi-file AI editing agent",
+      "Agent mode for autonomous task execution"
+    ],
+    "pros": [
+      "Best multi-file AI editing — Composer can refactor entire codebases",
+      "Codebase indexing gives AI full context of your project",
+      "Familiar VS Code interface — zero learning curve for existing users",
+      "Agent mode handles complex, multi-step coding tasks autonomously"
+    ],
+    "cons": [
+      "Pro plan required for serious use ($20/mo)",
+      "Can be slow on large codebases during indexing",
+      "Agent mode can make unexpected changes — requires careful review",
+      "Business plan is expensive at $40/user/mo"
+    ],
+    "best_for": []
   },
   {
     "name": "Codeium",
@@ -168,10 +1067,70 @@
     "company": "Exafunction",
     "category": "AI Coding",
     "url": "https://codeium.com",
-    "tags": ["coding", "free", "autocomplete"],
+    "tags": [
+      "coding",
+      "free",
+      "autocomplete"
+    ],
     "popularity": 79,
     "addedDate": "2026-04-05",
-    "pricing": "free"
+    "pricing": {
+      "model": "free",
+      "plans": [
+        {
+          "name": "Individual (Free)",
+          "price": "$0/mo",
+          "highlights": [
+            "Unlimited completions",
+            "Unlimited chat",
+            "All 70+ languages",
+            "40+ IDE integrations",
+            "No credit card required"
+          ]
+        },
+        {
+          "name": "Teams",
+          "price": "$12/user/mo",
+          "highlights": [
+            "Everything in Free",
+            "Team management",
+            "Usage analytics",
+            "Priority support"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Self-hosted deployment",
+            "Custom model fine-tuning",
+            "SSO and audit logs",
+            "Dedicated support"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "AI code completions in 70+ languages",
+      "Codeium Chat: conversational coding assistant",
+      "Codebase search with natural language",
+      "Integrates with 40+ IDEs (VS Code, JetBrains, Vim, etc.)",
+      "Context-aware suggestions",
+      "Autocomplete for functions, classes, and boilerplate"
+    ],
+    "pros": [
+      "Completely free for individual developers — no usage limits",
+      "Supports the widest range of IDEs (40+) and languages (70+)",
+      "Fast and lightweight — minimal performance impact",
+      "No data retention for individual users"
+    ],
+    "cons": [
+      "Free tier lacks advanced features like codebase indexing",
+      "Less capable than Cursor for complex multi-file tasks",
+      "Smaller training dataset than GitHub Copilot",
+      "Enterprise features require significant investment"
+    ],
+    "best_for": []
   },
   {
     "name": "Tabnine",
@@ -179,10 +1138,70 @@
     "company": "Tabnine",
     "category": "AI Coding",
     "url": "https://tabnine.com",
-    "tags": ["coding", "IDE", "autocomplete"],
+    "tags": [
+      "coding",
+      "IDE",
+      "autocomplete"
+    ],
     "popularity": 75,
     "addedDate": "2026-04-05",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "Basic completions",
+            "Limited context window",
+            "All major IDEs",
+            "No chat feature"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$12/mo",
+          "highlights": [
+            "Full-line completions",
+            "Tabnine Chat",
+            "Larger context window",
+            "Priority support"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Self-hosted deployment",
+            "Local model (air-gapped)",
+            "Team learning",
+            "SSO and audit logs",
+            "SOC 2 compliance"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "AI code completions in 30+ languages",
+      "Local model option — code never leaves your machine",
+      "Tabnine Chat: conversational coding assistant",
+      "Full-line and multi-line completions",
+      "Integrates with VS Code, JetBrains, Eclipse, and more",
+      "Team learning: learns from your team's codebase"
+    ],
+    "pros": [
+      "Best privacy — local model option keeps code on your machine",
+      "SOC 2 certified — trusted by enterprises with strict compliance needs",
+      "Team learning adapts to your organization's coding patterns",
+      "Works in air-gapped environments with self-hosted deployment"
+    ],
+    "cons": [
+      "Less capable than Cursor or Copilot for complex AI tasks",
+      "Free tier is quite limited compared to Codeium",
+      "Pro plan ($12/mo) is pricier than Codeium (free)",
+      "Smaller community and fewer updates than competitors"
+    ],
+    "best_for": []
   },
   {
     "name": "ElevenLabs",
@@ -190,10 +1209,79 @@
     "company": "ElevenLabs",
     "category": "AI Audio",
     "url": "https://elevenlabs.io",
-    "tags": ["audio", "voice", "TTS"],
+    "tags": [
+      "audio",
+      "voice",
+      "TTS"
+    ],
     "popularity": 82,
     "addedDate": "2026-04-04",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "10,000 characters/mo",
+            "3 custom voices",
+            "Access to voice library",
+            "Non-commercial use"
+          ]
+        },
+        {
+          "name": "Starter",
+          "price": "$5/mo",
+          "highlights": [
+            "30,000 characters/mo",
+            "10 custom voices",
+            "Commercial license",
+            "API access"
+          ]
+        },
+        {
+          "name": "Creator",
+          "price": "$22/mo",
+          "highlights": [
+            "100,000 characters/mo",
+            "30 custom voices",
+            "Professional voice cloning",
+            "Projects feature"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$99/mo",
+          "highlights": [
+            "500,000 characters/mo",
+            "160 custom voices",
+            "Highest quality audio",
+            "Priority support"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "Ultra-realistic text-to-speech in 29+ languages",
+      "Voice cloning from a short audio sample",
+      "Voice library with 1000+ pre-made voices",
+      "Instant voice cloning (30 seconds of audio)",
+      "Professional voice cloning (high-fidelity)",
+      "AI dubbing for video translation"
+    ],
+    "pros": [
+      "Most realistic voice quality of any TTS platform",
+      "Voice cloning from just 30 seconds of audio",
+      "Supports 29+ languages with natural accents",
+      "Excellent API for developers building voice apps"
+    ],
+    "cons": [
+      "Free tier limited to 10,000 characters/mo",
+      "Voice cloning raises ethical concerns about misuse",
+      "Pro plan is expensive at $99/mo for high volume",
+      "Generated audio can occasionally have artifacts"
+    ],
+    "best_for": []
   },
   {
     "name": "Murf AI",
@@ -201,10 +1289,80 @@
     "company": "Murf Inc.",
     "category": "AI Audio",
     "url": "https://murf.ai",
-    "tags": ["audio", "voice", "voiceover"],
+    "tags": [
+      "audio",
+      "voice",
+      "voiceover"
+    ],
     "popularity": 73,
     "addedDate": "2026-04-04",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "10 minutes of voice generation",
+            "Access to 10 voices",
+            "No commercial license",
+            "Watermarked output"
+          ]
+        },
+        {
+          "name": "Basic",
+          "price": "$19/mo",
+          "highlights": [
+            "24 hours of voice/year",
+            "60 voices",
+            "Commercial license",
+            "No watermark"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$26/mo",
+          "highlights": [
+            "96 hours of voice/year",
+            "120+ voices",
+            "Voice cloning",
+            "Team collaboration",
+            "API access"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Unlimited voice generation",
+            "Custom voice cloning",
+            "SSO",
+            "Dedicated support"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "120+ AI voices in 20+ languages",
+      "Studio editor for video and slide sync",
+      "Voice customization (pitch, speed, emphasis)",
+      "Background music library",
+      "Team collaboration features",
+      "API access"
+    ],
+    "pros": [
+      "Built-in studio editor for syncing audio with video and slides",
+      "120+ voices across 20+ languages",
+      "Easy to use — no audio editing experience needed",
+      "Good for e-learning, explainer videos, and presentations"
+    ],
+    "cons": [
+      "Free tier very limited (10 minutes total)",
+      "Voice quality not as realistic as ElevenLabs",
+      "Annual billing required for best pricing",
+      "Limited voice customization compared to ElevenLabs"
+    ],
+    "best_for": []
   },
   {
     "name": "Suno",
@@ -212,10 +1370,69 @@
     "company": "Suno AI",
     "category": "AI Audio",
     "url": "https://suno.ai",
-    "tags": ["music", "generation", "audio"],
+    "tags": [
+      "music",
+      "generation",
+      "audio"
+    ],
     "popularity": 77,
     "addedDate": "2026-04-04",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "50 credits/day (~10 songs)",
+            "Non-commercial use only",
+            "Public songs only",
+            "Basic features"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$8/mo",
+          "highlights": [
+            "2,500 credits/mo (~500 songs)",
+            "Commercial license",
+            "Private songs",
+            "Priority generation"
+          ]
+        },
+        {
+          "name": "Premier",
+          "price": "$24/mo",
+          "highlights": [
+            "10,000 credits/mo (~2,000 songs)",
+            "Commercial license",
+            "Private songs",
+            "Highest priority"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "Full song generation from text prompts (vocals + instruments)",
+      "Custom lyrics input",
+      "Genre and style control",
+      "Instrumental-only mode",
+      "Song extension and continuation",
+      "Cover art generation"
+    ],
+    "pros": [
+      "Creates complete songs with vocals in seconds — no music skills needed",
+      "Generous free tier with 50 credits/day",
+      "Impressive quality for AI-generated music",
+      "Easy to use — just describe the song you want"
+    ],
+    "cons": [
+      "Free tier is non-commercial — can't use in monetized content",
+      "Limited control over specific musical elements",
+      "Vocal quality can sound artificial on complex lyrics",
+      "Copyright and licensing of AI music remains legally unclear"
+    ],
+    "best_for": []
   },
   {
     "name": "Perplexity",
@@ -223,11 +1440,61 @@
     "company": "Perplexity AI",
     "category": "AI Search",
     "url": "https://perplexity.ai",
-    "tags": ["search", "research", "information"],
+    "tags": [
+      "search",
+      "research",
+      "information"
+    ],
     "popularity": 84,
     "addedDate": "2026-04-04",
-    "pricing": "freemium",
-    "featured": true
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "Unlimited basic searches",
+            "5 Pro searches/day",
+            "Standard AI model",
+            "Web and focus modes"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$20/mo",
+          "highlights": [
+            "600+ Pro searches/day",
+            "GPT-4, Claude, and Sonar models",
+            "File uploads",
+            "API credits ($5/mo)",
+            "Perplexity Pages"
+          ]
+        }
+      ]
+    },
+    "featured": true,
+    "features": [
+      "Real-time web search with AI synthesis",
+      "Cited sources for every answer",
+      "Follow-up questions in conversational threads",
+      "Focus modes: Web, Academic, YouTube, Reddit, News",
+      "Perplexity Pages: create shareable research documents",
+      "File and image analysis"
+    ],
+    "pros": [
+      "Best AI search tool — real-time answers with cited sources",
+      "Academic focus mode for research papers",
+      "Conversational follow-ups maintain context",
+      "Much faster than traditional research workflows"
+    ],
+    "cons": [
+      "Can occasionally hallucinate or misattribute sources",
+      "Pro searches limited to 600/day even on paid plan",
+      "Less capable than ChatGPT for creative or coding tasks",
+      "Sources can be low-quality websites"
+    ],
+    "best_for": []
   },
   {
     "name": "You.com",
@@ -235,10 +1502,59 @@
     "company": "You.com",
     "category": "AI Search",
     "url": "https://you.com",
-    "tags": ["search", "personalized", "AI"],
+    "tags": [
+      "search",
+      "personalized",
+      "AI"
+    ],
     "popularity": 71,
     "addedDate": "2026-04-04",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "Unlimited basic search",
+            "YouChat with standard models",
+            "Basic image generation",
+            "Privacy-first"
+          ]
+        },
+        {
+          "name": "YouPro",
+          "price": "$15/mo",
+          "highlights": [
+            "GPT-4 and Claude access",
+            "Unlimited AI chat",
+            "Advanced image generation",
+            "Priority support"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "AI-powered web search with cited answers",
+      "YouChat: conversational AI assistant",
+      "YouCode: AI code generation and debugging",
+      "YouImagine: AI image generation",
+      "Research mode for in-depth analysis",
+      "Personalized search results"
+    ],
+    "pros": [
+      "Privacy-focused — no tracking or data selling",
+      "Multiple AI modes in one platform (search, chat, code, images)",
+      "Customizable search experience",
+      "Good free tier with unlimited basic search"
+    ],
+    "cons": [
+      "Less accurate than Perplexity for research-focused queries",
+      "Smaller user base means less community validation",
+      "YouPro pricing ($15/mo) less competitive than alternatives",
+      "Image generation quality lags behind dedicated tools"
+    ],
+    "best_for": []
   },
   {
     "name": "Notion AI",
@@ -246,10 +1562,69 @@
     "company": "Notion Labs",
     "category": "AI Productivity",
     "url": "https://notion.so/product/ai",
-    "tags": ["writing", "productivity", "workspace"],
+    "tags": [
+      "writing",
+      "productivity",
+      "workspace"
+    ],
     "popularity": 78,
     "addedDate": "2026-04-03",
-    "pricing": "paid"
+    "pricing": {
+      "model": "paid",
+      "plans": [
+        {
+          "name": "Notion AI Add-on",
+          "price": "$10/user/mo",
+          "highlights": [
+            "Requires Notion plan",
+            "Unlimited AI usage",
+            "All AI features",
+            "Works across all Notion content"
+          ]
+        },
+        {
+          "name": "Notion Plus + AI",
+          "price": "$18/user/mo",
+          "highlights": [
+            "Notion Plus plan + AI",
+            "Unlimited pages",
+            "30-day version history",
+            "All AI features"
+          ]
+        },
+        {
+          "name": "Notion Business + AI",
+          "price": "$25/user/mo",
+          "highlights": [
+            "Notion Business + AI",
+            "Advanced permissions",
+            "90-day history",
+            "SAML SSO"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "AI writing assistance within Notion pages",
+      "Summarize long documents and meeting notes",
+      "Translate content into 10+ languages",
+      "Fix grammar and improve writing style",
+      "Generate action items from meeting notes",
+      "Q&A: ask questions about your Notion workspace"
+    ],
+    "pros": [
+      "Seamlessly integrated into Notion — no context switching",
+      "Q&A feature searches your entire workspace knowledge base",
+      "Autofill database properties saves significant manual work",
+      "Great for teams already invested in Notion"
+    ],
+    "cons": [
+      "Requires existing Notion subscription — not standalone",
+      "AI add-on costs extra ($10/user/mo) on top of Notion plan",
+      "Less capable than ChatGPT for complex reasoning tasks",
+      "AI quality varies — better for editing than generating from scratch"
+    ],
+    "best_for": []
   },
   {
     "name": "Jasper",
@@ -257,10 +1632,72 @@
     "company": "Jasper AI",
     "category": "AI Writing",
     "url": "https://jasper.ai",
-    "tags": ["writing", "marketing", "copywriting"],
+    "tags": [
+      "writing",
+      "marketing",
+      "copywriting"
+    ],
     "popularity": 75,
     "addedDate": "2026-04-03",
-    "pricing": "paid"
+    "pricing": {
+      "model": "paid",
+      "plans": [
+        {
+          "name": "Creator",
+          "price": "$39/mo",
+          "highlights": [
+            "1 user",
+            "Unlimited words",
+            "50+ templates",
+            "Jasper Chat",
+            "Browser extension"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$59/mo",
+          "highlights": [
+            "Up to 5 users",
+            "Brand voice",
+            "Collaboration features",
+            "Jasper Art",
+            "Campaign tools"
+          ]
+        },
+        {
+          "name": "Business",
+          "price": "Custom",
+          "highlights": [
+            "Unlimited users",
+            "Custom AI model fine-tuning",
+            "SSO",
+            "Dedicated support",
+            "API access"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "50+ content templates (blog, ads, email, social)",
+      "Brand voice training and enforcement",
+      "Jasper Chat: conversational AI assistant",
+      "Long-form document editor",
+      "SEO mode with Surfer SEO integration",
+      "Team collaboration and workflows"
+    ],
+    "pros": [
+      "Best-in-class brand voice training for consistent marketing content",
+      "50+ templates cover virtually every marketing use case",
+      "Team collaboration features built for marketing workflows",
+      "Surfer SEO integration for optimized blog content"
+    ],
+    "cons": [
+      "Expensive — starts at $39/mo with no free tier",
+      "Output quality requires significant editing for professional use",
+      "Less capable than ChatGPT for complex reasoning",
+      "Overkill for individual users or simple writing tasks"
+    ],
+    "best_for": []
   },
   {
     "name": "Copy.ai",
@@ -268,10 +1705,81 @@
     "company": "Copy.ai",
     "category": "AI Writing",
     "url": "https://copy.ai",
-    "tags": ["copywriting", "marketing", "content"],
+    "tags": [
+      "copywriting",
+      "marketing",
+      "content"
+    ],
     "popularity": 72,
     "addedDate": "2026-04-03",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "2,000 words/mo",
+            "90+ templates",
+            "1 user",
+            "Basic features"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$36/mo",
+          "highlights": [
+            "Unlimited words",
+            "5 users",
+            "Brand voice",
+            "Priority support",
+            "Workflows"
+          ]
+        },
+        {
+          "name": "Team",
+          "price": "$186/mo",
+          "highlights": [
+            "Unlimited words",
+            "20 users",
+            "Advanced workflows",
+            "API access",
+            "Custom templates"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Unlimited users",
+            "Custom AI training",
+            "SSO",
+            "Dedicated support"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "90+ copywriting templates",
+      "Blog post and long-form content generation",
+      "Ad copy for Google, Facebook, LinkedIn",
+      "Email subject lines and sequences",
+      "Product descriptions",
+      "Social media captions"
+    ],
+    "pros": [
+      "90+ templates cover virtually every marketing copy use case",
+      "Workflows automate repetitive content creation tasks",
+      "Good free tier with 2,000 words/mo",
+      "Multi-language support for global marketing teams"
+    ],
+    "cons": [
+      "Output quality requires editing for professional use",
+      "Pro plan ($36/mo) is expensive for individual users",
+      "Less capable than ChatGPT for complex writing tasks",
+      "Brand voice feature less sophisticated than Jasper"
+    ],
+    "best_for": []
   },
   {
     "name": "Grammarly",
@@ -279,10 +1787,70 @@
     "company": "Grammarly Inc.",
     "category": "AI Writing",
     "url": "https://grammarly.com",
-    "tags": ["writing", "grammar", "editing"],
+    "tags": [
+      "writing",
+      "grammar",
+      "editing"
+    ],
     "popularity": 86,
     "addedDate": "2026-04-03",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "Basic grammar and spelling",
+            "Tone detection",
+            "Limited GrammarlyGO prompts",
+            "All platforms"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$12/mo",
+          "highlights": [
+            "Advanced clarity suggestions",
+            "Plagiarism checker",
+            "Full GrammarlyGO access",
+            "Vocabulary enhancement"
+          ]
+        },
+        {
+          "name": "Business",
+          "price": "$15/user/mo",
+          "highlights": [
+            "Everything in Premium",
+            "Style guide enforcement",
+            "Team analytics",
+            "Admin controls",
+            "Priority support"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "Real-time grammar and spelling correction",
+      "Clarity and conciseness suggestions",
+      "Tone detection and adjustment",
+      "Plagiarism checker (Premium)",
+      "GrammarlyGO: generative AI for drafting and rewriting",
+      "Browser extension for Chrome, Firefox, Safari, Edge"
+    ],
+    "pros": [
+      "Works everywhere — browser, Word, Google Docs, mobile",
+      "Best grammar and clarity checking in the industry",
+      "Tone detection helps match writing to audience",
+      "Free tier is genuinely useful for basic corrections"
+    ],
+    "cons": [
+      "Premium plan required for advanced features ($12/mo)",
+      "Can be overly aggressive with suggestions",
+      "GrammarlyGO less capable than dedicated AI writing tools",
+      "Privacy concerns — all text is sent to Grammarly servers"
+    ],
+    "best_for": []
   },
   {
     "name": "Canva AI",
@@ -290,11 +1858,72 @@
     "company": "Canva",
     "category": "AI Design",
     "url": "https://canva.com",
-    "tags": ["design", "editing", "graphics"],
+    "tags": [
+      "design",
+      "editing",
+      "graphics"
+    ],
     "popularity": 89,
     "addedDate": "2026-04-02",
-    "pricing": "freemium",
-    "featured": true
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "250,000+ templates",
+            "Basic AI tools (limited)",
+            "5GB storage",
+            "Collaboration (up to 3 users)"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$15/mo",
+          "highlights": [
+            "Full Magic Studio AI suite",
+            "100M+ premium assets",
+            "Brand Kit",
+            "1TB storage",
+            "Background Remover"
+          ]
+        },
+        {
+          "name": "Teams",
+          "price": "$10/user/mo",
+          "highlights": [
+            "Everything in Pro",
+            "Team Brand Kit",
+            "Admin controls",
+            "Unlimited storage",
+            "Priority support"
+          ]
+        }
+      ]
+    },
+    "featured": true,
+    "features": [
+      "Magic Media: text-to-image and text-to-video generation",
+      "Magic Eraser: remove objects from photos",
+      "Background Remover with one click",
+      "Magic Resize: adapt designs to any format",
+      "Magic Write: AI copywriting assistant",
+      "Magic Animate: auto-animate designs"
+    ],
+    "pros": [
+      "Most accessible design tool — no design skills required",
+      "Comprehensive AI suite (Magic Studio) for non-designers",
+      "150M+ users means massive template and asset library",
+      "Excellent for social media, presentations, and marketing"
+    ],
+    "cons": [
+      "Not suitable for complex professional design work",
+      "AI image generation quality lags behind Midjourney",
+      "Free tier has limited AI features",
+      "Can feel cluttered with too many options"
+    ],
+    "best_for": []
   },
   {
     "name": "Figma AI",
@@ -302,10 +1931,80 @@
     "company": "Figma",
     "category": "AI Design",
     "url": "https://figma.com",
-    "tags": ["design", "UI", "collaboration"],
+    "tags": [
+      "design",
+      "UI",
+      "collaboration"
+    ],
     "popularity": 83,
     "addedDate": "2026-04-02",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free (Starter)",
+          "price": "$0/mo",
+          "highlights": [
+            "3 Figma files",
+            "Unlimited personal files",
+            "Basic AI features",
+            "Collaboration (up to 2 editors)"
+          ]
+        },
+        {
+          "name": "Professional",
+          "price": "$15/editor/mo",
+          "highlights": [
+            "Unlimited Figma files",
+            "Full AI features",
+            "Unlimited version history",
+            "Team libraries"
+          ]
+        },
+        {
+          "name": "Organization",
+          "price": "$45/editor/mo",
+          "highlights": [
+            "Everything in Professional",
+            "Org-wide design systems",
+            "Advanced analytics",
+            "SSO",
+            "Private plugins"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "$75/editor/mo",
+          "highlights": [
+            "Everything in Organization",
+            "Dedicated support",
+            "Advanced security",
+            "Custom contracts"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "AI design generation from text prompts",
+      "Auto-layout and constraint suggestions",
+      "AI-powered asset and component search",
+      "Prototype generation from designs",
+      "Dev Mode: AI-assisted code generation from designs",
+      "Real-time collaboration for entire teams"
+    ],
+    "pros": [
+      "Industry standard for UI/UX design — universal team adoption",
+      "Best-in-class real-time collaboration",
+      "Dev Mode bridges design and development with AI code generation",
+      "Massive plugin ecosystem extends functionality"
+    ],
+    "cons": [
+      "Expensive for large teams ($45-75/editor/mo for org plans)",
+      "AI features less mature than dedicated AI design tools",
+      "Steep learning curve for non-designers",
+      "Performance can lag with very complex files"
+    ],
+    "best_for": []
   },
   {
     "name": "Framer AI",
@@ -313,10 +2012,81 @@
     "company": "Framer",
     "category": "AI Design",
     "url": "https://framer.com",
-    "tags": ["website", "design", "no-code"],
+    "tags": [
+      "website",
+      "design",
+      "no-code"
+    ],
     "popularity": 76,
     "addedDate": "2026-04-02",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "1 project",
+            "Framer subdomain",
+            "Basic AI features",
+            "100 CMS items"
+          ]
+        },
+        {
+          "name": "Mini",
+          "price": "$5/mo",
+          "highlights": [
+            "1 project",
+            "Custom domain",
+            "1,000 CMS items",
+            "Basic analytics"
+          ]
+        },
+        {
+          "name": "Basic",
+          "price": "$15/mo",
+          "highlights": [
+            "1 project",
+            "Custom domain",
+            "10,000 CMS items",
+            "Advanced analytics",
+            "Password protection"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$25/mo",
+          "highlights": [
+            "Unlimited projects",
+            "Custom domain",
+            "Unlimited CMS items",
+            "All features",
+            "Priority support"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "AI website generation from text prompts",
+      "Visual drag-and-drop editor",
+      "Responsive design with breakpoints",
+      "CMS for dynamic content",
+      "Custom animations and interactions",
+      "Component library"
+    ],
+    "pros": [
+      "AI can generate a complete website from a text description",
+      "Beautiful, professional output without design skills",
+      "Figma import makes it easy to publish existing designs",
+      "Built-in CMS for dynamic content"
+    ],
+    "cons": [
+      "Less flexible than custom-coded websites",
+      "CMS is limited compared to WordPress or Webflow",
+      "AI generation quality varies — often needs manual refinement",
+      "Limited e-commerce capabilities"
+    ],
+    "best_for": []
   },
   {
     "name": "Gamma",
@@ -324,10 +2094,70 @@
     "company": "Gamma App",
     "category": "AI Productivity",
     "url": "https://gamma.app",
-    "tags": ["presentation", "documents", "slides"],
+    "tags": [
+      "presentation",
+      "documents",
+      "slides"
+    ],
     "popularity": 74,
     "addedDate": "2026-04-02",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "400 AI credits (one-time)",
+            "Unlimited basic usage",
+            "Gamma branding",
+            "Basic templates"
+          ]
+        },
+        {
+          "name": "Plus",
+          "price": "$8/mo",
+          "highlights": [
+            "400 AI credits/mo",
+            "No Gamma branding",
+            "Custom fonts",
+            "Priority support"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$15/mo",
+          "highlights": [
+            "Unlimited AI credits",
+            "Custom domain",
+            "Analytics",
+            "Export to PPT/PDF",
+            "All features"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "AI presentation generation from text prompts",
+      "AI document and webpage creation",
+      "Smart templates with automatic formatting",
+      "One-click theme and style changes",
+      "Embed media, charts, and interactive elements",
+      "Real-time collaboration"
+    ],
+    "pros": [
+      "Fastest way to create a polished presentation from scratch",
+      "Web-native format looks great on any device",
+      "AI generates structured, well-formatted content automatically",
+      "Affordable Pro plan at $15/mo with unlimited AI"
+    ],
+    "cons": [
+      "Less control than PowerPoint or Google Slides for precise layouts",
+      "Free tier has limited AI credits (400 one-time)",
+      "Export to PowerPoint can lose some formatting",
+      "Limited animation and transition options"
+    ],
+    "best_for": []
   },
   {
     "name": "Beautiful.ai",
@@ -335,10 +2165,71 @@
     "company": "Beautiful.ai",
     "category": "AI Productivity",
     "url": "https://beautiful.ai",
-    "tags": ["presentation", "slides", "design"],
+    "tags": [
+      "presentation",
+      "slides",
+      "design"
+    ],
     "popularity": 70,
     "addedDate": "2026-04-02",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "Unlimited slides",
+            "Basic templates",
+            "Beautiful.ai branding",
+            "Limited exports"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$12/mo",
+          "highlights": [
+            "All Smart Slide templates",
+            "Custom themes",
+            "No branding",
+            "PDF/PPT export",
+            "Analytics"
+          ]
+        },
+        {
+          "name": "Team",
+          "price": "$40/user/mo",
+          "highlights": [
+            "Everything in Pro",
+            "Shared brand kit",
+            "Team templates",
+            "Admin controls",
+            "Priority support"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "Smart Slide templates that auto-format content",
+      "AI design suggestions as you type",
+      "100+ Smart Slide templates",
+      "Brand kit for consistent styling",
+      "Real-time team collaboration",
+      "Presenter mode with speaker notes"
+    ],
+    "pros": [
+      "Smart Slides auto-format content — no manual design needed",
+      "Consistently professional output for business presentations",
+      "Brand kit ensures visual consistency across team",
+      "Good for pitch decks, reports, and business presentations"
+    ],
+    "cons": [
+      "Team plan is expensive at $40/user/mo",
+      "Less creative flexibility than PowerPoint or Canva",
+      "AI features less advanced than Gamma",
+      "Limited animation options"
+    ],
+    "best_for": []
   },
   {
     "name": "Otter.ai",
@@ -346,10 +2237,70 @@
     "company": "Otter.ai",
     "category": "AI Productivity",
     "url": "https://otter.ai",
-    "tags": ["transcription", "meetings", "notes"],
+    "tags": [
+      "transcription",
+      "meetings",
+      "notes"
+    ],
     "popularity": 77,
     "addedDate": "2026-04-01",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "300 minutes/mo transcription",
+            "30-min limit per conversation",
+            "3 imports/mo",
+            "Basic features"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$10/mo",
+          "highlights": [
+            "1,200 minutes/mo",
+            "90-min limit per conversation",
+            "Unlimited imports",
+            "Advanced search"
+          ]
+        },
+        {
+          "name": "Business",
+          "price": "$20/user/mo",
+          "highlights": [
+            "6,000 minutes/mo",
+            "4-hour limit per conversation",
+            "Team features",
+            "Admin controls",
+            "Priority support"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "Real-time meeting transcription",
+      "AI meeting summaries",
+      "Automatic action item extraction",
+      "Integration with Zoom, Google Meet, Teams",
+      "OtterPilot: joins meetings automatically",
+      "Speaker identification"
+    ],
+    "pros": [
+      "Best real-time transcription accuracy among meeting tools",
+      "OtterPilot joins meetings automatically — no manual recording",
+      "AI summaries and action items save significant post-meeting time",
+      "Integrates with all major video conferencing platforms"
+    ],
+    "cons": [
+      "Free tier limited to 300 minutes/mo",
+      "Transcription accuracy drops with heavy accents or crosstalk",
+      "AI summaries can miss nuanced context",
+      "Privacy concerns about recording all meetings"
+    ],
+    "best_for": []
   },
   {
     "name": "Fireflies.ai",
@@ -357,10 +2308,70 @@
     "company": "Fireflies.ai",
     "category": "AI Productivity",
     "url": "https://fireflies.ai",
-    "tags": ["meetings", "transcription", "assistant"],
+    "tags": [
+      "meetings",
+      "transcription",
+      "assistant"
+    ],
     "popularity": 73,
     "addedDate": "2026-04-01",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "800 minutes storage",
+            "Transcription",
+            "Basic summaries",
+            "3 AI summaries/mo"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$10/mo",
+          "highlights": [
+            "Unlimited storage",
+            "Unlimited AI summaries",
+            "Smart search",
+            "CRM integration"
+          ]
+        },
+        {
+          "name": "Business",
+          "price": "$19/user/mo",
+          "highlights": [
+            "Everything in Pro",
+            "Conversation intelligence",
+            "Team analytics",
+            "Custom vocabulary",
+            "API access"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "Automatic meeting recording and transcription",
+      "AI meeting summaries and highlights",
+      "Action item and task extraction",
+      "Conversation intelligence and analytics",
+      "Integration with Zoom, Teams, Meet, Webex",
+      "CRM integration (Salesforce, HubSpot)"
+    ],
+    "pros": [
+      "Joins meetings automatically across all major platforms",
+      "CRM integration makes it valuable for sales teams",
+      "Conversation analytics provide insights beyond transcription",
+      "Generous free tier with 800 minutes storage"
+    ],
+    "cons": [
+      "Free tier limits AI summaries to 3/mo",
+      "Transcription accuracy can vary with audio quality",
+      "Business plan required for advanced analytics",
+      "Privacy concerns about recording all meetings"
+    ],
+    "best_for": []
   },
   {
     "name": "Descript",
@@ -368,10 +2379,80 @@
     "company": "Descript",
     "category": "AI Video",
     "url": "https://descript.com",
-    "tags": ["video", "podcast", "editing"],
+    "tags": [
+      "video",
+      "podcast",
+      "editing"
+    ],
     "popularity": 79,
     "addedDate": "2026-04-01",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "1 hour transcription/mo",
+            "Basic editing",
+            "Watermarked export",
+            "720p video"
+          ]
+        },
+        {
+          "name": "Hobbyist",
+          "price": "$12/mo",
+          "highlights": [
+            "10 hours transcription/mo",
+            "Overdub (3 hours)",
+            "No watermark",
+            "1080p video"
+          ]
+        },
+        {
+          "name": "Creator",
+          "price": "$24/mo",
+          "highlights": [
+            "30 hours transcription/mo",
+            "Overdub (10 hours)",
+            "AI clip creation",
+            "4K video",
+            "Priority support"
+          ]
+        },
+        {
+          "name": "Business",
+          "price": "$40/user/mo",
+          "highlights": [
+            "Unlimited transcription",
+            "Unlimited Overdub",
+            "Team collaboration",
+            "Advanced analytics"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "Edit video by editing the transcript",
+      "Automatic transcription with high accuracy",
+      "Overdub: AI voice cloning for corrections",
+      "Filler word removal (um, uh, etc.)",
+      "Screen recording with webcam overlay",
+      "AI-powered clip creation for social media"
+    ],
+    "pros": [
+      "Revolutionary text-based video editing — most intuitive workflow",
+      "Overdub voice cloning for seamless corrections",
+      "Filler word removal saves hours of manual editing",
+      "AI clip creation automatically finds social media highlights"
+    ],
+    "cons": [
+      "Transcription accuracy can vary with background noise",
+      "Overdub voice cloning requires significant training audio",
+      "Business plan expensive at $40/user/mo",
+      "Less suitable for complex multi-camera productions"
+    ],
+    "best_for": []
   },
   {
     "name": "Synthesia",
@@ -379,10 +2460,82 @@
     "company": "Synthesia",
     "category": "AI Video",
     "url": "https://synthesia.io",
-    "tags": ["video", "avatar", "training"],
+    "tags": [
+      "video",
+      "avatar",
+      "training"
+    ],
     "popularity": 75,
     "addedDate": "2026-04-01",
-    "pricing": "paid"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "3 minutes video/mo",
+            "9 AI avatars",
+            "Watermarked output",
+            "Basic templates"
+          ]
+        },
+        {
+          "name": "Starter",
+          "price": "$18/mo",
+          "highlights": [
+            "10 minutes video/mo",
+            "90+ AI avatars",
+            "No watermark",
+            "1080p video",
+            "36 languages"
+          ]
+        },
+        {
+          "name": "Creator",
+          "price": "$64/mo",
+          "highlights": [
+            "30 minutes video/mo",
+            "Custom avatar",
+            "140+ languages",
+            "Brand kit",
+            "Priority support"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Unlimited video",
+            "Unlimited custom avatars",
+            "SSO",
+            "API access",
+            "Dedicated CSM"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "230+ AI avatar templates",
+      "Custom avatar creation from your video",
+      "140+ languages and accents",
+      "Text-to-video with AI avatars",
+      "PowerPoint/PDF to video conversion",
+      "Screen recording integration"
+    ],
+    "pros": [
+      "Best-in-class for corporate training and e-learning videos",
+      "140+ languages — widest language support in the category",
+      "PowerPoint to video conversion saves hours of work",
+      "230+ professional avatars for diverse representation"
+    ],
+    "cons": [
+      "Starter plan limited to 10 minutes/mo — depletes quickly",
+      "Creator plan expensive at $64/mo",
+      "Avatar quality can look artificial for close-up shots",
+      "Less creative flexibility vs Runway or Pika"
+    ],
+    "best_for": []
   },
   {
     "name": "Luma AI",
@@ -390,10 +2543,79 @@
     "company": "Luma AI",
     "category": "AI Video",
     "url": "https://lumalabs.ai",
-    "tags": ["3D", "video", "capture"],
+    "tags": [
+      "3D",
+      "video",
+      "capture"
+    ],
     "popularity": 72,
     "addedDate": "2026-03-31",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "30 generations/mo",
+            "Watermarked output",
+            "720p video",
+            "Basic features"
+          ]
+        },
+        {
+          "name": "Plus",
+          "price": "$9.99/mo",
+          "highlights": [
+            "200 generations/mo",
+            "No watermark",
+            "1080p video",
+            "Priority generation"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$29.99/mo",
+          "highlights": [
+            "400 generations/mo",
+            "1080p video",
+            "Highest priority",
+            "API access"
+          ]
+        },
+        {
+          "name": "Premier",
+          "price": "$99.99/mo",
+          "highlights": [
+            "2,000 generations/mo",
+            "1080p video",
+            "Commercial license",
+            "All features"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "Dream Machine: text-to-video generation",
+      "Image-to-video animation",
+      "Video extension (extend existing clips)",
+      "Keyframe control for precise motion",
+      "Camera motion presets",
+      "Loop video generation"
+    ],
+    "pros": [
+      "Dream Machine produces some of the most cinematic AI video quality",
+      "Excellent motion realism and physics simulation",
+      "Luma 3D capture is best-in-class for NeRF-based 3D reconstruction",
+      "Affordable Plus plan at $9.99/mo"
+    ],
+    "cons": [
+      "Free tier limited to 30 generations/mo",
+      "Video length limited to 5 seconds per generation",
+      "Less suitable for avatar/talking-head videos vs HeyGen",
+      "3D capture requires good lighting and camera movement"
+    ],
+    "best_for": []
   },
   {
     "name": "Replicate",
@@ -401,10 +2623,59 @@
     "company": "Replicate",
     "category": "AI Developer",
     "url": "https://replicate.com",
-    "tags": ["API", "models", "cloud"],
+    "tags": [
+      "API",
+      "models",
+      "cloud"
+    ],
     "popularity": 76,
     "addedDate": "2026-03-31",
-    "pricing": "paid"
+    "pricing": {
+      "model": "paid",
+      "plans": [
+        {
+          "name": "Pay-as-you-go",
+          "price": "From $0.0001/second",
+          "highlights": [
+            "No subscription",
+            "Pay per compute second",
+            "All models available",
+            "Free $5 credit on signup"
+          ]
+        },
+        {
+          "name": "Dedicated deployments",
+          "price": "Custom",
+          "highlights": [
+            "Reserved GPU capacity",
+            "Faster cold starts",
+            "SLA guarantees",
+            "Enterprise support"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "Run 10,000+ open-source AI models via API",
+      "Image generation (Stable Diffusion, FLUX, etc.)",
+      "Language models (Llama, Mistral, etc.)",
+      "Video generation models",
+      "Audio and speech models",
+      "Fine-tune models on your own data"
+    ],
+    "pros": [
+      "Access to 10,000+ open-source models without infrastructure setup",
+      "Pay-per-use — no idle costs",
+      "Easy API integration in minutes",
+      "Supports fine-tuning and custom model deployment"
+    ],
+    "cons": [
+      "Cold start latency can be slow for infrequently used models",
+      "Costs can be unpredictable for high-volume production use",
+      "Less control than self-hosted infrastructure",
+      "Some popular models have usage restrictions"
+    ],
+    "best_for": []
   },
   {
     "name": "Hugging Face",
@@ -412,10 +2683,70 @@
     "company": "Hugging Face",
     "category": "AI Developer",
     "url": "https://huggingface.co",
-    "tags": ["models", "open-source", "ML"],
+    "tags": [
+      "models",
+      "open-source",
+      "ML"
+    ],
     "popularity": 85,
     "addedDate": "2026-03-31",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "Access to all public models",
+            "Inference API (rate limited)",
+            "Public Spaces",
+            "Community features"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$9/mo",
+          "highlights": [
+            "ZeroGPU Spaces (faster)",
+            "More Inference API quota",
+            "Private Spaces",
+            "Priority support"
+          ]
+        },
+        {
+          "name": "Enterprise Hub",
+          "price": "$20/user/mo",
+          "highlights": [
+            "Private model hosting",
+            "SSO",
+            "Audit logs",
+            "SLA",
+            "Dedicated support"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "500,000+ open-source AI models",
+      "100,000+ datasets for training",
+      "Spaces: host and share AI demos",
+      "Inference API for running models",
+      "Transformers library (Python)",
+      "Diffusers library for image generation"
+    ],
+    "pros": [
+      "The definitive hub for open-source AI models and research",
+      "Transformers library is the industry standard for NLP",
+      "Free access to hundreds of thousands of models",
+      "Spaces makes it easy to demo and share AI apps"
+    ],
+    "cons": [
+      "Inference API rate limits on free tier",
+      "Self-hosting models requires significant ML expertise",
+      "Model quality varies widely across community contributions",
+      "Enterprise features are expensive"
+    ],
+    "best_for": []
   },
   {
     "name": "Anthropic Console",
@@ -423,10 +2754,75 @@
     "company": "Anthropic",
     "category": "AI Developer",
     "url": "https://console.anthropic.com",
-    "tags": ["API", "Claude", "developer"],
+    "tags": [
+      "API",
+      "Claude",
+      "developer"
+    ],
     "popularity": 80,
     "addedDate": "2026-03-31",
-    "pricing": "paid"
+    "pricing": {
+      "model": "paid",
+      "plans": [
+        {
+          "name": "Claude 3.5 Haiku",
+          "price": "$0.80 / $4 per 1M tokens",
+          "highlights": [
+            "Fastest Claude model",
+            "Best for high-volume tasks",
+            "Input / Output pricing"
+          ]
+        },
+        {
+          "name": "Claude 3.5 Sonnet",
+          "price": "$3 / $15 per 1M tokens",
+          "highlights": [
+            "Best balance of speed and capability",
+            "Top coding performance",
+            "Input / Output pricing"
+          ]
+        },
+        {
+          "name": "Claude 3.7 Sonnet",
+          "price": "$3 / $15 per 1M tokens",
+          "highlights": [
+            "Extended thinking mode",
+            "Best reasoning",
+            "Input / Output pricing"
+          ]
+        },
+        {
+          "name": "Claude Opus",
+          "price": "$15 / $75 per 1M tokens",
+          "highlights": [
+            "Most capable Claude model",
+            "Complex reasoning tasks",
+            "Input / Output pricing"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "Access to Claude 3.5 Sonnet, 3.7 Sonnet, and Opus",
+      "Prompt Workbench for testing and iteration",
+      "Usage dashboard and cost analytics",
+      "API key management",
+      "Prompt caching for cost reduction",
+      "Batch API for high-volume processing"
+    ],
+    "pros": [
+      "Claude 3.5/3.7 Sonnet is top-ranked for coding and reasoning tasks",
+      "Prompt caching reduces costs by up to 90% for repeated context",
+      "Extended thinking mode for complex multi-step reasoning",
+      "Clean, well-documented API with Python and TypeScript SDKs"
+    ],
+    "cons": [
+      "No free tier — pay-per-use from first token",
+      "Opus model is expensive at $15/$75 per 1M tokens",
+      "Rate limits can be restrictive for new accounts",
+      "No image generation (text and vision only)"
+    ],
+    "best_for": []
   },
   {
     "name": "OpenAI Platform",
@@ -434,10 +2830,75 @@
     "company": "OpenAI",
     "category": "AI Developer",
     "url": "https://platform.openai.com",
-    "tags": ["API", "GPT", "developer"],
+    "tags": [
+      "API",
+      "GPT",
+      "developer"
+    ],
     "popularity": 91,
     "addedDate": "2026-03-31",
-    "pricing": "paid"
+    "pricing": {
+      "model": "paid",
+      "plans": [
+        {
+          "name": "GPT-4o mini",
+          "price": "$0.15 / $0.60 per 1M tokens",
+          "highlights": [
+            "Fastest and cheapest GPT-4 class",
+            "Best for high-volume tasks",
+            "Input / Output pricing"
+          ]
+        },
+        {
+          "name": "GPT-4o",
+          "price": "$2.50 / $10 per 1M tokens",
+          "highlights": [
+            "Best multimodal model",
+            "Vision, audio, and text",
+            "Input / Output pricing"
+          ]
+        },
+        {
+          "name": "GPT-4 Turbo",
+          "price": "$10 / $30 per 1M tokens",
+          "highlights": [
+            "128K context window",
+            "Strong reasoning",
+            "Input / Output pricing"
+          ]
+        },
+        {
+          "name": "o1 / o3",
+          "price": "$15 / $60 per 1M tokens",
+          "highlights": [
+            "Advanced reasoning models",
+            "Best for complex problems",
+            "Input / Output pricing"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "GPT-4o and GPT-4 Turbo API access",
+      "DALL-E 3 image generation API",
+      "Whisper speech-to-text API",
+      "TTS (text-to-speech) API",
+      "Embeddings API for semantic search",
+      "Fine-tuning for custom models"
+    ],
+    "pros": [
+      "Largest AI API ecosystem — most integrations and community support",
+      "GPT-4o is the best multimodal model (text, vision, audio)",
+      "DALL-E 3 and Whisper APIs for image and speech",
+      "Fine-tuning enables custom model training"
+    ],
+    "cons": [
+      "No free tier — pay-per-use from first token",
+      "Costs can escalate quickly for high-volume production",
+      "Rate limits can be restrictive for new accounts",
+      "GPT-4 quality has been criticized for degradation in 2026"
+    ],
+    "best_for": []
   },
   {
     "name": "Zapier AI",
@@ -445,9 +2906,78 @@
     "company": "Zapier",
     "category": "AI Productivity",
     "url": "https://zapier.com",
-    "tags": ["automation", "workflow", "integration"],
+    "tags": [
+      "automation",
+      "workflow",
+      "integration"
+    ],
     "popularity": 81,
     "addedDate": "2026-03-30",
-    "pricing": "freemium"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "100 tasks/mo",
+            "5 Zaps",
+            "Single-step Zaps only",
+            "Basic apps"
+          ]
+        },
+        {
+          "name": "Starter",
+          "price": "$19.99/mo",
+          "highlights": [
+            "750 tasks/mo",
+            "20 Zaps",
+            "Multi-step Zaps",
+            "Filters and formatters"
+          ]
+        },
+        {
+          "name": "Professional",
+          "price": "$49/mo",
+          "highlights": [
+            "2,000 tasks/mo",
+            "Unlimited Zaps",
+            "Paths (conditional logic)",
+            "Premium apps"
+          ]
+        },
+        {
+          "name": "Team",
+          "price": "$69/mo",
+          "highlights": [
+            "2,000 tasks/mo",
+            "Unlimited Zaps",
+            "Team collaboration",
+            "Shared workspaces"
+          ]
+        }
+      ]
+    },
+    "features": [
+      "Connect 6,000+ apps with automated workflows (Zaps)",
+      "AI-powered Zap builder from natural language",
+      "Zapier AI Actions: let AI tools trigger automations",
+      "Multi-step workflows with conditional logic",
+      "Zapier Tables: AI-enhanced database",
+      "Zapier Interfaces: build simple apps and forms"
+    ],
+    "pros": [
+      "Connects 6,000+ apps — the largest integration library",
+      "AI-powered Zap builder makes automation accessible to non-technical users",
+      "No coding required for complex multi-step workflows",
+      "Zapier AI Actions enable AI tools to trigger real-world automations"
+    ],
+    "cons": [
+      "Can get expensive as task volume grows",
+      "Free tier very limited (100 tasks/mo, 5 Zaps)",
+      "Complex workflows can be difficult to debug",
+      "Some premium apps locked behind higher plans"
+    ],
+    "best_for": []
   }
 ]

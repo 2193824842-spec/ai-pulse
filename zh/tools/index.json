@@ -11,9 +11,106 @@
     ],
     "popularity": 100,
     "addedDate": "2026-04-08",
-    "pricing": "freemium",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "GPT-5.3 access with limits",
+            "Limited image generation",
+            "Ads (US)",
+            "No advanced reasoning"
+          ],
+          "zh_highlights": [
+            "GPT-5.3 访问受限",
+            "图像生成功能受限",
+            "展示广告（美国）",
+            "无高级推理能力"
+          ]
+        },
+        {
+          "name": "Go",
+          "price": "$8/mo",
+          "highlights": [
+            "More messages & uploads",
+            "More image creation",
+            "Still includes ads",
+            "No Sora/Codex/Agent Mode"
+          ],
+          "zh_highlights": [
+            "更多消息和上传",
+            "更多图像生成",
+            "仍然包含广告",
+            "不包括 Sora/Codex/Agent Mode"
+          ]
+        },
+        {
+          "name": "Plus",
+          "price": "$20/mo",
+          "highlights": [
+            "Full model suite (GPT-5.4)",
+            "Deep Research (10 runs/mo)",
+            "Sora, Codex, Agent Mode",
+            "Ad-free",
+            "~320 page context window"
+          ],
+          "zh_highlights": [
+            "完整模型套件 (GPT-5.4)",
+            "深度研究 (10 次/月)",
+            "Sora、Codex、Agent Mode",
+            "无广告",
+            "~320 页上下文窗口"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$200/mo",
+          "highlights": [
+            "GPT-5.4 Pro model",
+            "250 Deep Research runs/mo",
+            "Double context window",
+            "Priority access"
+          ],
+          "zh_highlights": [
+            "GPT-5.4 Pro 模型",
+            "每月 250 次深度研究运行",
+            "双倍上下文窗口",
+            "优先访问权限"
+          ]
+        }
+      ]
+    },
     "featured": true,
-    "company": "OpenAI"
+    "company": "OpenAI",
+    "features": [
+      "围绕任何主题的对话式问答",
+      "写作协助（论文、邮件、文案、摘要）",
+      "代码生成、审查和调试",
+      "图像分析和 DALL-E 图像生成",
+      "实时网络搜索（Plus 及以上版本）",
+      "语音对话（高级语音模式）"
+    ],
+    "pros": [
+      "全球使用最广泛的 AI 工具 — 拥有庞大的社区和生态系统",
+      "极其多功能：写作、编码、研究、图像、语音",
+      "拥有数千个专业助手的 GPTs 应用市场",
+      "频繁的模型更新和新功能发布"
+    ],
+    "cons": [
+      "2026年质量投诉增加——输出内容质量下滑",
+      "免费版/Go 计划引入广告（2026年2月）——引发争议",
+      "Pro 订阅每月 $200 价格较高",
+      "不同会话中响应质量不稳定"
+    ],
+    "best_for": [
+      "General-purpose AI assistance",
+      "Content writers and marketers",
+      "Developers needing code help",
+      "Students and researchers",
+      "Businesses needing team AI tools"
+    ]
   },
   {
     "name": "Claude",
@@ -27,9 +124,96 @@
     ],
     "popularity": 95,
     "addedDate": "2026-04-08",
-    "pricing": "freemium",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "Claude 3.5 Sonnet access (limited)",
+            "Limited daily messages",
+            "No Projects feature"
+          ],
+          "zh_highlights": [
+            "Claude 3.5 Sonnet 访问权限（受限）",
+            "每日消息数有限",
+            "无 Projects 功能"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$20/mo",
+          "highlights": [
+            "5x more usage than Free",
+            "All Claude models incl. Opus",
+            "Projects with persistent memory",
+            "Priority access"
+          ],
+          "zh_highlights": [
+            "比免费版多 5 倍的用量",
+            "包含所有 Claude 模型（含 Opus）",
+            "支持持久化内存的项目",
+            "优先访问权"
+          ]
+        },
+        {
+          "name": "Team",
+          "price": "$25/user/mo",
+          "highlights": [
+            "Everything in Pro",
+            "Higher usage limits",
+            "Admin console",
+            "Data not used for training"
+          ],
+          "zh_highlights": [
+            "专业版所有功能",
+            "更高的使用限额",
+            "管理员控制台",
+            "数据不用于训练"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Unlimited usage tiers",
+            "SSO and advanced security",
+            "Custom retention policies",
+            "Dedicated support"
+          ],
+          "zh_highlights": [
+            "无限制使用层级",
+            "单点登录和高级安全",
+            "自定义数据保留策略",
+            "专属支持"
+          ]
+        }
+      ]
+    },
     "featured": true,
-    "company": "Anthropic"
+    "company": "Anthropic",
+    "features": [
+      "20万token上下文窗口，处理长文档",
+      "高级代码生成和调试",
+      "文档和PDF分析",
+      "Artifacts：内联代码、SVG和HTML渲染",
+      "Vision：图像理解和分析",
+      "项目具有对话间的持久化记忆"
+    ],
+    "pros": [
+      "在细致的写作和长篇内容创作方面表现突出",
+      "业界领先的 200K 上下文窗口，适合文档分析",
+      "Claude 3.5/3.7 Sonnet 的强大编码性能",
+      "在事实类任务上的幻觉率较低"
+    ],
+    "cons": [
+      "免费版本有严格的日使用限制",
+      "没有内置图像生成功能",
+      "网络搜索在基础产品中没有原生集成",
+      "大量使用时API成本会迅速增加"
+    ],
+    "best_for": []
   },
   {
     "name": "Gemini",
@@ -43,9 +227,82 @@
     ],
     "popularity": 93,
     "addedDate": "2026-04-08",
-    "pricing": "freemium",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "Gemini 2.0 Flash access",
+            "Google Search integration",
+            "Basic image generation",
+            "Limited daily usage"
+          ],
+          "zh_highlights": [
+            "Gemini 2.0 Flash 访问",
+            "Google 搜索集成",
+            "基础图像生成",
+            "每日使用限制"
+          ]
+        },
+        {
+          "name": "Gemini Advanced",
+          "price": "$19.99/mo",
+          "highlights": [
+            "Gemini Ultra model",
+            "2TB Google One storage",
+            "Gemini in Gmail, Docs, Sheets, Slides, Meet",
+            "Gems custom assistants"
+          ],
+          "zh_highlights": [
+            "Gemini Ultra 模型",
+            "2TB Google One 存储空间",
+            "在 Gmail、Docs、Sheets、Slides、Meet 中使用 Gemini",
+            "Gems 自定义助手"
+          ]
+        },
+        {
+          "name": "Google Workspace Business",
+          "price": "$30/user/mo",
+          "highlights": [
+            "Gemini in all Workspace apps",
+            "Enterprise data protection",
+            "Meeting summaries",
+            "Admin controls"
+          ],
+          "zh_highlights": [
+            "所有 Workspace 应用中的 Gemini",
+            "企业数据保护",
+            "会议总结",
+            "管理员控制"
+          ]
+        }
+      ]
+    },
     "featured": true,
-    "company": "Google"
+    "company": "Google",
+    "features": [
+      "100 万 token 上下文窗口（Gemini 1.5/2.0 Pro）",
+      "原生 Google Search 集成，获取实时信息",
+      "深度 Google Workspace 集成（Docs、Gmail、Sheets、Slides）",
+      "多模态支持：文本、图像、音频、视频和代码",
+      "通过 Imagen 3 生成图像",
+      "代码执行和分析"
+    ],
+    "pros": [
+      "无与伦比的 100 万 Token 上下文窗口，适用于大型文档",
+      "默认内置实时网络搜索",
+      "一流的 Google Workspace 集成",
+      "强大的多模态能力（文本、图像、音频、视频）"
+    ],
+    "cons": [
+      "Gemini Advanced 需要 Google One 订阅，包含存储空间",
+      "在微妙的推理上可能不如 Claude 精准",
+      "鉴于 Google 的数据实践存在隐私隐忧",
+      "Workspace AI 功能需要单独购买计划"
+    ],
+    "best_for": []
   },
   {
     "name": "Copilot",
@@ -59,8 +316,81 @@
     ],
     "popularity": 88,
     "addedDate": "2026-04-08",
-    "pricing": "freemium",
-    "company": "Microsoft"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "GPT-4 access (limited turns)",
+            "Bing web search",
+            "DALL-E 3 image generation (limited)",
+            "Available in Windows 11, Edge, Bing"
+          ],
+          "zh_highlights": [
+            "GPT-4 访问权限（有限次数）",
+            "必应网络搜索",
+            "DALL-E 3 图像生成（有限）",
+            "可用于 Windows 11、Edge、必应"
+          ]
+        },
+        {
+          "name": "Copilot Pro",
+          "price": "$20/mo",
+          "highlights": [
+            "Priority GPT-4 Turbo access",
+            "100 image boosts/day",
+            "Copilot in Word, Excel, PowerPoint, Outlook, OneNote",
+            "Custom GPT builder"
+          ],
+          "zh_highlights": [
+            "优先访问 GPT-4 Turbo",
+            "每天 100 次图像增强",
+            "Copilot 集成在 Word、Excel、PowerPoint、Outlook、OneNote 中",
+            "自定义 GPT 构建工具"
+          ]
+        },
+        {
+          "name": "Microsoft 365 Copilot",
+          "price": "$30/user/mo",
+          "highlights": [
+            "Requires Microsoft 365 Business",
+            "Copilot in Teams, Outlook, Word, Excel",
+            "Meeting summaries",
+            "Enterprise data protection"
+          ],
+          "zh_highlights": [
+            "需要 Microsoft 365 商业版",
+            "Copilot 集成到 Teams、Outlook、Word、Excel",
+            "会议摘要",
+            "企业数据保护"
+          ]
+        }
+      ]
+    },
+    "company": "Microsoft",
+    "features": [
+      "由 GPT-4 Turbo 驱动（免费版本）",
+      "必应网页搜索集成，提供实时答案",
+      "通过 Designer 的 DALL-E 3 图像生成",
+      "Microsoft 365 集成（Word、Excel、PowerPoint、Outlook、Teams）",
+      "Windows 11 系统级集成",
+      "语音对话模式"
+    ],
+    "pros": [
+      "免费的 GPT-4 访问权限 — 主流 AI 工具中最慷慨的免费套餐",
+      "与 Microsoft 365 / Office 的最佳集成",
+      "内置于 Windows 11 中 — 无需额外安装",
+      "默认包含通过 Bing 的实时网络搜索"
+    ],
+    "cons": [
+      "免费版本的会话轮次有限制，高峰期响应速度较慢",
+      "Microsoft 365 Copilot 商业计划价格昂贵，需要 $30/用户/月",
+      "在深度推理方面不如 Claude 或 ChatGPT 强大",
+      "与 Microsoft 生态系统深度绑定"
+    ],
+    "best_for": []
   },
   {
     "name": "Midjourney",
@@ -74,9 +404,98 @@
     ],
     "popularity": 90,
     "addedDate": "2026-04-07",
-    "pricing": "paid",
+    "pricing": {
+      "model": "paid",
+      "plans": [
+        {
+          "name": "Basic",
+          "price": "$10/mo",
+          "highlights": [
+            "~200 image generations/mo (Fast GPU)",
+            "3 concurrent jobs",
+            "Commercial usage rights",
+            "No Relax mode"
+          ],
+          "zh_highlights": [
+            "~200张图像生成/月（快速GPU）",
+            "3个并发任务",
+            "商业使用权",
+            "无Relax模式"
+          ]
+        },
+        {
+          "name": "Standard",
+          "price": "$30/mo",
+          "highlights": [
+            "15 hours Fast GPU time/mo",
+            "Unlimited Relax mode",
+            "3 concurrent Fast jobs",
+            "Commercial usage rights"
+          ],
+          "zh_highlights": [
+            "15 小时/月 快速 GPU 时间",
+            "无限制宽松模式",
+            "3 个并发快速任务",
+            "商业使用权"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$60/mo",
+          "highlights": [
+            "30 hours Fast GPU time/mo",
+            "Unlimited Relax mode",
+            "12 concurrent Fast jobs",
+            "Stealth mode (private)"
+          ],
+          "zh_highlights": [
+            "每月30小时快速GPU时间",
+            "无限制放松模式",
+            "12个并发快速任务",
+            "隐身模式（私密）"
+          ]
+        },
+        {
+          "name": "Mega",
+          "price": "$120/mo",
+          "highlights": [
+            "60 hours Fast GPU time/mo",
+            "Unlimited Relax mode",
+            "12 concurrent Fast jobs",
+            "Highest priority queue"
+          ],
+          "zh_highlights": [
+            "每月60小时快速GPU时长",
+            "无限制宽松模式",
+            "12个并发快速任务",
+            "最高优先级队列"
+          ]
+        }
+      ]
+    },
     "featured": true,
-    "company": "Midjourney Inc."
+    "company": "Midjourney Inc.",
+    "features": [
+      "文生图生成（Midjourney V6/V6.1）",
+      "高分辨率输出（最高 2048x2048 及放大）",
+      "风格参考（--sref）用于保持一致的视觉风格",
+      "角色参考（--cref）用于保持一致的角色",
+      "图生图变体和混合",
+      "局部编辑（Vary Region）用于选择性修改"
+    ],
+    "pros": [
+      "在 AI 图像生成工具中具有最佳的整体图像质量和美学输出",
+      "通过 --sref 和 --cref 参数实现卓越的风格一致性",
+      "活跃的社区和 Discord 生态系统提供灵感",
+      "持续的模型改进（V5 → V6 → V6.1）"
+    ],
+    "cons": [
+      "没有免费层级 — 需要付费订阅，起价 $10/月",
+      "没有 API 用于程序化访问",
+      "相比 Stable Diffusion 的细粒度编辑功能有限",
+      "基于 Discord 的工作流程对新用户来说可能不够直观"
+    ],
+    "best_for": []
   },
   {
     "name": "DALL-E 3",
@@ -90,9 +509,76 @@
     ],
     "popularity": 85,
     "addedDate": "2026-04-07",
-    "pricing": "paid",
+    "pricing": {
+      "model": "paid",
+      "plans": [
+        {
+          "name": "ChatGPT Plus",
+          "price": "$20/mo",
+          "highlights": [
+            "DALL-E 3 via ChatGPT",
+            "Limited generations per day",
+            "Conversational image editing"
+          ],
+          "zh_highlights": [
+            "通过 ChatGPT 的 DALL-E 3",
+            "每天生成数量有限",
+            "对话式图像编辑"
+          ]
+        },
+        {
+          "name": "API - Standard",
+          "price": "$0.040/image",
+          "highlights": [
+            "1024x1024 resolution",
+            "Pay per image",
+            "No subscription needed"
+          ],
+          "zh_highlights": [
+            "1024x1024 分辨率",
+            "按图片付费",
+            "无需订阅"
+          ]
+        },
+        {
+          "name": "API - HD",
+          "price": "$0.080/image",
+          "highlights": [
+            "1024x1024 HD quality",
+            "Higher detail and fidelity",
+            "Pay per image"
+          ],
+          "zh_highlights": [
+            "1024x1024 高清质量",
+            "更高的细节和保真度",
+            "按图片付费"
+          ]
+        }
+      ]
+    },
     "company": "OpenAI",
-    "favicon_domain": "labs.openai.com"
+    "favicon_domain": "labs.openai.com",
+    "features": [
+      "高保真文本生成图像",
+      "精确提示词遵循（相比DALL-E 2有重大改进）",
+      "直接集成到ChatGPT中用于对话式图像生成",
+      "多种宽高比（正方形、横向、纵向）",
+      "通过API进行图像修复和编辑",
+      "通过ChatGPT进行自然语言提示词优化"
+    ],
+    "pros": [
+      "业界最佳的提示词遵循能力——准确执行复杂指令",
+      "与 ChatGPT 无缝集成，支持对话工作流",
+      "无需单独订阅——包含在 ChatGPT Plus 中",
+      "简洁易用的开发者友好型 API"
+    ],
+    "cons": [
+      "图像生成没有免费层级",
+      "相比 Midjourney 艺术性和风格化效果较弱",
+      "编辑和图像修复功能相比 Stable Diffusion 有限",
+      "缺少风格参考和角色一致性功能"
+    ],
+    "best_for": []
   },
   {
     "name": "Stable Diffusion",
@@ -106,8 +592,79 @@
     ],
     "popularity": 82,
     "addedDate": "2026-04-07",
-    "pricing": "free",
-    "company": "Stability AI"
+    "pricing": {
+      "model": "free",
+      "plans": [
+        {
+          "name": "Self-hosted (Free)",
+          "price": "$0",
+          "highlights": [
+            "Run locally on your GPU",
+            "No usage limits",
+            "Full model control",
+            "Requires 4GB+ VRAM"
+          ],
+          "zh_highlights": [
+            "在本地 GPU 上运行",
+            "无使用限制",
+            "完全控制模型",
+            "需要 4GB+ 显存"
+          ]
+        },
+        {
+          "name": "Stability AI API",
+          "price": "From $0.003/image",
+          "highlights": [
+            "Cloud generation",
+            "No GPU required",
+            "Pay per image",
+            "Access to latest models"
+          ],
+          "zh_highlights": [
+            "云端生成",
+            "无需GPU",
+            "按图片付费",
+            "访问最新模型"
+          ]
+        },
+        {
+          "name": "DreamStudio",
+          "price": "Credit-based (~$10 for 1000 credits)",
+          "highlights": [
+            "Web interface",
+            "No setup required",
+            "SDXL and SD3 access"
+          ],
+          "zh_highlights": [
+            "Web 界面",
+            "无需设置",
+            "SDXL 和 SD3 访问权限"
+          ]
+        }
+      ]
+    },
+    "company": "Stability AI",
+    "features": [
+      "开源模型 — 本地运行或在云上部署",
+      "文生图和图生图生成",
+      "内画和外扩",
+      "ControlNet 用于精确的姿态和构图控制",
+      "数千个社区微调模型（Civitai）",
+      "LoRA 训练自定义风格和角色"
+    ],
+    "pros": [
+      "自托管完全免费——无使用限制",
+      "庞大的微调模型和 LoRA 生态系统",
+      "完全自主：无内容限制，支持自定义训练",
+      "ControlNet 实现精准的构图和姿态控制"
+    ],
+    "cons": [
+      "需要技术设置来进行本地安装",
+      "本地使用需要性能强劲的 GPU（4GB+ 显存）",
+      "输出质量因模型和设置而异",
+      "相比 Midjourney 等云工具有更陡峭的学习曲线"
+    ],
+    "best_for": []
   },
   {
     "name": "Leonardo AI",
@@ -121,8 +678,97 @@
     ],
     "popularity": 78,
     "addedDate": "2026-04-07",
-    "pricing": "freemium",
-    "company": "Leonardo AI"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "150 tokens/day (~150 images)",
+            "Access to community models",
+            "AI Canvas",
+            "No commercial license"
+          ],
+          "zh_highlights": [
+            "每天150个令牌（约150张图片）",
+            "访问社区模型",
+            "AI Canvas",
+            "无商业许可证"
+          ]
+        },
+        {
+          "name": "Apprentice",
+          "price": "$10/mo",
+          "highlights": [
+            "8,500 tokens/mo",
+            "Private generations",
+            "Commercial license",
+            "Priority queue"
+          ],
+          "zh_highlights": [
+            "每月8,500个tokens",
+            "私有生成",
+            "商用许可证",
+            "优先队列"
+          ]
+        },
+        {
+          "name": "Artisan",
+          "price": "$24/mo",
+          "highlights": [
+            "25,000 tokens/mo",
+            "Custom model training",
+            "Commercial license",
+            "API access"
+          ],
+          "zh_highlights": [
+            "25,000 代币/月",
+            "自定义模型训练",
+            "商业许可证",
+            "API 访问"
+          ]
+        },
+        {
+          "name": "Maestro",
+          "price": "$48/mo",
+          "highlights": [
+            "60,000 tokens/mo",
+            "Highest priority",
+            "All features",
+            "Commercial license"
+          ],
+          "zh_highlights": [
+            "60,000 tokens/月",
+            "最高优先级",
+            "所有功能",
+            "商用许可证"
+          ]
+        }
+      ]
+    },
+    "company": "Leonardo AI",
+    "features": [
+      "多种模型选项的文本生成图像",
+      "针对游戏资产和概念艺术的微调模型",
+      "用于内补绘和外补绘的 AI Canvas",
+      "图像到图像的变换",
+      "Motion：为静止图像添加动画",
+      "3D 纹理生成"
+    ],
+    "pros": [
+      "慷慨的免费套餐，每天 150 个tokens",
+      "非常适合游戏资源和概念美术生成",
+      "自定义模型训练以保持一致的风格",
+      "AI Canvas 强大的内补绘工作流"
+    ],
+    "cons": [
+      "免费层级不包含商业许可证",
+      "Token系统对新用户可能造成困惑",
+      "输出质量因模型选择而异",
+      "在摄影方面不如Midjourney的逼真度高"
+    ],
+    "best_for": []
   },
   {
     "name": "Sora",
@@ -135,10 +781,65 @@
     ],
     "popularity": 88,
     "addedDate": "2026-04-06",
-    "pricing": "paid",
+    "pricing": {
+      "model": "paid",
+      "plans": [
+        {
+          "name": "ChatGPT Plus",
+          "price": "$20/mo",
+          "highlights": [
+            "50 priority videos/mo (720p)",
+            "Up to 5 seconds",
+            "Watermarked output"
+          ],
+          "zh_highlights": [
+            "每月50个优先视频(720p)",
+            "最长5秒",
+            "输出带水印"
+          ]
+        },
+        {
+          "name": "ChatGPT Pro",
+          "price": "$200/mo",
+          "highlights": [
+            "500 priority videos/mo (1080p)",
+            "Up to 20 seconds",
+            "No watermark",
+            "Unlimited relaxed generations"
+          ],
+          "zh_highlights": [
+            "每月 500 个优先级视频（1080p）",
+            "最长 20 秒",
+            "无水印",
+            "无限制放松生成"
+          ]
+        }
+      ]
+    },
     "featured": true,
     "company": "OpenAI",
-    "favicon_domain": "sora.com"
+    "favicon_domain": "sora.com",
+    "features": [
+      "文本生成视频（最长 1 分钟）",
+      "高分辨率视频输出（最高 1080p）",
+      "图片转视频动画",
+      "视频转视频风格迁移",
+      "分镜模式（用于多场景视频）",
+      "混音：通过提示词修改现有视频"
+    ],
+    "pros": [
+      "业界最逼真的物理和运动理解能力",
+      "集成到 ChatGPT 中，便于随时使用",
+      "支持从电影级到动画等多种视频风格",
+      "故事板模式可实现多场景叙述"
+    ],
+    "cons": [
+      "无免费层级 — 需要 ChatGPT Plus 订阅（最低 $20/月）",
+      "视频长度限制：Pro 版本最长 20 秒，Plus 版本最长 5 秒",
+      "高峰时段生成速度可能较慢",
+      "相比传统视频编辑工具的编辑控制能力有限"
+    ],
+    "best_for": []
   },
   {
     "name": "Runway Gen-3",
@@ -152,8 +853,97 @@
     ],
     "popularity": 80,
     "addedDate": "2026-04-06",
-    "pricing": "freemium",
-    "company": "Runway AI"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "125 credits one-time",
+            "720p video",
+            "Watermarked output",
+            "Basic tools"
+          ],
+          "zh_highlights": [
+            "125 积分一次性",
+            "720p 视频",
+            "带水印输出",
+            "基础工具"
+          ]
+        },
+        {
+          "name": "Standard",
+          "price": "$12/mo",
+          "highlights": [
+            "625 credits/mo",
+            "No watermark",
+            "720p video",
+            "All Gen-3 features"
+          ],
+          "zh_highlights": [
+            "625 积分/月",
+            "无水印",
+            "720p 视频",
+            "所有 Gen-3 功能"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$28/mo",
+          "highlights": [
+            "2,250 credits/mo",
+            "4K upscaling",
+            "Custom AI training",
+            "Priority generation"
+          ],
+          "zh_highlights": [
+            "2,250 点数/月",
+            "4K 图像放大",
+            "自定义 AI 训练",
+            "优先生成"
+          ]
+        },
+        {
+          "name": "Unlimited",
+          "price": "$76/mo",
+          "highlights": [
+            "Unlimited standard generations",
+            "4K upscaling",
+            "All features",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "无限标准生成",
+            "4K 超分辨率",
+            "全部功能",
+            "优先支持"
+          ]
+        }
+      ]
+    },
+    "company": "Runway AI",
+    "features": [
+      "Gen-3 Alpha：文本到视频生成",
+      "图像到视频动画",
+      "视频到视频风格迁移",
+      "Motion Brush：控制视频中的运动",
+      "Inpainting：删除或替换视频中的对象",
+      "视频背景移除"
+    ],
+    "pros": [
+      "最佳的专业级 AI 视频生成质量",
+      "超越单纯生成的综合视频编辑套件",
+      "Motion Brush 提供对运动的精确控制",
+      "被主要影视工作室和专业电影制作人使用"
+    ],
+    "cons": [
+      "高质量生成会快速消耗额度",
+      "无限制套餐价格昂贵，需76美元/月",
+      "单次生成的视频长度限制为10秒",
+      "高峰期生成速度较慢"
+    ],
+    "best_for": []
   },
   {
     "name": "Pika",
@@ -167,8 +957,97 @@
     ],
     "popularity": 76,
     "addedDate": "2026-04-06",
-    "pricing": "freemium",
-    "company": "Pika Labs"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "150 credits/mo",
+            "Watermarked output",
+            "720p video",
+            "Basic features"
+          ],
+          "zh_highlights": [
+            "每月150积分",
+            "带水印输出",
+            "720p视频",
+            "基础功能"
+          ]
+        },
+        {
+          "name": "Basic",
+          "price": "$8/mo",
+          "highlights": [
+            "700 credits/mo",
+            "No watermark",
+            "1080p video",
+            "All Pikaffects"
+          ],
+          "zh_highlights": [
+            "每月700点数",
+            "无水印",
+            "1080p视频",
+            "全部Pikaffects效果"
+          ]
+        },
+        {
+          "name": "Standard",
+          "price": "$28/mo",
+          "highlights": [
+            "2,000 credits/mo",
+            "1080p video",
+            "Priority generation",
+            "All features"
+          ],
+          "zh_highlights": [
+            "每月 2,000 点数",
+            "1080p 视频",
+            "优先生成",
+            "全部功能"
+          ]
+        },
+        {
+          "name": "Unlimited",
+          "price": "$70/mo",
+          "highlights": [
+            "Unlimited standard generations",
+            "1080p video",
+            "Highest priority",
+            "All features"
+          ],
+          "zh_highlights": [
+            "无限次标准生成",
+            "1080p 视频",
+            "最高优先级",
+            "所有功能"
+          ]
+        }
+      ]
+    },
+    "company": "Pika Labs",
+    "features": [
+      "文本生成视频",
+      "图像转视频动画",
+      "视频转视频转换",
+      "Pikaffects：特效（爆炸、融化、粉碎等）",
+      "Pikamovie：长视频生成",
+      "视频唇形同步"
+    ],
+    "pros": [
+      "Pikaffects 提供其他平台无法实现的创意特效",
+      "入门价格经济实惠，仅需 $8/月",
+      "适合创意和娱乐内容创作",
+      "支持口型同步功能用于虚拟主播视频"
+    ],
+    "cons": [
+      "视频质量不如 Runway 或 Sora 那样具有电影感",
+      "复杂生成会快速消耗额度",
+      "单次生成视频长度有限",
+      "不太适合专业/商业用途"
+    ],
+    "best_for": []
   },
   {
     "name": "HeyGen",
@@ -182,8 +1061,101 @@
     ],
     "popularity": 74,
     "addedDate": "2026-04-06",
-    "pricing": "freemium",
-    "company": "HeyGen"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "1 credit/mo (1 minute video)",
+            "3 AI avatars",
+            "Watermarked output",
+            "720p video"
+          ],
+          "zh_highlights": [
+            "1积分/月（1分钟视频）",
+            "3个AI虚拟形象",
+            "带水印输出",
+            "720p视频"
+          ]
+        },
+        {
+          "name": "Creator",
+          "price": "$24/mo",
+          "highlights": [
+            "15 credits/mo",
+            "Custom avatar",
+            "No watermark",
+            "1080p video",
+            "Video translation"
+          ],
+          "zh_highlights": [
+            "15 积分/月",
+            "自定义头像",
+            "无水印",
+            "1080p 视频",
+            "视频翻译"
+          ]
+        },
+        {
+          "name": "Business",
+          "price": "$72/mo",
+          "highlights": [
+            "30 credits/mo",
+            "5 custom avatars",
+            "Priority support",
+            "API access",
+            "Brand kit"
+          ],
+          "zh_highlights": [
+            "每月30积分",
+            "5个自定义头像",
+            "优先支持",
+            "API 访问",
+            "品牌工具包"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Unlimited credits",
+            "Unlimited avatars",
+            "SSO",
+            "Dedicated support"
+          ],
+          "zh_highlights": [
+            "无限额度",
+            "无限虚拟形象",
+            "单点登录",
+            "专属支持"
+          ]
+        }
+      ]
+    },
+    "company": "HeyGen",
+    "features": [
+      "100+ AI 虚拟人物模板",
+      "从视频自定义创建虚拟人物",
+      "支持 40+ 语言的视频翻译",
+      "翻译视频的语音克隆",
+      "翻译内容的唇形同步",
+      "AI 虚拟人物文本转视频"
+    ],
+    "pros": [
+      "最佳AI视频翻译，支持声音克隆和唇形同步",
+      "从您自己的视频创建自定义虚拟形象",
+      "适用于企业培训和营销的专业级质量",
+      "40多种语言支持，覆盖全球内容"
+    ],
+    "cons": [
+      "积分系统容易造成困惑（1积分 = 1分钟）",
+      "免费套餐非常有限（1积分/月）",
+      "商业计划价格较高，需72美元/月",
+      "头像质量在特写镜头中可能显得不够逼真"
+    ],
+    "best_for": []
   },
   {
     "name": "GitHub Copilot",
@@ -197,9 +1169,98 @@
     ],
     "popularity": 92,
     "addedDate": "2026-04-05",
-    "pricing": "paid",
+    "pricing": {
+      "model": "paid",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "2,000 code completions/mo",
+            "50 chat messages/mo",
+            "VS Code and JetBrains",
+            "Limited to individual use"
+          ],
+          "zh_highlights": [
+            "每月 2,000 次代码补全",
+            "每月 50 条聊天消息",
+            "VS Code 和 JetBrains",
+            "仅限个人使用"
+          ]
+        },
+        {
+          "name": "Individual",
+          "price": "$10/mo",
+          "highlights": [
+            "Unlimited completions",
+            "Unlimited chat",
+            "All supported editors",
+            "CLI assistant"
+          ],
+          "zh_highlights": [
+            "无限次数的代码补全",
+            "无限次数的对话",
+            "支持所有编辑器",
+            "CLI 助手"
+          ]
+        },
+        {
+          "name": "Business",
+          "price": "$19/user/mo",
+          "highlights": [
+            "Everything in Individual",
+            "Organization-wide policy management",
+            "Audit logs",
+            "IP indemnity"
+          ],
+          "zh_highlights": [
+            "个人掌控一切",
+            "组织级策略管理",
+            "审计日志",
+            "IP 赔偿保障"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "$39/user/mo",
+          "highlights": [
+            "Custom fine-tuned models on your codebase",
+            "Copilot Workspace",
+            "Advanced security features",
+            "Dedicated support"
+          ],
+          "zh_highlights": [
+            "基于你的代码库的自定义微调模型",
+            "Copilot Workspace",
+            "高级安全功能",
+            "专属支持"
+          ]
+        }
+      ]
+    },
     "featured": true,
-    "company": "Microsoft / GitHub"
+    "company": "Microsoft / GitHub",
+    "features": [
+      "实时代码补全和建议",
+      "从注释生成多行代码",
+      "Copilot Chat：IDE 中的对话式编程助手",
+      "拉取请求摘要和代码审查",
+      "CLI 助手（终端中的 Copilot）",
+      "支持 VS Code、JetBrains、Neovim、Visual Studio"
+    ],
+    "pros": [
+      "最佳 IDE 集成 — 原生支持 VS Code、JetBrains 等编辑器",
+      "上下文感知建议，理解你的整个代码库",
+      "Copilot Chat 支持对话式调试和代码解释",
+      "支持几乎所有编程语言"
+    ],
+    "cons": [
+      "需要付费计划才能无限使用（10 美元/月/个人）",
+      "可能建议过时或不安全的代码模式",
+      "将代码发送到 GitHub 服务器的隐私问题",
+      "在复杂多文件重构方面不如 Cursor 强大"
+    ],
+    "best_for": []
   },
   {
     "name": "Cursor",
@@ -213,9 +1274,84 @@
     ],
     "popularity": 87,
     "addedDate": "2026-04-05",
-    "pricing": "freemium",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Hobby",
+          "price": "$0/mo",
+          "highlights": [
+            "2 weeks Pro trial",
+            "50 slow premium requests/mo",
+            "200 cursor-small completions/mo",
+            "Basic features"
+          ],
+          "zh_highlights": [
+            "2 周专业版试用",
+            "每月 50 个慢速高级请求",
+            "每月 200 个 cursor-small 完成",
+            "基础功能"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$20/mo",
+          "highlights": [
+            "500 fast premium requests/mo",
+            "Unlimited slow requests",
+            "Unlimited cursor-small completions",
+            "10 Claude Opus requests/day"
+          ],
+          "zh_highlights": [
+            "每月 500 次快速高级请求",
+            "无限次慢速请求",
+            "无限次 cursor-small 补全",
+            "每天 10 次 Claude Opus 请求"
+          ]
+        },
+        {
+          "name": "Business",
+          "price": "$40/user/mo",
+          "highlights": [
+            "Everything in Pro",
+            "Centralized billing",
+            "Admin dashboard",
+            "Enforced privacy mode",
+            "SSO"
+          ],
+          "zh_highlights": [
+            "Pro 版本的所有功能",
+            "集中式账单管理",
+            "管理员仪表板",
+            "强制隐私模式",
+            "SSO"
+          ]
+        }
+      ]
+    },
     "featured": true,
-    "company": "Anysphere"
+    "company": "Anysphere",
+    "features": [
+      "AI 驱动的代码编辑器（VS Code 衍生版）",
+      "Tab：智能多行自动补全",
+      "Cmd+K：行内代码生成和编辑",
+      "Chat：代码库感知的 AI 助手",
+      "Composer：多文件 AI 编辑代理",
+      "Agent 模式用于自主任务执行"
+    ],
+    "pros": [
+      "最佳多文件 AI 编辑 — Composer 可以重构整个代码库",
+      "代码库索引为 AI 提供项目的完整上下文",
+      "熟悉的 VS Code 界面 — 现有用户零学习曲线",
+      "Agent 模式自主处理复杂的多步骤编码任务"
+    ],
+    "cons": [
+      "正式使用需要 Pro 计划（$20/月）",
+      "在大型代码库索引时可能较慢",
+      "Agent 模式可能做出意外更改——需要仔细审查",
+      "Business 计划价格昂贵，$40/用户/月"
+    ],
+    "best_for": []
   },
   {
     "name": "Codeium",
@@ -229,8 +1365,83 @@
     ],
     "popularity": 79,
     "addedDate": "2026-04-05",
-    "pricing": "free",
-    "company": "Exafunction"
+    "pricing": {
+      "model": "free",
+      "plans": [
+        {
+          "name": "Individual (Free)",
+          "price": "$0/mo",
+          "highlights": [
+            "Unlimited completions",
+            "Unlimited chat",
+            "All 70+ languages",
+            "40+ IDE integrations",
+            "No credit card required"
+          ],
+          "zh_highlights": [
+            "无限制补全",
+            "无限制对话",
+            "70+ 种语言支持",
+            "40+ 个 IDE 集成",
+            "无需信用卡"
+          ]
+        },
+        {
+          "name": "Teams",
+          "price": "$12/user/mo",
+          "highlights": [
+            "Everything in Free",
+            "Team management",
+            "Usage analytics",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "免费包含所有功能",
+            "团队管理",
+            "使用情况分析",
+            "优先支持"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Self-hosted deployment",
+            "Custom model fine-tuning",
+            "SSO and audit logs",
+            "Dedicated support"
+          ],
+          "zh_highlights": [
+            "自托管部署",
+            "自定义模型微调",
+            "单点登录和审计日志",
+            "专属支持"
+          ]
+        }
+      ]
+    },
+    "company": "Exafunction",
+    "features": [
+      "70+ 种语言的 AI 代码补全",
+      "Codeium Chat：对话式编程助手",
+      "使用自然语言搜索代码库",
+      "与 40+ 款 IDE 集成（VS Code、JetBrains、Vim 等）",
+      "上下文感知建议",
+      "函数、类和样板代码自动补全"
+    ],
+    "pros": [
+      "个人开发者完全免费 — 无使用限制",
+      "支持最广泛的 IDE（40+）和编程语言（70+）",
+      "快速轻量 — 性能影响最小",
+      "个人用户无数据保留"
+    ],
+    "cons": [
+      "免费版缺少代码库索引等高级功能",
+      "在处理复杂多文件任务时不如 Cursor 强大",
+      "训练数据集小于 GitHub Copilot",
+      "企业级功能需要较大投入"
+    ],
+    "best_for": []
   },
   {
     "name": "Tabnine",
@@ -244,8 +1455,83 @@
     ],
     "popularity": 75,
     "addedDate": "2026-04-05",
-    "pricing": "freemium",
-    "company": "Tabnine"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "Basic completions",
+            "Limited context window",
+            "All major IDEs",
+            "No chat feature"
+          ],
+          "zh_highlights": [
+            "基础补全功能",
+            "上下文窗口有限",
+            "支持所有主流IDE",
+            "不支持对话功能"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$12/mo",
+          "highlights": [
+            "Full-line completions",
+            "Tabnine Chat",
+            "Larger context window",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "全行代码补全",
+            "Tabnine Chat",
+            "更大的上下文窗口",
+            "优先级支持"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Self-hosted deployment",
+            "Local model (air-gapped)",
+            "Team learning",
+            "SSO and audit logs",
+            "SOC 2 compliance"
+          ],
+          "zh_highlights": [
+            "自托管部署",
+            "本地模型（隔离环境）",
+            "团队学习",
+            "SSO 和审计日志",
+            "SOC 2 合规"
+          ]
+        }
+      ]
+    },
+    "company": "Tabnine",
+    "features": [
+      "30+ 种语言的 AI 代码补全",
+      "本地模型选项 — 代码永不离开您的机器",
+      "Tabnine Chat：对话式编码助手",
+      "整行和多行代码补全",
+      "集成 VS Code、JetBrains、Eclipse 等编辑器",
+      "团队学习：从您的团队代码库中学习"
+    ],
+    "pros": [
+      "最佳隐私保护 — 本地模型选项将代码保存在您的机器上",
+      "SOC 2 认证 — 值得对合规需求严格的企业信赖",
+      "团队学习根据组织的编码模式自适应学习",
+      "支持离线环境并可自托管部署"
+    ],
+    "cons": [
+      "在复杂 AI 任务中能力不如 Cursor 或 Copilot",
+      "相比 Codeium 免费版功能限制较多",
+      "Pro 计划（12 美元/月）比 Codeium（免费）更贵",
+      "社区规模小，更新频率低于竞品"
+    ],
+    "best_for": []
   },
   {
     "name": "ElevenLabs",
@@ -259,8 +1545,97 @@
     ],
     "popularity": 82,
     "addedDate": "2026-04-04",
-    "pricing": "freemium",
-    "company": "ElevenLabs"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "10,000 characters/mo",
+            "3 custom voices",
+            "Access to voice library",
+            "Non-commercial use"
+          ],
+          "zh_highlights": [
+            "每月10,000个字符",
+            "3个自定义语音",
+            "访问语音库",
+            "非商业使用"
+          ]
+        },
+        {
+          "name": "Starter",
+          "price": "$5/mo",
+          "highlights": [
+            "30,000 characters/mo",
+            "10 custom voices",
+            "Commercial license",
+            "API access"
+          ],
+          "zh_highlights": [
+            "30,000 字符/月",
+            "10 个自定义声音",
+            "商业许可证",
+            "API 访问"
+          ]
+        },
+        {
+          "name": "Creator",
+          "price": "$22/mo",
+          "highlights": [
+            "100,000 characters/mo",
+            "30 custom voices",
+            "Professional voice cloning",
+            "Projects feature"
+          ],
+          "zh_highlights": [
+            "100,000 字符/月",
+            "30 个自定义音色",
+            "专业语音克隆",
+            "项目功能"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$99/mo",
+          "highlights": [
+            "500,000 characters/mo",
+            "160 custom voices",
+            "Highest quality audio",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "每月50万字符",
+            "160个自定义声音",
+            "最高音质输出",
+            "优先支持"
+          ]
+        }
+      ]
+    },
+    "company": "ElevenLabs",
+    "features": [
+      "29 种以上语言的超逼真文字转语音",
+      "从短音频样本进行声音克隆",
+      "包含 1000+ 预制声音的声音库",
+      "即时声音克隆(30 秒音频)",
+      "专业声音克隆(高保真)",
+      "视频翻译的 AI 配音"
+    ],
+    "pros": [
+      "业界最逼真的语音合成质量",
+      "仅需30秒音频即可进行语音克隆",
+      "支持29种以上语言，口音自然流畅",
+      "为开发者打造的优秀 API，用于构建语音应用"
+    ],
+    "cons": [
+      "免费版每月限制10,000个字符",
+      "语音克隆引发关于滥用的伦理问题",
+      "Pro 计划价格昂贵，高频使用需要每月 $99",
+      "生成的音频偶尔会出现失真"
+    ],
+    "best_for": []
   },
   {
     "name": "Murf AI",
@@ -274,8 +1649,99 @@
     ],
     "popularity": 73,
     "addedDate": "2026-04-04",
-    "pricing": "freemium",
-    "company": "Murf Inc."
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "10 minutes of voice generation",
+            "Access to 10 voices",
+            "No commercial license",
+            "Watermarked output"
+          ],
+          "zh_highlights": [
+            "10 分钟语音生成时长",
+            "可访问 10 个声音",
+            "无商用许可证",
+            "输出带水印"
+          ]
+        },
+        {
+          "name": "Basic",
+          "price": "$19/mo",
+          "highlights": [
+            "24 hours of voice/year",
+            "60 voices",
+            "Commercial license",
+            "No watermark"
+          ],
+          "zh_highlights": [
+            "每年24小时语音",
+            "60种声音",
+            "商业许可证",
+            "无水印"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$26/mo",
+          "highlights": [
+            "96 hours of voice/year",
+            "120+ voices",
+            "Voice cloning",
+            "Team collaboration",
+            "API access"
+          ],
+          "zh_highlights": [
+            "每年96小时语音",
+            "120多个声音",
+            "声音克隆",
+            "团队协作",
+            "API访问"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Unlimited voice generation",
+            "Custom voice cloning",
+            "SSO",
+            "Dedicated support"
+          ],
+          "zh_highlights": [
+            "无限制语音生成",
+            "自定义声音克隆",
+            "SSO",
+            "专属支持"
+          ]
+        }
+      ]
+    },
+    "company": "Murf Inc.",
+    "features": [
+      "120+ 种AI语音，支持20+种语言",
+      "视频和幻灯片同步的工作室编辑器",
+      "语音自定义（音调、速度、重音）",
+      "背景音乐库",
+      "团队协作功能",
+      "API 接口"
+    ],
+    "pros": [
+      "内置工作室编辑器，可同步音频、视频和幻灯片",
+      "120+ 种声音，支持 20+ 种语言",
+      "易于使用——无需音频编辑经验",
+      "适合电子学习、解说视频和演讲演示"
+    ],
+    "cons": [
+      "免费层级限制很大（总计10分钟）",
+      "语音质量不如 ElevenLabs 逼真",
+      "年度计费才能获得最优价格",
+      "声音定制功能相比 ElevenLabs 受限"
+    ],
+    "best_for": []
   },
   {
     "name": "Suno",
@@ -289,8 +1755,81 @@
     ],
     "popularity": 77,
     "addedDate": "2026-04-04",
-    "pricing": "freemium",
-    "company": "Suno AI"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "50 credits/day (~10 songs)",
+            "Non-commercial use only",
+            "Public songs only",
+            "Basic features"
+          ],
+          "zh_highlights": [
+            "每天50积分（约10首歌曲）",
+            "仅限非商业使用",
+            "仅公开歌曲",
+            "基础功能"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$8/mo",
+          "highlights": [
+            "2,500 credits/mo (~500 songs)",
+            "Commercial license",
+            "Private songs",
+            "Priority generation"
+          ],
+          "zh_highlights": [
+            "2,500 积分/月（约 500 首歌曲）",
+            "商业许可证",
+            "私密歌曲",
+            "优先生成"
+          ]
+        },
+        {
+          "name": "Premier",
+          "price": "$24/mo",
+          "highlights": [
+            "10,000 credits/mo (~2,000 songs)",
+            "Commercial license",
+            "Private songs",
+            "Highest priority"
+          ],
+          "zh_highlights": [
+            "10,000 点数/月（约 2,000 首歌曲）",
+            "商业许可证",
+            "私密歌曲",
+            "最高优先级"
+          ]
+        }
+      ]
+    },
+    "company": "Suno AI",
+    "features": [
+      "从文本提示生成完整歌曲（人声+乐器）",
+      "自定义歌词输入",
+      "流派和风格控制",
+      "纯音乐模式",
+      "歌曲扩展和续写",
+      "封面艺术生成"
+    ],
+    "pros": [
+      "只需几秒钟即可生成带人声的完整歌曲 — 无需音乐技能",
+      "慷慨的免费套餐，每天50积分",
+      "AI生成音乐质量令人印象深刻",
+      "使用简单 — 只需描述你想要的歌曲"
+    ],
+    "cons": [
+      "免费版仅供非商业用途，不可用于货币化内容",
+      "对特定音乐元素的控制有限",
+      "在复杂歌词上人声质量可能听起来不自然",
+      "AI音乐的版权和许可在法律上仍不明确"
+    ],
+    "best_for": []
   },
   {
     "name": "Perplexity",
@@ -304,9 +1843,68 @@
     ],
     "popularity": 84,
     "addedDate": "2026-04-04",
-    "pricing": "freemium",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "Unlimited basic searches",
+            "5 Pro searches/day",
+            "Standard AI model",
+            "Web and focus modes"
+          ],
+          "zh_highlights": [
+            "无限基础搜索次数",
+            "每天5次专业搜索",
+            "标准AI模型",
+            "网页和精准搜索模式"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$20/mo",
+          "highlights": [
+            "600+ Pro searches/day",
+            "GPT-4, Claude, and Sonar models",
+            "File uploads",
+            "API credits ($5/mo)",
+            "Perplexity Pages"
+          ],
+          "zh_highlights": [
+            "每天 600+ 次专业搜索",
+            "GPT-4、Claude 和 Sonar 模型",
+            "文件上传",
+            "API 额度（$5/月）",
+            "Perplexity Pages"
+          ]
+        }
+      ]
+    },
     "featured": true,
-    "company": "Perplexity AI"
+    "company": "Perplexity AI",
+    "features": [
+      "实时网络搜索与 AI 合成",
+      "每个答案都有引用来源",
+      "对话式线程中的后续问题",
+      "焦点模式：Web、学术、YouTube、Reddit、新闻",
+      "Perplexity Pages：创建可共享的研究文档",
+      "文件和图像分析"
+    ],
+    "pros": [
+      "最佳 AI 搜索工具 — 实时答案附带引用来源",
+      "学术专注模式用于研究论文",
+      "对话式后续提问保持上下文",
+      "比传统研究工作流快得多"
+    ],
+    "cons": [
+      "偶尔会出现幻觉或错误引用来源",
+      "即使在付费计划中，专业搜索也限制在每天 600 次",
+      "在创意和编程任务方面的能力不如 ChatGPT",
+      "来源可能来自低质量网站"
+    ],
+    "best_for": []
   },
   {
     "name": "You.com",
@@ -320,8 +1918,65 @@
     ],
     "popularity": 71,
     "addedDate": "2026-04-04",
-    "pricing": "freemium",
-    "company": "You.com"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "Unlimited basic search",
+            "YouChat with standard models",
+            "Basic image generation",
+            "Privacy-first"
+          ],
+          "zh_highlights": [
+            "无限制基础搜索",
+            "使用标准模型的 YouChat",
+            "基础图像生成",
+            "隐私优先"
+          ]
+        },
+        {
+          "name": "YouPro",
+          "price": "$15/mo",
+          "highlights": [
+            "GPT-4 and Claude access",
+            "Unlimited AI chat",
+            "Advanced image generation",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "GPT-4 和 Claude 访问权限",
+            "无限制 AI 对话",
+            "高级图像生成",
+            "优先支持"
+          ]
+        }
+      ]
+    },
+    "company": "You.com",
+    "features": [
+      "具有引用答案的 AI 驱动网页搜索",
+      "YouChat：对话式 AI 助手",
+      "YouCode：AI 代码生成和调试",
+      "YouImagine：AI 图像生成",
+      "用于深度分析的研究模式",
+      "个性化搜索结果"
+    ],
+    "pros": [
+      "隐私至上——无追踪，无数据销售",
+      "单一平台集多种 AI 模式（搜索、聊天、代码、图像生成）",
+      "可自定义的搜索体验",
+      "慷慨的免费方案，基础搜索无限制"
+    ],
+    "cons": [
+      "在研究型查询方面不如 Perplexity 准确",
+      "用户基数较小意味着社区验证不足",
+      "YouPro 定价（$15/月）缺乏竞争力",
+      "图像生成质量落后于专业工具"
+    ],
+    "best_for": []
   },
   {
     "name": "Notion AI",
@@ -335,8 +1990,81 @@
     ],
     "popularity": 78,
     "addedDate": "2026-04-03",
-    "pricing": "paid",
-    "company": "Notion Labs"
+    "pricing": {
+      "model": "paid",
+      "plans": [
+        {
+          "name": "Notion AI Add-on",
+          "price": "$10/user/mo",
+          "highlights": [
+            "Requires Notion plan",
+            "Unlimited AI usage",
+            "All AI features",
+            "Works across all Notion content"
+          ],
+          "zh_highlights": [
+            "需要 Notion 付费计划",
+            "无限 AI 使用",
+            "所有 AI 功能",
+            "适用于所有 Notion 内容"
+          ]
+        },
+        {
+          "name": "Notion Plus + AI",
+          "price": "$18/user/mo",
+          "highlights": [
+            "Notion Plus plan + AI",
+            "Unlimited pages",
+            "30-day version history",
+            "All AI features"
+          ],
+          "zh_highlights": [
+            "Notion Plus 套餐 + AI",
+            "无限页面",
+            "30天版本历史记录",
+            "所有AI功能"
+          ]
+        },
+        {
+          "name": "Notion Business + AI",
+          "price": "$25/user/mo",
+          "highlights": [
+            "Notion Business + AI",
+            "Advanced permissions",
+            "90-day history",
+            "SAML SSO"
+          ],
+          "zh_highlights": [
+            "Notion 商业版 + AI",
+            "高级权限管理",
+            "90天历史记录",
+            "SAML 单点登录"
+          ]
+        }
+      ]
+    },
+    "company": "Notion Labs",
+    "features": [
+      "Notion 页面内的 AI 写作助手",
+      "总结长文档和会议记录",
+      "将内容翻译成 10+ 种语言",
+      "修复语法并改进写作风格",
+      "从会议记录生成行动项",
+      "问答：询问关于你的 Notion 工作区的问题"
+    ],
+    "pros": [
+      "无缝集成到 Notion 中——无需切换上下文",
+      "Q&A 功能搜索整个工作区知识库",
+      "自动填充数据库属性可节省大量手工操作",
+      "非常适合已投资于 Notion 的团队"
+    ],
+    "cons": [
+      "需要现有 Notion 订阅——不能单独使用",
+      "AI 附加功能需额外付费（Notion 计划基础上每用户每月 $10）",
+      "在复杂推理任务上能力不如 ChatGPT",
+      "AI 质量参差不齐——更擅长编辑而非从零开始生成"
+    ],
+    "best_for": []
   },
   {
     "name": "Jasper",
@@ -350,8 +2078,87 @@
     ],
     "popularity": 75,
     "addedDate": "2026-04-03",
-    "pricing": "paid",
-    "company": "Jasper AI"
+    "pricing": {
+      "model": "paid",
+      "plans": [
+        {
+          "name": "Creator",
+          "price": "$39/mo",
+          "highlights": [
+            "1 user",
+            "Unlimited words",
+            "50+ templates",
+            "Jasper Chat",
+            "Browser extension"
+          ],
+          "zh_highlights": [
+            "1个用户",
+            "无限字数",
+            "50+个模板",
+            "Jasper Chat",
+            "浏览器扩展"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$59/mo",
+          "highlights": [
+            "Up to 5 users",
+            "Brand voice",
+            "Collaboration features",
+            "Jasper Art",
+            "Campaign tools"
+          ],
+          "zh_highlights": [
+            "最多5个用户",
+            "品牌语调",
+            "协作功能",
+            "Jasper Art",
+            "活动工具"
+          ]
+        },
+        {
+          "name": "Business",
+          "price": "Custom",
+          "highlights": [
+            "Unlimited users",
+            "Custom AI model fine-tuning",
+            "SSO",
+            "Dedicated support",
+            "API access"
+          ],
+          "zh_highlights": [
+            "无限用户数",
+            "自定义 AI 模型微调",
+            "SSO",
+            "专属支持",
+            "API 访问"
+          ]
+        }
+      ]
+    },
+    "company": "Jasper AI",
+    "features": [
+      "50+ 个内容模板（博客、广告、电子邮件、社交媒体）",
+      "品牌声音训练和执行",
+      "Jasper Chat：对话式 AI 助手",
+      "长文档编辑器",
+      "SEO 模式与 Surfer SEO 集成",
+      "团队协作和工作流"
+    ],
+    "pros": [
+      "行业领先的品牌语调训练，确保营销内容风格一致",
+      "50+ 模板覆盖几乎所有营销场景",
+      "为营销工作流设计的团队协作功能",
+      "Surfer SEO 集成，优化博客内容"
+    ],
+    "cons": [
+      "价格昂贵 — 起价 $39/月，无免费套餐",
+      "输出质量需要大量编辑才能用于专业场景",
+      "在复杂推理方面的能力不如 ChatGPT",
+      "对于个人用户或简单写作任务来说过于强大"
+    ],
+    "best_for": []
   },
   {
     "name": "Copy.ai",
@@ -365,8 +2172,101 @@
     ],
     "popularity": 72,
     "addedDate": "2026-04-03",
-    "pricing": "freemium",
-    "company": "Copy.ai"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "2,000 words/mo",
+            "90+ templates",
+            "1 user",
+            "Basic features"
+          ],
+          "zh_highlights": [
+            "每月2000字",
+            "90+个模板",
+            "1个用户",
+            "基础功能"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$36/mo",
+          "highlights": [
+            "Unlimited words",
+            "5 users",
+            "Brand voice",
+            "Priority support",
+            "Workflows"
+          ],
+          "zh_highlights": [
+            "无限字数",
+            "5个用户",
+            "品牌语调",
+            "优先支持",
+            "工作流"
+          ]
+        },
+        {
+          "name": "Team",
+          "price": "$186/mo",
+          "highlights": [
+            "Unlimited words",
+            "20 users",
+            "Advanced workflows",
+            "API access",
+            "Custom templates"
+          ],
+          "zh_highlights": [
+            "无限词数",
+            "20位用户",
+            "高级工作流",
+            "API接口",
+            "自定义模板"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Unlimited users",
+            "Custom AI training",
+            "SSO",
+            "Dedicated support"
+          ],
+          "zh_highlights": [
+            "无限用户数",
+            "自定义AI训练",
+            "单点登录",
+            "专属支持"
+          ]
+        }
+      ]
+    },
+    "company": "Copy.ai",
+    "features": [
+      "90+ 文案模板",
+      "博客文章和长文案生成",
+      "Google、Facebook、LinkedIn 广告文案",
+      "电子邮件主题行和序列",
+      "产品描述",
+      "社交媒体文案"
+    ],
+    "pros": [
+      "90+ 个模板覆盖几乎所有营销文案使用场景",
+      "工作流可自动化重复的内容创建任务",
+      "免费版本提供每月 2,000 字的额度",
+      "支持多语言，适合全球营销团队"
+    ],
+    "cons": [
+      "输出质量需要编辑才能用于专业用途",
+      "Pro 计划（$36/月）对个人用户来说过于昂贵",
+      "在复杂写作任务上不如 ChatGPT 强大",
+      "品牌语音功能不如 Jasper 那样精细"
+    ],
+    "best_for": []
   },
   {
     "name": "Grammarly",
@@ -380,8 +2280,83 @@
     ],
     "popularity": 86,
     "addedDate": "2026-04-03",
-    "pricing": "freemium",
-    "company": "Grammarly Inc."
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "Basic grammar and spelling",
+            "Tone detection",
+            "Limited GrammarlyGO prompts",
+            "All platforms"
+          ],
+          "zh_highlights": [
+            "基础语法和拼写检查",
+            "语气检测",
+            "有限的 GrammarlyGO 提示",
+            "全平台支持"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$12/mo",
+          "highlights": [
+            "Advanced clarity suggestions",
+            "Plagiarism checker",
+            "Full GrammarlyGO access",
+            "Vocabulary enhancement"
+          ],
+          "zh_highlights": [
+            "高级清晰度建议",
+            "剽窃检测器",
+            "完整 GrammarlyGO 访问权限",
+            "词汇增强"
+          ]
+        },
+        {
+          "name": "Business",
+          "price": "$15/user/mo",
+          "highlights": [
+            "Everything in Premium",
+            "Style guide enforcement",
+            "Team analytics",
+            "Admin controls",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "Premium 的所有功能",
+            "风格指南执行",
+            "团队分析",
+            "管理员控制",
+            "优先支持"
+          ]
+        }
+      ]
+    },
+    "company": "Grammarly Inc.",
+    "features": [
+      "实时语法和拼写纠正",
+      "清晰简洁建议",
+      "语气检测和调整",
+      "抄袭检查器（高级版）",
+      "GrammarlyGO：用于草稿编写和改写的生成式AI",
+      "Chrome、Firefox、Safari、Edge浏览器扩展"
+    ],
+    "pros": [
+      "适用于所有平台 — 浏览器、Word、Google Docs、移动端",
+      "业界最佳的语法和清晰度检查",
+      "语调检测帮助文章与受众相匹配",
+      "免费版本对基础语法纠正确实很有用"
+    ],
+    "cons": [
+      "高级功能需要高级版本（$12/月）",
+      "建议可能过于激进",
+      "GrammarlyGO 的功能不如专业 AI 写作工具",
+      "隐私问题 — 所有文本都会发送到 Grammarly 服务器"
+    ],
+    "best_for": []
   },
   {
     "name": "Canva AI",
@@ -395,9 +2370,86 @@
     ],
     "popularity": 89,
     "addedDate": "2026-04-02",
-    "pricing": "freemium",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "250,000+ templates",
+            "Basic AI tools (limited)",
+            "5GB storage",
+            "Collaboration (up to 3 users)"
+          ],
+          "zh_highlights": [
+            "250,000+ 模板",
+            "基础 AI 工具（功能受限）",
+            "5GB 存储空间",
+            "协作功能（最多 3 个用户）"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$15/mo",
+          "highlights": [
+            "Full Magic Studio AI suite",
+            "100M+ premium assets",
+            "Brand Kit",
+            "1TB storage",
+            "Background Remover"
+          ],
+          "zh_highlights": [
+            "全能魔法工作室AI套件",
+            "超1亿+高级素材库",
+            "品牌套件",
+            "1TB存储空间",
+            "背景移除工具"
+          ]
+        },
+        {
+          "name": "Teams",
+          "price": "$10/user/mo",
+          "highlights": [
+            "Everything in Pro",
+            "Team Brand Kit",
+            "Admin controls",
+            "Unlimited storage",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "专业版的一切功能",
+            "团队品牌工具包",
+            "管理员控制",
+            "无限存储空间",
+            "优先支持"
+          ]
+        }
+      ]
+    },
     "featured": true,
-    "company": "Canva"
+    "company": "Canva",
+    "features": [
+      "Magic Media：文生图和文生视频生成",
+      "Magic Eraser：从照片中移除对象",
+      "一键移除背景",
+      "Magic Resize：自适应任意尺寸",
+      "Magic Write：AI 文案生成助手",
+      "Magic Animate：自动为设计添加动画"
+    ],
+    "pros": [
+      "最易上手的设计工具——无需设计技能",
+      "为非设计师提供的全面 AI 套件（Magic Studio）",
+      "1.5 亿+ 用户意味着庞大的模板和素材库",
+      "非常适合社交媒体、演示文稿和营销"
+    ],
+    "cons": [
+      "不适合复杂的专业设计工作",
+      "AI 图像生成质量不如 Midjourney",
+      "免费版本的 AI 功能受限",
+      "选项众多可能显得杂乱无章"
+    ],
+    "best_for": []
   },
   {
     "name": "Figma AI",
@@ -411,8 +2463,99 @@
     ],
     "popularity": 83,
     "addedDate": "2026-04-02",
-    "pricing": "freemium",
-    "company": "Figma"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free (Starter)",
+          "price": "$0/mo",
+          "highlights": [
+            "3 Figma files",
+            "Unlimited personal files",
+            "Basic AI features",
+            "Collaboration (up to 2 editors)"
+          ],
+          "zh_highlights": [
+            "3 个 Figma 文件",
+            "无限个人文件",
+            "基础 AI 功能",
+            "协作（最多 2 个编辑者）"
+          ]
+        },
+        {
+          "name": "Professional",
+          "price": "$15/editor/mo",
+          "highlights": [
+            "Unlimited Figma files",
+            "Full AI features",
+            "Unlimited version history",
+            "Team libraries"
+          ],
+          "zh_highlights": [
+            "无限制的 Figma 文件",
+            "完整的 AI 功能",
+            "无限制的版本历史",
+            "团队库"
+          ]
+        },
+        {
+          "name": "Organization",
+          "price": "$45/editor/mo",
+          "highlights": [
+            "Everything in Professional",
+            "Org-wide design systems",
+            "Advanced analytics",
+            "SSO",
+            "Private plugins"
+          ],
+          "zh_highlights": [
+            "专业版的全部功能",
+            "组织级设计系统",
+            "高级分析",
+            "单点登录（SSO）",
+            "私有插件"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "$75/editor/mo",
+          "highlights": [
+            "Everything in Organization",
+            "Dedicated support",
+            "Advanced security",
+            "Custom contracts"
+          ],
+          "zh_highlights": [
+            "组织内的所有内容",
+            "专属支持",
+            "高级安全",
+            "自定义合同"
+          ]
+        }
+      ]
+    },
+    "company": "Figma",
+    "features": [
+      "从文本提示生成 AI 设计",
+      "自动布局和约束建议",
+      "AI 驱动的资源和组件搜索",
+      "从设计生成原型",
+      "Dev Mode：从设计生成 AI 辅助代码",
+      "整个团队的实时协作"
+    ],
+    "pros": [
+      "UI/UX 设计行业标准 — 得到团队普遍采用",
+      "业界顶级的实时协作体验",
+      "Dev Mode 通过 AI 代码生成连接设计与开发",
+      "庞大的插件生态系统扩展功能"
+    ],
+    "cons": [
+      "大型团队成本较高（企业版每编辑每月 $45-75）",
+      "AI 功能不如专业 AI 设计工具成熟",
+      "非设计人员学习曲线陡峭",
+      "处理非常复杂的文件时性能可能滞后"
+    ],
+    "best_for": []
   },
   {
     "name": "Framer AI",
@@ -426,8 +2569,101 @@
     ],
     "popularity": 76,
     "addedDate": "2026-04-02",
-    "pricing": "freemium",
-    "company": "Framer"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "1 project",
+            "Framer subdomain",
+            "Basic AI features",
+            "100 CMS items"
+          ],
+          "zh_highlights": [
+            "1 个项目",
+            "Framer 子域名",
+            "基础 AI 功能",
+            "100 个 CMS 项目"
+          ]
+        },
+        {
+          "name": "Mini",
+          "price": "$5/mo",
+          "highlights": [
+            "1 project",
+            "Custom domain",
+            "1,000 CMS items",
+            "Basic analytics"
+          ],
+          "zh_highlights": [
+            "1 个项目",
+            "自定义域名",
+            "1,000 条 CMS 内容",
+            "基础分析"
+          ]
+        },
+        {
+          "name": "Basic",
+          "price": "$15/mo",
+          "highlights": [
+            "1 project",
+            "Custom domain",
+            "10,000 CMS items",
+            "Advanced analytics",
+            "Password protection"
+          ],
+          "zh_highlights": [
+            "1 个项目",
+            "自定义域名",
+            "10,000 个 CMS 项目",
+            "高级分析",
+            "密码保护"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$25/mo",
+          "highlights": [
+            "Unlimited projects",
+            "Custom domain",
+            "Unlimited CMS items",
+            "All features",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "无限项目",
+            "自定义域名",
+            "无限内容管理",
+            "所有功能",
+            "优先支持"
+          ]
+        }
+      ]
+    },
+    "company": "Framer",
+    "features": [
+      "通过文本提示生成 AI 网站",
+      "可视化拖拽编辑器",
+      "响应式设计与断点",
+      "动态内容 CMS",
+      "自定义动画和交互",
+      "组件库"
+    ],
+    "pros": [
+      "AI 可以根据文本描述生成完整的网站",
+      "无需设计技能也能生成精美专业的网站",
+      "Figma 导入功能让现有设计轻松发布",
+      "内置 CMS 支持动态内容"
+    ],
+    "cons": [
+      "灵活性不如自定义编码网站",
+      "CMS 功能受限，不如 WordPress 或 Webflow",
+      "AI 生成质量参差不齐——通常需要手动优化",
+      "电商功能有限"
+    ],
+    "best_for": []
   },
   {
     "name": "Gamma",
@@ -441,8 +2677,83 @@
     ],
     "popularity": 74,
     "addedDate": "2026-04-02",
-    "pricing": "freemium",
-    "company": "Gamma App"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "400 AI credits (one-time)",
+            "Unlimited basic usage",
+            "Gamma branding",
+            "Basic templates"
+          ],
+          "zh_highlights": [
+            "400 AI 积分（一次性）",
+            "无限基础使用",
+            "Gamma 品牌",
+            "基础模板"
+          ]
+        },
+        {
+          "name": "Plus",
+          "price": "$8/mo",
+          "highlights": [
+            "400 AI credits/mo",
+            "No Gamma branding",
+            "Custom fonts",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "400 个 AI 积分/月",
+            "无 Gamma 品牌",
+            "自定义字体",
+            "优先支持"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$15/mo",
+          "highlights": [
+            "Unlimited AI credits",
+            "Custom domain",
+            "Analytics",
+            "Export to PPT/PDF",
+            "All features"
+          ],
+          "zh_highlights": [
+            "无限制AI积分",
+            "自定义域名",
+            "数据分析",
+            "导出为PPT/PDF",
+            "所有功能"
+          ]
+        }
+      ]
+    },
+    "company": "Gamma App",
+    "features": [
+      "从文本提示生成 AI 演示文稿",
+      "AI 文档和网页创建",
+      "智能模板与自动格式化",
+      "一键更换主题和样式",
+      "嵌入媒体、图表和交互元素",
+      "实时协作"
+    ],
+    "pros": [
+      "最快速地从零开始制作精美演示文稿",
+      "网页原生格式在任何设备上效果都很棒",
+      "AI 自动生成结构清晰、格式精良的内容",
+      "仅需 $15/月的 Pro 计划，享受无限 AI 功能"
+    ],
+    "cons": [
+      "相比 PowerPoint 或 Google Slides 对精确布局的控制力较弱",
+      "免费版本的 AI 额度有限（仅 400 次一次性使用）",
+      "导出到 PowerPoint 可能丢失某些格式",
+      "动画和过渡选项有限"
+    ],
+    "best_for": []
   },
   {
     "name": "Beautiful.ai",
@@ -456,8 +2767,85 @@
     ],
     "popularity": 70,
     "addedDate": "2026-04-02",
-    "pricing": "freemium",
-    "company": "Beautiful.ai"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "Unlimited slides",
+            "Basic templates",
+            "Beautiful.ai branding",
+            "Limited exports"
+          ],
+          "zh_highlights": [
+            "无限张幻灯片",
+            "基础模板",
+            "Beautiful.ai 品牌标识",
+            "有限次导出"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$12/mo",
+          "highlights": [
+            "All Smart Slide templates",
+            "Custom themes",
+            "No branding",
+            "PDF/PPT export",
+            "Analytics"
+          ],
+          "zh_highlights": [
+            "所有智能幻灯片模板",
+            "自定义主题",
+            "无品牌标识",
+            "PDF/PPT导出",
+            "分析"
+          ]
+        },
+        {
+          "name": "Team",
+          "price": "$40/user/mo",
+          "highlights": [
+            "Everything in Pro",
+            "Shared brand kit",
+            "Team templates",
+            "Admin controls",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "Pro 版本中的全部功能",
+            "共享品牌套件",
+            "团队模板",
+            "管理员控制",
+            "优先支持"
+          ]
+        }
+      ]
+    },
+    "company": "Beautiful.ai",
+    "features": [
+      "自动格式化内容的智能幻灯片模板",
+      "实时AI设计建议",
+      "100+个智能幻灯片模板",
+      "品牌套件确保风格一致",
+      "实时团队协作",
+      "演讲者模式附带备注"
+    ],
+    "pros": [
+      "Smart Slides 自动格式化内容——无需手动设计",
+      "为商业演示提供一致的专业输出",
+      "品牌工具包确保团队视觉一致性",
+      "适合pitch演示、报告和商业演示"
+    ],
+    "cons": [
+      "团队计划费用较高，每用户每月 $40",
+      "创意灵活性不如 PowerPoint 或 Canva",
+      "AI 功能不如 Gamma 先进",
+      "动画选项有限"
+    ],
+    "best_for": []
   },
   {
     "name": "Otter.ai",
@@ -471,8 +2859,83 @@
     ],
     "popularity": 77,
     "addedDate": "2026-04-01",
-    "pricing": "freemium",
-    "company": "Otter.ai"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "300 minutes/mo transcription",
+            "30-min limit per conversation",
+            "3 imports/mo",
+            "Basic features"
+          ],
+          "zh_highlights": [
+            "每月300分钟转录",
+            "每次对话限制30分钟",
+            "每月3次导入",
+            "基础功能"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$10/mo",
+          "highlights": [
+            "1,200 minutes/mo",
+            "90-min limit per conversation",
+            "Unlimited imports",
+            "Advanced search"
+          ],
+          "zh_highlights": [
+            "每月1,200分钟",
+            "每次对话90分钟限制",
+            "无限导入",
+            "高级搜索"
+          ]
+        },
+        {
+          "name": "Business",
+          "price": "$20/user/mo",
+          "highlights": [
+            "6,000 minutes/mo",
+            "4-hour limit per conversation",
+            "Team features",
+            "Admin controls",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "每月6000分钟",
+            "单个对话4小时限制",
+            "团队功能",
+            "管理员控制",
+            "优先支持"
+          ]
+        }
+      ]
+    },
+    "company": "Otter.ai",
+    "features": [
+      "实时会议转录",
+      "AI 会议总结",
+      "自动提取行动项",
+      "与 Zoom、Google Meet、Teams 集成",
+      "OtterPilot：自动加入会议",
+      "说话人识别"
+    ],
+    "pros": [
+      "在会议工具中具有最佳的实时转录准确度",
+      "OtterPilot 自动加入会议——无需手动录制",
+      "AI 生成的摘要和待办事项大幅节省会后整理时间",
+      "与所有主流视频会议平台集成"
+    ],
+    "cons": [
+      "免费版每月限制300分钟",
+      "重口音或多人同时讲话时转录准确度下降",
+      "AI摘要可能遗漏细微语境",
+      "录制所有会议的隐私问题"
+    ],
+    "best_for": []
   },
   {
     "name": "Fireflies.ai",
@@ -486,8 +2949,83 @@
     ],
     "popularity": 73,
     "addedDate": "2026-04-01",
-    "pricing": "freemium",
-    "company": "Fireflies.ai"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "800 minutes storage",
+            "Transcription",
+            "Basic summaries",
+            "3 AI summaries/mo"
+          ],
+          "zh_highlights": [
+            "800分钟存储空间",
+            "转录功能",
+            "基础摘要",
+            "每月3次AI摘要"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$10/mo",
+          "highlights": [
+            "Unlimited storage",
+            "Unlimited AI summaries",
+            "Smart search",
+            "CRM integration"
+          ],
+          "zh_highlights": [
+            "无限存储",
+            "无限AI总结",
+            "智能搜索",
+            "CRM集成"
+          ]
+        },
+        {
+          "name": "Business",
+          "price": "$19/user/mo",
+          "highlights": [
+            "Everything in Pro",
+            "Conversation intelligence",
+            "Team analytics",
+            "Custom vocabulary",
+            "API access"
+          ],
+          "zh_highlights": [
+            "Pro 版本的全部功能",
+            "对话智能分析",
+            "团队数据分析",
+            "自定义词汇表",
+            "API 访问"
+          ]
+        }
+      ]
+    },
+    "company": "Fireflies.ai",
+    "features": [
+      "自动会议录制和转录",
+      "AI 会议摘要和亮点提取",
+      "行动项和任务提取",
+      "对话智能和分析",
+      "与 Zoom、Teams、Meet、Webex 集成",
+      "CRM 集成（Salesforce、HubSpot）"
+    ],
+    "pros": [
+      "自动加入所有主流平台的会议",
+      "CRM 集成对销售团队很有价值",
+      "对话分析提供超越转录的深层洞察",
+      "慷慨的免费套餐包括 800 分钟的存储空间"
+    ],
+    "cons": [
+      "免费版每月最多生成 3 份 AI 摘要",
+      "转录准确度因音频质量而异",
+      "高级分析功能需要商业计划",
+      "对录制所有会议的隐私问题的担忧"
+    ],
+    "best_for": []
   },
   {
     "name": "Descript",
@@ -501,8 +3039,99 @@
     ],
     "popularity": 79,
     "addedDate": "2026-04-01",
-    "pricing": "freemium",
-    "company": "Descript"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "1 hour transcription/mo",
+            "Basic editing",
+            "Watermarked export",
+            "720p video"
+          ],
+          "zh_highlights": [
+            "每月1小时转录",
+            "基础编辑",
+            "带水印导出",
+            "720p视频"
+          ]
+        },
+        {
+          "name": "Hobbyist",
+          "price": "$12/mo",
+          "highlights": [
+            "10 hours transcription/mo",
+            "Overdub (3 hours)",
+            "No watermark",
+            "1080p video"
+          ],
+          "zh_highlights": [
+            "每月10小时转录",
+            "Overdub（3小时）",
+            "无水印",
+            "1080p视频"
+          ]
+        },
+        {
+          "name": "Creator",
+          "price": "$24/mo",
+          "highlights": [
+            "30 hours transcription/mo",
+            "Overdub (10 hours)",
+            "AI clip creation",
+            "4K video",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "每月30小时转录",
+            "Overdub（10小时）",
+            "AI剪辑创建",
+            "4K视频",
+            "优先支持"
+          ]
+        },
+        {
+          "name": "Business",
+          "price": "$40/user/mo",
+          "highlights": [
+            "Unlimited transcription",
+            "Unlimited Overdub",
+            "Team collaboration",
+            "Advanced analytics"
+          ],
+          "zh_highlights": [
+            "无限转录",
+            "无限配音",
+            "团队协作",
+            "高级分析"
+          ]
+        }
+      ]
+    },
+    "company": "Descript",
+    "features": [
+      "通过编辑文字稿来编辑视频",
+      "高精度自动转录",
+      "Overdub：用 AI 语音克隆进行修正",
+      "删除填充词（um、uh 等）",
+      "屏幕录制及摄像头叠层",
+      "为社交媒体生成 AI 短视频"
+    ],
+    "pros": [
+      "革命性的基于文本的视频编辑 — 最直观的工作流程",
+      "Overdub 语音克隆实现无缝修正",
+      "去除填充词可节省数小时的手动编辑",
+      "AI 剪辑创建自动发现社交媒体亮点"
+    ],
+    "cons": [
+      "转录准确度会受背景噪音影响",
+      "Overdub 声音克隆需要大量训练音频",
+      "商业计划价格昂贵，每用户每月 $40",
+      "不太适合复杂的多摄像头制作"
+    ],
+    "best_for": []
   },
   {
     "name": "Synthesia",
@@ -516,8 +3145,103 @@
     ],
     "popularity": 75,
     "addedDate": "2026-04-01",
-    "pricing": "paid",
-    "company": "Synthesia"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "3 minutes video/mo",
+            "9 AI avatars",
+            "Watermarked output",
+            "Basic templates"
+          ],
+          "zh_highlights": [
+            "每月3分钟视频",
+            "9个AI虚拟形象",
+            "带水印输出",
+            "基础模板"
+          ]
+        },
+        {
+          "name": "Starter",
+          "price": "$18/mo",
+          "highlights": [
+            "10 minutes video/mo",
+            "90+ AI avatars",
+            "No watermark",
+            "1080p video",
+            "36 languages"
+          ],
+          "zh_highlights": [
+            "每月10分钟视频",
+            "90多个AI虚拟形象",
+            "无水印",
+            "1080p视频",
+            "36种语言"
+          ]
+        },
+        {
+          "name": "Creator",
+          "price": "$64/mo",
+          "highlights": [
+            "30 minutes video/mo",
+            "Custom avatar",
+            "140+ languages",
+            "Brand kit",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "每月30分钟视频",
+            "自定义头像",
+            "140+种语言",
+            "品牌工具包",
+            "优先支持"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Unlimited video",
+            "Unlimited custom avatars",
+            "SSO",
+            "API access",
+            "Dedicated CSM"
+          ],
+          "zh_highlights": [
+            "无限视频",
+            "无限自定义虚拟形象",
+            "SSO",
+            "API 访问",
+            "专属客户成功经理"
+          ]
+        }
+      ]
+    },
+    "company": "Synthesia",
+    "features": [
+      "230+ 个 AI 虚拟形象模板",
+      "从视频创建自定义虚拟形象",
+      "140+ 种语言和口音",
+      "AI 虚拟形象文本生成视频",
+      "PowerPoint/PDF 转视频",
+      "屏幕录制集成"
+    ],
+    "pros": [
+      "企业培训和电子学习视频的业界最佳选择",
+      "140多种语言——同类产品中最广泛的语言支持",
+      "PowerPoint转视频转换可节省数小时工作时间",
+      "230多个专业虚拟形象实现多元化呈现"
+    ],
+    "cons": [
+      "Starter 套餐限制为每月 10 分钟 — 额度消耗很快",
+      "Creator 套餐价格昂贵，每月 64 美元",
+      "Avatar 质量在近景镜头中可能显得不自然",
+      "相比 Runway 或 Pika 的创意灵活性较低"
+    ],
+    "best_for": []
   },
   {
     "name": "Luma AI",
@@ -531,8 +3255,97 @@
     ],
     "popularity": 72,
     "addedDate": "2026-03-31",
-    "pricing": "freemium",
-    "company": "Luma AI"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "30 generations/mo",
+            "Watermarked output",
+            "720p video",
+            "Basic features"
+          ],
+          "zh_highlights": [
+            "每月30次生成",
+            "带水印输出",
+            "720p视频",
+            "基础功能"
+          ]
+        },
+        {
+          "name": "Plus",
+          "price": "$9.99/mo",
+          "highlights": [
+            "200 generations/mo",
+            "No watermark",
+            "1080p video",
+            "Priority generation"
+          ],
+          "zh_highlights": [
+            "每月200次生成",
+            "无水印",
+            "1080p视频",
+            "优先生成"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$29.99/mo",
+          "highlights": [
+            "400 generations/mo",
+            "1080p video",
+            "Highest priority",
+            "API access"
+          ],
+          "zh_highlights": [
+            "每月400次生成",
+            "1080p 视频",
+            "最高优先级",
+            "API 访问"
+          ]
+        },
+        {
+          "name": "Premier",
+          "price": "$99.99/mo",
+          "highlights": [
+            "2,000 generations/mo",
+            "1080p video",
+            "Commercial license",
+            "All features"
+          ],
+          "zh_highlights": [
+            "每月2,000次生成",
+            "1080p视频",
+            "商业许可证",
+            "全部功能"
+          ]
+        }
+      ]
+    },
+    "company": "Luma AI",
+    "features": [
+      "Dream Machine：文本生成视频",
+      "图像生成视频动画",
+      "视频扩展（延长现有片段）",
+      "关键帧控制以实现精确运动",
+      "摄像机运动预设",
+      "循环视频生成"
+    ],
+    "pros": [
+      "Dream Machine 制作业界最具电影感的 AI 视频质量",
+      "出色的运动逼真度和物理仿真",
+      "Luma 3D capture 在基于 NeRF 的 3D 重建中处于业界领先水平",
+      "经济实惠的 Plus 套餐，仅需 $9.99/月"
+    ],
+    "cons": [
+      "免费版本限制为每月30次生成",
+      "视频长度每次生成限制为5秒",
+      "相比 HeyGen 不太适合虚拟形象/说话人视频",
+      "3D 捕捉需要良好的光照和相机移动"
+    ],
+    "best_for": []
   },
   {
     "name": "Replicate",
@@ -546,8 +3359,65 @@
     ],
     "popularity": 76,
     "addedDate": "2026-03-31",
-    "pricing": "paid",
-    "company": "Replicate"
+    "pricing": {
+      "model": "paid",
+      "plans": [
+        {
+          "name": "Pay-as-you-go",
+          "price": "From $0.0001/second",
+          "highlights": [
+            "No subscription",
+            "Pay per compute second",
+            "All models available",
+            "Free $5 credit on signup"
+          ],
+          "zh_highlights": [
+            "无需订阅",
+            "按计算秒数付费",
+            "所有模型可用",
+            "注册即送 $5 免费额度"
+          ]
+        },
+        {
+          "name": "Dedicated deployments",
+          "price": "Custom",
+          "highlights": [
+            "Reserved GPU capacity",
+            "Faster cold starts",
+            "SLA guarantees",
+            "Enterprise support"
+          ],
+          "zh_highlights": [
+            "预留 GPU 容量",
+            "更快的冷启动",
+            "SLA 保证",
+            "企业支持"
+          ]
+        }
+      ]
+    },
+    "company": "Replicate",
+    "features": [
+      "通过 API 运行 10,000+ 开源 AI 模型",
+      "图像生成（Stable Diffusion、FLUX 等）",
+      "语言模型（Llama、Mistral 等）",
+      "视频生成模型",
+      "音频和语音模型",
+      "在自有数据上微调模型"
+    ],
+    "pros": [
+      "无需基础设施即可访问 10,000+ 开源模型",
+      "按使用付费 — 无闲置成本",
+      "几分钟内轻松集成 API",
+      "支持微调和自定义模型部署"
+    ],
+    "cons": [
+      "冷启动延迟对于不常使用的模型可能较慢",
+      "高流量生产使用的成本可能难以预测",
+      "相比自托管基础设施的控制力较弱",
+      "某些热门模型存在使用限制"
+    ],
+    "best_for": []
   },
   {
     "name": "Hugging Face",
@@ -561,8 +3431,83 @@
     ],
     "popularity": 85,
     "addedDate": "2026-03-31",
-    "pricing": "freemium",
-    "company": "Hugging Face"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "Access to all public models",
+            "Inference API (rate limited)",
+            "Public Spaces",
+            "Community features"
+          ],
+          "zh_highlights": [
+            "访问所有公开模型",
+            "推理 API（限流）",
+            "公开 Spaces",
+            "社区功能"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$9/mo",
+          "highlights": [
+            "ZeroGPU Spaces (faster)",
+            "More Inference API quota",
+            "Private Spaces",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "ZeroGPU Spaces（更快）",
+            "更多 Inference API 配额",
+            "私有 Spaces",
+            "优先支持"
+          ]
+        },
+        {
+          "name": "Enterprise Hub",
+          "price": "$20/user/mo",
+          "highlights": [
+            "Private model hosting",
+            "SSO",
+            "Audit logs",
+            "SLA",
+            "Dedicated support"
+          ],
+          "zh_highlights": [
+            "私有模型托管",
+            "单点登录",
+            "审计日志",
+            "服务级别协议",
+            "专属支持"
+          ]
+        }
+      ]
+    },
+    "company": "Hugging Face",
+    "features": [
+      "50 万+ 开源 AI 模型",
+      "10 万+ 训练数据集",
+      "Spaces：托管和分享 AI 演示",
+      "Inference API 用于运行模型",
+      "Transformers 库 (Python)",
+      "Diffusers 图像生成库"
+    ],
+    "pros": [
+      "开源AI模型和研究的权威中心",
+      "Transformers库是NLP领域的行业标准",
+      "免费访问数百万个模型",
+      "Spaces让演示和分享AI应用变得简单"
+    ],
+    "cons": [
+      "免费层的推理 API 速率限制",
+      "自托管模型需要深厚的 ML 专业知识",
+      "社区贡献的模型质量参差不齐",
+      "企业功能价格昂贵"
+    ],
+    "best_for": []
   },
   {
     "name": "Anthropic Console",
@@ -576,8 +3521,89 @@
     ],
     "popularity": 80,
     "addedDate": "2026-03-31",
-    "pricing": "paid",
-    "company": "Anthropic"
+    "pricing": {
+      "model": "paid",
+      "plans": [
+        {
+          "name": "Claude 3.5 Haiku",
+          "price": "$0.80 / $4 per 1M tokens",
+          "highlights": [
+            "Fastest Claude model",
+            "Best for high-volume tasks",
+            "Input / Output pricing"
+          ],
+          "zh_highlights": [
+            "最快的Claude模型",
+            "最适合高容量任务",
+            "输入/输出价格"
+          ]
+        },
+        {
+          "name": "Claude 3.5 Sonnet",
+          "price": "$3 / $15 per 1M tokens",
+          "highlights": [
+            "Best balance of speed and capability",
+            "Top coding performance",
+            "Input / Output pricing"
+          ],
+          "zh_highlights": [
+            "速度与性能的最佳平衡",
+            "顶级代码编写性能",
+            "输入/输出价格"
+          ]
+        },
+        {
+          "name": "Claude 3.7 Sonnet",
+          "price": "$3 / $15 per 1M tokens",
+          "highlights": [
+            "Extended thinking mode",
+            "Best reasoning",
+            "Input / Output pricing"
+          ],
+          "zh_highlights": [
+            "扩展思维模式",
+            "最佳推理",
+            "输入/输出定价"
+          ]
+        },
+        {
+          "name": "Claude Opus",
+          "price": "$15 / $75 per 1M tokens",
+          "highlights": [
+            "Most capable Claude model",
+            "Complex reasoning tasks",
+            "Input / Output pricing"
+          ],
+          "zh_highlights": [
+            "功能最强大的Claude模型",
+            "复杂推理任务",
+            "输入/输出定价"
+          ]
+        }
+      ]
+    },
+    "company": "Anthropic",
+    "features": [
+      "访问 Claude 3.5 Sonnet、3.7 Sonnet 和 Opus",
+      "用于测试和迭代的提示词工作台",
+      "使用情况仪表板和成本分析",
+      "API 密钥管理",
+      "提示词缓存以降低成本",
+      "用于大批量处理的 Batch API"
+    ],
+    "pros": [
+      "Claude 3.5/3.7 Sonnet 在编码和推理任务中排名顶级",
+      "提示词缓存可将重复上下文的成本降低高达 90%",
+      "扩展思考模式用于复杂的多步骤推理",
+      "清晰、文档完善的 API，提供 Python 和 TypeScript SDK"
+    ],
+    "cons": [
+      "无免费额度 — 从第一个token开始按使用付费",
+      "Opus 模型价格昂贵，每百万tokens需付费$15/$75",
+      "新账户的速率限制可能过于严格",
+      "不支持图像生成（仅支持文本和视觉）"
+    ],
+    "best_for": []
   },
   {
     "name": "OpenAI Platform",
@@ -591,8 +3617,89 @@
     ],
     "popularity": 91,
     "addedDate": "2026-03-31",
-    "pricing": "paid",
-    "company": "OpenAI"
+    "pricing": {
+      "model": "paid",
+      "plans": [
+        {
+          "name": "GPT-4o mini",
+          "price": "$0.15 / $0.60 per 1M tokens",
+          "highlights": [
+            "Fastest and cheapest GPT-4 class",
+            "Best for high-volume tasks",
+            "Input / Output pricing"
+          ],
+          "zh_highlights": [
+            "最快且最便宜的 GPT-4 级别",
+            "最适合大量任务",
+            "输入/输出定价"
+          ]
+        },
+        {
+          "name": "GPT-4o",
+          "price": "$2.50 / $10 per 1M tokens",
+          "highlights": [
+            "Best multimodal model",
+            "Vision, audio, and text",
+            "Input / Output pricing"
+          ],
+          "zh_highlights": [
+            "最佳多模态模型",
+            "视觉、音频和文本",
+            "输入/输出价格"
+          ]
+        },
+        {
+          "name": "GPT-4 Turbo",
+          "price": "$10 / $30 per 1M tokens",
+          "highlights": [
+            "128K context window",
+            "Strong reasoning",
+            "Input / Output pricing"
+          ],
+          "zh_highlights": [
+            "128K 上下文窗口",
+            "强大的推理能力",
+            "输入/输出价格"
+          ]
+        },
+        {
+          "name": "o1 / o3",
+          "price": "$15 / $60 per 1M tokens",
+          "highlights": [
+            "Advanced reasoning models",
+            "Best for complex problems",
+            "Input / Output pricing"
+          ],
+          "zh_highlights": [
+            "高级推理模型",
+            "最适合复杂问题",
+            "输入/输出定价"
+          ]
+        }
+      ]
+    },
+    "company": "OpenAI",
+    "features": [
+      "GPT-4o 和 GPT-4 Turbo API 访问",
+      "DALL-E 3 图像生成 API",
+      "Whisper 语音转文本 API",
+      "TTS（文本转语音）API",
+      "用于语义搜索的 Embeddings API",
+      "自定义模型微调"
+    ],
+    "pros": [
+      "最大的 AI API 生态系统——集成度最高、社区支持最广泛",
+      "GPT-4o 是最优秀的多模态模型（文本、视觉、音频）",
+      "DALL-E 3 和 Whisper API 用于图像和语音处理",
+      "微调功能支持自定义模型训练"
+    ],
+    "cons": [
+      "无免费额度 — 从第一个 token 开始按使用量付费",
+      "高容量生产成本可能迅速增加",
+      "新账户的速率限制可能会很严格",
+      "GPT-4 的质量因 2026 年的下降而受到批评"
+    ],
+    "best_for": []
   },
   {
     "name": "Zapier AI",
@@ -606,7 +3713,96 @@
     ],
     "popularity": 81,
     "addedDate": "2026-03-30",
-    "pricing": "freemium",
-    "company": "Zapier"
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0/mo",
+          "highlights": [
+            "100 tasks/mo",
+            "5 Zaps",
+            "Single-step Zaps only",
+            "Basic apps"
+          ],
+          "zh_highlights": [
+            "100个任务/月",
+            "5个自动化流程",
+            "仅限单步自动化",
+            "基础应用"
+          ]
+        },
+        {
+          "name": "Starter",
+          "price": "$19.99/mo",
+          "highlights": [
+            "750 tasks/mo",
+            "20 Zaps",
+            "Multi-step Zaps",
+            "Filters and formatters"
+          ],
+          "zh_highlights": [
+            "750 个任务/月",
+            "20 个 Zaps",
+            "多步骤 Zaps",
+            "过滤器和格式化工具"
+          ]
+        },
+        {
+          "name": "Professional",
+          "price": "$49/mo",
+          "highlights": [
+            "2,000 tasks/mo",
+            "Unlimited Zaps",
+            "Paths (conditional logic)",
+            "Premium apps"
+          ],
+          "zh_highlights": [
+            "每月 2,000 个任务",
+            "无限制 Zaps",
+            "Paths（条件逻辑）",
+            "高级应用"
+          ]
+        },
+        {
+          "name": "Team",
+          "price": "$69/mo",
+          "highlights": [
+            "2,000 tasks/mo",
+            "Unlimited Zaps",
+            "Team collaboration",
+            "Shared workspaces"
+          ],
+          "zh_highlights": [
+            "每月 2,000 个任务",
+            "无限制 Zaps",
+            "团队协作",
+            "共享工作区"
+          ]
+        }
+      ]
+    },
+    "company": "Zapier",
+    "features": [
+      "使用自动化工作流连接 6,000+ 应用（Zaps）",
+      "基于自然语言的 AI 驱动 Zap 构建器",
+      "Zapier AI Actions：让 AI 工具触发自动化",
+      "支持条件逻辑的多步骤工作流",
+      "Zapier Tables：AI 增强型数据库",
+      "Zapier Interfaces：构建简单应用和表单"
+    ],
+    "pros": [
+      "连接 6,000+ 个应用——最大的集成库",
+      "AI 驱动的 Zap 构建器让非技术用户也能轻松实现自动化",
+      "复杂的多步工作流无需编码",
+      "Zapier AI Actions 让 AI 工具能够触发真实的自动化流程"
+    ],
+    "cons": [
+      "随着任务量增加，成本会变得很高",
+      "免费层功能受限（100个任务/月，5个Zaps）",
+      "复杂的工作流程调试困难",
+      "某些高级应用锁定在更高的付费计划中"
+    ],
+    "best_for": []
   }
 ]
