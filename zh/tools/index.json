@@ -3844,5 +3844,1514 @@
     ],
     "best_for": [],
     "recommended_for": "需要跨应用自动化工作流的非技术团队。"
+  },
+  {
+    "name": "Adobe Firefly",
+    "description": "# Adobe Firefly - Chinese Translation\n\n**Chinese Name:** Adobe Firefly (保留英文名)\n\n**Tagline (标语):**\n生成式AI创意助手\n\n**Description (描述):**\nAdobe Firefly是集成在Adobe创意套件中的生成式AI技术，用户可以通过自然语言提示生成、编辑和增强图像、文本",
+    "company": "Adobe",
+    "category": "AI Image",
+    "url": "https://www.adobe.com/products/firefly.html",
+    "tags": [
+      "生成式AI",
+      "图像生成",
+      "创意工具",
+      "Adobe",
+      "设计"
+    ],
+    "popularity": 72,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "100 monthly generative credits",
+            "Access to web interface",
+            "Basic image generation"
+          ],
+          "zh_highlights": [
+            "100个月度生成额度",
+            "访问网络界面",
+            "基本图像生成"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$4.99/month",
+          "highlights": [
+            "100 daily generative credits",
+            "Priority processing",
+            "Full Creative Cloud integration"
+          ],
+          "zh_highlights": [
+            "100份日常生成积分",
+            "优先处理",
+            "完整Creative Cloud集成"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "Here's the translation:\n\n**Target Audience:** 专业设计师和创意团队\n\n**Description:** 已在使用Adobe Creative Cloud的专业设计师和创意团队。\n\n**Tagline/Recommended For:** 专业设计师与创意团队\n\n(All versions stay well under 20 characters for the tagline option)",
+    "features": [
+      "具有风格控制的文本到图像生成",
+      "用于智能图像编辑的生成填充",
+      "生成扩展以无缝调整图像大小",
+      "风格迁移和自定义风格学习",
+      "与Adobe Creative Cloud应用的集成",
+      "内容感知对象移除和操作"
+    ],
+    "pros": [
+      "无缝集成到 Adobe Creative Cloud 生态系统中",
+      "高质量输出，具有细粒度的风格控制",
+      "基于在 Adobe Stock 和许可内容上训练的道德 AI",
+      "直观的自然语言提示，便于轻松生成内容"
+    ],
+    "cons": [
+      "免费层有限，每月仅100个额度",
+      "需要Adobe账户，可能需要订阅",
+      "额度系统可能限制重度使用场景"
+    ],
+    "best_for": [
+      "Professional graphic designers",
+      "Marketing and advertising teams",
+      "Content creators and photographers",
+      "Enterprise creative departments"
+    ]
+  },
+  {
+    "name": "DeepSeek",
+    "description": "# DeepSeek - Chinese Translation\n\n**Name:** DeepSeek\n\n**Tagline (≤20 chars):** \n智能推理与编码专家\n\n**Recommended For (≤20 chars):**\n开发者、研究人员、企业\n\n**Description:**\nDeepSeek是一家专注于推理、编码和长上下文理解的大型语言模型开",
+    "company": "DeepSeek",
+    "category": "AI Chat",
+    "url": "https://www.deepseek.com",
+    "tags": [
+      "人工智能聊天",
+      "编码",
+      "推理",
+      "应用程序接口",
+      "开源"
+    ],
+    "popularity": 42,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free Trial",
+          "price": "$0",
+          "highlights": [
+            "Limited API calls for testing",
+            "Web chat interface access",
+            "Community model exploration"
+          ],
+          "zh_highlights": [
+            "有限的API调用用于测试",
+            "网络聊天界面访问",
+            "社区模型探索"
+          ]
+        },
+        {
+          "name": "Pay-as-you-go API",
+          "price": "Variable",
+          "highlights": [
+            "Competitive per-token pricing",
+            "Flexible scaling based on usage",
+            "Enterprise support options available"
+          ],
+          "zh_highlights": [
+            "具有竞争力的按令牌定价",
+            "基于使用情况的灵活扩展",
+            "提供企业支持选项"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Claude Code Translation to Chinese\n\n**Tagline:** 高效推理，成本优化\n(Advanced reasoning, cost optimization)\n\n**Recommended For:** 开发者与研究人员\n(Developers and researchers)\n\n**Description:** 为开发者和研究人员提供先进的推理能力，同时保持具有竞争力的定价。\n(Provides advanced reasoning capabilities for developers and",
+    "features": [
+      "用于复杂问题解决的高级推理能力",
+      "强大的代码生成和编程支持",
+      "用于广泛文档处理的长上下文窗口",
+      "多语言支持和理解",
+      "经济有效的API定价和部署",
+      "开源模型的可用性和可访问性"
+    ],
+    "pros": [
+      "卓越的推理能力和逻辑问题解决能力",
+      "与主要AI提供商相比具有竞争力的价格",
+      "在编码任务和技术查询方面表现出色",
+      "致力于开源模型发布"
+    ],
+    "cons": [
+      "与已建立的竞争对手相比，用户基础和社区较小",
+      "文档和集成示例有限",
+      "新兴产品，可靠的历史记录较少"
+    ],
+    "best_for": [
+      "Software developers and programmers",
+      "Researchers and academics",
+      "Companies seeking cost-effective AI solutions",
+      "Users requiring advanced reasoning capabilities"
+    ]
+  },
+  {
+    "name": "NovelAI",
+    "description": "# 小说AI\n\n**标签/推荐用途 (Tagline/Recommended For):**\nAI故事创作助手\n\n**描述 (Description):**\nNovelAI是一个AI驱动的创意写作平台，帮助作家生成故事、塑造人物和创作叙事内容。平台采用先进语言模型，协助",
+    "company": "Anlatan",
+    "category": "AI Writing",
+    "url": "https://novelai.net",
+    "tags": [
+      "创意写作",
+      "人工智能叙事",
+      "虚构生成",
+      "角色开发",
+      "角色扮演"
+    ],
+    "popularity": 72,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "highlights": [
+            "Limited daily tokens",
+            "Access to basic features",
+            "Community models"
+          ],
+          "zh_highlights": [
+            "每日令牌限制",
+            "访问基本功能",
+            "社区模型"
+          ]
+        },
+        {
+          "name": "Tablet",
+          "price": "$10/month",
+          "highlights": [
+            "50,000 tokens monthly",
+            "Standard priority support",
+            "Custom AI model training"
+          ],
+          "zh_highlights": [
+            "每月50,000个令牌",
+            "标准优先级支持",
+            "自定义AI模型培训"
+          ]
+        },
+        {
+          "name": "Scroll",
+          "price": "$15/month",
+          "highlights": [
+            "100,000 tokens monthly",
+            "Lorebook expansion",
+            "Higher context length"
+          ],
+          "zh_highlights": [
+            "每月100,000个tokens",
+            "Lorebook扩展",
+            "更高的上下文长度"
+          ]
+        },
+        {
+          "name": "Opus",
+          "price": "$25/month",
+          "highlights": [
+            "Unlimited tokens",
+            "Maximum features",
+            "Priority support access"
+          ],
+          "zh_highlights": [
+            "无限令牌",
+            "最大功能",
+            "优先支持访问"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Chinese Translation\n\n**Tagline/Recommended For (max 20 chars):**\n创意写作者和小说家的AI故事助手\n\n**Description:**\n为创意写作者和小说家设计，提供AI辅助的故事创作和人物塑造功能。帮助用户快速生成创意灵感、完善情节结构、深化角色",
+    "features": [
+      "基于神经网络的故事生成和续写",
+      "使用个人写作样本的自定义AI模型微调",
+      "多种写作风格和文体预设",
+      "角色和世界观构建助手工具",
+      "用于管理故事背景和设定的故事书",
+      "与故事创作集成的文本转图像生成"
+    ],
+    "pros": [
+      "高度可定制的AI模型，根据用户的写作风格进行训练",
+      "非常适合创意小说和角色扮演故事创作",
+      "集成的图像生成功能补充叙事创作",
+      "强大的社区，拥有共享模型和场景"
+    ],
+    "cons": [
+      "优化AI输出质量的学习曲线",
+      "基于令牌的系统对重度用户来说可能很昂贵",
+      "生成的内容有时需要大量编辑"
+    ],
+    "best_for": [
+      "Novel and short story writers",
+      "Roleplay and interactive fiction enthusiasts",
+      "Fantasy and sci-fi worldbuilders",
+      "Creative writers seeking AI inspiration"
+    ]
+  },
+  {
+    "name": "AI Dungeon",
+    "description": "# AI Dungeon - Chinese Translation\n\n**Name:** AI Dungeon (保持英文)\n\n**Tagline:** \nAI驱动的文字冒险游戏平台\n\n**Recommended For:**\n创意写手、游戏玩家、故事创作者\n\n**Description:**\nAI Dungeon是一个由人工智能驱动的文字冒险游戏平台",
+    "company": "Latitude",
+    "category": "AI Writing",
+    "url": "https://www.aidungeon.io",
+    "tags": [
+      "互动小说",
+      "人工智能写作",
+      "故事生成",
+      "创意游戏",
+      "神经网络"
+    ],
+    "popularity": 72,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Basic story generation",
+            "Community adventures access",
+            "Limited daily actions"
+          ],
+          "zh_highlights": [
+            "基本故事生成",
+            "社区冒险访问权限",
+            "受限的每日行动次数"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited actions and adventures",
+            "Advanced memory features",
+            "Priority customer support"
+          ],
+          "zh_highlights": [
+            "无限的行动和冒险",
+            "高级内存功能",
+            "优先客户支持"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Chinese Translation\n\n**Tagline:** AI互动故事体验\n\n**Recommended_for:** 创意写手和游戏玩家\n\n**Description:** 为创意写手和游戏玩家提供AI驱动的交互式故事讲述体验。这个工具能够帮助用户创作沉浸式叙事内容，通过人工智能",
+    "features": [
+      "由GPT模型驱动的实时故事生成",
+      "自定义世界和角色创建工具",
+      "多种游戏模式，包括标准模式和记忆模式",
+      "社区共享的冒险和场景",
+      "支持iOS和Android的移动应用",
+      "为创作者提供的高级内容和变现功能"
+    ],
+    "pros": [
+      "高度创意和不可预测的AI生成叙事",
+      "积极的社区分享自定义冒险和世界",
+      "对休闲玩家和专业作家都易于使用",
+      "定期更新改进的AI模型和功能"
+    ],
+    "cons": [
+      "AI可能产生不一致或无意义的回应",
+      "在某些场景中对故事方向的控制有限",
+      "需要高级订阅才能获得完整体验"
+    ],
+    "best_for": [
+      "Creative fiction writers",
+      "Tabletop RPG enthusiasts",
+      "Interactive storytelling fans",
+      "Game developers exploring narrative design"
+    ]
+  },
+  {
+    "name": "Jan",
+    "description": "# Jan - 中文翻译\n\n**Name:** Jan\n\n**Tagline:** \n本地运行的开源ChatGPT替代品\n\n**Description:**\nJan是一款免费的开源应用，完全在您的计算机上运行，为您提供完整的隐私保护和数据控制权。用户可以在本地与多种AI模型进行对",
+    "company": "Jan",
+    "category": "AI Chat",
+    "url": "https://jan.ai",
+    "tags": [
+      "开源",
+      "本地AI",
+      "隐私聚焦",
+      "桌面应用",
+      "聊天"
+    ],
+    "popularity": 65,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "free",
+      "plans": [
+        {
+          "name": "Community Edition",
+          "price": "$0",
+          "highlights": [
+            "Fully open-source and free",
+            "Run any compatible AI model locally",
+            "Full access to all features"
+          ],
+          "zh_highlights": [
+            "完全开源和免费",
+            "在本地运行任何兼容的AI模型",
+            "完全访问所有功能"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Chinese Translation\n\n**Tagline/Recommended_for (≤20 chars):**\n注重隐私，本地运行AI模型\n\n**Description (natural):**\n最适合那些将隐私保护放在首位，希望在本地运行AI模型而不依赖云服务的用户。\n\n---\n\n**Alternative tagline option:**\n离线隐私，本地AI",
+    "features": [
+      "本地模型执行，无需云依赖",
+      "支持多种AI模型格式（GGUF、PyTorch）",
+      "对话管理和聊天历史记录",
+      "模型自定义和微调功能",
+      "跨平台桌面应用（Windows、Mac、Linux）",
+      "隐私优先架构，无数据收集"
+    ],
+    "pros": [
+      "完全免费和开源，代码库透明",
+      "完全的数据隐私，因为模型在本地运行",
+      "无需订阅或账户",
+      "活跃的社区开发和定期更新"
+    ],
+    "cons": [
+      "需要大量的本地计算资源和显存",
+      "对于非技术用户来说学习曲线陡峭",
+      "模型安装和管理可能很复杂"
+    ],
+    "best_for": [
+      "Privacy-conscious users",
+      "Developers and engineers",
+      "Local AI model enthusiasts",
+      "Organizations with strict data policies"
+    ]
+  },
+  {
+    "name": "OpenAI Codex",
+    "description": "# OpenAI Codex 中文翻译\n\n**Name:** OpenAI Codex / OpenAI代码模型\n\n**Tagline:** \n多语言代码理解与生成系统 (19 chars)\n\n**Recommended_for:**\n开发者、学生、企业 (9 chars)\n\n**Description:**\nOpenAI Codex是一个在公开代码基",
+    "company": "OpenAI",
+    "category": "AI Coding",
+    "url": "https://openai.com/blog/openai-codex/",
+    "tags": [
+      "代码生成",
+      "人工智能编码",
+      "编程",
+      "开发者工具",
+      "自然语言转代码"
+    ],
+    "popularity": 78,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "paid",
+      "plans": [
+        {
+          "name": "Pay-as-you-go",
+          "price": "$0.02 per 1K tokens (input), $0.06 per 1K tokens (output)",
+          "highlights": [
+            "Usage-based billing",
+            "Available via API",
+            "No minimum commitment"
+          ],
+          "zh_highlights": [
+            "基于使用量的计费",
+            "通过 API 提供",
+            "无最低承诺"
+          ]
+        },
+        {
+          "name": "GitHub Copilot Individual",
+          "price": "$10/month or $100/year",
+          "highlights": [
+            "IDE and editor integration",
+            "Real-time code suggestions",
+            "Unlimited completions"
+          ],
+          "zh_highlights": [
+            "IDE 和编辑器集成",
+            "实时代码建议",
+            "无限制补全"
+          ]
+        },
+        {
+          "name": "GitHub Copilot Business",
+          "price": "$21/month per user",
+          "highlights": [
+            "Organization-wide deployment",
+            "Admin controls and security",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "组织范围内的部署",
+            "管理员控制和安全",
+            "优先级支持"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Chinese Translation\n\n**Tagline:** AI驱动代码生成与完成\n\n**Recommended_for:** 多语言开发者\n\n**Description:** 为寻求跨多种编程语言实现AI驱动代码生成和完成功能的开发者而设计。该工具提供智能代码建议，加速开发流程，提高编程效率。",
+    "features": [
+      "自然语言到代码的转换",
+      "多语言支持（Python、JavaScript、TypeScript、Go、Ruby、Java、C#、PHP）",
+      "代码补全和自动生成",
+      "调试和代码解释功能",
+      "与GitHub Copilot和第三方应用的集成",
+      "上下文感知的建议引擎"
+    ],
+    "pros": [
+      "多种编程语言的代码生成具有卓越的准确性",
+      "为简单和复杂任务都显著减少开发时间",
+      "与流行的IDE和开发环境无缝集成",
+      "通过更新和微调不断改进"
+    ],
+    "cons": [
+      "生成的代码偶尔可能包含需要审查的错误或安全漏洞",
+      "对理解复杂的、特定领域的业务逻辑的能力有限",
+      "关于从公共存储库获取的训练数据的隐私问题"
+    ],
+    "best_for": [
+      "Software developers seeking faster code generation",
+      "Students learning programming concepts and syntax",
+      "DevOps engineers automating infrastructure code",
+      "Enterprises scaling development velocity"
+    ]
+  },
+  {
+    "name": "Visily",
+    "description": "# Visily 中文版本\n\n**产品名称:** Visily\n\n**标签行:** AI驱动的设计平台\n\n**推荐用途:** 设计师、产品经理、创业者\n\n**描述:**\nVisily是一款AI驱动的设计平台，能将草图、线框图和文字描述转化为交互式原型和设",
+    "company": "Visily Inc.",
+    "category": "AI Design",
+    "url": "https://www.visily.ai",
+    "tags": [
+      "UI设计",
+      "原型设计",
+      "AI辅助",
+      "低代码",
+      "协作"
+    ],
+    "popularity": 72,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Limited design projects",
+            "Basic AI features",
+            "Community support"
+          ],
+          "zh_highlights": [
+            "有限的设计项目",
+            "基础AI功能",
+            "社区支持"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$12/month",
+          "highlights": [
+            "Unlimited projects",
+            "Advanced AI capabilities",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "无限项目",
+            "高级人工智能功能",
+            "优先支持"
+          ]
+        },
+        {
+          "name": "Team",
+          "price": "$25/month per user",
+          "highlights": [
+            "Full collaboration features",
+            "Team management",
+            "Custom integrations"
+          ],
+          "zh_highlights": [
+            "完整的协作功能",
+            "团队管理",
+            "自定义集成"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Translation to Chinese\n\n**Tagline/Recommended For:**\n快速UI原型设计工具\n\n**Description:**\n适合需要快速进行UI原型设计但设计经验有限的产品团队和创业者使用。无需复杂的设计知识，即可快速创建专业的产品原型。\n\n---\n\n**Character counts:**\n- Tagline:",
+    "features": [
+      "使用AI进行草图到设计的转换",
+      "从描述生成文本到UI",
+      "交互式原型创建",
+      "组件库和设计系统支持",
+      "实时协作工具",
+      "导出到代码和设计文件"
+    ],
+    "pros": [
+      "大幅减少从草图到精美原型的设计时间",
+      "为非设计师和企业家降低入门门槛",
+      "直观的界面配备强大的AI辅助功能",
+      "为分布式团队提供强大的协作能力"
+    ],
+    "cons": [
+      "AI输出可能需要手动优化以处理复杂设计",
+      "与传统设计工具相比定制化选项有限",
+      "尽管界面友好，高级功能仍有学习曲线"
+    ],
+    "best_for": [
+      "Product managers and entrepreneurs",
+      "Startup teams with limited design resources",
+      "UX/UI designers seeking faster workflows",
+      "Non-designers prototyping digital products"
+    ]
+  },
+  {
+    "name": "LogoAI",
+    "description": "# LogoAI - Chinese Translation\n\n**Name:** LogoAI\n\n**Tagline:** \n智能logo设计,秒速生成 (Smart logo design, instant creation)\n\n**Recommended For:**\n创业者、初创公司、小企业 (Entrepreneurs, startups, SMBs)\n\n**Description:**\nLogoAI是一款由人工智能驱动的平台,能",
+    "company": "Brandmark",
+    "category": "AI Design",
+    "url": "https://www.logoai.com",
+    "tags": [
+      "标志设计",
+      "品牌设计",
+      "人工智能图形",
+      "创业工具",
+      "设计自动化"
+    ],
+    "popularity": 72,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Generate unlimited logos",
+            "Basic customization tools",
+            "PNG downloads"
+          ],
+          "zh_highlights": [
+            "生成无限徽标",
+            "基本自定义工具",
+            "PNG 下载"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$99",
+          "highlights": [
+            "Commercial license included",
+            "High-resolution file formats",
+            "Priority support and updates"
+          ],
+          "zh_highlights": [
+            "包含商业许可证",
+            "高分辨率文件格式",
+            "优先支持和更新"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Chinese Translation\n\n**Tagline/Recommended for (max 20 chars):**\n快速廉价标志设计\n\n**Description (natural):**\n为没有专业设计经验的创业者提供快速、经济的标志设计解决方案。帮助初创企业在预算有限的情况下，轻松获得高质量的品牌标识。",
+    "features": [
+      "从文本输入生成的AI徽标变体",
+      "按行业可定制的设计模板",
+      "品牌调色板建议",
+      "多种文件格式导出（PNG、SVG、PDF）",
+      "徽标编辑和优化工具",
+      "无限徽标生成和下载"
+    ],
+    "pros": [
+      "即时生成专业徽标设计",
+      "用户友好的界面无需设计经验",
+      "聘请专业设计师的经济实惠替代方案",
+      "高质量的可扩展矢量输出可用"
+    ],
+    "cons": [
+      "与自定义设计工作相比独特性有限",
+      "可能会为竞争对手生成相似的徽标",
+      "需要精细的提示词以获得最佳效果"
+    ],
+    "best_for": [
+      "Startups and entrepreneurs",
+      "Small business owners",
+      "Freelancers building brand identity",
+      "Non-profits with limited budgets"
+    ]
+  },
+  {
+    "name": "GoodBird",
+    "description": "# GoodBird - Chinese Translation\n\n**Product Name:**\n好鸟 (GoodBird)\n\n**Tagline:**\nAI驱动的工作自动化平台\n(AI-powered work automation platform)\n*[18 characters]*\n\n**Description:**\n好鸟是一个由AI驱动的生产力平台，可自动化日常工作流程并优化团队协",
+    "company": "GoodBird Inc.",
+    "category": "AI Productivity",
+    "url": "https://www.goodbird.ai",
+    "tags": [
+      "自动化",
+      "生产力",
+      "工作流程",
+      "人工智能助手",
+      "团队协作"
+    ],
+    "popularity": 62,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Up to 3 automations",
+            "Basic task management",
+            "Community support"
+          ],
+          "zh_highlights": [
+            "最多3个自动化",
+            "基础任务管理",
+            "社区支持"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$29/month",
+          "highlights": [
+            "Unlimited automations",
+            "Advanced integrations",
+            "Priority email support"
+          ],
+          "zh_highlights": [
+            "无限自动化",
+            "高级集成",
+            "优先电子邮件支持"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Dedicated account manager",
+            "Custom integrations",
+            "24/7 phone support"
+          ],
+          "zh_highlights": [
+            "专属客户经理",
+            "自定义集成",
+            "24/7电话支持"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Chinese Translation\n\n**Tagline/Recommended For (max 20 chars):**\nAI驱动的团队协作与自动化\n\n**Description (natural):**\n最适合寻求AI驱动工作流自动化和跨平台协作的团队。该解决方案能够智能化处理日常任务，提升团队效率，同时支持多个平",
+    "features": [
+      "使用自然语言命令的工作流自动化",
+      "与Slack、Asana和电子邮件的多工具集成",
+      "AI驱动的任务优先级排序和调度",
+      "智能会议摘要和行动项提取",
+      "常见工作流的自定义自动化模板",
+      "实时协作分析和见解"
+    ],
+    "pros": [
+      "直观的界面需要最少的培训",
+      "在重复性任务上节省大量时间",
+      "与现有工具无缝集成",
+      "具有AI学习功能的强大自动化能力"
+    ],
+    "cons": [
+      "对复杂工作流的定制选项有限",
+      "对于小团队或个人用户可能过于复杂",
+      "集成平台之间偶尔出现同步延迟"
+    ],
+    "best_for": [
+      "Mid-size marketing teams",
+      "Project management professionals",
+      "Operations and administrative staff",
+      "Remote-first organizations"
+    ]
+  },
+  {
+    "name": "Image to Prompt Generator",
+    "description": "# Image to Prompt Generator\n\n**Chinese Name:** 图像提示词生成器\n\n**Tagline (≤20 chars):** \n图像转文字，AI创意助手\n\n**Description:**\n这是一款AI工具，可以分析图像并生成详细的文字描述或提示词，供其他AI图像生成工具使用。它采用计算机视",
+    "company": "Various (Open Source & Commercial)",
+    "category": "AI Image",
+    "url": "https://huggingface.co/spaces/timbrooks/instruct-pix2pix",
+    "tags": [
+      "图像分析",
+      "提示词生成",
+      "AI图像",
+      "逆向工程",
+      "计算机视觉"
+    ],
+    "popularity": 72,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Limited daily image analyses",
+            "Basic prompt generation",
+            "Standard processing speed"
+          ],
+          "zh_highlights": [
+            "有限的每日图像分析",
+            "基础提示词生成",
+            "标准处理速度"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited image processing",
+            "Advanced prompt customization",
+            "Priority processing speed"
+          ],
+          "zh_highlights": [
+            "无限图像处理",
+            "高级提示词自定义",
+            "优先处理速度"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "API access",
+            "Bulk processing",
+            "Custom integrations"
+          ],
+          "zh_highlights": [
+            "API 访问",
+            "批量处理",
+            "自定义集成"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Chinese Translation\n\n**Tagline:** 设计师和艺术家的AI提示生成工具\n(18 characters)\n\n**Recommended_for:** 设计师、艺术家\n(8 characters)\n\n**Description:** \n为设计师和艺术家打造的高效AI提示词生成平台。帮助用户快速创建精准、创意十足的",
+    "features": [
+      "自动图像分析和描述生成",
+      "从视觉内容创建详细提示词",
+      "多个图像的批量处理能力",
+      "风格和构图提取",
+      "与Stable Diffusion和DALL-E等流行图像生成器的集成",
+      "对提示词详细程度的精细控制"
+    ],
+    "pros": [
+      "在提示工程和逆向工程中节省大量时间",
+      "高度准确的描述捕捉重要的视觉细节",
+      "与流行的AI图像生成工具无缝协作",
+      "用户友好的界面无需技术专业知识"
+    ],
+    "cons": [
+      "免费层有限制性的日常使用限制",
+      "偶尔可能生成过于冗长或不相关的描述",
+      "性能因图像复杂性和质量而异"
+    ],
+    "best_for": [
+      "Digital artists and illustrators",
+      "Content creators and designers",
+      "AI image generation enthusiasts",
+      "Marketing and social media teams"
+    ]
+  },
+  {
+    "name": "Warp Intro Creator",
+    "description": "# Warp Intro Creator - Chinese Translation\n\n**名称 (Name):** Warp Intro Creator\n\n**标语 (Tagline):** 秒级生成专业视频开场 (≈16 chars)\n\n**描述 (Description):** Warp Intro Creator 是一款AI驱动的视频开场工具，可在数秒内生成专业级视频",
+    "company": "Warp",
+    "category": "AI Video",
+    "url": "https://www.warp.dev",
+    "tags": [
+      "视频生成",
+      "人工智能视频",
+      "介绍视频制作",
+      "内容创建",
+      "自动化"
+    ],
+    "popularity": 45,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Limited intro templates",
+            "Basic customization options",
+            "Standard resolution exports"
+          ],
+          "zh_highlights": [
+            "有限的入门模板",
+            "基本自定义选项",
+            "标准分辨率导出"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited intro templates",
+            "Advanced AI customization",
+            "4K resolution exports",
+            "Priority rendering"
+          ],
+          "zh_highlights": [
+            "无限介绍模板",
+            "高级AI定制",
+            "4K分辨率导出",
+            "优先渲染"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Translation to Chinese\n\n**Tagline:** 内容创作者的快速视频开场\n(14 chars - \"Quick Video Intros for Content Creators\")\n\n**Recommended for:** 视频创作者\n(6 chars - \"Video Creators\")\n\n**Description:** \n为内容创作者设计的专业视频开场制作工具。只需几秒钟即可生成",
+    "features": [
+      "使用可自定义模板的AI生成动画开场",
+      "用于开场序列的文字转视频转换",
+      "内置音乐和音效库",
+      "一键品牌和颜色自定义",
+      "快速渲染和即时预览",
+      "导出为多种视频格式和分辨率"
+    ],
+    "pros": [
+      "超快速的介绍生成节省制作时间",
+      "无需视频编辑经验",
+      "以最少的努力获得专业质量的结果",
+      "价格实惠，免费层级慷慨"
+    ],
+    "cons": [
+      "高级用户的艺术控制受限",
+      "模板选择可能显得重复",
+      "免费版本导出含有水印"
+    ],
+    "best_for": [
+      "YouTube content creators",
+      "Live streamers",
+      "Social media influencers",
+      "Small business marketers"
+    ]
+  },
+  {
+    "name": "Free AI Video Upscaler",
+    "description": "# Chinese Translation\n\n**Title:** 免费AI视频超分辨率工具\n\n**Tagline:** 开源桌面应用，AI增强视频质量\n\n**Description:** 免费AI视频超分辨率工具是一款开源桌面应用，利用先进的神经网络技术提升视频分辨率，增强视频质量。支持多",
+    "company": "Upscayl",
+    "category": "AI Video",
+    "url": "https://www.upscayl.org",
+    "tags": [
+      "视频升级",
+      "开源",
+      "人工智能增强",
+      "免费软件",
+      "批量处理"
+    ],
+    "popularity": 72,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "free",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Unlimited video upscaling",
+            "All upscaling models included",
+            "No watermarks or restrictions"
+          ],
+          "zh_highlights": [
+            "无限视频升级",
+            "包含所有升级模型",
+            "没有水印或限制"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Chinese Translation\n\n**Tagline:** 免费强大的视频升级工具\n(Free powerful video upscaling tool)\n\n**Recommended_for:** 视频创作者\n(Video creators)\n\n**Description:** 为需要免费、强大的视频升级且无需订阅的视频创作者而设计。这款工具提供专业级的视频画质提升功",
+    "features": [
+      "多个AI超分模型（Real-ESRGAN、Anime4K、BSRGAN）",
+      "批量视频处理多个文件",
+      "GPU加速支持（NVIDIA、AMD、Intel）",
+      "无损超分至2倍、3倍或4倍分辨率",
+      "可自定义输出格式和编码",
+      "跨平台支持（Windows、macOS、Linux）"
+    ],
+    "pros": [
+      "完全免费且开源，无隐藏费用",
+      "强大的GPU加速，处理速度快",
+      "多种专业级放大算法",
+      "离线工作，无需账户"
+    ],
+    "cons": [
+      "对非技术用户来说学习曲线陡峭",
+      "放大后的大文件需要占用大量存储空间",
+      "在没有专用GPU的系统上处理速度可能较慢"
+    ],
+    "best_for": [
+      "Video editors and content creators",
+      "Archivists restoring old footage",
+      "Anime and manga enthusiasts",
+      "Technical users comfortable with desktop software"
+    ]
+  },
+  {
+    "name": "RabbitAI",
+    "description": "# RabbitAI 中文翻译\n\n**名称**: RabbitAI\n\n**标语** (20字以内):\nAI驱动的自动化操作系统，简化数字工作流\n\n**描述** (自然流畅):\nRabbitAI 是一款由人工智能驱动的操作系统,旨在自动化和简化",
+    "company": "Rabbit Inc.",
+    "category": "AI Productivity",
+    "url": "https://www.rabbit.tech",
+    "tags": [
+      "自动化",
+      "生产力",
+      "工作流",
+      "人工智能助手",
+      "集成"
+    ],
+    "popularity": 72,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "highlights": [
+            "Limited task automation",
+            "Basic app integrations",
+            "Community support"
+          ],
+          "zh_highlights": [
+            "有限的任务自动化",
+            "基本应用集成",
+            "社区支持"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$99/month",
+          "highlights": [
+            "Unlimited task automation",
+            "Advanced integrations",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "无限任务自动化",
+            "高级集成",
+            "优先级支持"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom pricing",
+          "highlights": [
+            "Dedicated account management",
+            "Custom integrations",
+            "SLA and compliance support"
+          ],
+          "zh_highlights": [
+            "专属账户管理",
+            "自定义集成",
+            "服务级别协议和合规性支持"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Chinese Translation\n\n**Tagline:** 专业人士自动化重复任务\n(Professionals automating repetitive tasks)\n*[19 characters]*\n\n**Recommended for:** 跨应用自动化工作流\n(Cross-application workflow automation)\n*[10 characters]*\n\n**Description:** 帮助专业人士通过自动化跨多个应用程序的重复数字",
+    "features": [
+      "自然语言任务自动化",
+      "跨应用工作流集成",
+      "实时网络和应用交互",
+      "自定义操作编程",
+      "语音命令支持",
+      "企业级安全和合规性"
+    ],
+    "pros": [
+      "用于复杂任务自动化的强大自然语言理解能力",
+      "与数百个网络应用程序的无缝集成",
+      "直观的界面，需要最少的技术知识",
+      "为重复性数字工作流节省大量时间"
+    ],
+    "cons": [
+      "离线功能受限，需要互联网连接",
+      "高级自定义自动化设置的学习曲线陡峭",
+      "关于跨应用程序数据访问的隐私问题"
+    ],
+    "best_for": [
+      "Knowledge workers automating routine tasks",
+      "Developers building custom workflow integrations",
+      "Enterprise teams seeking productivity gains",
+      "Remote professionals managing multiple applications"
+    ]
+  },
+  {
+    "name": "Plotica",
+    "description": "# Plotica - Chinese Translation\n\n**Name:** Plotica (保留英文名)\n\n**Tagline:** \nAI智能数据可视化平台 (18 chars)\n\n**Description:**\nPlotica是一个智能可视化平台，能够自动将原始数据转换为引人入胜的交互式图表。它采用AI技术根据数据特征",
+    "company": "Plotica Inc.",
+    "category": "AI Design",
+    "url": "https://plotica.com",
+    "tags": [
+      "数据可视化",
+      "图表",
+      "商业智能",
+      "人工智能设计"
+    ],
+    "popularity": 42,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Up to 5 projects",
+            "Basic chart types",
+            "Community support"
+          ],
+          "zh_highlights": [
+            "最多5个项目",
+            "基础图表类型",
+            "社区支持"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$29/month",
+          "highlights": [
+            "Unlimited projects",
+            "Advanced visualizations",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "无限项目",
+            "高级可视化",
+            "优先支持"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Custom integrations",
+            "Dedicated account manager",
+            "Advanced security features"
+          ],
+          "zh_highlights": [
+            "自定义集成",
+            "专属账户经理",
+            "高级安全功能"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Chinese Translation\n\n**Tagline (≤20 chars):**\n无需设计资源的数据可视化\n\n**Recommended_for (≤20 chars):**\n缺乏设计人员的团队\n\n**Description (natural):**\n最适合没有专业设计团队的企业和团队使用。这个解决方案能帮助你轻松创建专",
+    "features": [
+      "AI驱动的图表类型推荐",
+      "来自多个来源的自动数据导入",
+      "交互式仪表板创建",
+      "实时协作功能",
+      "自定义品牌和样式选项",
+      "导出为多种格式（PNG、PDF、SVG、HTML）"
+    ],
+    "pros": [
+      "直观的界面学习曲线最小",
+      "AI 建议节省大量设计时间",
+      "与流行数据源无缝集成",
+      "默认生成精美的出版级可视化"
+    ],
+    "cons": [
+      "与专业设计工具相比定制选项有限",
+      "大规模企业使用的价格上升",
+      "高级功能的学习曲线陡峭"
+    ],
+    "best_for": [
+      "Business analysts",
+      "Marketing teams",
+      "Data scientists",
+      "Financial professionals"
+    ]
+  },
+  {
+    "name": "midReal",
+    "description": "# midReal 中文翻译\n\n**Platform Name:** midReal\n\n**Tagline:** \n文本转视频的AI生成平台 (18 chars)\n\n**Description:**\nmidReal是一个AI视频生成平台，可以根据文本描述、图像和音频输入生成逼真的视频。该平台采用先进的机器学习技术，为",
+    "company": "midReal",
+    "category": "AI Video",
+    "url": "https://www.midreal.ai",
+    "tags": [
+      "视频生成",
+      "人工智能视频",
+      "文本转视频",
+      "内容创作",
+      "自动化"
+    ],
+    "popularity": 62,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Limited monthly video generation quota",
+            "Standard video quality up to 720p",
+            "Community support"
+          ],
+          "zh_highlights": [
+            "每月有限的视频生成配额",
+            "标准视频质量最高720p",
+            "社区支持"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$29/month",
+          "highlights": [
+            "Higher monthly generation limits",
+            "4K video quality output",
+            "Priority customer support"
+          ],
+          "zh_highlights": [
+            "更高的月度生成限制",
+            "4K视频质量输出",
+            "优先客户支持"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom pricing",
+          "highlights": [
+            "Unlimited video generation",
+            "Custom integrations and API access",
+            "Dedicated account management"
+          ],
+          "zh_highlights": [
+            "无限视频生成",
+            "自定义集成和API访问",
+            "专属账户管理"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Chinese Translation\n\n**Tagline/Recommended For** (18 chars):\n市场营销人员和内容创作者\n\n**Description** (natural):\n为需要快速生成优质视频内容，但缺乏专业制作经验的营销人员和内容创作者而设计。\n\n---\n\n### Alternative options:\n\n**Tagline** (shorter, 10 chars):",
+    "features": [
+      "使用自然语言处理的文本到视频生成",
+      "图像到视频的动画和动作合成",
+      "音频同步和唇形同步功能",
+      "可自定义的视频风格和效果",
+      "批量处理多个视频生成",
+      "API访问以与第三方应用程序集成"
+    ],
+    "pros": [
+      "用户友好的界面，需要最少的技术专业知识",
+      "快速视频生成，输出质量高",
+      "灵活的输入选项，包括文本、图像和音频",
+      "适合创作者和企业的可扩展定价"
+    ],
+    "cons": [
+      "高级用户的定制选项有限",
+      "高峰期使用时偶尔出现处理延迟",
+      "免费版本的生成配额限制严格"
+    ],
+    "best_for": [
+      "Content creators and YouTubers",
+      "Marketing and advertising teams",
+      "Educational institutions and e-learning platforms",
+      "Social media influencers and brands"
+    ]
+  },
+  {
+    "name": "LightPDF",
+    "description": "# LightPDF - 中文翻译\n\n**名称:** LightPDF\n\n**标语:** AI驱动的PDF处理平台\n\n**推荐对象:** 专业人士、学生、企业用户\n\n**描述:** LightPDF是一个AI驱动的平台，用户可以高效地编辑、转换、合并和分析PDF文档。",
+    "company": "LightPDF",
+    "category": "AI Productivity",
+    "url": "https://lightpdf.com",
+    "tags": [
+      "PDF编辑",
+      "文档转换",
+      "光学字符识别",
+      "基于云的",
+      "生产力"
+    ],
+    "popularity": 72,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Basic PDF editing and viewing",
+            "Limited conversions per month",
+            "5GB cloud storage"
+          ],
+          "zh_highlights": [
+            "基本PDF编辑和查看",
+            "每月转换次数有限",
+            "5GB云存储"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$9.99/month",
+          "highlights": [
+            "Unlimited conversions and document processing",
+            "Advanced AI features and batch operations",
+            "100GB cloud storage and priority support"
+          ],
+          "zh_highlights": [
+            "无限转换和文档处理",
+            "高级AI功能和批量操作",
+            "100GB云存储和优先支持"
+          ]
+        },
+        {
+          "name": "Team",
+          "price": "$19.99/month per user",
+          "highlights": [
+            "Team collaboration features",
+            "Advanced permission controls",
+            "Unlimited storage and API access"
+          ],
+          "zh_highlights": [
+            "团队协作功能",
+            "高级权限控制",
+            "无限存储和API访问"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Chinese Translation\n\n**Target Audience:**\n学生和专业人士\n\n**Tagline/Recommended For (under 20 chars):**\n快速易用的PDF编辑转换\n\n**Description:**\n面向学生和专业人士，提供快速便捷的PDF编辑和转换工具，使复杂的文档处理变得简单易行。\n\n---\n\n**Character",
+    "features": [
+      "AI驱动的PDF编辑和注释",
+      "文档转换（PDF转Word、Excel、PowerPoint、图像）",
+      "用于扫描文档识别的OCR技术",
+      "PDF合并、分割和压缩",
+      "表单填充和签名工具",
+      "基于云的访问，无需安装软件"
+    ],
+    "pros": [
+      "用户友好的界面，无需任何技术专业知识",
+      "涵盖所有主要PDF任务的全面工具集",
+      "快速处理速度和可靠的云基础设施",
+      "具有灵活订阅选项的经济实惠价格"
+    ],
+    "cons": [
+      "免费版本存在显著的功能限制",
+      "OCR准确度因文档质量而异",
+      "离线功能相比桌面替代方案受限"
+    ],
+    "best_for": [
+      "Students managing academic documents",
+      "Business professionals handling contracts and reports",
+      "Content creators converting between document formats",
+      "Remote teams requiring collaborative document tools"
+    ]
+  },
+  {
+    "name": "IndexFlow",
+    "description": "# IndexFlow - Chinese Translation\n\n**Product Name:** IndexFlow\n\n**Tagline:** \n智能文档索引与工作流自动化平台 (17 chars)\n\n**Description:**\nIndexFlow是一个AI驱动的文档索引和工作流自动化工具，帮助组织高效地组织、搜索和管理大量非结构化数据。它采用",
+    "company": "IndexFlow Inc.",
+    "category": "AI Productivity",
+    "url": "https://www.indexflow.ai",
+    "tags": [
+      "文档索引",
+      "工作流自动化",
+      "企业搜索",
+      "人工智能驱动",
+      "数据组织"
+    ],
+    "popularity": 62,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Starter",
+          "price": "Free",
+          "highlights": [
+            "Up to 1,000 documents",
+            "Basic indexing features",
+            "Community support"
+          ],
+          "zh_highlights": [
+            "最多1,000份文档",
+            "基本索引功能",
+            "社区支持"
+          ]
+        },
+        {
+          "name": "Professional",
+          "price": "$299/month",
+          "highlights": [
+            "Up to 100,000 documents",
+            "Advanced AI extraction",
+            "Priority support"
+          ],
+          "zh_highlights": [
+            "最多100,000份文档",
+            "先进的AI提取",
+            "优先支持"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Unlimited documents",
+            "Custom integrations",
+            "Dedicated account manager"
+          ],
+          "zh_highlights": [
+            "无限文档",
+            "自定义集成",
+            "专属账户经理"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# English → Chinese Translation\n\n**Tagline/Recommended For (max 20 chars):**\n适合大规模智能文档管理\n\n**Description (natural):**\n为需要大规模智能文档组织的企业提供最佳解决方案。\n\n---\n\n**Alternative options:**\n\n*Tagline (more concise):*\n- 企业级智能文档管理 (12",
+    "features": [
+      "自动文档分类和索引",
+      "AI驱动的元数据提取",
+      "全文语义搜索功能",
+      "多格式文档支持",
+      "自定义工作流自动化",
+      "企业访问控制和合规性"
+    ],
+    "pros": [
+      "显著减少手动文档处理时间",
+      "高度准确的人工智能驱动的分类和提取",
+      "为拥有海量数据集的企业提供可扩展的解决方案",
+      "与现有文档管理系统无缝集成"
+    ],
+    "cons": [
+      "复杂工作流配置的陡峭学习曲线",
+      "定价对小企业来说可能很昂贵",
+      "需要高质量的训练数据以获得最佳性能"
+    ],
+    "best_for": [
+      "Enterprise document management teams",
+      "Legal and compliance professionals",
+      "Research organizations",
+      "Government agencies"
+    ]
+  },
+  {
+    "name": "Sentence 3.0",
+    "description": "# Sentence 3.0 Chinese Translation\n\n**Product Name:** Sentence 3.0\n\n**Tagline:** \n智能写作助手，专业内容生成 (17 chars)\n\n**Description:**\nSentence 3.0 是一款先进的AI写作工具，旨在帮助专业人士、营销人员和内容创作者高效生成高质量",
+    "company": "Sentence",
+    "category": "AI Writing",
+    "url": "https://www.sentence.ai",
+    "tags": [
+      "人工智能写作",
+      "内容生成",
+      "生产力",
+      "营销",
+      "专业写作"
+    ],
+    "popularity": 72,
+    "addedDate": "2026-04-14",
+    "pricing": {
+      "model": "freemium",
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "highlights": [
+            "Limited monthly word generation",
+            "Basic writing tools access",
+            "Community support"
+          ],
+          "zh_highlights": [
+            "有限的每月文字生成",
+            "基础写作工具访问权限",
+            "社区支持"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$29/month",
+          "highlights": [
+            "Unlimited word generation",
+            "Advanced AI models and features",
+            "Priority customer support"
+          ],
+          "zh_highlights": [
+            "无限制词汇生成",
+            "高级AI模型和功能",
+            "优先客户支持"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "highlights": [
+            "Custom integrations and workflows",
+            "Dedicated account manager",
+            "API access and white-label options"
+          ],
+          "zh_highlights": [
+            "自定义集成和工作流",
+            "专属客户经理",
+            "API 访问和白标选项"
+          ]
+        }
+      ]
+    },
+    "featured": false,
+    "recommended_for": "# Chinese Translation\n\n**Tagline/Recommended For (max 20 chars):**\n营销团队和内容创作者的最佳选择\n\n**Description (natural Chinese):**\n为营销团队和内容创作者设计，快速生成高质量的文案和内容。无论是社交媒体帖子、广告文案还是博客文章，都能在",
+    "features": [
+      "跨多种格式的AI驱动内容生成",
+      "实时语法和风格检查",
+      "语调和声音自定义选项",
+      "常见内容类型的模板库",
+      "抄袭检测和原创性评分",
+      "多语言支持和翻译"
+    ],
+    "pros": [
+      "直观的界面，非技术用户易于使用",
+      "生成一致高质量、上下文相关的内容",
+      "非常适合头脑风暴和克服写作瓶颈",
+      "价格实惠，低端套餐也具有强大功能"
+    ],
+    "cons": [
+      "需要人工审查以确保品牌声音保持一致",
+      "对于高度专业化的行业术语定制选项有限",
+      "免费层级的文字生成有重大限制"
+    ],
+    "best_for": [
+      "Content marketers and digital agencies",
+      "Business writers and communications teams",
+      "E-commerce and product description writers",
+      "Freelance writers seeking productivity tools"
+    ]
   }
 ]
