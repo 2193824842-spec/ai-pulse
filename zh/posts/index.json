@@ -1,5 +1,23 @@
 [
   {
+    "slug": "ai-regulations-compliance-trends-2026",
+    "title": "2026年AI合规趋势：投资者和企业必读指南",
+    "excerpt": "2026年8月，欧盟《人工智能法案》高风险合规截止日期生效，违规罚款最高达全球收入7%。投资者和企业应对AI监管要求的核心指南。",
+    "date": "2026-04-10",
+    "category": "Industry Analysis",
+    "level": "Intermediate",
+    "tags": [
+      "企业AI",
+      "AI工具",
+      "AI研究",
+      "AI合规"
+    ],
+    "cover_image": "/ai-pulse/assets/images/ai-regulations-compliance-trends-2026.jpg",
+    "word_count": 1500,
+    "view_count": 0,
+    "featured": false
+  },
+  {
     "slug": "ai-2027-scenario-realistic-infrastructure-impact",
     "title": "AI 2027场景预测：基础设施会到位，但实际影响不会",
     "excerpt": "万亿美元算力基础设施会在2027年到位，但对工作和商业的影响不会。为什么AI采用比预测慢得多。",

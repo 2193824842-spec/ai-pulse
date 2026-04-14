@@ -1,17 +1,47 @@
 [
   {
+    "slug": "ai-regulations-compliance-trends-2026",
+    "title": "AI Regulations Compliance Trends 2026: Investor & Business Guide",
+    "excerpt": "August 2026 marks the EU AI Act's high-risk compliance deadline with penalties up to 7% of global revenue. Essential guide for investors and businesses navigating AI regulatory requirements.",
+    "date": "2026-04-10",
+    "category": "Industry Analysis",
+    "level": "Intermediate",
+    "tags": [
+      "enterprise-ai",
+      "ai-tools",
+      "ai-research"
+    ],
+    "word_count": 1785,
+    "view_count": 0,
+    "cover_image": "/ai-pulse/assets/images/ai-regulations-compliance-trends-2026.jpg",
+    "featured": false,
+    "target_audience": [
+      "learner",
+      "investor"
+    ]
+  },
+  {
     "slug": "ai-unicorn-bubble-reality-check-2026-startup-failure",
     "title": "AI Unicorn Bubble Reality Check 2026: Startups Will Fail",
     "excerpt": "The AI unicorn bubble quietly deflates in 2026 through down rounds and shutdowns. Half of 308 unicorns will restructure by 2027 as valuations face reality.",
     "date": "2026-04-10",
     "category": "Opinion",
     "level": "Intermediate",
-    "tags": ["enterprise-ai", "ai-research", "generative-ai", "ai-tools", "ai-benchmarks"],
+    "tags": [
+      "enterprise-ai",
+      "ai-research",
+      "generative-ai",
+      "ai-tools",
+      "ai-benchmarks"
+    ],
     "word_count": 1485,
     "view_count": 0,
     "cover_image": "/ai-pulse/assets/images/ai-unicorn-bubble-reality-check-2026-startup-failure.jpg",
     "featured": false,
-    "target_audience": ["learner", "investor"]
+    "target_audience": [
+      "learner",
+      "investor"
+    ]
   },
   {
     "slug": "ai-agent-market-consolidation-2026-frameworks",
@@ -20,12 +50,21 @@
     "date": "2026-04-10",
     "category": "Industry Analysis",
     "level": "Intermediate",
-    "tags": ["ai-agents", "enterprise-ai", "ai-tools", "llm", "generative-ai"],
+    "tags": [
+      "ai-agents",
+      "enterprise-ai",
+      "ai-tools",
+      "llm",
+      "generative-ai"
+    ],
     "word_count": 1998,
     "view_count": 0,
     "cover_image": "/ai-pulse/assets/images/ai-agent-market-consolidation-2026-frameworks.jpg",
     "featured": false,
-    "target_audience": ["learner", "investor"]
+    "target_audience": [
+      "learner",
+      "investor"
+    ]
   },
   {
     "slug": "best-ai-agent-frameworks-2026",

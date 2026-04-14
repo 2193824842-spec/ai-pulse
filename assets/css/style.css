@@ -447,6 +447,9 @@ article {
   line-height: 1.85;
   color: #334155;
   padding-bottom: 72px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 /* First paragraph emphasis */
@@ -816,17 +819,25 @@ nav a.active { color: var(--accent); background: var(--accent-bg); }
   margin: 24px 0;
   border-radius: var(--radius);
   border: 1px solid var(--border);
+  -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+}
+
+.article-body .table-wrap table {
+  /* Table inside wrapper: no extra border/margin */
+  border: none;
+  margin: 0;
+  border-radius: 0;
 }
 
 .article-body table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.92rem;
-  min-width: 480px;
+  font-size: 0.88rem;
   border-radius: var(--radius);
   overflow: hidden;
   border: 1px solid var(--border);
   margin: 24px 0;
+  table-layout: auto; /* Let columns adjust to content */
 }
 
 .article-body thead {
@@ -834,21 +845,33 @@ nav a.active { color: var(--accent); background: var(--accent-bg); }
 }
 
 .article-body th {
-  padding: 14px 18px;
+  padding: 10px 12px;
   text-align: left;
   font-weight: 600;
   color: var(--text);
   border-bottom: 2px solid #e2e8f0;
-  white-space: nowrap;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.3px;
+  /* Allow header text to wrap if needed */
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+/* Compact columns: columns with short content */
+.article-body th:last-child,
+.article-body td:last-child {
+  /* Last column often has less content, allow it to shrink */
+  width: auto;
 }
 
 .article-body td {
-  padding: 12px 18px;
+  padding: 8px 12px;
   border-bottom: 1px solid #f1f5f9;
   color: #334155;
+  /* Allow text to wrap */
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 .article-body tbody tr:last-child td {
@@ -940,10 +963,13 @@ nav a.active { color: var(--accent); background: var(--accent-bg); }
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 32px;
+  align-items: start; /* Prevent items from stretching to equal height */
 }
 .callout-card.callout-faq .faq-item {
   padding: 20px 0;
   border-bottom: 1px dashed var(--border);
+  overflow-wrap: break-word; /* Prevent long words from overflowing */
+  word-wrap: break-word;
 }
 .callout-card.callout-faq .faq-item h3 {
   font-size: 0.95rem;
@@ -988,9 +1014,25 @@ nav a.active { color: var(--accent); background: var(--accent-bg); }
   grid-template-columns: 1fr 1fr;
   gap: 16px;
   margin: 24px 0;
+  align-items: start; /* Prevent stretching to equal height */
+}
+.pros-cons-grid .callout-card {
+  height: auto; /* Allow natural height */
+  overflow-wrap: break-word;
 }
 @media (max-width: 768px) {
   .pros-cons-grid { grid-template-columns: 1fr; }
+}
+
+/* Pros/Cons stacked layout (when content differs significantly) */
+.pros-cons-stacked {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 24px 0;
+}
+.pros-cons-stacked .callout-card {
+  overflow-wrap: break-word;
 }
 .callout-card h3 {
   margin-top: 0 !important;
