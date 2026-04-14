@@ -1,7 +1,7 @@
 [
   {
     "name": "ChatGPT",
-    "description": "ChatGPT 是 OpenAI 推出的对话型 AI 助手，每周有超过 4 亿用户使用。它可以处理文案写作、编码、研究、图像分析和语音对话。由 GPT-5 系列模型驱动，是全球应用最广泛的 AI 工具。",
+    "description": "世界上最受欢迎的 AI 聊天机器人，用于写作、编程和研究",
     "category": "AI Writing",
     "url": "https://chat.openai.com",
     "tags": [
@@ -120,7 +120,7 @@
   },
   {
     "name": "Claude",
-    "description": "Claude 是 Anthropic 开发的 AI 助手，专注于安全、有用和诚实的设计理念。它在长上下文推理、写作、编码和分析方面表现出色。Claude 3.5 和 3.7 模型系列因其在编码、精细化写作和指令遵循方面的卓越表现而广受认可。",
+    "description": "为深思熟虑、写作和复杂任务而构建的 AI 助手",
     "category": "AI Writing",
     "url": "https://claude.ai",
     "tags": [
@@ -229,7 +229,7 @@
   },
   {
     "name": "Gemini",
-    "description": "Gemini 是 Google 的旗舰 AI 助手和模型系列。它深度集成到 Google Workspace（Docs、Gmail、Sheets）和 Android 中。Gemini 1.5/2.0 Pro 具有 100 万 token 的上下文窗口，使其特别适合处理整个代码库或书籍。Gemini Advanced 提供访问最强大模型的权限。",
+    "description": "Google 内置在您使用的所有产品中的多模态 AI 助手",
     "category": "AI Writing",
     "url": "https://gemini.google.com",
     "tags": [
@@ -324,7 +324,7 @@
   },
   {
     "name": "Copilot",
-    "description": "Microsoft Copilot 是由 OpenAI 的 GPT-4 和 DALL-E 3 驱动的 AI 助手，深度集成在 Windows 11、Microsoft 365（Word、Excel、PowerPoint、Outlook、Teams）和 Bing Search 中。它提供免费访问 GPT-4 级别模型的功能，包括网络搜索、图像生成和文档分析。",
+    "description": "您日常的 AI 助手，由 GPT-4 驱动，内置于 Windows 和 Microsoft 365",
     "category": "AI Writing",
     "url": "https://copilot.microsoft.com",
     "tags": [
@@ -418,7 +418,7 @@
   },
   {
     "name": "Midjourney",
-    "description": "Midjourney 是领先的 AI 图像生成工具，以通过文本提示生成高质量、视觉效果出众的图像而著称。它通过网页界面和 Discord 运行。Midjourney V6/V6.1 能生成具有卓越细节、风格一致性和提示词遵循度的照片级真实感和艺术风格图像——是设计师和创意专业人士的首选工具。",
+    "description": "根据文本提示生成令人惊艳的 AI 艺术和图像",
     "category": "AI Image",
     "url": "https://midjourney.com",
     "tags": [
@@ -528,7 +528,7 @@
   },
   {
     "name": "DALL-E 3",
-    "description": "DALL-E 3 是 OpenAI 最先进的图像生成模型，直接集成在 ChatGPT 中。它能够以高精度执行复杂、详细的提示词，相比之前的版本有了显著提升。可通过 ChatGPT Plus 和 OpenAI API 获取。",
+    "description": "OpenAI 的先进文本生成图像模型，具有精准的提示词遵循能力",
     "category": "AI Image",
     "url": "https://openai.com/dall-e-3",
     "tags": [
@@ -616,7 +616,7 @@
   },
   {
     "name": "Stable Diffusion",
-    "description": "Stable Diffusion 是由 Stability AI 开发的开源文本生成图像 AI 模型。与仅限云端的工具不同，它可以在消费级硬件上本地运行，用户能够完全掌控生成过程，没有使用限制或内容审查。SD3 和 SDXL 模型提供高质量的输出效果，配合庞大的微调模型和扩展生态系统。",
+    "description": "可以在任何地方运行的开源 AI 图像生成模型",
     "category": "AI Image",
     "url": "https://stability.ai",
     "tags": [
@@ -708,7 +708,7 @@
   },
   {
     "name": "Leonardo AI",
-    "description": "Leonardo AI 是一个功能强大的 AI 图像生成平台，专为游戏开发者、概念艺术家和创意专业人士设计。它提供用于一致性角色和资源生成的微调模型、用于图像修复的画布编辑器，以及慷慨的免费套餐配额和每日代币额度。",
+    "description": "为游戏资源、概念艺术和创意项目而构建的AI图像生成工具",
     "category": "AI Image",
     "url": "https://leonardo.ai",
     "tags": [
@@ -817,7 +817,7 @@
   },
   {
     "name": "Sora",
-    "description": "Sora 是 OpenAI 开发的突破性文生视频模型，能够根据文本提示生成逼真且富有想象力的视频场景。它可以生成长达 1 分钟的视频，具有高视觉质量，并能理解物理学、运动和场景连贯性。目前已向 ChatGPT Plus 和 Pro 订阅用户开放。",
+    "description": "OpenAI 的文本生成视频 AI 模型，可根据提示词创建逼真视频",
     "category": "AI Video",
     "url": "https://openai.com/sora",
     "tags": [
@@ -893,7 +893,7 @@
   },
   {
     "name": "Runway Gen-3",
-    "description": "Runway 是专业电影制作人、工作室和内容创作者使用的领先 AI 视频生成平台。Gen-3 Alpha 能够从文本和图像提示生成高质量的电影级视频。Runway 还提供了完整的 AI 视频编辑工具套件，包括背景移除、动作追踪和图像修复。",
+    "description": "为创意工作者和工作室提供的专业 AI 视频生成和编辑工具",
     "category": "AI Video",
     "url": "https://runwayml.com",
     "tags": [
@@ -1002,7 +1002,7 @@
   },
   {
     "name": "Pika",
-    "description": "Pika 是一个 AI 视频生成平台，让任何人都能从文本提示、图像或现有视频片段生成和编辑视频。Pika 1.5 和 2.0 提供高质量的创意视频，具备 Pikaffects 特效功能和 Pikamovie 长形式内容创作等特性。",
+    "description": "使用文本、图像和视频片段通过 AI 创建和编辑视频",
     "category": "AI Video",
     "url": "https://pika.art",
     "tags": [
@@ -1112,7 +1112,7 @@
   },
   {
     "name": "HeyGen",
-    "description": "HeyGen 是一个专业的 AI 视频平台，专注于虚拟形象视频创作和视频翻译。它让你能够用 AI 虚拟形象创建专业的真人出镜视频，克隆你自己的虚拟形象，并将现有视频翻译成 40 多种语言，同时保持讲话者的原音和唇形同步。",
+    "description": "创建专业 AI 虚拟人视频并将视频翻译成任何语言",
     "category": "AI Video",
     "url": "https://heygen.com",
     "tags": [
@@ -1225,7 +1225,7 @@
   },
   {
     "name": "GitHub Copilot",
-    "description": "GitHub Copilot 是由 GitHub 和 OpenAI 开发的 AI 驱动编程助手。它在你的 IDE 中提供实时代码建议、补全和解释。Copilot X 进一步扩展了这些功能，增加了聊天、拉取请求摘要和 CLI 协助。已被数百万开发者在所有主流编程语言和编辑器中使用。",
+    "description": "你的 AI 编程助手 — 借助编辑器中的 AI 建议，代码编写速度快人一步",
     "category": "AI Coding",
     "url": "https://github.com/features/copilot",
     "tags": [
@@ -1335,7 +1335,7 @@
   },
   {
     "name": "Cursor",
-    "description": "Cursor 是一款基于 VS Code 构建的 AI 代码编辑器，深度融合了 AI 与编码工作流。它支持多文件编辑、代码库感知聊天以及用于处理复杂任务的自主代理模式。Cursor 采用最前沿的模型（GPT-4、Claude），已成为 AI 辅助开发的首选编辑器。",
+    "description": "AI优先的代码编辑器，为与AI进行结对编程而构建",
     "category": "AI Coding",
     "url": "https://cursor.sh",
     "tags": [
@@ -1431,7 +1431,7 @@
   },
   {
     "name": "Codeium",
-    "description": "Codeium 是一个免费的 AI 编码助手，为 70 多种编程语言提供代码补全、对话和搜索功能。它支持与 40 多个 IDE 集成，对个人开发者完全免费。Codeium 的企业版产品（Windsurf）提供团队协作功能和自托管部署方案。",
+    "description": "面向所有开发者的免费AI代码补全和聊天功能",
     "category": "AI Coding",
     "url": "https://codeium.com",
     "tags": [
@@ -1526,7 +1526,7 @@
   },
   {
     "name": "Tabnine",
-    "description": "Tabnine 是一款专注于隐私和安全的 AI 代码补全工具。与竞争对手不同，它提供了完全本地化的模型选项，代码永远不会发送到外部服务器。它与所有主流 IDE 集成，支持 30 多种编程语言，在对数据安全有严格要求的企业环境中广受欢迎。",
+    "description": "保持代码私密和安全的 AI 代码助手",
     "category": "AI Coding",
     "url": "https://tabnine.com",
     "tags": [
@@ -1621,7 +1621,7 @@
   },
   {
     "name": "ElevenLabs",
-    "description": "ElevenLabs 是业界领先的 AI 语音生成平台，提供超逼真的文本转语音、语音克隆和配音服务，支持 29 种以上语言。内容创作者、出版机构和企业广泛使用它来制作有声书、播客、视频和无障碍工具。",
+    "description": "最逼真的 AI 语音生成和文本转语音平台",
     "category": "AI Audio",
     "url": "https://elevenlabs.io",
     "tags": [
@@ -1729,7 +1729,7 @@
   },
   {
     "name": "Murf AI",
-    "description": "Murf AI 是一款专业的 AI 语音生成工具，用于为视频、演讲和电子学习内容创建配音。它提供 120 多个 AI 语音，支持 20 多种语言，并配备内置的工作室编辑器，可将音频与视频和幻灯片同步。",
+    "description": "AI语音生成工具，轻松创建专业旁白",
     "category": "AI Audio",
     "url": "https://murf.ai",
     "tags": [
@@ -1841,7 +1841,7 @@
   },
   {
     "name": "Suno",
-    "description": "Suno 是一个 AI 音乐生成平台，可以根据简单的文本提示创作完整的原创歌曲——包括人声、乐器和歌词。它使非音乐专业人士也能创作音乐，被创意工作者用于背景音乐、社交内容和创意项目。",
+    "description": "从文本提示在几秒内创建原创歌曲",
     "category": "AI Audio",
     "url": "https://suno.ai",
     "tags": [
@@ -1933,7 +1933,7 @@
   },
   {
     "name": "Perplexity",
-    "description": "Perplexity 是一个由人工智能驱动的搜索引擎，它将实时网络搜索与大语言模型相结合，为用户问题提供直接、有引用来源的答案。与传统搜索引擎不同，它能综合多个信息源的内容，并呈现清晰的答案和参考资料——使研究变得更快速、更可靠。",
+    "description": "由人工智能驱动的搜索引擎，提供带有引用来源的直接答案",
     "category": "AI Search",
     "url": "https://perplexity.ai",
     "tags": [
@@ -2013,7 +2013,7 @@
   },
   {
     "name": "You.com",
-    "description": "You.com 是一个 AI 驱动的搜索引擎，将网页搜索与 AI 对话、代码生成和图像创建功能相结合。它提供多种 AI 模式（Chat、Create、Research），让用户能够自定义搜索体验。You.com 重视隐私保护，将数据控制权交给用户。",
+    "description": "具有个性化结果和多种AI模式的AI搜索引擎",
     "category": "AI Search",
     "url": "https://you.com",
     "tags": [
@@ -2086,7 +2086,7 @@
   },
   {
     "name": "Notion AI",
-    "description": "Notion AI 是集成在 Notion 工作区中的 AI 助手。它可以帮助用户编写、总结、翻译和组织现有笔记和文档中的内容。对于已在使用 Notion 并希望获得 AI 协助而无需切换工具的团队来说，它是理想选择。",
+    "description": "集成在 Notion 工作区中的 AI 写作和思考助手",
     "category": "AI Productivity",
     "url": "https://notion.so/product/ai",
     "tags": [
@@ -2179,7 +2179,7 @@
   },
   {
     "name": "Jasper",
-    "description": "Jasper 是为营销团队打造的 AI 内容创作平台。它提供 50 多个模板，可用于博客文章、广告、电子邮件和社媒内容，支持品牌语调定制和团队协作功能。Jasper 专为需要大规模生成一致、符合品牌调性内容的专业营销人员设计。",
+    "description": "面向营销团队和企业文案的 AI 内容平台",
     "category": "AI Writing",
     "url": "https://jasper.ai",
     "tags": [
@@ -2279,7 +2279,7 @@
   },
   {
     "name": "Copy.ai",
-    "description": "Copy.ai 是一个专为营销人员和销售团队设计的 AI 文案平台。它提供 90 多个模板，用于广告、电子邮件、产品描述和社交媒体帖子。GTM AI Platform 帮助市场上线团队大规模自动化内容工作流程。",
+    "description": "AI 文案生成工具，用于营销内容、广告和销售文案",
     "category": "AI Writing",
     "url": "https://copy.ai",
     "tags": [
@@ -2388,7 +2388,7 @@
   },
   {
     "name": "Grammarly",
-    "description": "Grammarly 是全球使用最广泛的 AI 写作助手，帮助超过 3000 万人更清晰、更有效地进行写作。它可以在浏览器、桌面应用和 Microsoft Office 中实时检查语法、拼写、标点符号、清晰度和语气。GrammarlyGO 增加了用于起草和改写的生成式 AI 功能。",
+    "description": "适用于所有平台的语法、清晰度和风格的 AI 写作助手",
     "category": "AI Writing",
     "url": "https://grammarly.com",
     "tags": [
@@ -2483,7 +2483,7 @@
   },
   {
     "name": "Canva AI",
-    "description": "Canva 是全球最受欢迎的设计平台，现已融合强大的 AI 功能。Magic Studio 为 Canva 的拖拽编辑器增添了 AI 图像生成、背景移除、文本生成图像以及 AI 驱动的设计建议等功能。超过 1.5 亿用户使用 Canva 进行社交媒体内容创作、演示文稿制作、市场营销物料设计等各种工作。",
+    "description": "面向所有人的 AI 驱动设计平台——无需设计技能",
     "category": "AI Design",
     "url": "https://canva.com",
     "tags": [
@@ -2582,7 +2582,7 @@
   },
   {
     "name": "Figma AI",
-    "description": "Figma 是 UI/UX 设计师的行业标准协作设计工具，现已增强了 AI 功能。Figma AI 包括自动布局建议、文本生成设计、资源搜索和原型生成。它是产品团队构建数字产品的首选平台。",
+    "description": "世界顶级协作设计工具中的 AI 驱动功能",
     "category": "AI Design",
     "url": "https://figma.com",
     "tags": [
@@ -2694,7 +2694,7 @@
   },
   {
     "name": "Framer AI",
-    "description": "Framer 是一个由 AI 驱动的网站构建器，让你可以从文本描述创建专业网站。其 AI 可以根据提示生成完整的网站布局、文案和组件。Framer 结合了可视化设计工具的强大功能与无代码构建器的简洁性。",
+    "description": "AI 网站构建器，可将文本转换为实时发布的网站",
     "category": "AI Design",
     "url": "https://framer.com",
     "tags": [
@@ -2807,7 +2807,7 @@
   },
   {
     "name": "Gamma",
-    "description": "Gamma 是一个由 AI 驱动的演示文稿和文档创建工具，可以从文本提示或大纲生成精美、结构化的内容。与传统的幻灯片工具不同，Gamma 创建的是原生网页演示文稿，易于分享且在任何设备上都呈现效果出众。",
+    "description": "几分钟内用AI创建精美的演示文稿、文档和网页",
     "category": "AI Productivity",
     "url": "https://gamma.app",
     "tags": [
@@ -2902,7 +2902,7 @@
   },
   {
     "name": "Beautiful.ai",
-    "description": "Beautiful.ai 是一款 AI 驱动的演示文稿工具，可在你添加内容时自动格式化和设计幻灯片。智能幻灯片模板会自适应你的内容，确保呈现出专业水准的演示文稿，无需手动设计。深受商务团队青睐，常用于制作路演演讲稿和报告。",
+    "description": "由 AI 驱动的演示文稿软件，为你自动设计幻灯片",
     "category": "AI Productivity",
     "url": "https://beautiful.ai",
     "tags": [
@@ -2995,7 +2995,7 @@
   },
   {
     "name": "Otter.ai",
-    "description": "Otter.ai 是一个AI会议助手，可以实时自动转录会议、生成摘要和提取行动项。它与 Zoom、Google Meet 和 Microsoft Teams 集成，可以自动捕获每场会议的内容。",
+    "description": "AI 会议助手，可以转录、总结和捕捉行动项",
     "category": "AI Productivity",
     "url": "https://otter.ai",
     "tags": [
@@ -3086,7 +3086,7 @@
   },
   {
     "name": "Fireflies.ai",
-    "description": "Fireflies.ai 是一款 AI 会议助手，可以自动加入、录制和转录各大视频会议平台上的会议。它提供 AI 生成的摘要、待办事项和对话分析，帮助团队保持同步并提高工作效率。",
+    "description": "AI 会议助手，能够记录、转录和分析您的会议",
     "category": "AI Productivity",
     "url": "https://fireflies.ai",
     "tags": [
@@ -3177,7 +3177,7 @@
   },
   {
     "name": "Descript",
-    "description": "Descript 是一款由 AI 驱动的视频和播客编辑工具，允许用户通过编辑文稿来编辑媒体内容。删除文稿中的词语，视频会自动编辑。功能包括 AI 语音克隆（Overdub）、填充词移除、屏幕录制和为社交媒体提供的 AI 驱动的片段生成。",
+    "description": "通过编辑文本来编辑视频和播客——AI 驱动的媒体编辑工具",
     "category": "AI Video",
     "url": "https://descript.com",
     "tags": [
@@ -3289,7 +3289,7 @@
   },
   {
     "name": "Synthesia",
-    "description": "Synthesia 是一个 AI 视频生成平台，让你可以使用 AI 虚拟形象和文本脚本创建专业的讲话视频——无需摄像机、麦克风或录音棚。全球 50,000 多家企业使用 Synthesia 制作培训、入职和营销视频，该平台支持 140 多种语言和 230 多个 AI 虚拟形象。",
+    "description": "无需摄像机或工作室，轻松创建专业 AI 虚拟形象视频",
     "category": "AI Video",
     "url": "https://synthesia.io",
     "tags": [
@@ -3404,7 +3404,7 @@
   },
   {
     "name": "Luma AI",
-    "description": "Luma AI 是一个 AI 创意平台，提供两款旗舰产品：Dream Machine 用于高质量的文本转视频和图像转视频生成，以及 Luma 3D 用于从视频进行逼真的 3D 场景捕捉。Dream Machine 以其电影级画质、流畅的动作和逼真的物理模拟而著称。",
+    "description": "利用AI生成惊人的电影级视频和3D场景",
     "category": "AI Video",
     "url": "https://lumalabs.ai",
     "tags": [
@@ -3513,7 +3513,7 @@
   },
   {
     "name": "Replicate",
-    "description": "Replicate 是一个云平台，可通过 API 运行开源 AI 模型。它托管数千个用于图像生成、语言、音频、视频等领域的模型，让开发者能够在无需管理基础设施的情况下将 AI 集成到应用程序中。按使用量付费。",
+    "description": "通过简单的 API 在云端运行开源 AI 模型",
     "category": "AI Developer",
     "url": "https://replicate.com",
     "tags": [
@@ -3591,7 +3591,7 @@
   },
   {
     "name": "Hugging Face",
-    "description": "Hugging Face 是开源 AI 社区的中心枢纽。它托管了超过 50 万个模型、10 万多个数据集和 20 万多个演示应用（Spaces）。开发者使用它来发现、分享和部署 AI 模型。Transformers 库和 Inference API 使其成为现代 AI 开发的基础。",
+    "description": "AI 社区平台，用于共享模型、数据集和演示应用",
     "category": "AI Developer",
     "url": "https://huggingface.co",
     "tags": [
@@ -3686,7 +3686,7 @@
   },
   {
     "name": "Anthropic Console",
-    "description": "Anthropic Console 是访问 Claude 模型 API 的开发者平台。它提供了 Claude 3.5 Sonnet、Claude 3.7 Sonnet 和 Claude Opus 的访问权限，用于构建 AI 驱动的应用程序。功能包括提示词测试、使用情况分析和细粒度 API 控制。",
+    "description": "使用 Claude 构建 — Anthropic 为开发者打造的 API 平台",
     "category": "AI Developer",
     "url": "https://console.anthropic.com",
     "tags": [
@@ -3787,7 +3787,7 @@
   },
   {
     "name": "OpenAI Platform",
-    "description": "OpenAI Platform 是用于访问 GPT-4、GPT-4o、DALL-E 3、Whisper 和其他 OpenAI 模型的开发者 API。它是使用最广泛的 AI API，为数千个应用程序提供支持。Playground 让开发者能够测试提示词，而 API 则为生产应用程序提供程序化访问。",
+    "description": "通过 API 使用 GPT、DALL-E、Whisper 等工具构建 AI 应用",
     "category": "AI Developer",
     "url": "https://platform.openai.com",
     "tags": [
@@ -3889,7 +3889,7 @@
   },
   {
     "name": "Zapier AI",
-    "description": "Zapier 是领先的无代码自动化平台，现已融合 AI 能力。借助 Zapier AI，你可以使用自然语言构建自动化流程，利用 ChatGPT 和其他模型创建 AI 驱动的工作流，以及在 6000+ 个应用中自动化重复任务，无需编写代码。",
+    "description": "由人工智能驱动的自动化，连接您的应用和工作流",
     "category": "AI Productivity",
     "url": "https://zapier.com",
     "tags": [
@@ -3998,7 +3998,7 @@
   },
   {
     "name": "Adobe Firefly",
-    "description": "# Adobe Firefly - Chinese Translation\n\n**Chinese Name:** Adobe Firefly (保留英文名)\n\n**Tagline (标语):**\n生成式AI创意助手\n\n**Description (描述):**\nAdobe Firefly是集成在Adobe创意套件中的生成式AI技术，用户可以通过自然语言提示生成、编辑和增强图像、文本",
+    "description": "# Chinese Translation\n\n**Name:** Claude Code / Claude\n\n**Tagline (≤20 chars):** \n创意内容生成AI\n\n**Recommended For (≤20 chars):**\n内容创意与生成\n\n**Description:**\n一款强大的生成式AI工具，专门为创意内容生成而设计。无论是文案撰写、故事创作、还是",
     "company": "Adobe",
     "category": "AI Image",
     "url": "https://www.adobe.com/products/firefly.html",
@@ -4078,7 +4078,7 @@
   },
   {
     "name": "DeepSeek",
-    "description": "# DeepSeek - Chinese Translation\n\n**Name:** DeepSeek\n\n**Tagline (≤20 chars):** \n智能推理与编码专家\n\n**Recommended For (≤20 chars):**\n开发者、研究人员、企业\n\n**Description:**\nDeepSeek是一家专注于推理、编码和长上下文理解的大型语言模型开",
+    "description": "# Advanced AI reasoning and code generation models\n\n**Chinese Translation:**\n\n**Product Name:** Claude Code\n**Tagline:** 高级AI推理与代码生成\n(Advanced AI Reasoning & Code Generation)\n\n**Description:** \nClaude Code 是 Anthropic 官方的命令行工具，提供先进的 AI 推理能力和高效的代码生成功能。它能够帮助",
     "company": "DeepSeek",
     "category": "AI Chat",
     "url": "https://www.deepseek.com",
@@ -4159,7 +4159,7 @@
   },
   {
     "name": "NovelAI",
-    "description": "# 小说AI\n\n**标签/推荐用途 (Tagline/Recommended For):**\nAI故事创作助手\n\n**描述 (Description):**\nNovelAI是一个AI驱动的创意写作平台，帮助作家生成故事、塑造人物和创作叙事内容。平台采用先进语言模型，协助",
+    "description": "# Chinese Translation\n\n**Product Name:** Claude Code (or keep as is)\n\n**Tagline:** \n创意写作AI助手 (15 chars)\n\n**Description:** \nClaude Code是一款专为创意写作者和作家打造的AI叙事助手。它能帮助激发灵感、完善故事情节、优化文字表达和提高写作效率，",
     "company": "Anlatan",
     "category": "AI Writing",
     "url": "https://novelai.net",
@@ -4266,7 +4266,7 @@
   },
   {
     "name": "AI Dungeon",
-    "description": "# AI Dungeon - Chinese Translation\n\n**Name:** AI Dungeon (保持英文)\n\n**Tagline:** \nAI驱动的文字冒险游戏平台\n\n**Recommended For:**\n创意写手、游戏玩家、故事创作者\n\n**Description:**\nAI Dungeon是一个由人工智能驱动的文字冒险游戏平台",
+    "description": "# AI-powered Interactive Fiction and Adventure Game Creation\n\n**Chinese Translation:**\n\n**Title (正式名称):**\nAI驱动的交互式小说与冒险游戏创作平台\n\n**Tagline (标语 - max 20 chars):**\nAI创作，无限想象\n\n**Recommended For (推荐用途 - max 20 chars):**\n创意写作与游",
     "company": "Latitude",
     "category": "AI Writing",
     "url": "https://www.aidungeon.io",
@@ -4346,7 +4346,7 @@
   },
   {
     "name": "Jan",
-    "description": "# Jan - 中文翻译\n\n**Name:** Jan\n\n**Tagline:** \n本地运行的开源ChatGPT替代品\n\n**Description:**\nJan是一款免费的开源应用，完全在您的计算机上运行，为您提供完整的隐私保护和数据控制权。用户可以在本地与多种AI模型进行对",
+    "description": "# Chinese Translation\n\n**Name:** Claude Code / 本地AI聊天应用\n\n**Tagline (20 chars max):** \n本地运行的开源AI聊天应用\n\n**Recommended for (20 chars max):**\n离线使用、隐私保护、本地部署\n\n**Description:**\n一个开源的AI聊天应用，完全在您的设备上本",
     "company": "Jan",
     "category": "AI Chat",
     "url": "https://jan.ai",
@@ -4412,7 +4412,7 @@
   },
   {
     "name": "OpenAI Codex",
-    "description": "# OpenAI Codex 中文翻译\n\n**Name:** OpenAI Codex / OpenAI代码模型\n\n**Tagline:** \n多语言代码理解与生成系统 (19 chars)\n\n**Recommended_for:**\n开发者、学生、企业 (9 chars)\n\n**Description:**\nOpenAI Codex是一个在公开代码基",
+    "description": "# English to Chinese Translation\n\n**Product Name:** Claude Code\n\n**Tagline (≤20 chars):**\n自然语言转代码的AI\n\n**Recommended For (≤20 chars):**\n开发者、学生、技术爱好者\n\n**Description:**\n一款由Anthropic推出的官方命令行工具，能够将自然语言指令转换为可直接运",
     "company": "OpenAI",
     "category": "AI Coding",
     "url": "https://openai.com/blog/openai-codex/",
@@ -4506,7 +4506,7 @@
   },
   {
     "name": "Visily",
-    "description": "# Visily 中文版本\n\n**产品名称:** Visily\n\n**标签行:** AI驱动的设计平台\n\n**推荐用途:** 设计师、产品经理、创业者\n\n**描述:**\nVisily是一款AI驱动的设计平台，能将草图、线框图和文字描述转化为交互式原型和设",
+    "description": "# Chinese Translation\n\n**Name:** Claude Code (保持原名)\n\n**Tagline:** AI驱动的快速UI/UX原型设计工具\n(18 characters)\n\n**Description:** \n这是一款由人工智能驱动的设计工具，能够帮助设计师和开发者快速创建和迭代用户界面原型。通过智能化",
     "company": "Visily Inc.",
     "category": "AI Design",
     "url": "https://www.visily.ai",
@@ -4600,7 +4600,7 @@
   },
   {
     "name": "LogoAI",
-    "description": "# LogoAI - Chinese Translation\n\n**Name:** LogoAI\n\n**Tagline:** \n智能logo设计,秒速生成 (Smart logo design, instant creation)\n\n**Recommended For:**\n创业者、初创公司、小企业 (Entrepreneurs, startups, SMBs)\n\n**Description:**\nLogoAI是一款由人工智能驱动的平台,能",
+    "description": "# Chinese Translation\n\n**Product Name:** Claude Code / Claude设计助手\n\n**Tagline:** \nAI智能标志生成器 (16 chars)\n\n**Description:** \n这是一个由人工智能驱动的标志设计生成器，可以为您的品牌提供即时设计方案。只需输入品牌信息，系统就能快速生成",
     "company": "Brandmark",
     "category": "AI Design",
     "url": "https://www.logoai.com",
@@ -4680,7 +4680,7 @@
   },
   {
     "name": "GoodBird",
-    "description": "# GoodBird - Chinese Translation\n\n**Product Name:**\n好鸟 (GoodBird)\n\n**Tagline:**\nAI驱动的工作自动化平台\n(AI-powered work automation platform)\n*[18 characters]*\n\n**Description:**\n好鸟是一个由AI驱动的生产力平台，可自动化日常工作流程并优化团队协",
+    "description": "# Chinese Translation\n\n**Product Name:** Claude Code (保持英文)\n\n**Tagline:** 智能任务自动化平台\n(Smart task automation platform - 10 chars)\n\n**Recommended for:** 现代团队效率提升\n(Modern team productivity - 10 chars)\n\n**Description:** \nClaude Code 是为现代团队设计的智能任务自动化解决方案。",
     "company": "GoodBird Inc.",
     "category": "AI Productivity",
     "url": "https://www.goodbird.ai",
@@ -4774,7 +4774,7 @@
   },
   {
     "name": "Image to Prompt Generator",
-    "description": "# Image to Prompt Generator\n\n**Chinese Name:** 图像提示词生成器\n\n**Tagline (≤20 chars):** \n图像转文字，AI创意助手\n\n**Description:**\n这是一款AI工具，可以分析图像并生成详细的文字描述或提示词，供其他AI图像生成工具使用。它采用计算机视",
+    "description": "# Chinese Translation\n\n**Name:** Claude Code (keeping original)\n\n**Tagline:** 将图像转换为详细文本提示\n\n**Description:** 自动将图像转换为详细的文本提示，帮助用户快速生成高质量的AI图像描述和创意指导。\n\n**Recommended_for:** 图像分析、提示词生成\n\n---\n\n### Character",
     "company": "Various (Open Source & Commercial)",
     "category": "AI Image",
     "url": "https://huggingface.co/spaces/timbrooks/instruct-pix2pix",
@@ -4868,7 +4868,7 @@
   },
   {
     "name": "Warp Intro Creator",
-    "description": "# Warp Intro Creator - Chinese Translation\n\n**名称 (Name):** Warp Intro Creator\n\n**标语 (Tagline):** 秒级生成专业视频开场 (≈16 chars)\n\n**描述 (Description):** Warp Intro Creator 是一款AI驱动的视频开场工具，可在数秒内生成专业级视频",
+    "description": "# Chinese Translation\n\n**Product Name:** Claude Code / AI视频开场生成器\n\n**Tagline:** AI驱动的视频开场生成工具\n\n**Recommended For:** 内容创作者\n\n**Description:** \n一个由人工智能驱动的视频开场生成器，帮助内容创作者快速制作专业的视频介绍。无需复",
     "company": "Warp",
     "category": "AI Video",
     "url": "https://www.warp.dev",
@@ -4950,7 +4950,7 @@
   },
   {
     "name": "Free AI Video Upscaler",
-    "description": "# Chinese Translation\n\n**Title:** 免费AI视频超分辨率工具\n\n**Tagline:** 开源桌面应用，AI增强视频质量\n\n**Description:** 免费AI视频超分辨率工具是一款开源桌面应用，利用先进的神经网络技术提升视频分辨率，增强视频质量。支持多",
+    "description": "# Chinese Translation\n\n**Name:** 视频超分辨率工具 / AI视频增强器\n\n**Tagline (≤20 chars):** AI技术提升视频清晰度\n\n**Description:** \n利用先进的人工智能技术，自动将您的视频升级到更高分辨率。该工具采用深度学习算法，能够智能",
     "company": "Upscayl",
     "category": "AI Video",
     "url": "https://www.upscayl.org",
@@ -5016,7 +5016,7 @@
   },
   {
     "name": "RabbitAI",
-    "description": "# RabbitAI 中文翻译\n\n**名称**: RabbitAI\n\n**标语** (20字以内):\nAI驱动的自动化操作系统，简化数字工作流\n\n**描述** (自然流畅):\nRabbitAI 是一款由人工智能驱动的操作系统,旨在自动化和简化",
+    "description": "# Chinese Translation\n\n**tagline:** 个人数字AI操作系统 (17 chars)\n\n**recommended_for:** 数字任务管理 (6 chars)\n\n**description:** 一个专为个人设计的AI操作系统，帮助您高效地完成各种数字化任务。无论是文件处理、信息整理还是工作自动化，",
     "company": "Rabbit Inc.",
     "category": "AI Productivity",
     "url": "https://www.rabbit.tech",
@@ -5110,7 +5110,7 @@
   },
   {
     "name": "Plotica",
-    "description": "# Plotica - Chinese Translation\n\n**Name:** Plotica (保留英文名)\n\n**Tagline:** \nAI智能数据可视化平台 (18 chars)\n\n**Description:**\nPlotica是一个智能可视化平台，能够自动将原始数据转换为引人入胜的交互式图表。它采用AI技术根据数据特征",
+    "description": "```json\n{\n  \"tagline\": \"AI驱动的数据可视化工具\",\n  \"description\": \"这是一个由人工智能驱动的数据可视化和图表创建工具。它能够自动分析数据、生成专业的图表和可视化效果，帮助用户更直观地理解和展示数据信息。\",",
     "company": "Plotica Inc.",
     "category": "AI Design",
     "url": "https://plotica.com",
@@ -5203,7 +5203,7 @@
   },
   {
     "name": "midReal",
-    "description": "# midReal 中文翻译\n\n**Platform Name:** midReal\n\n**Tagline:** \n文本转视频的AI生成平台 (18 chars)\n\n**Description:**\nmidReal是一个AI视频生成平台，可以根据文本描述、图像和音频输入生成逼真的视频。该平台采用先进的机器学习技术，为",
+    "description": "# Chinese Translation\n\n**Product Name:** Claude Code / AI视频生成工具\n\n**Tagline:** 文本和图像生成AI视频\n(Text and images generate AI videos)\n*Character count: 12 characters*\n\n**Description:** \n这是一款先进的AI视频生成工具,能够将文本描述和图像快速转换为高质量视频内容。用户",
     "company": "midReal",
     "category": "AI Video",
     "url": "https://www.midreal.ai",
@@ -5298,7 +5298,7 @@
   },
   {
     "name": "LightPDF",
-    "description": "# LightPDF - 中文翻译\n\n**名称:** LightPDF\n\n**标语:** AI驱动的PDF处理平台\n\n**推荐对象:** 专业人士、学生、企业用户\n\n**描述:** LightPDF是一个AI驱动的平台，用户可以高效地编辑、转换、合并和分析PDF文档。",
+    "description": "# Chinese Translation\n\n**Product Name:** Claude Code (保持英文名)\n\n**Tagline (推荐标语):**\nAI驱动的PDF编辑转换工具\n\n**Recommended For (推荐用途):**\n高效文档管理\n\n**Description (描述):**\n利用AI技术的PDF编辑器和转换工具,让您的文档管理工作变",
     "company": "LightPDF",
     "category": "AI Productivity",
     "url": "https://lightpdf.com",
@@ -5391,7 +5391,7 @@
   },
   {
     "name": "IndexFlow",
-    "description": "# IndexFlow - Chinese Translation\n\n**Product Name:** IndexFlow\n\n**Tagline:** \n智能文档索引与工作流自动化平台 (17 chars)\n\n**Description:**\nIndexFlow是一个AI驱动的文档索引和工作流自动化工具，帮助组织高效地组织、搜索和管理大量非结构化数据。它采用",
+    "description": "# Translation to Chinese\n\n**Product Name:** Claude Code / 智能编码助手\n\n**Tagline (≤20 chars):** \n智能索引与工作流自动化\n\n**Recommended For (≤20 chars):**\n开发团队与企业\n\n**Description:**\n一个强大的智能索引和工作流自动化平台，可帮助团队自动化复",
     "company": "IndexFlow Inc.",
     "category": "AI Productivity",
     "url": "https://www.indexflow.ai",
@@ -5485,7 +5485,7 @@
   },
   {
     "name": "Sentence 3.0",
-    "description": "# Sentence 3.0 Chinese Translation\n\n**Product Name:** Sentence 3.0\n\n**Tagline:** \n智能写作助手，专业内容生成 (17 chars)\n\n**Description:**\nSentence 3.0 是一款先进的AI写作工具，旨在帮助专业人士、营销人员和内容创作者高效生成高质量",
+    "description": "# Chinese Translation\n\n**Product Name:** Claude 写作助手\n(Claude Writing Assistant)\n\n**Tagline:** (≤20 chars)\nAI驱动的专业写作工具\n(AI-powered professional writing tool)\n\n**Recommended For:** (≤20 chars)\n职业内容创作者\n(Professional content creators)\n\n**Description:**\n一款由人工智能驱动的写作助",
     "company": "Sentence",
     "category": "AI Writing",
     "url": "https://www.sentence.ai",
@@ -5579,7 +5579,7 @@
   },
   {
     "name": "CrushOn AI",
-    "description": "# 中文翻译\n\nCrushOn AI是一个平台，允许用户创建、自定义AI角色，并在不受限制的对话中与其交互。该平台强调创意角色扮演和角色开发，内容审核最少，使用户能够与个性化AI伙伴探索多样化的对话场景。\n\n---",
+    "description": "# Chinese Translation\n\n创建和聊天AI角色，无内容限制。\n\nOr slightly more natural:\n\n与AI角色聊天交互，无内容审查限制。",
     "company": "CrushOn",
     "category": "AI Chat",
     "url": "https://www.crushon.ai",
@@ -5658,7 +5658,7 @@
   },
   {
     "name": "Janitor AI",
-    "description": "# 中文翻译\n\nJanitor AI 是一个平台，用户可以创建、自定义和交互AI驱动的角色，用于角色扮演、创意写作和娱乐目的。它提供易用的界面来构建个性化聊天机器人，无需编程知识。该平台支持从奇幻到现",
+    "description": "# Chinese Translation\n\n**创建并即时与自定义AI角色聊天。**\n\n或更简洁的版本：\n\n**快速创建和聊天自定义AI角色。**",
     "company": "Janitor AI",
     "category": "AI Chat",
     "url": "https://www.janitorai.com",
@@ -5738,7 +5738,7 @@
   },
   {
     "name": "StoryChat",
-    "description": "# StoryChat 中文翻译\n\nStoryChat 是一个人工智能驱动的对话平台，通过交互式对话生成动态个性化故事。用户可与AI角色共同创作叙事、探索分支剧情，并实时塑造故事结局。该平台将自然语言处理与创意写作能力相",
+    "description": "# Chinese Translation\n\n**AI驱动的交互式叙事生成**\n\n或\n\n**AI智能交互故事生成**\n\n---\n\n## Variations:\n\n- **AI驱动的互动叙事** (more formal)\n- **AI交互式故事创作** (emphasizing creation)\n- **智能交互叙事系统** (emphasizing system)",
     "company": "StoryChat AI",
     "category": "AI Chat",
     "url": "https://www.storychat.ai",
@@ -5818,7 +5818,7 @@
   },
   {
     "name": "SillyTavern",
-    "description": "SillyTavern是一个免费的开源用户界面，用于与AI语言模型和基于角色的聊天机器人交互。它支持多个AI后端，包括Claude、GPT和本地模型，能够实现具有自定义角色定义的沉浸式角色扮演对话。该平台通过允许本地模",
+    "description": "# 开源AI聊天前端，支持角色扮演。\n\nOr more concisely:\n\n# 开源AI聊天前端（角色扮演）",
     "company": "Community-Driven Open Source",
     "category": "AI Chat",
     "url": "https://sillytavern.app",
@@ -5884,7 +5884,7 @@
   },
   {
     "name": "Roleplay AI",
-    "description": "# 角色扮演AI是一个平台，让用户创建和互动定制化AI角色，用于创意写作、游戏和娱乐。该工具使用先进语言模型模拟逼真对话和人格，允许用户探索不同场景和叙述。它支持角色创建、多轮对话和协作",
+    "description": "# 用于沉浸式叙事体验的交互式AI角色\n\nOr more concisely:\n\n**交互式AI角色，打造沉浸式故事体验**",
     "company": "Roleplay AI Inc.",
     "category": "AI Chat",
     "url": "https://www.roleplay.ai",
@@ -5978,7 +5978,7 @@
   },
   {
     "name": "Xoul.ai",
-    "description": "# 中文翻译\n\nXoul.ai 是一个由人工智能驱动的对话平台，旨在为各个领域提供智能协助。它利用自然语言处理技术理解复杂查询并提供上下文化、个性化的回应。该平台将聊天功能与高级推理相结合，帮助",
+    "description": "# Chinese Translation\n\n**高级AI助手，支持智能对话和任务自动化。**\n\nOr more concisely:\n\n**高级AI助手，实现智能对话与任务自动化。**\n\nBoth translations convey the meaning concisely in Chinese. The first is slightly more natural, while the second uses more formal/technical phrasing.",
     "company": "Xoul",
     "category": "AI Chat",
     "url": "https://xoul.ai",
@@ -6077,7 +6077,7 @@
   },
   {
     "name": "Chai",
-    "description": "# Chinese Translation (Concise)\n\nChai是一个平台，用户可以在其上创建、定制和交互AI驱动的角色和聊天机器人。该平台支持休闲对话和角色扮演体验，提供多样化的AI个性。平台支持社区创建的机器人，并为开发者提供工具来构",
+    "description": "# 创建并与AI角色和人格互动。\n\nOr more naturally:\n\n# 创建并与AI角色聊天。",
     "company": "Chai Research",
     "category": "AI Chat",
     "url": "https://www.chai-research.io",
@@ -6156,7 +6156,7 @@
   },
   {
     "name": "Layla",
-    "description": "# 中文翻译\n\nLayla是一款智能AI助手，旨在通过对话式AI帮助用户完成学习、写作和生产力任务。它根据个人需求和学习风格提供个性化推荐和自适应支持。该平台结合自然语言处理与教育专业知识，以增强用户参",
+    "description": "# Chinese Translation\n\n**AI助手，提供个性化学习和生产力支持。**\n\n或更简洁的版本：\n\n**个性化学习和生产力AI助手。**",
     "company": "Layla AI",
     "category": "AI Chat",
     "url": "https://www.layla.ai",
@@ -6237,7 +6237,7 @@
   },
   {
     "name": "Talkie AI",
-    "description": "# Talkie AI 中文翻译\n\nTalkie AI 是一个移动优先平台，允许用户创建、自定义并与 AI 角色互动进行对话和讲故事。它结合了角色创建工具和自然语言处理技术，实现沉浸式角色扮演和社交互动。该平台强调",
+    "description": "# Create and chat with AI character companions\n\n**创建和聊天AI角色伴侣**\n\n或更简洁的表达：\n\n**创建和与AI角色伴侣聊天**",
     "company": "Talkie AI",
     "category": "AI Chat",
     "url": "https://www.talkie.ai",
@@ -6317,7 +6317,7 @@
   },
   {
     "name": "Dreamily",
-    "description": "# 中文翻译\n\nDreamily是一款AI工具，旨在帮助用户生成创意故事、叙述和想象内容。它利用先进的语言模型，协助作家、内容创作者和讲述者开发独特的情节、人物和叙事。该平台提供直观的界面，支持AI辅助",
+    "description": "# 中文翻译\n\n**AI驱动的创意写作和故事讲述伙伴**\n\n或更简洁的版本：\n\n**AI创意写作与故事叙述助手**",
     "company": "Dreamily",
     "category": "AI Chat",
     "url": "https://dreamily.ai",
