@@ -1,5 +1,28 @@
 [
   {
+    "slug": "claude-vs-gpt5-vs-gemini-2026-comparison",
+    "title": "Claude vs GPT-5 vs Gemini 2026: Which AI Model Wins?",
+    "excerpt": "Claude leads on agent reliability, GPT-5 dominates ecosystem depth, and Gemini wins on price-to-performance. Compare coding benchmarks, pricing, and use cases.",
+    "date": "2026-04-10",
+    "category": "Model Comparison",
+    "level": "Intermediate",
+    "tags": [
+      "llm",
+      "ai-benchmarks",
+      "code-generation",
+      "generative-ai",
+      "ai-tools"
+    ],
+    "word_count": 2387,
+    "view_count": 0,
+    "cover_image": "/ai-pulse/assets/images/claude-vs-gpt5-vs-gemini-2026-comparison.jpg",
+    "featured": false,
+    "target_audience": [
+      "learner",
+      "investor"
+    ]
+  },
+  {
     "slug": "ai-regulations-compliance-trends-2026",
     "title": "AI Regulations Compliance Trends 2026: Investor & Business Guide",
     "excerpt": "August 2026 marks the EU AI Act's high-risk compliance deadline with penalties up to 7% of global revenue. Essential guide for investors and businesses navigating AI regulatory requirements.",

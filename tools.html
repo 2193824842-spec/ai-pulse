@@ -156,6 +156,129 @@
         grid-template-columns: 1fr;
       }
     }
+
+    /* Sidebar Navigation */
+    .sidebar-nav {
+      position: fixed;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1000;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+    .sidebar-nav.visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .sidebar-toggle {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 36px;
+      height: 48px;
+      background: var(--accent);
+      border: none;
+      border-radius: 0 8px 8px 0;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 18px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+      transition: all 0.2s ease;
+    }
+    .sidebar-toggle:hover {
+      width: 42px;
+      background: var(--accent-hover, #5a4fcf);
+    }
+    .sidebar-content {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%) translateX(-100%);
+      width: 180px;
+      max-height: 70vh;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-left: none;
+      border-radius: 0 12px 12px 0;
+      box-shadow: 4px 4px 16px rgba(0,0,0,0.1);
+      overflow-y: auto;
+      transition: transform 0.3s ease;
+    }
+    .sidebar-nav.expanded .sidebar-content {
+      transform: translateY(-50%) translateX(0);
+    }
+    .sidebar-nav.expanded .sidebar-toggle {
+      left: 180px;
+      border-radius: 0 8px 8px 0;
+    }
+    .sidebar-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border);
+      font-weight: 600;
+      font-size: 14px;
+      color: var(--text);
+    }
+    .sidebar-close {
+      background: none;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+      color: var(--text-muted);
+      padding: 0;
+      line-height: 1;
+    }
+    .sidebar-close:hover {
+      color: var(--text);
+    }
+    .sidebar-section {
+      padding: 8px 0;
+    }
+    .sidebar-section-title {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      padding: 8px 14px 4px;
+      letter-spacing: 0.5px;
+    }
+    .sidebar-btn {
+      display: block;
+      width: 100%;
+      padding: 8px 14px;
+      text-align: left;
+      background: none;
+      border: none;
+      font-size: 13px;
+      color: var(--text);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .sidebar-btn:hover {
+      background: var(--hover-bg, rgba(0,0,0,0.05));
+      color: var(--accent);
+    }
+    .sidebar-btn.active {
+      background: var(--accent);
+      color: white;
+      font-weight: 500;
+    }
+    @media (max-width: 768px) {
+      .sidebar-content {
+        width: 160px;
+      }
+      .sidebar-nav.expanded .sidebar-toggle {
+        left: 160px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -171,6 +294,40 @@
       </nav>
     </div>
   </header>
+
+  <!-- Sidebar Category Navigation -->
+  <div class="sidebar-nav" id="sidebar-nav">
+    <button class="sidebar-toggle" id="sidebar-toggle" title="Categories">
+      <span id="sidebar-toggle-icon">☰</span>
+    </button>
+    <div class="sidebar-content" id="sidebar-content">
+      <div class="sidebar-header">
+        <span>Categories</span>
+        <button class="sidebar-close" id="sidebar-close">&times;</button>
+      </div>
+      <div class="sidebar-section">
+        <div class="sidebar-section-title">Tool Type</div>
+        <button class="sidebar-btn active" data-sidebar-category="all">All Tools</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Chat">Chat</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Writing">Writing</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Image">Image</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Video">Video</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Coding">Coding</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Audio">Audio</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Search">Search</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Design">Design</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Productivity">Productivity</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Developer">Developer</button>
+      </div>
+      <div class="sidebar-section">
+        <div class="sidebar-section-title">Pricing</div>
+        <button class="sidebar-btn active" data-sidebar-pricing="all">All Pricing</button>
+        <button class="sidebar-btn" data-sidebar-pricing="free">Free</button>
+        <button class="sidebar-btn" data-sidebar-pricing="freemium">Freemium</button>
+        <button class="sidebar-btn" data-sidebar-pricing="paid">Paid</button>
+      </div>
+    </div>
+  </div>
 
   <main class="container">
     <div class="hero-compact">
@@ -270,7 +427,7 @@
 
     async function loadTools() {
       try {
-        const response = await fetch('/ai-pulse/tools/index.json');
+        const response = await fetch('tools/index.json');
         allTools = await response.json();
         renderTools();
       } catch (error) {
@@ -323,7 +480,7 @@
           const btnClass = inCompare ? 'compare-btn selected' : 'compare-btn';
 
           const detailSlug = tool.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-          const detailUrl = `/ai-pulse/tools/${detailSlug}.html`;
+          const detailUrl = `tools/${detailSlug}.html`;
           return `
           <div class="tool-card-wrap" style="position:relative;">
             <a href="${detailUrl}" class="tool-card" onclick="gtag('event','tool_click',{tool_name:'${tool.name}',tool_category:'${tool.category}'})">
@@ -489,6 +646,87 @@
     });
 
     loadTools();
+
+    // Sidebar navigation logic
+    const sidebarNav = document.getElementById('sidebar-nav');
+    const sidebarToggle = document.getElementById('sidebar-toggle');
+    const sidebarClose = document.getElementById('sidebar-close');
+    const sidebarToggleIcon = document.getElementById('sidebar-toggle-icon');
+    const filtersRow = document.querySelector('.filters-row');
+
+    // Show sidebar when filters-row scrolls out of view
+    function checkSidebarVisibility() {
+      if (!filtersRow) return;
+      const rect = filtersRow.getBoundingClientRect();
+      if (rect.bottom < 0) {
+        sidebarNav.classList.add('visible');
+      } else {
+        sidebarNav.classList.remove('visible');
+        sidebarNav.classList.remove('expanded');
+        sidebarToggleIcon.textContent = '☰';
+      }
+    }
+
+    window.addEventListener('scroll', checkSidebarVisibility, { passive: true });
+    checkSidebarVisibility();
+
+    // Toggle sidebar expand/collapse
+    sidebarToggle.addEventListener('click', () => {
+      const isExpanded = sidebarNav.classList.toggle('expanded');
+      sidebarToggleIcon.textContent = isExpanded ? '✕' : '☰';
+    });
+
+    sidebarClose.addEventListener('click', () => {
+      sidebarNav.classList.remove('expanded');
+      sidebarToggleIcon.textContent = '☰';
+    });
+
+    // Sidebar category click
+    document.querySelectorAll('[data-sidebar-category]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('[data-sidebar-category]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const category = btn.dataset.sidebarCategory;
+        document.querySelectorAll('[data-category]').forEach(b => {
+          b.classList.toggle('active', b.dataset.category === category);
+        });
+        currentCategory = category;
+        renderTools();
+      });
+    });
+
+    // Sidebar pricing click
+    document.querySelectorAll('[data-sidebar-pricing]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('[data-sidebar-pricing]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const pricing = btn.dataset.sidebarPricing;
+        document.querySelectorAll('[data-pricing]').forEach(b => {
+          b.classList.toggle('active', b.dataset.pricing === pricing);
+        });
+        currentPricing = pricing;
+        renderTools();
+      });
+    });
+
+    // Sync sidebar when main filters change
+    document.querySelectorAll('[data-category]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const category = btn.dataset.category;
+        document.querySelectorAll('[data-sidebar-category]').forEach(b => {
+          b.classList.toggle('active', b.dataset.sidebarCategory === category);
+        });
+      });
+    });
+
+    document.querySelectorAll('[data-pricing]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const pricing = btn.dataset.pricing;
+        document.querySelectorAll('[data-sidebar-pricing]').forEach(b => {
+          b.classList.toggle('active', b.dataset.sidebarPricing === pricing);
+        });
+      });
+    });
   </script>
 </body>
 </html>

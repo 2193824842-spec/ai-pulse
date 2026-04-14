@@ -154,6 +154,129 @@
         grid-template-columns: 1fr;
       }
     }
+
+    /* 侧边栏目录 */
+    .sidebar-nav {
+      position: fixed;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1000;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+    .sidebar-nav.visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .sidebar-toggle {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 36px;
+      height: 48px;
+      background: var(--accent);
+      border: none;
+      border-radius: 0 8px 8px 0;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 18px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+      transition: all 0.2s ease;
+    }
+    .sidebar-toggle:hover {
+      width: 42px;
+      background: var(--accent-hover, #5a4fcf);
+    }
+    .sidebar-content {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%) translateX(-100%);
+      width: 180px;
+      max-height: 70vh;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-left: none;
+      border-radius: 0 12px 12px 0;
+      box-shadow: 4px 4px 16px rgba(0,0,0,0.1);
+      overflow-y: auto;
+      transition: transform 0.3s ease;
+    }
+    .sidebar-nav.expanded .sidebar-content {
+      transform: translateY(-50%) translateX(0);
+    }
+    .sidebar-nav.expanded .sidebar-toggle {
+      left: 180px;
+      border-radius: 0 8px 8px 0;
+    }
+    .sidebar-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border);
+      font-weight: 600;
+      font-size: 14px;
+      color: var(--text);
+    }
+    .sidebar-close {
+      background: none;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+      color: var(--text-muted);
+      padding: 0;
+      line-height: 1;
+    }
+    .sidebar-close:hover {
+      color: var(--text);
+    }
+    .sidebar-section {
+      padding: 8px 0;
+    }
+    .sidebar-section-title {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      padding: 8px 14px 4px;
+      letter-spacing: 0.5px;
+    }
+    .sidebar-btn {
+      display: block;
+      width: 100%;
+      padding: 8px 14px;
+      text-align: left;
+      background: none;
+      border: none;
+      font-size: 13px;
+      color: var(--text);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .sidebar-btn:hover {
+      background: var(--hover-bg, rgba(0,0,0,0.05));
+      color: var(--accent);
+    }
+    .sidebar-btn.active {
+      background: var(--accent);
+      color: white;
+      font-weight: 500;
+    }
+    @media (max-width: 768px) {
+      .sidebar-content {
+        width: 160px;
+      }
+      .sidebar-nav.expanded .sidebar-toggle {
+        left: 160px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -169,6 +292,40 @@
       </nav>
     </div>
   </header>
+
+  <!-- 侧边栏分类目录 -->
+  <div class="sidebar-nav" id="sidebar-nav">
+    <button class="sidebar-toggle" id="sidebar-toggle" title="分类目录">
+      <span id="sidebar-toggle-icon">☰</span>
+    </button>
+    <div class="sidebar-content" id="sidebar-content">
+      <div class="sidebar-header">
+        <span>分类目录</span>
+        <button class="sidebar-close" id="sidebar-close">&times;</button>
+      </div>
+      <div class="sidebar-section">
+        <div class="sidebar-section-title">工具类型</div>
+        <button class="sidebar-btn active" data-sidebar-category="all">全部工具</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Chat">聊天</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Writing">写作</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Image">图像</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Video">视频</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Coding">编程</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Audio">音频</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Search">搜索</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Design">设计</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Productivity">效率</button>
+        <button class="sidebar-btn" data-sidebar-category="AI Developer">开发者</button>
+      </div>
+      <div class="sidebar-section">
+        <div class="sidebar-section-title">价格筛选</div>
+        <button class="sidebar-btn active" data-sidebar-pricing="all">全部价格</button>
+        <button class="sidebar-btn" data-sidebar-pricing="free">免费</button>
+        <button class="sidebar-btn" data-sidebar-pricing="freemium">免费增值</button>
+        <button class="sidebar-btn" data-sidebar-pricing="paid">付费</button>
+      </div>
+    </div>
+  </div>
 
   <main class="container">
     <div class="hero-compact">
@@ -268,7 +425,7 @@
 
     async function loadTools() {
       try {
-        const response = await fetch('/ai-pulse/zh/tools/index.json');
+        const response = await fetch('tools/index.json');
         allTools = await response.json();
         renderTools();
       } catch (error) {
@@ -321,7 +478,7 @@
           const btnClass = inCompare ? 'compare-btn selected' : 'compare-btn';
 
           const detailSlug = tool.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-          const detailUrl = `/ai-pulse/zh/tools/${detailSlug}.html`;
+          const detailUrl = `tools/${detailSlug}.html`;
           return `
           <div class="tool-card-wrap" style="position:relative;">
             <a href="${detailUrl}" class="tool-card" onclick="gtag('event','tool_click',{tool_name:'${tool.name}',tool_category:'${tool.category}'})">
@@ -464,6 +621,92 @@
     });
 
     loadTools();
+
+    // 侧边栏目录逻辑
+    const sidebarNav = document.getElementById('sidebar-nav');
+    const sidebarToggle = document.getElementById('sidebar-toggle');
+    const sidebarClose = document.getElementById('sidebar-close');
+    const sidebarToggleIcon = document.getElementById('sidebar-toggle-icon');
+    const filtersRow = document.querySelector('.filters-row');
+
+    // 滚动检测：当 filters-row 滚出视野时显示侧边栏
+    function checkSidebarVisibility() {
+      if (!filtersRow) return;
+      const rect = filtersRow.getBoundingClientRect();
+      // 当 filters-row 完全滚出顶部时显示侧边栏
+      if (rect.bottom < 0) {
+        sidebarNav.classList.add('visible');
+      } else {
+        sidebarNav.classList.remove('visible');
+        sidebarNav.classList.remove('expanded');
+        sidebarToggleIcon.textContent = '☰';
+      }
+    }
+
+    window.addEventListener('scroll', checkSidebarVisibility, { passive: true });
+    checkSidebarVisibility();
+
+    // 展开/收起侧边栏
+    sidebarToggle.addEventListener('click', () => {
+      const isExpanded = sidebarNav.classList.toggle('expanded');
+      sidebarToggleIcon.textContent = isExpanded ? '✕' : '☰';
+    });
+
+    sidebarClose.addEventListener('click', () => {
+      sidebarNav.classList.remove('expanded');
+      sidebarToggleIcon.textContent = '☰';
+    });
+
+    // 侧边栏分类点击
+    document.querySelectorAll('[data-sidebar-category]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        // 更新侧边栏按钮状态
+        document.querySelectorAll('[data-sidebar-category]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        // 同步到主筛选按钮
+        const category = btn.dataset.sidebarCategory;
+        document.querySelectorAll('[data-category]').forEach(b => {
+          b.classList.toggle('active', b.dataset.category === category);
+        });
+        currentCategory = category;
+        renderTools();
+      });
+    });
+
+    // 侧边栏价格点击
+    document.querySelectorAll('[data-sidebar-pricing]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        // 更新侧边栏按钮状态
+        document.querySelectorAll('[data-sidebar-pricing]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        // 同步到主筛选按钮
+        const pricing = btn.dataset.sidebarPricing;
+        document.querySelectorAll('[data-pricing]').forEach(b => {
+          b.classList.toggle('active', b.dataset.pricing === pricing);
+        });
+        currentPricing = pricing;
+        renderTools();
+      });
+    });
+
+    // 主筛选按钮变化时同步侧边栏
+    document.querySelectorAll('[data-category]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const category = btn.dataset.category;
+        document.querySelectorAll('[data-sidebar-category]').forEach(b => {
+          b.classList.toggle('active', b.dataset.sidebarCategory === category);
+        });
+      });
+    });
+
+    document.querySelectorAll('[data-pricing]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const pricing = btn.dataset.pricing;
+        document.querySelectorAll('[data-sidebar-pricing]').forEach(b => {
+          b.classList.toggle('active', b.dataset.sidebarPricing === pricing);
+        });
+      });
+    });
   </script>
 </body>
 </html>
