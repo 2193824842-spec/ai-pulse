@@ -3,7 +3,7 @@ build_daily.py — 每日 AI 资讯生成脚本
 =======================================
 功能：
   1. 从多个 RSS 源抓取当天 AI 资讯
-  2. Claude 筛选出最重要的 6 条，生成中英双语标题 + 一句导读
+  2. Claude 筛选出最重要的 8 条（信息少时可少），生成中英双语标题 + 一句导读
   3. 将当天内容注入 site/daily.html 和 site/zh/daily.html 顶部
 
 用法：
@@ -25,18 +25,13 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 # ── 路径 ─────────────────────────────────────────────────────────────────────
 _HERE     = Path(__file__).parent
-_ROOT     = _HERE.parent
-# CI 中脚本在 site/scripts/，_ROOT 就是 site 根目录
-# 本地脚本在 seo-farm/scripts/，_ROOT 是 seo-farm/，site 在子目录
-SITE_DIR  = Path(os.environ["SITE_DIR"]) if os.environ.get("SITE_DIR") else (
-    _ROOT if ((_ROOT / "daily.html").exists()) else _ROOT / "site"
-)
+_ROOT     = _HERE.parent          # D:\seo-farm\
+SITE_DIR  = _ROOT / "site"
 DAILY_EN  = SITE_DIR / "daily.html"
 DAILY_ZH  = SITE_DIR / "zh" / "daily.html"
 
 # ── 读取配置 ──────────────────────────────────────────────────────────────────
-_cfg_path = _HERE / "config.yaml" if (_HERE / "config.yaml").exists() else _ROOT / "config.yaml"
-with open(_cfg_path, encoding="utf-8") as f:
+with open(_ROOT / "config.yaml", encoding="utf-8") as f:
     _cfg = yaml.safe_load(f)
 
 API_KEY      = _cfg["api"]["api_key"]
@@ -45,24 +40,39 @@ MODEL        = _cfg["api"]["model_fast"]
 SERPER_KEY   = _cfg["serper"]["api_key"]
 
 # ── 参数 ──────────────────────────────────────────────────────────────────────
-MAX_PER_FEED = 3
-MAX_RAW      = 15
-MAX_NEWS     = 6
+MAX_PER_FEED = 4
+MAX_RAW      = 30
+MAX_NEWS     = 8   # 目标条数；信息不足时 Claude 可少于此数
+MIN_NEWS     = 4   # 低于此数视为失败
 CST          = timezone(timedelta(hours=8))
 
-# ── RSS 源 ────────────────────────────────────────────────────────────────────
+# ── RSS 源（按优先级排列，pool[:MAX_RAW] 截断时高优先级来源优先入选）────────────
 FEEDS = [
-    {"url": "https://www.jiqizhixin.com/rss",                              "source": "机器之心", "lang": "zh"},
-    {"url": "https://www.qbitai.com/feed",                                 "source": "量子位",   "lang": "zh"},
-    {"url": "https://36kr.com/feed",                                       "source": "36氪",     "lang": "zh"},
-    {"url": "https://openai.com/news/rss.xml",                             "source": "OpenAI",         "lang": "en"},
-    {"url": "https://www.anthropic.com/rss.xml",                           "source": "Anthropic",      "lang": "en"},
-    {"url": "https://deepmind.google/blog/rss.xml",                        "source": "Google DeepMind","lang": "en"},
-    {"url": "https://huggingface.co/blog/feed.xml",                        "source": "Hugging Face",   "lang": "en"},
-    {"url": "https://ai.meta.com/blog/feed/",                              "source": "Meta AI",        "lang": "en"},
-    {"url": "https://www.technologyreview.com/feed/",                      "source": "MIT Tech Review","lang": "en"},
-    {"url": "https://techcrunch.com/category/artificial-intelligence/feed/","source": "TechCrunch AI", "lang": "en"},
-    {"url": "https://venturebeat.com/category/ai/feed/",                   "source": "VentureBeat AI", "lang": "en"},
+    # ── Tier 1: 官方 AI 实验室博客（一手来源，发一篇必有价值）──
+    {"url": "https://openai.com/news/rss.xml",                               "source": "OpenAI",         "lang": "en"},
+    {"url": "https://www.anthropic.com/rss.xml",                             "source": "Anthropic",      "lang": "en"},
+    {"url": "https://deepmind.google/blog/rss.xml",                          "source": "Google DeepMind","lang": "en"},
+    {"url": "https://ai.meta.com/blog/feed/",                                "source": "Meta AI",        "lang": "en"},
+    {"url": "https://research.google/blog/rss/",                             "source": "Google Research","lang": "en"},
+    {"url": "https://blogs.microsoft.com/ai/feed/",                          "source": "Microsoft AI",   "lang": "en"},
+    {"url": "https://huggingface.co/blog/feed.xml",                          "source": "Hugging Face",   "lang": "en"},
+    # ── Tier 2: 高质量媒体 + 头部中文 AI 媒体（AI 专注度高，噪音少）──
+    {"url": "https://www.jiqizhixin.com/rss",                                "source": "机器之心",       "lang": "zh"},
+    {"url": "https://www.qbitai.com/feed",                                   "source": "量子位",         "lang": "zh"},
+    {"url": "https://www.technologyreview.com/feed/",                        "source": "MIT Tech Review","lang": "en"},
+    {"url": "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml","source": "The Verge AI","lang": "en"},
+    {"url": "https://www.wired.com/feed/tag/artificial-intelligence/rss",    "source": "Wired AI",       "lang": "en"},
+    # ── Tier 3: 高频科技媒体 + 中文综合科技（覆盖面广，噪音较多）──
+    {"url": "https://techcrunch.com/category/artificial-intelligence/feed/", "source": "TechCrunch AI",  "lang": "en"},
+    {"url": "https://venturebeat.com/category/ai/feed/",                     "source": "VentureBeat AI", "lang": "en"},
+    {"url": "https://36kr.com/feed",                                         "source": "36氪",           "lang": "zh"},
+    {"url": "https://www.leiphone.com/feed",                                 "source": "雷锋网",         "lang": "zh"},
+    {"url": "https://www.infoq.cn/feed",                                     "source": "InfoQ 中文",     "lang": "zh"},
+    # ── Tier 4: 学术 + 云厂商博客（信噪比最低，仅作补充）──
+    {"url": "https://arxiv.org/rss/cs.AI",                                   "source": "arXiv cs.AI",    "lang": "en"},
+    {"url": "https://arxiv.org/rss/cs.LG",                                   "source": "arXiv cs.LG",    "lang": "en"},
+    {"url": "https://aws.amazon.com/blogs/machine-learning/feed/",           "source": "AWS ML Blog",    "lang": "en"},
+    {"url": "https://news.mit.edu/topic/artificial-intelligence2/rss",       "source": "MIT News AI",    "lang": "en"},
 ]
 
 TAG_LABELS_ZH = {"model": "大模型", "product": "产品", "research": "研究", "industry": "行业"}
@@ -134,6 +144,8 @@ SERPER_QUERIES = [
     "AI artificial intelligence news",
     "大模型 AI 新闻",
     "OpenAI Anthropic Google DeepMind news",
+    "LLM machine learning breakthrough",
+    "AI 产品发布 融资",
 ]
 
 def fetch_news_by_date(date_str: str) -> list[dict]:
@@ -216,23 +228,36 @@ def process(articles: list[dict]) -> list[dict]:
     client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
     pool = articles[:MAX_RAW]
 
-    # ── A: 筛选 ──────────────────────────────────────────────────────────────
+    # ── A: 评分筛选 ───────────────────────────────────────────────────────────
     articles_text = "\n\n".join([
         f"[{i+1}] 来源:{a['source']}\n标题:{a['title']}\n摘要:{a['summary'][:150]}"
         for i, a in enumerate(pool)
     ])
-    select_prompt = f"""从以下 {len(pool)} 条 AI 资讯中筛选最重要的 {MAX_NEWS} 条。
-优先级：新模型发布 > 重要产品上线 > 学术突破 > 行业大事件。排除营销软文和重复事件。
+    select_prompt = f"""你是 AI 资讯编辑，从以下 {len(pool)} 条资讯中筛选最重要的 {MAX_NEWS} 条（信息不足时可少至 {MIN_NEWS} 条）。
 
-输出 JSON 数组，每条只需：
-[{{"index": 1, "tag": "model"}}]
+## 评分标准（满分 10 分）
+- 新模型/算法发布（GPT/Claude/Gemini/Llama 等主流模型）：+4
+- 重要产品上线或重大功能更新（影响 10 万+ 用户）：+3
+- 顶会/顶刊学术突破（NeurIPS/ICML/Nature/Science 等）：+3
+- 行业大事件（监管政策、大额融资、并购）：+2
+- 知名机构官方发布（OpenAI/Anthropic/Google/Meta/Microsoft）：+1
+
+## 排除规则（直接排除，不计分）
+- 纯营销软文、产品推广、无实质内容的公告
+- 与 AI/ML 无直接关联的科技新闻
+- 重复事件（同一事件多条来源，只保留最权威的一条）
+- arXiv 论文：仅保留有明确实验结果或工程突破的，排除纯理论/综述
+
+## 输出格式
+JSON 数组，按评分从高到低排列，每条只需：
+[{{"index": 1, "tag": "model", "score": 8}}]
 tag 从 model/product/research/industry 选一个。
 
 资讯列表：
 {articles_text}"""
 
-    print("  [A] 筛选中...")
-    selected_meta = _parse_json_array(_call(client, select_prompt, 400))
+    print("  [A] 评分筛选中...")
+    selected_meta = _parse_json_array(_call(client, select_prompt, 600))
     if not selected_meta:
         print("  ✗ 筛选失败")
         return []
@@ -241,15 +266,23 @@ tag 从 model/product/research/industry 选一个。
     if selected_meta and isinstance(selected_meta[0], list):
         selected_meta = selected_meta[0]
 
+    # 按 score 降序，取前 MAX_NEWS 条
+    selected_meta = sorted(
+        [m for m in selected_meta if isinstance(m, dict)],
+        key=lambda x: x.get("score", 0),
+        reverse=True,
+    )[:MAX_NEWS]
+
     selected = []
     for m in selected_meta:
-        if not isinstance(m, dict):
-            continue
         idx = m.get("index", 0)
         if 1 <= idx <= len(pool):
             a = dict(pool[idx - 1])
             a["tag"] = m.get("tag", "industry")
             selected.append(a)
+
+    if len(selected) < MIN_NEWS:
+        print(f"  ⚠️  筛选结果仅 {len(selected)} 条，低于最低要求 {MIN_NEWS} 条")
 
     # ── B: 双语 title + desc ──────────────────────────────────────────────────
     items_text = "\n\n".join([
@@ -273,7 +306,7 @@ tag 从 model/product/research/industry 选一个。
 {items_text}"""
 
     print("  [B] 生成双语内容...")
-    written = _parse_json_array(_call(client, write_prompt, 1200))
+    written = _parse_json_array(_call(client, write_prompt, 1800))
 
     results = []
     for i, a in enumerate(selected):
